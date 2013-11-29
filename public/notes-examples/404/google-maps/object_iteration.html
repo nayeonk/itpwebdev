@@ -1,0 +1,18 @@
+<script>
+
+var david = {
+	name: 'David',
+	age: 28,
+	job: 'web developer'
+};
+
+Object.prototype.randomProperty = 'jibberish';
+
+
+for (var i in david) {
+	if (david.hasOwnProperty(i)) {
+		console.log(david[i]);
+	}
+}
+
+</script>

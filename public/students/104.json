@@ -1,0 +1,261 @@
+[
+    {
+        "name": "Allen, Zak, Glenn",
+        "username": "zakallen",
+        "img": "image.jsp"
+    },
+    {
+        "name": "Casey, Rebecca, Jane",
+        "username": "caseyr",
+        "img": "image(1).jsp"
+    },
+    {
+        "name": "Chang, Catherine, June",
+        "username": "catherjc",
+        "img": "image(2).jsp"
+    },
+    {
+        "name": "Chang, Daniel, Francisco",
+        "username": "danielfc",
+        "img": "image(3).jsp"
+    },
+    {
+        "name": "Cheng, Tiffanie",
+        "username": "tiffanie",
+        "img": "image(4).jsp"
+    },
+    {
+        "name": "Covelman, Steven, Benjamin",
+        "username": "covelman",
+        "img": "image(5).jsp"
+    },
+    {
+        "name": "Diemer, Blake",
+        "username": "bdiemer",
+        "img": "image(6).jsp"
+    },
+    {
+        "name": "Dorsey, Alexa, Celeste",
+        "username": "acdorsey",
+        "img": "image(7).jsp"
+    },
+    {
+        "name": "Ehrenberg, Benjamin, Rubin",
+        "username": "behrenbe",
+        "img": "image(8).jsp"
+    },
+    {
+        "name": "Flagel, Matthew, William",
+        "username": "mflagel",
+        "img": "image(9).jsp"
+    },
+    {
+        "name": "Fong, Victoria, Lynne",
+        "username": "vfong",
+        "img": "image(10).jsp"
+    },
+    {
+        "name": "Girkout, Alexa, G.",
+        "username": "girkout",
+        "img": "image(11).jsp"
+    },
+    {
+        "name": "Hays, Edward, Guzman",
+        "username": "ehays",
+        "img": "image(12).jsp"
+    },
+    {
+        "name": "Hellman, Axel, James",
+        "username": "ahellman",
+        "img": "image(13).jsp"
+    },
+    {
+        "name": "Hirasawa, Yuki",
+        "username": "yhirasaw",
+        "img": "image(14).jsp"
+    },
+    {
+        "name": "Khachatourians, Sarin, Krystin",
+        "username": "skkhacha",
+        "img": "image(15).jsp"
+    },
+    {
+        "name": "Kim, Ailin, Jennifer",
+        "username": "ailinkim",
+        "img": "image(16).jsp"
+    },
+    {
+        "name": "Lee, Junhak",
+        "username": "junhakle",
+        "img": "image(17).jsp"
+    },
+    {
+        "name": "Lee, Laura",
+        "username": "laural",
+        "img": "image(18).jsp"
+    },
+    {
+        "name": "Li, Doudou",
+        "username": "doudouli",
+        "img": "image(19).jsp"
+    },
+    {
+        "name": "Lin, Jason Jiachen",
+        "username": "jasonjli",
+        "img": "image(20).jsp"
+    },
+    {
+        "name": "Malkin, Dana, Matthew",
+        "username": "dmalkin",
+        "img": "image(21).jsp"
+    },
+    {
+        "name": "Malvar, Henrique, Villela",
+        "username": "malvar",
+        "img": "image(22).jsp"
+    },
+    {
+        "name": "Marh, John, Gunoh",
+        "username": "marh",
+        "img": "image(23).jsp"
+    },
+    {
+        "name": "Miller, Nolan, Andrew",
+        "username": "namiller",
+        "img": "image(24).jsp"
+    },
+    {
+        "name": "Patton, Maxwell, W.",
+        "username": "mwpatton",
+        "img": "image(25).jsp"
+    },
+    {
+        "name": "Peng, Joshua, H.",
+        "username": "joshuahp",
+        "img": "image(26).jsp"
+    },
+    {
+        "name": "Ramanathan, Nitya, C.",
+        "username": "nramanat",
+        "img": "image(27).jsp"
+    },
+    {
+        "name": "Reynolds, Andrew",
+        "username": "andrewre",
+        "img": "image(28).jsp"
+    },
+    {
+        "name": "Sanchez, Evelyn",
+        "username": "esanche1",
+        "img": "image(29).jsp"
+    },
+    {
+        "name": "Soto, Oscar",
+        "username": "osoto",
+        "img": "image(30).jsp"
+    },
+    {
+        "name": "Sowell, Joanna, Rose",
+        "username": "jrsowell",
+        "img": "image(31).jsp"
+    },
+    {
+        "name": "Stivers, Kevin, Christian",
+        "username": "kstivers",
+        "img": "image(32).jsp"
+    },
+    {
+        "name": "Tanyadjaja, Revisia",
+        "username": "revisiat",
+        "img": "image(33).jsp"
+    },
+    {
+        "name": "Tiu, Michelle Ashley",
+        "username": "mtiu",
+        "img": "image(34).jsp"
+    },
+    {
+        "name": "Tully, Sequoia, Miun",
+        "username": "sequoiat",
+        "img": "image(35).jsp"
+    },
+    {
+        "name": "Ulkumen, Serhan",
+        "username": "sulkumen",
+        "img": "image(36).jsp"
+    },
+    {
+        "name": "Vega, Juan, Jose",
+        "username": "juanvega",
+        "img": "image(37).jsp"
+    },
+    {
+        "name": "Velarde, Allyson, Michelle",
+        "username": "amvelard",
+        "img": "image(38).jsp"
+    },
+    {
+        "name": "Wang, Wei-Hsuan",
+        "username": "weihsuaw",
+        "img": "image(39).jsp"
+    },
+    {
+        "name": "Wei, Ruochuan",
+        "username": "ruochuaw",
+        "img": "image(40).jsp"
+    },
+    {
+        "name": "Wo, Kelsey, Michelle",
+        "username": "kelseywo",
+        "img": "image(41).jsp"
+    },
+    {
+        "name": "Xie, Mengxue",
+        "username": "mengxuex",
+        "img": "image(42).jsp"
+    },
+    {
+        "name": "Yang, Bernie",
+        "username": "bernieya",
+        "img": "image(43).jsp"
+    },
+    {
+        "name": "Zhang, Han",
+        "username": "zhan798",
+        "img": "image(44).jsp"
+    },
+    {
+        "name": "Zhou, Jennie",
+        "username": "jenniez",
+        "img": "image(45).jsp"
+    },
+    {
+        "name": "Choi, Insoo",
+        "username": "insooc",
+        "img": "insooc.gif"
+    },
+    {
+    	"name": "Boyd, Bryce, Christopher",
+    	"username": "bryceboy",
+    	"img": "bryceboy.gif"
+    },
+    {
+    	"name": "Dang, Aimee",
+    	"username": "aimeedan",
+    	"img": "aimeedan.gif"
+    },
+    {
+    	"name": "Kim, Kevin",
+    	"username": "kim248",
+    	"img": "kim.gif"
+    },
+    {
+    	"name": "Leong, Timothy",
+    	"username": "timothrl",
+    	"img": "leong.gif"
+    },{
+    	"name": "Zhen, Charlene",
+    	"username": "czhen",
+    	"img": "zhen.gif"
+    }
+]

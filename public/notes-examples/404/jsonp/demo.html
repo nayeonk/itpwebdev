@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+	<title>Demo</title>
+</head>
+<body>
+
+<div id="main">
+
+</div>
+
+<script type="template" id="facebook-page-template">
+	<h2>
+		<img src="http://graph.facebook.com/{{id}}/picture" />
+		<a href="{{ website }}">{{name}}</a>
+	</h2>
+	<p>Talking about: {{talking_about_count}}</p>
+	{{#if description}}
+		<p>{{description}}</p>
+	{{else}}
+		<p>No description available</p>
+	{{/if}}
+</script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="handlebars.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>

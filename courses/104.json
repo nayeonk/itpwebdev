@@ -1,0 +1,265 @@
+{
+	"course_name": "Web Publishing",
+	"color": "green",
+	"instructor": "David Tang",
+	"syllabus": "http://web-app.usc.edu/soc/syllabus/20133/31806.pdf",
+	"time": "Mondays 5-7:50pm in KAP 160",
+	"office_hours": "OHE 530F, Monday 12-2pm, Tuesday 4-6pm, Wednesday 10-12pm",
+	"ta": [
+		{ "name": "Theodore Roque (Grader)", "email": "troque@usc.edu" },
+		{ "name": "Christian Hernandez", "email": "cbhernan@usc.edu" },
+		{ "name": "Chong Shu", "email": "chongshu@usc.edu" }
+	],
+	"homework": [
+		{
+			"name": "First web page",
+			"type": "lab",
+			"due": "9/16",
+			"link": "first-webpage",
+			"active": 1
+		},
+		{
+			"name": "Resume",
+			"type": "assignment",
+			"due": "9/23",
+			"link": "resume",
+			"active": 1
+		},
+		{
+			"name": "Film Article",
+			"type": "assignment",
+			"due": "9/30",
+			"link": "film-article",
+			"active": 1
+		},
+		{
+			"name": "Calendar",
+			"type": "assignment",
+			"due": "10/7",
+			"link": "calendar",
+			"active": 1
+		},
+		{
+			"name": "Major Project Proposal",
+			"type": "assignment",
+			"due": "10/14",
+			"link": "project-proposal",
+			"active": 1
+		},
+		{
+			"name": "Graphic redesign",
+			"type": "lab",
+			"due": "10/14",
+			"link": "graphic-redesign",
+			"active": 1
+		},
+		{
+			"name": "Survey",
+			"type": "assignment",
+			"due": "10/28",
+			"link": "survey",
+			"active": 1
+		},
+		{
+			"name": "Practice exam",
+			"type": "lab",
+			"due": "10/21",
+			"link": "practice-practical",
+			"active": 1
+		},
+		{
+			"name": "Major project frontpage & graphics",
+			"type": "assignment",
+			"due": "11/4",
+			"link": "project-homepage",
+			"active": 1
+		},
+		{
+			"name": "Dreamweaver News Article",
+			"type": "lab",
+			"due": "11/4",
+			"link": "dreamweaver-news-article",
+			"active": 1
+		},
+		{
+			"name": "Web Technology Article",
+			"type": "assignment",
+			"due": "11/11",
+			"link": "web-technology-article",
+			"active": 1
+		},
+		{
+			"name": "Final Project Requirements",
+			"type": "project",
+			"due": "12/7 4:30pm",
+			"link": "project-requirements",
+			"active": 1
+		},
+		{
+			"name": "Behaviors",
+			"type": "lab",
+			"due": "11/18",
+			"link": "behaviors",
+			"active": 1
+		},
+		{
+			"name": "jQuery cycle 2 plugin",
+			"type": "lab",
+			"due": "11/25",
+			"link": "jquery-plugin",
+			"active": 1
+		}
+	],
+
+	"weeks": [
+		{
+			"date": "8/26",
+			"units": [
+				{
+					"subject": "Course intro, Web overview, HTML intro",
+					"link": "http://slid.es/davidtang/itp-104"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "9/2",
+			"units": [
+				{
+					"subject": "University holiday",
+					"link": ""
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "9/9",
+			"units": [
+				{ "subject": "Basic HTML", "link": "basic-html" },
+				{ "subject": "FTP and Uploading files to a server", "link": "ftp" }
+			],
+			"active": 1
+		},
+		{
+			"date": "9/16",
+			"units": [
+				{ "subject": "Basic HTML review and good code", "link": "html-review-good-code" },
+				{ "subject": "Working with images", "link": "images" },
+				{ "subject": "Intro to styles", "link": "styles-intro" }
+			],
+			"active": 1
+		},
+		{
+			"date": "9/23",
+			"units": [
+				{
+					"subject": "Divs & layouts, floats, and the box model",
+					"link": "divs-layouts-boxmodel"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "9/30",
+			"units": [
+				{
+					"subject": "Intro to Stylesheets, div layouts continued",
+					"link": "divs-continued-stylesheets"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "10/7",
+			"units": [
+				{
+					"subject": "Intro to Photoshop, CSS tricks",
+					"link": "web-design-color-issues-photoshop"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "10/14",
+			"units": [
+				{ "subject": "HTML Forms & USC Form Scripts", "link": "html-forms" },
+				{ "subject": "Exam Study Guide", "link": "study-guide" }
+			],
+			"active": 1
+		},
+		{
+			"date": "10/21",
+			"units": [
+				{ "subject": "HTML & CSS Exam", "link": "exam" }
+			],
+			"active": 1
+		},
+		{
+			"date": "10/28",
+			"units": [
+				{ "subject": "Using Dreamweaver visual editor", "link": "dreamweaver-intro" }
+			],
+			"active": 1
+		},
+		{
+			"date": "11/4",
+			"units": [
+				{ "subject": "Web Technology Overview", "link": "web-technologies" },
+				{ "subject": "ITP web programs", "link": "http://itpwebdev.usc.edu/ppt/ITP-104-Presentation.pptx" }
+			],
+			"active": 1
+		},
+		{
+			"date": "11/11",
+			"units": [
+				{
+					"subject": "Dreamweaver Behaviors and Effects",
+					"link": "dreamweaver-behaviors"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "11/18",
+			"units": [
+				{
+					"subject": "jQuery plugins",
+					"link": "jquery-plugins"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "11/25",
+			"units": [
+				{
+					"subject": "jQuery plugins (continued) - Isotope",
+					"link": "http://isotope.metafizzy.co/"
+				},
+				{
+					"subject": "Relative and Absolute Positioning",
+					"link": "http://www.w3schools.com/css/css_positioning.asp"
+				},
+				{
+					"subject": "Intermediate CSS Selectors",
+					"link": ""
+				},
+				{
+					"subject": "CSS Dropdown Navigations",
+					"link": ""
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "12/2",
+			"units": [
+				{
+					"subject": "Media embeds, Taking your site beyond USC, web hosting, and domains",
+					"link": ""
+				}
+			],
+			"active": 1
+		}
+	]
+}

@@ -1,0 +1,320 @@
+{
+	"course_name": "Database Web Development (Wednesday)",
+	"color": "red",
+	"instructor": "Yuanbo Wang",
+	"syllabus": "http://web-app.usc.edu/soc/syllabus/20133/31908.pdf",
+	"time": "Wednesdays",
+	"office_hours": "Wednesday 12pm - 2pm (OHE530)",
+	"ta": [
+		{"name": "Zune Nguyen", "email" : "tridungn@usc.edu"},
+		{"name": "Wei Zong", "email" : "wzong@usc.edu"}
+	],
+	"homework": [
+		{
+			"name": "Classpage & wwwwroot directory in vlab",
+			"type": "lab",
+			"due": "Sept 11",
+			"link": "lab-create_classpage",
+			"active": 1
+		},
+		{
+			"name": "Hockey db",
+			"type": "lab",
+			"due": "Sept 11",
+			"link": "lab-hockey_db",
+			"active": 1
+		},
+		{
+			"name": "SQL Statements",
+			"type": "assignment",
+			"due": "Sept 18",
+			"link": "assignment-sql_statements",
+			"active": 1
+		},
+		{
+			"name": "RVS db. DVD SQL2",
+			"type": "assignment",
+			"due": "Sept 25",
+			"link": "assignment-rvs_db_dvd_sql2",
+			"active": 1
+		},
+		{
+			"name": "PHP output page",
+			"type": "lab",
+			"due": "Oct 2",
+			"link": "lab-php_output_page",
+			"active": 1
+		},
+		{
+			"name": "Class DB",
+			"type": "assignment",
+			"due": "Oct 2",
+			"link": "assignment-class_db",
+			"active": 1
+		},
+		{
+			"name": "Create odbc datasource for your schedule db",
+			"type": "lab",
+			"due": "Oct 9",
+			"link": "lab-create_odbc_databasource_for_your_schedule_db",
+			"active": 1
+		},
+		{
+			"name": "ODBC php and data",
+			"type": "assignment",
+			"due": "Oct 9",
+			"link": "assignment-odbc_php_data",
+			"active": 1
+		},
+		{
+			"name": "Two-page dvd search (php-mysql)",
+			"type": "assignment",
+			"due": "Oct 16",
+			"link": "assignment-two_page_dvd_search-php-mysql",
+			"active": 1
+		},
+		{
+			"name": "Create a MYSQL DB",
+			"type": "lab",
+			"due": "Oct 16",
+			"link": "lab-create_a_mysql_db",
+			"active": 1
+		},
+		{
+			"name": "Proposals, schemas",
+			"type": "assignment",
+			"due": "Oct 23",
+			"link": "assignment-proposals-schemas",
+			"active": 1
+		},
+		{
+			"name": "insert page/s (php/mysql)",
+			"type": "assignment",
+			"due": "Oct 23",
+			"link": "assignment-insert_pages-php-mysql",
+			"active": 1
+		},
+		{
+			"name": "DVD edit/update pages (php/mysql)",
+			"type": "assignment",
+			"due": "Oct 30",
+			"link": "assignment-edit_update_pages-php-mysql",
+			"active": 1
+		},
+		{
+			"name": "Full drill-down pages (V, E,D, A)",
+			"type": "Lab",
+			"due": "Nov 13",
+			"link": "lab-full_drilldown_pages-v-e-d-a",
+			"active": 1
+		},
+		{
+			"name": "FINAL PROJECT",
+			"type": "assignment",
+			"due": "Dec 6",
+			"link": "assignment-final_project",
+			"active": 1
+		}
+	],
+
+	"weeks": [
+		{
+			"date": "8/28",
+			"units": [
+				{
+					"subject": "Website Fundamentals",
+					"link": "website-fundamentals"
+				},
+				{
+					"subject": "Course Intro",
+					"link": "course_intro"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "Sept 4",
+			"units": [
+				{
+					"subject": "Database Basics",
+					"link": "database-basics_by_bo"
+				},
+				{
+    			    "subject": "Resource: Demo",
+    			    "link": "resource-demo"
+		        },
+		        {
+    			    "subject": "Resource: Vlab",
+    			    "link": "resource-virtual labs docs"
+		        }
+			],
+			"active": 1
+		},
+		{
+			"date": "Sept 11",
+			"units": [
+				{
+					"subject": "Basic SQL",
+					"link": "basic-sql"
+				},
+				{
+					"subject": "Readings SQL 1-6",
+					"link": "reading-sql_1-6"
+				},
+				{
+					"subject": "Readings Web SQL resource",
+					"link": "reading-web_sql_resource"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "Sept 18",
+			"units": [
+				{
+					"subject": "SQL part 2",
+					"link": "sql-part2"
+				},
+				{
+					"subject": "Readings SQL 7,15,16,18",
+					"link": "reading-sql_7-15-16-18"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "Sept 25",
+			"units": [
+				{
+					"subject": "PHP basics",
+					"link": "php-basics"
+				},
+				{
+					"subject": "Reading - PHP Fundamentals",
+					"link": "reading-php_fundamentals"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "Oct 2",
+			"units": [
+				{
+					"subject": "PHP-DB basics, ODBC",
+					"link": "php-db-basics-odbc"
+				},
+				{
+					"subject": "Resource - Working with dates/times",
+					"link": "resource-working_with_date_times"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "Oct 9",
+			"units": [
+				{
+					"subject": "PHP and MYSQL",
+					"link": "php-mysql"
+				},
+				{
+					"subject": "PHPMYSQL",
+					"link": "mysql-phpmyadmin"
+				},
+				{
+					"subject": "Reading",
+					"link": "mysql-phpmyadmin"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "Oct 16",
+			"units": [
+				{
+					"subject": "if (conditional statements)",
+					"link": "if-statements"
+				},
+				{
+					"subject": "INSERT (php-mysql)",
+					"link": "insert-pages"
+				},
+				{
+					"subject": "Resource: Demo: Creating insert page",
+					"link": "resource-creating_insert_page"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "Oct 23",
+			"units": [
+				{
+					"subject": "Drill down pages, Edit / Update pages",
+					"link": "drill-down_edit-pages_missing-vars"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "Oct 30",
+			"units": [
+				{
+					"subject": "Exam Notes",
+					"link": "exam-notes"
+				},
+				{
+					"subject": "delete, form / PHP review",
+					"link": "php-mysql-delete"
+				},
+				{
+					"subject": "Study Guide: DB, SQL and PHP",
+					"link": "resource-study_guide"
+				},
+				{
+					"subject": "Reading - SQL Join table example",
+					"link": "reading-sql_join_table_example"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "Nov 6",
+			"units": [
+				{
+					"subject": "ITP 300 Exam",
+					"link": "exam"
+				}
+			],
+			"active": 0
+		},
+		{
+			"date": "Nov 13",
+			"units": [
+				{
+					"subject": "PHP includes, sessions and logins",
+					"link": "php-includes"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "Nov 13",
+			"units": [
+				{
+					"subject": "PHP Email",
+					"link": "php-email"
+				},
+				{
+					"subject": "Aggregate SQL",
+					"link": "aggregate-sql"
+				},
+				{
+					"subject": "Paginated Results",
+					"link": "paginated-results"
+				}
+			],
+			"active": 1
+		}
+	]
+}

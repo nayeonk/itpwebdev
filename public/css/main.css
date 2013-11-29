@@ -1,0 +1,77 @@
+/*.week a:after {
+  content: ',';
+}
+
+.week a:last-child:after {
+  content: '';
+}*/
+
+.week {
+  border-bottom: 1px solid #ccc;
+  padding: 15px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.student {
+	margin-bottom: 10px;
+}
+
+.bar {
+	min-height: 20px;
+	width: 100%;
+	top:0;
+	left:0;
+	position: fixed;
+	z-index: 100;
+	padding: 10px 0;
+}
+
+.container {
+	position: relative;
+	top: 40px;
+}
+
+.itp-external-links li {
+    float: left;
+    list-style-type: none;
+    margin: 0 10px;
+}
+
+.itp-external-links a {
+    color: white;
+}
+
+.itp-external-links a:hover {
+	text-decoration: none;
+}
+
+header {
+	font-size: 12px;
+}
+
+header p {
+	margin: 0;
+}
+
+footer {
+	border-top: 1px solid black;
+	padding-top: 15px;
+	font-size: 12px;
+}
+
+.block-title {
+	background-color: #eee;
+	padding: 10px;
+}
+
+.assignment {
+	color: red;
+}
+
+.lab {
+	color: black;
+}

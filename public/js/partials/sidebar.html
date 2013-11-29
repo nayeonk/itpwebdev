@@ -1,0 +1,28 @@
+<h3 class="block-title">Assignments</h3>
+<ol>
+	<li ng-repeat="hw in course.homework">
+		<a href="#/{{ courseNumNumeric }}/assignments/{{ hw.link }}">
+			{{ hw.name }} ({{hw.type}})
+		 </a> 
+		<span>due {{ hw.due }}</span>
+	</li>
+</ol>
+
+<h3 class="block-title">Resources</h3>
+<ul>
+    <li><a href="http://webdev.usc.edu/vlab/" target="_blank">VLab instructions</a></li>
+</ul>
+
+<h3 class="block-title">Students</h3>
+<div class="row" ng-repeat="student in students">
+	<div class="col-lg-12 student" ng-switch on="courseNumNumeric">
+		<a ng-switch-when="300" href="http://itp300.usc.edu/{{student.username}}/classpage.php" target="_blank">
+			<img ng-src="./students/{{courseNum}}/{{student.img}}" alt="{{student.name}}" width="50">
+			<span>{{student.name}}</span>
+		</a>
+		<a ng-switch-default href="http://scf.usc.edu/~{{student.username}}/itp{{courseNum}}/classpage.html" target="_blank">
+			<img ng-src="./students/{{courseNum}}/{{student.img}}" alt="{{student.name}}" width="50">
+			<span>{{student.name}}</span>
+		</a>
+	</div>
+</div>

@@ -1,0 +1,16 @@
+<script>
+
+// detect if the geolocation object exists on navigator, 
+// or in other words, if the browser has the geolocation feature
+if (navigator.geolocation) {
+	console.log('Geolocation is supported by this browser');
+	navigator.geolocation.getCurrentPosition(function(position) {
+		console.log(position);
+		console.log(position.coords.latitude, position.coords.longitude);
+	});
+} else {
+	console.log('Geolocation is not supported in your browser.');
+}
+
+</script>
+

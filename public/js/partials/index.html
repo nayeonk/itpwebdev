@@ -1,0 +1,22 @@
+<h2 style="color: {{course.color}}">ITP {{courseNumNumeric}} - {{course.course_name}}</h2>
+<div class="row">
+	<div class="col-lg-7" ng-controller="ScheduleController">
+		<h3 class="block-title">Lectures</h3>
+		<div>
+			<article class="week" ng-repeat="week in course.weeks">
+				<p style="font-style: italic; font-size: 11px; text-align: right;">{{week.date}}</p>
+				<div ng-repeat="unit in week.units">
+					<lecture-link></lecture-link>
+				</div>
+			</article>
+		</div>
+
+		<h3>Open Labs</h3>
+		<ng-include src="'js/partials/open-lab.html'"></ng-include>
+	</div>
+
+	<aside class="col-lg-5" ng-controller="StudentsController">
+		<ng-include src="'js/partials/sidebar.html'"></ng-include>
+	</aside>
+</div>
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Google Maps Basic</title>
+	<style>
+		#map { 
+			height: 600px;
+			width: 900px;
+			margin: 0 auto;
+		}
+	</style>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+</head>
+<body>
+
+<div id="map"></div>
+
+<script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script>
+(function() {
+	var cities = {};
+	cities['vegas'] = [36.05178307933835, -115.17840751953122];
+		
+	var vegas = new google.maps.LatLng(cities["vegas"][0], cities["vegas"][1]);
+
+	var myOptions = {
+		zoom: 5,
+		center: vegas,
+		mapTypeId: google.maps.MapTypeId.ROADMAP
+	};
+
+	var map = new google.maps.Map(document.getElementById("map"), myOptions);
+	
+	// create a new marker object for our point
+	var marker = new google.maps.Marker({
+		position: new google.maps.LatLng(cities["vegas"][0], cities["vegas"][1]),
+		title: "Las Vegas"
+	});
+	
+	// To add the marker to the map, call setMap() on the marker object;
+	marker.setMap(map);		
+})();
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

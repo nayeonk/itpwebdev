@@ -1,0 +1,44 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<em><strong>Please enter search parameters below then hit Search:</strong></em>
+<br />&nbsp;<br />
+
+
+<form action="results.php">
+Title: <input type="text" name="title" />
+<br >&nbsp;<br />
+
+Genre:<select name="genre">
+<option value="All">All</option>
+<option value='1'></option><option value='2'>Action Adventure</option><option value='3'>Animation</option><option value='5'>Children's/Family</option><option value='6'>Classic</option><option value='7'>Comedy</option><option value='8'>Documentary</option><option value='9'>Drama</option><option value='11'>Foreign</option><option value='12'>Games</option><option value='13'>Horror</option><option value='14'>Karaoke</option><option value='15'>Music</option><option value='16'>Musical</option><option value='17'>Romance</option><option value='19'>Sci-Fi</option><option value='20'>Special Interest</option><option value='21'>Suspense Thriller</option><option value='22'>Television Programming</option><option value='23'>Western</option>
+</select>
+<br />&nbsp;<br />
+
+
+Rating:
+<input type="radio" name="rating" value="Any" />All &nbsp;
+ 
+
+<input type='radio' name='rating' value='/'> &nbsp;<input type='radio' name='rating' value='G/'>G &nbsp;<input type='radio' name='rating' value='NC-17/'>NC-17 &nbsp;<input type='radio' name='rating' value='NR/'>NR &nbsp;<input type='radio' name='rating' value='PG/'>PG &nbsp;<input type='radio' name='rating' value='PG-13/'>PG-13 &nbsp;<input type='radio' name='rating' value='R/'>R &nbsp;<input type='radio' name='rating' value='UR/'>UR &nbsp;
+</select>
+<br />&nbsp;<br />
+
+
+Won award:
+<input type="checkbox" name='WonOscar' value='Yes' />
+<br />
+<br />&nbsp;<br />
+
+
+
+<input type="submit" value="Search" />
+
+</form>
+
+</body>
+</html>

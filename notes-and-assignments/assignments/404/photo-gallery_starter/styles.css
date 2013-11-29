@@ -1,0 +1,60 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#stats { 
+	margin-top:15px;
+	text-align: center;
+	font-size: 20px;
+}
+
+#gallery {
+	width:948px;
+	margin:10px auto;
+}
+
+.photo {
+	display: inline-block;
+	margin:30px;
+	padding:10px;
+}
+
+.photo.liked {
+	background: yellow;
+}
+
+.photo .liked {
+	text-align: center;
+	font-size: 12px;
+}
+
+.photo img {
+	width: 100px;
+	height: 100px;
+}
+
+.photo:nth-child(1n) {
+	-webkit-transform:rotate(-5deg);
+}
+
+.photo:nth-child(2n) { 
+	-webkit-transform:rotate(5deg);
+}
+
+a {
+	text-decoration: none;
+	font-size: 12px;
+}
+
+a.like {
+	display: block;
+	text-align: center;
+}
+
+input.url {
+	width: 300px;
+}
+
+.photo-form {
+	text-align: center;
+}

@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+	<title>Demo</title>
+</head>
+<body>
+
+<form id="new-song-form">
+	Song: <input type="text" id="song" />
+	Artist: <input type="text" id="artist" />
+	<input type="submit" id="save" value="Save" />
+</form>
+
+
+<h3>Songs</h3>
+<ul id="songs"></ul>
+
+
+<script src="http://www.parsecdn.com/js/parse-1.2.12.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+
+var $songs = $('#songs');
+
+function renderSong(song) {
+	var li = '<li>';
+	var $li;
+
+	li += song.get('title') + ' - ' + song.get('artist') + ': ' + song.get('playCount') + ' plays';
+	li += '<a href="#" class="delete">Delete</a>';
+	li += '</li>';
+
+	$li = $(li).data('song', song);
+	$songs.prepend($li);
+}
+
+
+Parse.initialize("5STeHDDyrHQIlPDd20bzdru73O3UBv2CJEHpfo4m", "2lh9Jk5KmH72uZZZHjcJHOzf2eyM7PDwotfOlyeH");
+
+var Song = Parse.Object.extend("Song");
+var query = new Parse.Query(Song);
+
+query
+	// .equalTo('artist', 'eminem')
+	// .lessThanOrEqualTo('playCount', 2)
+	// .descending('playCount')
+	.descending('createdAt')
+	.find()
+	.then(function(results) {
+		console.log(results);
+
+		for (var i = 0; i < results.length; i++) {
+			var song = results[i];
+			console.log(song.get('title') + ' ' + song.get('playCount'));
+			renderSong(song);
+		}
+	});
+
+$('#new-song-form').on('submit', function(e) {
+	e.preventDefault();
+
+	var songTitle = $('#song').val();
+	var artistName = $('#artist').val();
+
+	var song = new Song();
+	song
+		.save({ title: songTitle, artist: artistName, playCount: 0 })
+		.then(function(song) {
+			console.log(song);
+
+			renderSong(song);
+		});
+});
+
+$songs.on('click', '.delete', function(e) {
+	var $li = $(this).parents('li');
+	var song = $li.data('song');
+	console.log(song, song.get('title'));
+
+	song.destroy().then(function() {
+		$li.remove();
+	});
+});
+
+
+</script>
+
+</body>
+</html>

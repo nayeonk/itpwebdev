@@ -1,0 +1,22 @@
+<script>
+
+if (navigator.geolocation) {	
+	var configGeo = {
+		enableHighAccuracy: true // uses up more battery
+		maximumAge: 0,
+		timeout: 20000 // milliseconds
+	};
+	
+	// continually watches the position and invokes the callback function on each watch
+	navigator.geolocation.watchPosition(function(position) {
+	    var lat = position.coords.latitude;
+	    var lon = position.coords.longitude;
+	
+		console.log(position, lat, lon);
+	}, function(error) {
+		console.log(error);
+	}, configGeo);
+}
+
+</script>
+

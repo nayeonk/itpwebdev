@@ -1,0 +1,21 @@
+.accordion {
+	width:400px;
+	font-family: arial;
+}
+
+.label {
+	background-color: #333;
+	color: white;
+	padding:10px;
+	border-bottom: 2px solid white;
+	cursor:pointer;
+}
+
+.content {
+	padding:15px;
+	background-color: #ddd;
+}
+
+.active {
+	color:red;
+}

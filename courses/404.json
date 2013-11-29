@@ -1,0 +1,305 @@
+{
+	"course_name": "Modern Technologies in Web Development",
+	"color": "orange",
+	"instructor": "David Tang",
+	"syllabus": "http://web-app.usc.edu/soc/syllabus/20133/31835.pdf",
+	"time": "Tuesdays 6-8:50pm",
+	"office_hours": "OHE 530F, Monday 12-2pm, Tuesday 4-6pm, Wednesday 10-12pm",
+	"ta": [
+		{ "name": "Herman Tran (Grader)", "email": "herman.c.tran@gmail.com" }
+	],
+	"homework": [
+		{
+			"name": "jQuery Accordion",
+			"type": "lab",
+			"due": "9/10",
+			"link": "accordion",
+			"active": 1
+		},
+		{
+			"name": "Photo Gallery",
+			"type": "assignment",
+			"due": "9/17",
+			"link": "photo-gallery",
+			"active": 1
+		},
+		{
+			"name": "Form Validation",
+			"type": "assignment",
+			"due": "9/24",
+			"link": "validation",
+			"active": 1
+		},
+		{
+			"name": "Reusable Widget",
+			"type": "assignment",
+			"due": "10/1",
+			"link": "reusable-widget",
+			"active": 1
+		},
+		{
+			"name": "Position Mapper",
+			"type": "assignment",
+			"due": "10/8",
+			"link": "position-mapper",
+			"active": 1
+		},
+		{
+			"name": "iTunes Search",
+			"type": "assignment",
+			"due": "10/15",
+			"link": "jsonp",
+			"active": 1
+		},
+		{
+			"name": "Project Proposal & Requirements",
+			"type": "assignment",
+			"due": "10/22",
+			"link": "project-proposal-requirements",
+			"active": 1
+		},
+		{
+			"name": "Midterm Project (posted Sunday)",
+			"type": "assignment",
+			"due": "10/20 - 10/22 6pm",
+			"link": "midterm",
+			"active": 1
+		},
+		{
+			"name": "Twitter Endpoints",
+			"type": "lab",
+			"due": "10/29",
+			"link": "twitter-endpoints",
+			"active": 1
+		},
+		{
+			"name": "AJAX w/ PHP and JSON",
+			"type": "assignment",
+			"due": "11/5",
+			"link": "ajax",
+			"active": 1
+		},
+		{
+			"name": "Parse todo list",
+			"type": "assignment",
+			"due": "11/12",
+			"link": "data-storage-apis",
+			"active": 1
+		},
+		{
+			"name": "Final Project Requirements",
+			"type": "project",
+			"due": "TBA",
+			"link": "project-requirements",
+			"active": 1
+		},
+		{
+			"name": "Angular search application",
+			"type": "assignment",
+			"due": "11/19",
+			"link": "angular1",
+			"active": 1
+		}
+	],
+
+	"weeks": [
+		{
+			"date": "8/27",
+			"units": [
+				{
+					"subject": "Course Introduction",
+					"link": "class_overview"
+				},
+				{
+					"subject": "Slides",
+					"link": "http://slid.es/davidtang/itp-404/"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "9/3",
+			"units": [
+				{
+					"subject": "JavaScript & jQuery review",
+					"link": "jquery1"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "9/10",
+			"units": [
+				{
+					"subject": "jQuery continued: selector caching, event delegation, & IIFE's",
+					"link": "jquery2"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "9/17",
+			"units": [
+				{
+					"subject": "OOJS 1 - object literals, module pattern, namespacing",
+					"link": "oojs1"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "9/24",
+			"units": [
+				{
+					"subject": "OOJS 2 - constructors and prototypes",
+					"link": "oojs2"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "10/1",
+			"units": [
+				{
+					"subject": "Google Maps JavaScript API, Geolocation",
+					"link": "google-maps"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "10/8",
+			"units": [
+				{
+					"subject": "JSONP, XML/JSON, Facebook Graph API, Client-side templating",
+					"link": "jsonp_templating"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "10/15",
+			"units": [
+				{
+					"subject": "REST design principles",
+					"link": "rest-design-principles"
+				},
+				{
+					"subject": "RESTful web services in PHP",
+					"link": "rest-web-services"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "10/22",
+			"units": [
+				{
+					"subject": "REST part 2, Authenticated APIs, Twitter API, API Caching",
+					"link": "rest2_api-caching_twitter"
+				},
+				{
+					"subject": "Cloud 9 Project - Twitter Library",
+					"link": "http://c9.io/itpweb/twitter-lib"
+				},
+				{
+					"subject": "Cloud 9 Project - Instagram API with Caching",
+					"link": "http://c9.io/itpweb/instagram-demos"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "10/28",
+			"units": [
+				{
+					"subject": "AJAX, Promises",
+					"link": "ajax"
+				},
+				{
+					"subject": "Example: AJAX w/ plain JS",
+					"link": "http://itpwebdev.usc.edu/demos/404/ajax-plain-js/"
+				},
+				{
+					"subject": "Example: AJAX w/ jQuery",
+					"link": "http://itpwebdev.usc.edu/demos/404/ajax-jquery/"
+				},
+				{
+					"subject": "Example: AJAX w/ jQuery Promises",
+					"link": "http://itpwebdev.usc.edu/demos/404/ajax-jquery-promises/"
+				},
+				{
+					"subject": "Example: AJAX w/ jQuery & JSON",
+					"link": "http://itpwebdev.usc.edu/demos/404/ajax-with-json/"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "11/5",
+			"units": [
+				{
+					"subject": "Data storage APIs, Parse",
+					"link": "data-storage-apis"
+				},
+				{
+					"subject": "$.data()",
+					"link": "jquery-data"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "11/12",
+			"units": [
+				{
+					"subject": "JavaScript Frameworks - Angular.js part 1",
+					"link": "angular-part-1"
+				},
+				{
+					"subject": "Quiz 2 study guide",
+					"link": "quiz2-study-guide"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "11/19",
+			"units": [
+				{
+					"subject": "JavaScript Frameworks - Angular.js part 2",
+					"link": "angular-part-2"
+				},
+				{
+					"subject": "Starter files",
+					"link": "http://itpwebdev.usc.edu/starters/404/angular-itunes-search.zip"
+				},
+				{
+					"subject": "Quiz 2",
+					"link": ""
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "11/26",
+			"units": [
+				{
+					"subject": "No class, screencast",
+					"link": ""
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "12/3",
+			"units": [
+				{
+					"subject": "Real-time with Websockets",
+					"link": ""
+				}
+			],
+			"active": 1
+		}
+	]
+}

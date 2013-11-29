@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+	<title>Demo</title>
+	<script src="http://www.parsecdn.com/js/parse-1.2.12.min.js"></script>
+</head>
+<body>
+
+<script>
+
+Parse.initialize("5STeHDDyrHQIlPDd20bzdru73O3UBv2CJEHpfo4m", "2lh9Jk5KmH72uZZZHjcJHOzf2eyM7PDwotfOlyeH");
+
+var Student = Parse.Object.extend("Student");
+
+var herman = new Student();
+
+herman.save({ first: 'Herman', last: 'Tran', position: 'TA' }, {
+  success: function(object) {
+    console.log(object);
+  }
+});
+
+var student1 = new Student();
+
+student1.save({ first: 'David', last: 'Johnson' }, {
+  success: function(object) {
+    console.log(object);
+  }
+});
+
+var query = new Parse.Query(Student);
+query.equalTo('last', 'Tran');
+query.find({
+	success: function(results) {
+		console.log(results);
+
+		for (var i = 0; i < results.length; i++) {
+			var student = results[i];
+			console.log(student.get('first') + ' ' + student.get('last'));
+		}
+
+	}
+});
+
+
+
+</script>
+
+</body>
+</html>

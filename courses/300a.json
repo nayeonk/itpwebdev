@@ -1,0 +1,353 @@
+{
+	"course_name": "Database Web Development (Monday)",
+	"color": "blue",
+	"instructor": "David Tang",
+	"syllabus": "http://web-app.usc.edu/soc/syllabus/20133/32031.pdf",
+	"time": "Mondays 2-5pm",
+	"office_hours": "OHE 530F, Monday 12-2pm, Tuesday 4-6pm, Wednesday 10-12pm",
+	"ta": [
+		{ "name": "Nayeon Kim (Grader)", "email": "nykim92@gmail.com" },
+		{ "name": "Chong Shu", "email": "chongshu@usc.edu" }
+	],
+	"homework": [
+	    {
+			"name": "Classpage & wwwroot directory in vlab",
+			"type": "lab",
+			"due": "9/16",
+			"link": "lab-create_classpage",
+			"active": 1
+		},
+		{
+			"name": "Hockey db",
+			"type": "lab",
+			"due": "9/16",
+			"link": "lab-hockey_db",
+			"active": 1
+		},
+		{
+			"name": "SQL Statements",
+			"type": "assignment",
+			"due": "9/23",
+			"link": "assignment-sql_statements",
+			"active": 1
+		},
+		{
+			"name": "RVS database, DVD SQL 2",
+			"type": "assignment",
+			"due": "9/30",
+			"link": "assignment-rvs_db_dvd_sql2",
+			"active": 1
+		},
+		{
+			"name": "PHP output page",
+			"type": "lab",
+			"due": "10/7",
+			"link": "lab-php_output_page",
+			"active": 1
+		},
+		{
+			"name": "Class DB",
+			"type": "assignment",
+			"due": "10/7",
+			"link": "assignment-class_db",
+			"active": 1
+		},
+		{
+			"name": "Create odbc datasource for your schedule db",
+			"type": "lab",
+			"due": "10/14",
+			"link": "lab-create_odbc_databasource_for_your_schedule_db",
+			"active": 1
+		},
+		{
+			"name": "ODBC php and data",
+			"type": "assignment",
+			"due": "10/14",
+			"link": "assignment-odbc_php_data",
+			"active": 1
+		},
+		{
+			"name": "Two-page dvd search w/ MySQL",
+			"type": "assignment",
+			"due": "10/21",
+			"link": "assignment-two_page_dvd_search-php-mysql",
+			"active": 1
+		},
+		{
+			"name": "Create a MySQL DB",
+			"type": "lab",
+			"due": "10/21",
+			"link": "lab-create_a_mysql_db",
+			"active": 1
+		},
+		{
+			"name": "Project proposals & schemas",
+			"type": "assignment",
+			"due": "10/21",
+			"link": "assignment-proposals-schemas",
+			"active": 1
+		},
+		{
+			"name": "Insert page/s (php/mysql)",
+			"type": "assignment",
+			"due": "10/28",
+			"link": "assignment-insert_pages-php-mysql",
+			"active": 1
+		},
+		{
+			"name": "DVD edit/update pages (php/mysql)",
+			"type": "assignment",
+			"due": "11/4",
+			"link": "assignment-edit_update_pages-php-mysql",
+			"active": 1
+		},
+		{
+			"name": "Final Project Requirements",
+			"type": "project",
+			"due": "12/6 10am",
+			"link": "project-requirements",
+			"active": 1
+		},
+		{
+			"name": "Full drilldown",
+			"type": "lab",
+			"due": "11/18",
+			"link": "full-drilldown",
+			"active": 1
+		},
+		{
+			"name": "iTunes Search API",
+			"type": "lab",
+			"due": "11/25",
+			"link": "lab-itunes-api",
+			"active": 1
+		}
+	],
+
+	"weeks": [
+		{
+			"date": "8/26",
+			"units": [
+				{
+					"subject": "Website Fundamentals",
+					"link": "website-fundamentals"
+				},
+				{
+					"subject": "Course Intro",
+					"link": "course_intro"
+				},
+				{
+					"subject": "Slides",
+					"link": "http://slid.es/davidtang/itp-300"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "9/2",
+			"units": [
+				{
+					"subject": "University Holiday",
+					"link": ""
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "9/9",
+			"units": [
+				{
+					"subject": "Lecture: Database Basics",
+					"link": "database-basics"
+				},
+				{
+			    "subject": "Resource: Demo",
+			    "link": "resource-demo"
+        },
+        {
+			    "subject": "Resource: Vlab",
+			    "link": "resource-virtual labs docs"
+        },
+        {
+        	"subject": "Resource: iTunes Library Example",
+        	"link": "http://bit.ly/1eafNpm"
+        }
+			],
+			"active": 1
+		},
+		{
+			"date": "9/16",
+			"units": [
+				{
+					"subject": "Lecture: Basic SQL",
+					"link": "basic-sql"
+				},
+				{
+					"subject": "Readings SQL 1-6",
+					"link": "reading-sql_1-6"
+				},
+				{
+					"subject": "Readings Web SQL resource",
+					"link": "reading-web_sql_resource"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "9/23",
+			"units": [
+				{
+					"subject": "Lecture: SQL part 2",
+					"link": "sql-part2"
+				},
+				{
+					"subject": "Readings: SQL 7,15,16,18",
+					"link": "reading-sql_7-15-16-18"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "9/30",
+			"units": [
+				{
+					"subject": "PHP basics",
+					"link": "php-basics"
+				},
+				{
+					"subject": "Reading - PHP Fundamentals",
+					"link": "reading-php_fundamentals"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "10/7",
+			"units": [
+				{
+					"subject": "PHP-DB basics, ODBC",
+					"link": "php-db-basics-odbc"
+				},
+				{
+					"subject": "Resource - Working with dates/times",
+					"link": "resource-working_with_date_times"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "10/14",
+			"units": [
+				{
+					"subject": "PHP & MySQL",
+					"link": "php-mysql"
+				},
+				{
+					"subject": "phpMyAdmin & MySQL",
+					"link": "mysql-phpmyadmin"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "10/21",
+			"units": [
+				{
+					"subject": "if (conditional statements)",
+					"link": "if-statements"
+				},
+				{
+					"subject": "INSERT pages (php-mysql)",
+					"link": "insert-pages"
+				},
+				{
+					"subject": "Resource: Demo: Creating insert page",
+					"link": "resource-creating_insert_page"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "10/28",
+			"units": [
+				{
+					"subject": "Drill down pages, Edit / Update pages",
+					"link": "drill-down_edit-pages_missing-vars"
+				},
+				{
+					"subject": "Exam Notes",
+					"link": "exam-notes"
+				},
+				{
+					"subject": "Study Guide: DB, SQL and PHP",
+					"link": "resource-study_guide"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "11/4",
+			"units": [
+				{
+					"subject": "Exam",
+					"link": "exam"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "11/11",
+			"units": [
+				{
+					"subject": "Exam review", "link": ""
+				},
+				{
+					"subject": "Delete pages, full drill-down workflows", "link": "php-mysql-delete"
+				},
+				{
+					"subject": "Cloud 9 IDE", "link": "http://c9.io/"
+				},
+				{
+					"subject": "Cloud 9 Setup", "link": "cloud9-setup"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "11/18",
+			"units": [
+				{
+					"subject": "sessions", "link": "sessions"
+				},
+				{
+					"subject": "include & require statements", "link": "include-and-require"
+				},
+				{
+					"subject": "Logins & password encryption", "link": "logins"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "11/25",
+			"units": [
+				{
+					"subject": "Web APIs", "link": "web-apis"
+				},
+				{
+					"subject": "Instagram API Endpoints", "link": "http://instagram.com/developer/endpoints/"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "12/2",
+			"units": [
+				{
+					"subject": "Aggregate SQL, email, file uploads", "link": ""
+				}
+			],
+			"active": 1
+		}
+	]
+}
