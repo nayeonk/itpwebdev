@@ -5,26 +5,30 @@ angular.module('itpwebdev').directive('lectureLink', function() {
 		link: function($scope, $el, attr) {
 			var url, html;
 
-			if ($scope.unit.link.match(/https?:\/\//)) {
-				url = $scope.unit.link;
+			if ($scope.unit.link) {
+				if ($scope.unit.link.match(/https?:\/\//)) {
+					url = $scope.unit.link;
+				} else {
+					url = [
+						'#',
+						$scope.courseNumNumeric,
+						'notes',
+						$scope.unit.link
+					].join('/');
+				}
+
+				html = [
+					'<a href="',
+					url,
+					'">',
+					$scope.unit.subject,
+					'</a>'
+				].join('');
 			} else {
-				url = [
-					'#',
-					$scope.courseNumNumeric,
-					'notes',
-					$scope.unit.link
-				].join('/');
+				html = $scope.unit.subject;
 			}
 
-			html = [
-				'<a href="',
-				url,
-				'">',
-				$scope.unit.subject,
-				'</a>'
-			];
-
-			$el.html(html.join(''));
+			$el.html(html);
 		}
 	}
 });
