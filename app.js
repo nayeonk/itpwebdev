@@ -13,8 +13,16 @@ app.configure(function() {
 	app.use(app.router); // parse the routes before static assets
 	app.use(express.static(__dirname + '/public'));
 	app.use(function(req, res) {
-		res.render('404')
+		res.render('404');
 	});
+});
+
+app.configure('dev', function() {
+	app.set('url', 'http://localhost:' + port);
+});
+
+app.configure('prod', function() {
+	app.set('url', 'http://itpwebdev.herokuapp.com/');
 });
 
 /*
@@ -28,7 +36,7 @@ app.get('/', function(req, res) {
 });
 
 /*
- * Shows the home page for a specific course
+ * AJAX: Shows the home page for a specific course
  */
 app.get('/courses/:courseNum', function(req, res) {
 	var courseNum = req.params.courseNum;
@@ -36,7 +44,10 @@ app.get('/courses/:courseNum', function(req, res) {
 
 	fs.readFile(file, { encoding: 'utf8' }, function(err, data) {
 		if (err) {
-			return res.redirect('/');
+			return res.json(404, {
+				error: 404,
+				message: 'Invalid course requested'
+			});
 		}
 
 		res.send(data);
@@ -44,7 +55,7 @@ app.get('/courses/:courseNum', function(req, res) {
 });
 
 /*
- * Returns the contents of a markdown file as HTML
+ * AJAX: Returns the contents of a markdown file as HTML
  */
 app.get(/(\d+)\/(notes|assignments)\/(\S+)\/?/, function(req, res) {
 	var courseNum = req.params[0];
