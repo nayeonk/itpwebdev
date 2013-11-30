@@ -1,0 +1,21 @@
+<div class="course-details">
+	<p>
+		<strong>Instructor:</strong>
+		<span>{{course.instructor}}</span>
+	</p>
+	<p>
+		<strong>Time/Location:</strong>
+		<span>{{course.time}},</span>
+		<a href="{{course.syllabus}}" target="_blank">Syllabus</a>
+	</p>
+	<p>
+		<strong>Teaching Assistants:</strong>
+		<span class="tas">
+			<a ng-repeat="ta in course.ta" href="mailto: {{ta.email}}">{{ta.name}}</a>
+		</span>
+	</p>
+	<p>
+		<strong>Office Hours:</strong>
+		<span>{{course.office_hours}}</span>
+	</p>
+</div>

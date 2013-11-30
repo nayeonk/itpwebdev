@@ -49,11 +49,11 @@ footer {
 	text-decoration: none;
 }
 
-header {
+.course-details {
 	font-size: 12px;
 }
 
-header p {
+.course-details p {
 	margin: 0;
 }
 
@@ -82,4 +82,17 @@ footer {
 
 .student-filter-container input {
 	width: 100%;
+}
+
+.tas a {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.tas a:after {
+	content: ',';
+}
+
+.tas a:last-child:after {
+	content: '';
 }
