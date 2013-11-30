@@ -75,3 +75,11 @@ footer {
 .lab {
 	color: black;
 }
+
+.student-filter-container {
+	margin: 10px 0;
+}
+
+.student-filter-container input {
+	width: 100%;
+}

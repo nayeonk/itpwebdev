@@ -14,7 +14,10 @@
 </ul>
 
 <h3 class="block-title">Students</h3>
-<div class="row" ng-repeat="student in students">
+<div class="student-filter-container">
+	<input type="search" ng-model="search" placeholder="Search students">
+</div>
+<div class="row" ng-repeat="student in students | filter:search">
 	<div class="col-lg-12 student" ng-switch on="courseNumNumeric">
 		<a ng-switch-when="300" href="http://itp300.usc.edu/{{student.username}}/classpage.php" target="_blank">
 			<img ng-src="./students/{{courseNum}}/{{student.img}}" alt="{{student.name}}" width="50">
