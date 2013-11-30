@@ -12,12 +12,19 @@ app.configure(function() {
 	app.use(express.bodyParser());
 	app.use(app.router); // parse the routes before static assets
 	app.use(express.static(__dirname + '/public'));
+	app.use(function(req, res) {
+		res.render('404')
+	});
 });
 
+/*
+ ******************************************************************************************
+ * ROUTE DEFINITIONS
+ ******************************************************************************************
+ */
+
 app.get('/', function(req, res) {
-	res.render('index', {
-		title: 'welcome'
-	});
+	res.render('index');
 });
 
 /*
