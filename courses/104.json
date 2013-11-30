@@ -205,7 +205,7 @@
 			"date": "11/4",
 			"units": [
 				{ "subject": "Web Technology Overview", "link": "web-technologies" },
-				{ "subject": "ITP web programs", "link": "http://itpwebdev.usc.edu/ppt/ITP-104-Presentation.pptx" }
+				{ "subject": "ITP web programs", "link": "" }
 			],
 			"active": 1
 		},

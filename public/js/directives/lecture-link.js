@@ -11,7 +11,7 @@ angular.module('itpwebdev').directive('lectureLink', function() {
 				} else {
 					url = [
 						'#',
-						$scope.courseNumNumeric,
+						$scope.courseNum,
 						'notes',
 						$scope.unit.link
 					].join('/');
