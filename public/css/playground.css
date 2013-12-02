@@ -1,0 +1,30 @@
+.editor-container, .preview-container {
+	float: left;
+	width: 49.5%;
+}
+
+.editor-container {
+	margin-right: 1%;
+}
+
+.editor, .preview {
+	border: 1px solid #eee;
+}
+
+.editor {
+	height: 600px;
+}
+
+.preview {
+	height: 600px;
+	width: 100%;
+}
+
+.indent {
+	margin-left: 20px;
+}
+
+header {
+	text-align: right;
+	padding: 10px;
+}

@@ -35,6 +35,15 @@ app.get('/', function(req, res) {
 	res.render('index');
 });
 
+app.get('/playground', function(req, res) {
+	res.render('playground');
+});
+
+// app.post('/playground/render', function(req, res) {
+// 	var html = req.body.html;
+// 	res.send(html);
+// });
+
 /*
  * AJAX: Shows the home page for a specific course
  */
