@@ -344,7 +344,13 @@
 			"date": "12/2",
 			"units": [
 				{
-					"subject": "Aggregate SQL, email, file uploads", "link": ""
+					"subject": "Aggregate SQL", "link": "aggregate-sql"
+				},
+				{
+					"subject": "Sending emails from php", "link": "php-email"
+				},
+				{
+					"subject": "File uploads", "link": "php-file-upload"
 				}
 			],
 			"active": 1

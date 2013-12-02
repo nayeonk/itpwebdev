@@ -40,13 +40,22 @@ SQL Aggregate functions
 
 	So the code:
 
-	```php
-		while ($currentrow = mysql_fetch_array($results)) {
-			echo $currentrow["genre"] . ": " . $currentrow["recordtotal"];
-		}
-		Would output something like:
- 		:128 Action Adventure: 783 Animation: 516 Children's/Family: 163 Classic: 127 Comedy: 1003 Documentary: 289 Drama: 1085 Foreign: 535 Games: 8 Horror: 504 Karaoke: 99 Music: 880 Musical: 93 Romance: 3 Sci-Fi: 349 Special Interest: 723 Suspense Thriller: 578 Television Programming: 148 Western: 105 
-	```
+```php
+	while ($currentrow = mysql_fetch_array($results)) {
+		echo $currentrow["genre"] . ": " . $currentrow["recordtotal"];
+	}
+```
+
+Would output something like:
+
+Action: 128
+Adventure: 783 
+Animation: 516 
+Children's/Family: 163 
+Classic: 127 Comedy: 1003 
+Documentary: 289 
+Drama: 1085 
+Foreign: 535
 
 
 __An EXAMPLE of both non-grouped "count" and group by count is on this page: [php](http://itp300.usc.edu/dent/aggregate_sql/count_examples.php) and [txt](http://itp300.usc.edu/dent/aggregate_sql/count_examples.txt)__
@@ -60,4 +69,69 @@ __An EXAMPLE of both non-grouped "count" and group by count is on this page: [ph
 * Generally work best as calculation queries. I.e. do not generally combine well with data queries (see last GROUP BY bullet above).  
 * Work well in groups. So for instance, one query might include a Count of all orders, a Sum of all order totals, a Max and Min of the highest and least order totals, an Avg of the order amounts, and the Max of the date for the most recent order.  
 * Are MUCH more effective (in terms of processing time, server load, etc.) than counting records. I.e. SELECT count(*) from table is MUCH more efficient and quicker than performing a SELECT ID from table and then calculating the recordcount for that query, because the former example only had to retrieve one value from the database, whereas the latter example retrieved an entire recordset (of the IDs of every row) and a total number of records. Similarly, you could perform the mathematical calculations of Max, Min, Avg and Sum through Cold Fusion and loops through queries, but it would take MUCH more processor time and effort to do so.  
+
+
+### music database queries
+
+http://itp460.usc.edu/phpmyadmin
+u: student
+pw: ttrojan
+
+#### 1. What was the total play count of all songs in my library?
+
+```sql
+SELECT SUM(play_count) AS totalPlayCount
+FROM songs
+```
+
+#### 2. What was the maximum number of plays?
+
+```sql
+SELECT MAX(play_count) as maximumPlays
+FROM songs
+```
+
+#### 3. What was the track with the maximum number of players?
+
+```sql
+SELECT *
+FROM songs 
+ORDER BY play_count DESC
+LIMIT 1
+```
+
+#### 4. What is the average price for artist with an id = 3?
+
+```sql
+SELECT AVG(price) as averagePrice
+FROM songs
+WHERE artist_id = 3
+```
+
+#### 5. What is the average price for all songs?
+
+```sql
+SELECT AVG(price) as averagePrice
+FROM songs
+```
+
+#### 6. Show me the total number of songs for each artist
+
+```sql
+SELECT COUNT(*) AS totalSongCount, artist_id
+FROM songs
+GROUP BY artist_id
+```
+
+Now you probably dont want to see the artist_id and would rather instead see the artist name.
+
+```sql
+SELECT COUNT(*) AS totalSongCount, artist_name
+FROM songs, artists
+WHERE songs.artist_id = artists.id
+GROUP BY artist_name (could also group by artist_id)
+```
+
+
+
 
