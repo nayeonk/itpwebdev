@@ -5,8 +5,25 @@ var frame = document.querySelector('#preview');
 
 var editor = CodeMirror.fromTextArea(myTextarea, {
   mode: "text/html",
-  lineNumbers: true
+  lineNumbers: true,
+  theme: 'eclipse'
 });
+
+var defaultValue = [
+	"<!doctype html>",
+	"<html>",
+	"<head>",
+	"\<title>Demo</title>",
+	"<style>\n",
+	"</style>",
+	"</head>",
+	"<body>",
+	"\n\n",
+	"</body>",
+	"</html>"
+].join("\n");
+
+editor.setValue(defaultValue);
 
 var createHTMLDocument = function(html) {
 	var doc = document.implementation.createHTMLDocument("New Document");
