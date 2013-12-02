@@ -255,8 +255,12 @@
 			"date": "12/2",
 			"units": [
 				{
-					"subject": "Media embeds, Taking your site beyond USC, web hosting, and domains",
-					"link": ""
+					"subject": "Social media widgets",
+					"link": "widgets"
+				},
+				{
+					"subject": "Taking your site beyond USC, web hosting, and domains",
+					"link": "hosting"
 				}
 			],
 			"active": 1
