@@ -15,7 +15,7 @@ var createHTMLDocument = function(html) {
 	return doc;
 };
 
-var insertHTMLDocumentIntoFrame = function(doc) {
+var insertHTMLDocumentIntoFrame = function(frame, doc) {
 	var destDocument = frame.contentDocument;
   var srcNode = doc.documentElement;
   var newNode = destDocument.importNode(srcNode, true);
@@ -28,7 +28,7 @@ var insertHTMLDocumentIntoFrame = function(doc) {
 editor.on('change', function() {
 	var html = editor.getValue();
 	var doc = createHTMLDocument(html);
-	insertHTMLDocumentIntoFrame(doc);
+	insertHTMLDocumentIntoFrame(frame, doc);
 });
 
 })(window);
