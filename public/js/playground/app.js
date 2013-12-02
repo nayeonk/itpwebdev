@@ -1,31 +1,15 @@
 var myTextarea = document.querySelector('textarea');
+var frame = document.querySelector('#preview');
+
 var editor = CodeMirror.fromTextArea(myTextarea, {
   mode: "text/html",
-  lineNumbers: true,
-  height: '600'
+  lineNumbers: true
 });
+ 
 
-$('#run').on('click', function(e) {
+editor.on('change', function() {
 	var html = editor.getValue();
-	// var promise = $.ajax({
-	// 	type: 'post',
-	// 	url: 'playground/render',
-	// 	data: {
-	// 		html: html
-	// 	}
-	// });
-
-	// promise
-	// 	.done(function(res) {
-	// 		console.log(res);
-
-	// 	})
-	// 	.fail(function(res) {
-	// 		console.error(res);
-	// 	});
-
 	var doc = document.implementation.createHTMLDocument("New Document");
-	var frame = document.querySelector('#preview');
 
 	doc.body.innerHTML = html;
 
