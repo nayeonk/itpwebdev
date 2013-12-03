@@ -296,7 +296,7 @@
 			"units": [
 				{
 					"subject": "Real-time with Websockets",
-					"link": ""
+					"link": "websockets"
 				}
 			],
 			"active": 1
