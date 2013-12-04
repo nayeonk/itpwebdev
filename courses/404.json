@@ -300,6 +300,12 @@
 				}
 			],
 			"active": 1
+		},
+		{
+			"date": "Tuesday 12/17 from 7-9pm",
+			"units": [
+				{"subject": "Project Presentations", "link": ""}
+			]
 		}
 	]
 }
