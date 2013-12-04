@@ -13,19 +13,24 @@ Now, that we are almost done with the entire semester, we already learnt how to 
 #### cPanel: Most common Control Panel for Linux Web Hosting:  
 Login: http://yourdomain.com/cpanel  
 Username: provided by the hosting company  
-Password: provided by the hosting company  
+Password: provided by the hosting company 
+[cPanel Screenshot](http://usc.yuanbowang.com/images/cPanel_Full_Screen_Shot.png)
 
 #### FTP: ftp://yourdomain.com
 Username & Password: usually same as your cPanel Account.  
 
-Instead of working on the files directly, you have to use FTP clients upload your PHP files to servers first.
+Instead of working on the files directly, you have to use FTP clients (Filezilla, can be found on [USC software](http://software.usc.edu)) upload your PHP files to servers first.
 
 All your website files should be in “public_html” folder, otherwise visitors can’t see them.
 
 Once your uploaded them, you should be able to visit your web pages via urls.
 
+[Filezilla FTP screenshot](http://usc.yuanbowang.com/images/Filezilla_Screenshot.png)
+
 #### Database:
 Unlike what we are doing in class, you need to create database and username first in cPanel, then you could manage the database using PHPMyAdmin.
+
+[cPanel DB Mangement Portal Screen Shot](http://usc.yuanbowang.com/images/cPanel_DB_Management_Screen_Shot.png)
 
 ### [ITP Classes](http://web-app.usc.edu/soc/20141/itp):
 * ITP 301 (Interactive Web Development)
