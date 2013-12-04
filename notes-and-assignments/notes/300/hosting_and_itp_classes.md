@@ -5,10 +5,10 @@ Now, that we are almost done with the entire semester, we already learnt how to 
 
 
 ### Web Hosting:
-* Shared Web Hosting 
-* VPS
-* Cloud VPS
-* Dedicated
+* [Shared Web Hosting](http://en.wikipedia.org/wiki/Shared_web_hosting_service) 
+* [VPS](http://en.wikipedia.org/wiki/Virtual_private_server)
+* [Dedicated] (http://en.wikipedia.org/wiki/Dedicated_hosting_service)
+* Cloud Hosting
 
 #### cPanel: Most common Control Panel for Linux Web Hosting:  
 Login: http://yourdomain.com/cpanel  
@@ -27,10 +27,12 @@ Once your uploaded them, you should be able to visit your web pages via urls.
 #### Database:
 Unlike what we are doing in class, you need to create database and username first in cPanel, then you could manage the database using PHPMyAdmin.
 
-### ITP Classes:
+### [ITP Classes](http://web-app.usc.edu/soc/20141/itp):
 * ITP 301 (Interactive Web Development)
 * ITP 310 (Design for User Experience)
 * ITP 460 (Web Application Project)
 * ITP 342 (Mobile Application Development)
 * ITP 370 (Information Security Management)
 * ITP 457 (Network Security)
+* ITP 302 (Advanced Web Publishing) offered in Fall
+* ITP 404 (Advanced Javascript) offered in Fall
