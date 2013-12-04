@@ -354,6 +354,12 @@
 				}
 			],
 			"active": 1
+		},
+		{
+			"date": "Friday 12/13 at 2pm",
+			"units": [
+				{"subject": "Project Presentations", "link": ""}
+			]
 		}
 	]
 }
