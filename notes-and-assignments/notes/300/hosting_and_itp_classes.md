@@ -1,7 +1,7 @@
 Web Hosting and Other ITP classes.
 ============
 
-Now, that we are almost done with the entire semester, we already learnt how to build a website with databases. Then what to do next? If you find website development useful and fun, you should build more on your own. Either learn as you go or take some of other ITP web classes to experience more website development theory and technologies. Last, I’m going to show you how do work with your own server(hosting). And introduce you to some our ITP website development classes.
+Now, we are almost done with the entire semester, we already learnt how to build web pages with database. Then what do we do next? If you find website development useful and fun, you should build more on your own. Either learn as you go or take other ITP web classes to experience more website development theories and technologies. Last, I am going to show you how do work with your own server(hosting). And introduce you some of our ITP website development classes.
 
 
 ### Web Hosting:
