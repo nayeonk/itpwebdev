@@ -315,6 +315,24 @@
 				}
 			],
 			"active": 1
+		},
+		{
+			"date": "Dec 4",
+			"units": [
+				{
+					"subject": "PHP file upload",
+					"link": "php-file-upload"
+				},
+				{
+					"subject": "PHP Hosting & Other ITP Classes",
+					"link": "hosting_and_itp_classes"
+				},
+				{
+					"subject": "Final Presentations & Final Project Summary",
+					"link": "final_presentations_final_project"
+				}
+			],
+			"active": 1
 		}
 	]
 }
