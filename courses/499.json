@@ -11,7 +11,7 @@
 	"homework": [
 		{
 			"name": "Classpage & environment setup",
-			"type": "lab",
+			"type": "NC",
 			"due": "1/21",
 			"link": "classpage-and-environment-setup",
 			"active": 1
@@ -27,19 +27,37 @@
 					"link": ""
 				},
 				{
-					"subject": "Version Control w/ Git & Github",
-					"link": ""
-				},
-				{
 					"subject": "Development Environments",
 					"link": ""
 				},
 				{
-					"subject": "PHPStorm",
-					"link": "ide"
+					"subject": "Command Line (CLI) Basics",
+					"link": "command-line-basics"
 				}
 			],
 			"active": 1
-		}
+		},
+    {
+      "date": "1/21",
+      "units": [
+        {
+          "subject": "HTTP life cycle",
+          "link": ""
+        },
+        {
+          "subject": "SQL review, joins",
+          "link": ""
+        },
+        {
+          "subject": "DB driven pages with PDO",
+          "link": ""
+        },
+        {
+          "subject": "Version Control w/ Git & Github",
+          "link": ""
+        }
+      ],
+      "active": 1
+    }
 	]
 }
