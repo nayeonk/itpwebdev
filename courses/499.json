@@ -1,0 +1,45 @@
+{
+	"course_name": "Professional Applications and Frameworks in Web Development",
+	"color": "teal",
+	"instructor": "David Tang",
+	"syllabus": "http://web-app.usc.edu/soc/syllabus/20141/32051.pdf",
+	"time": "Tuesdays 5-7:50pm",
+	"office_hours": "OHE 530F",
+	"ta": [
+		{ "name": "Herman Tran (Grader)", "email": "herman.c.tran@gmail.com" }
+	],
+	"homework": [
+		{
+			"name": "Classpage & environment setup",
+			"type": "lab",
+			"due": "1/21",
+			"link": "classpage-and-environment-setup",
+			"active": 1
+		}
+	],
+
+	"weeks": [
+		{
+			"date": "1/14",
+			"units": [
+				{
+					"subject": "Course Introduction",
+					"link": ""
+				},
+				{
+					"subject": "Version Control w/ Git & Github",
+					"link": ""
+				},
+				{
+					"subject": "Development Environments",
+					"link": ""
+				},
+				{
+					"subject": "PHPStorm",
+					"link": "ide"
+				}
+			],
+			"active": 1
+		}
+	]
+}

@@ -6,8 +6,7 @@
 	"time": "M, W 2-5pm",
 	"office_hours": "",
 	"ta": [
-		{ "name": "Nayeon Kim (Grader)", "email": "" },
-		{ "name": "Chong Shu", "email": "chongshu@usc.edu" }
+		{ "name": "Nayeon Kim (Grader)", "email": "" }
 	],
 	"homework": [
 	],
@@ -25,7 +24,6 @@
 		{
 			"date": "Jan 15",
 			"units": [
-				{ "subject": "DW Behaviors - events and actions", "link": "" },
 				{ "subject": "CSS review", "link": "" },
 				{ "subject": "Chrome Developer Tools - Elements panel and styles", "link": "" }
 			],

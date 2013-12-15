@@ -50,17 +50,33 @@ app.get('/playground', function(req, res) {
 app.get('/courses/:courseNum', function(req, res) {
 	var courseNum = req.params.courseNum;
 	var file = 'courses/' + courseNum + '.json';
+	var stream = fs.createReadStream(file);
 
-	fs.readFile(file, { encoding: 'utf8' }, function(err, data) {
-		if (err) {
-			return res.json(404, {
-				error: 404,
-				message: 'Invalid course requested'
-			});
+	stream.on('data', function(chunk) {
+		res.write(chunk);
+	});
+
+	stream.on('end', function() {
+		res.end();
+	});
+
+	stream.on('error', function(err) {
+		var code, message;
+
+		if (err === 'ENOENT') {
+			code = 404;
+			message = 'Course file not found';
+		} else {
+			code = 500;
+			message = 'Interal server error. See /courses/:courseNum';
 		}
 
-		res.send(data);
+		return res.json(code, {
+			error: code,
+			message: message
+		});
 	});
+
 });
 
 /*
