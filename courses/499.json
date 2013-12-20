@@ -49,11 +49,35 @@
           "link": ""
         },
         {
+          "subject": "Classes, objects, methods, & properties",
+          "link": ""
+        },
+        {
           "subject": "DB driven pages with PDO",
           "link": ""
         },
         {
           "subject": "Version Control w/ Git & Github",
+          "link": ""
+        }
+      ],
+      "active": 1
+    },
+    {
+      "date": "1/28",
+      "units": [
+        {
+          "subject": "OOP introduction: classes, methods, statics, & inheritance",
+          "link": ""
+        }
+      ],
+      "active": 1
+    },
+    {
+      "date": "2/4",
+      "units": [
+        {
+          "subject": "Namespacing, autoloading, & dependency management",
           "link": ""
         }
       ],
