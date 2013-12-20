@@ -10,10 +10,10 @@
 	],
 	"homework": [
 		{
-			"name": "Classpage & environment setup",
+			"name": "Environment setup",
 			"type": "NC",
 			"due": "1/21",
-			"link": "classpage-and-environment-setup",
+			"link": "environment-setup",
 			"active": 1
 		}
 	],
