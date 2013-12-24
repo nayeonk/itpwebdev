@@ -53,7 +53,7 @@
           "link": "sql-joins"
         },
         {
-          "subject": "Classes, objects, methods, & properties",
+          "subject": "Object Oriented Programming - part 1",
           "link": "oop-1"
         },
         {
@@ -71,7 +71,7 @@
       "date": "1/28",
       "units": [
         {
-          "subject": "OOP introduction: classes, methods, statics, & inheritance",
+          "subject": "Object Oriented Programming - part 2",
           "link": ""
         }
       ],
