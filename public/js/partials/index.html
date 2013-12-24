@@ -4,7 +4,7 @@
 	<div class="col-lg-7" ng-controller="ScheduleController">
 		<h3 class="block-title">Lectures</h3>
 		<div>
-			<article class="week" ng-repeat="week in course.weeks">
+			<article class="week" ng-repeat="week in course.weeks | filter:{ active: '1' }">
 				<p style="font-style: italic; font-size: 11px; text-align: right;">{{week.date}}</p>
 				<div ng-repeat="unit in week.units">
 					<lecture-link></lecture-link>

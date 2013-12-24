@@ -4,7 +4,7 @@
 	"instructor": "David Tang",
 	"syllabus": "http://web-app.usc.edu/soc/syllabus/20141/32051.pdf",
 	"time": "Tuesdays 5-7:50pm",
-	"office_hours": "OHE 530F",
+	"office_hours": "OHE 530F: Mon 12:30 - 2pm, Wed 5 - 7:30pm",
 	"ta": [
 		{ "name": "Herman Tran (Grader)", "email": "herman.c.tran@gmail.com" }
 	],
@@ -85,7 +85,7 @@
           "link": ""
         }
       ],
-      "active": 1
+      "active": 0
     }
 	]
 }

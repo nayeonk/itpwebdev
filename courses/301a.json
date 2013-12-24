@@ -4,16 +4,18 @@
 	"instructor": "David Tang",
 	"syllabus": "",
 	"time": "M, W 2-5pm",
-	"office_hours": "",
+	"office_hours": "OHE 530F: Mon 12:30 - 2pm, Wed 5 - 7:30pm",
 	"ta": [
-		{ "name": "Nayeon Kim (Grader)", "email": "" }
+		{ "name": "Nayeon Kim (Grader)", "email": "" },
+		{ "name": "Shu Zhou (Grader)", "email": "" },
+		{ "name": "Kevin Macwan (Grader)", "email": "" }
 	],
 	"homework": [
 	],
 
 	"weeks": [
 		{
-			"date": "Jan 13",
+			"date": "1/13",
 			"units": [
 				{ "subject": "Course overview", "link": "" },
 				{ "subject": "Browser technologies, scripting languages, the DOM", "link": "" },
@@ -22,19 +24,28 @@
 			"active": 1
 		},
 		{
-			"date": "Jan 15",
+			"date": "1/15",
 			"units": [
 				{ "subject": "CSS review", "link": "" },
-				{ "subject": "Chrome Developer Tools - Elements panel and styles", "link": "" }
+				{ "subject": "Chrome Developer Tools - Elements panel and styles", "link": "" },
+				{ "subject": "Using jQuery plugins", "link": "" }
 			],
 			"active": 1
 		},
 		{
-			"date": "Jan 20",
+			"date": "1/20",
 			"units": [
 				{ "subject": "Holiday - MLK", "link": "" }
 			],
 			"active": 1
+		},
+		{
+			"date": "1/22",
+			"units": [
+				{ "subject": "Introduction to jQuery", "link": "" },
+				{ "subject": "Debugging", "link": "" }
+			],
+			"active": 0
 		},
 		{
 			"date": "Jan 22",
@@ -47,7 +58,7 @@
 				{ "subject": "getElementById", "link": "" },
 				{ "subject": "Chrome Developer Tools: Console", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "Jan 27",
@@ -55,14 +66,14 @@
 				{ "subject": "Conditional logic", "link": "" },
 				{ "subject": "return statement", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "Jan 29",
 			"units": [
 				{ "subject": "Editing style properties", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "Feb 3",
@@ -71,7 +82,7 @@
 				{ "subject": "For loops", "link": "" },
 				{ "subject": "innerHTML", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "Feb 5",
@@ -80,28 +91,28 @@
 				{ "subject": "indexOf", "link": "" },
 				{ "subject": "Regular expressions", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "Feb 10",
 			"units": [
 				{ "subject": "Searching through arrays", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "Feb 12",
 			"units": [
 				{ "subject": "Querying the DOM with querySelector, querySelectorAll, getElementsByTagName", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "Feb 17",
 			"units": [
 				{ "subject": "Holiday - Presidents' Day", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "Feb 19",
@@ -109,140 +120,140 @@
 				{ "subject": "Event listeners", "link": "" },
 				{ "subject": "this keyword", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "Feb 24",
 			"units": [
 				{ "subject": "Introduction to jQuery", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "Feb 26",
 			"units": [
 				{ "subject": "", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "Mar 3",
 			"units": [
 				{ "subject": "", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "Mar 5",
 			"units": [
 				{ "subject": "", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "Mar 10",
 			"units": [
 				{ "subject": "Written Exam", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "Mar 12",
 			"units": [
 				{ "subject": "Practical Exam", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "Mar 17 - 22",
 			"units": [
 				{ "subject": "Spring Break", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "Mar 24",
 			"units": [
 				{ "subject": "", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "Mar 26",
 			"units": [
 				{ "subject": "", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "Mar 31",
 			"units": [
 				{ "subject": "", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "Apr 2",
 			"units": [
 				{ "subject": "", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "Apr 7",
 			"units": [
 				{ "subject": "", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "Apr 9",
 			"units": [
 				{ "subject": "", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "Apr 14",
 			"units": [
 				{ "subject": "Student conferences", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "Apr 16",
 			"units": [
 				{ "subject": "Student conferences", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "Apr 21",
 			"units": [
 				{ "subject": "Special topics: Local storage", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "Apr 23",
 			"units": [
 				{ "subject": "Special Topics: JSONP", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "Apr 28",
 			"units": [
 				{ "subject": "JS group project presentations", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "Apr 30",
 			"units": [
 				{ "subject": "", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		}
 	]
 }

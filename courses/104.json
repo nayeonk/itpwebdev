@@ -2,11 +2,12 @@
 	"course_name": "Web Publishing",
 	"color": "green",
 	"instructor": "David Tang",
-	"syllabus": "http://web-app.usc.edu/soc/syllabus/20133/31806.pdf",
+	"syllabus": "http://web-app.usc.edu/soc/syllabus/20141/31806.pdf",
 	"time": "Mondays 5-7:50pm in KAP 160",
-	"office_hours": "OHE 530F, Monday 12-2pm, Tuesday 4-6pm, Wednesday 10-12pm",
+	"office_hours": "OHE 530F: Mon 12:30 - 2pm, Wed 5 - 7:30pm",
 	"ta": [
-		{ "name": "Theodore Roque (Grader)", "email": "troque@usc.edu" },
+		{ "name": "Sara Clayton (Grader)", "email": "saraclay@usc.edu" },
+		{ "name": "Patricia Capiral (Grader)", "email": "capiral@usc.edu" },
 		{ "name": "Christian Hernandez", "email": "cbhernan@usc.edu" },
 		{ "name": "Chong Shu", "email": "chongshu@usc.edu" }
 	],
@@ -16,104 +17,104 @@
 			"type": "lab",
 			"due": "9/16",
 			"link": "first-webpage",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Resume",
 			"type": "assignment",
 			"due": "9/23",
 			"link": "resume",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Film Article",
 			"type": "assignment",
 			"due": "9/30",
 			"link": "film-article",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Calendar",
 			"type": "assignment",
 			"due": "10/7",
 			"link": "calendar",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Major Project Proposal",
 			"type": "assignment",
 			"due": "10/14",
 			"link": "project-proposal",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Graphic redesign",
 			"type": "lab",
 			"due": "10/14",
 			"link": "graphic-redesign",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Survey",
 			"type": "assignment",
 			"due": "10/28",
 			"link": "survey",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Practice exam",
 			"type": "lab",
 			"due": "10/21",
 			"link": "practice-practical",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Major project frontpage & graphics",
 			"type": "assignment",
 			"due": "11/4",
 			"link": "project-homepage",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Dreamweaver News Article",
 			"type": "lab",
 			"due": "11/4",
 			"link": "dreamweaver-news-article",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Web Technology Article",
 			"type": "assignment",
 			"due": "11/11",
 			"link": "web-technology-article",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Final Project Requirements",
 			"type": "project",
 			"due": "12/7 4:30pm",
 			"link": "project-requirements",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Behaviors",
 			"type": "lab",
 			"due": "11/18",
 			"link": "behaviors",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "jQuery cycle 2 plugin",
 			"type": "lab",
 			"due": "11/25",
 			"link": "jquery-plugin",
-			"active": 1
+			"active": 0
 		}
 	],
 
 	"weeks": [
 		{
-			"date": "8/26",
+			"date": "1/13",
 			"units": [
 				{
 					"subject": "Course intro, Web overview, HTML intro",
@@ -130,7 +131,7 @@
 					"link": ""
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "9/9",
@@ -138,7 +139,7 @@
 				{ "subject": "Basic HTML", "link": "basic-html" },
 				{ "subject": "FTP and Uploading files to a server", "link": "ftp" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "9/16",
@@ -147,7 +148,7 @@
 				{ "subject": "Working with images", "link": "images" },
 				{ "subject": "Intro to styles", "link": "styles-intro" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "9/23",
@@ -157,7 +158,7 @@
 					"link": "divs-layouts-boxmodel"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "9/30",
@@ -167,7 +168,7 @@
 					"link": "divs-continued-stylesheets"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "10/7",
@@ -177,7 +178,7 @@
 					"link": "web-design-color-issues-photoshop"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "10/14",
@@ -185,21 +186,21 @@
 				{ "subject": "HTML Forms & USC Form Scripts", "link": "html-forms" },
 				{ "subject": "Exam Study Guide", "link": "study-guide" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "10/21",
 			"units": [
 				{ "subject": "HTML & CSS Exam", "link": "exam" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "10/28",
 			"units": [
 				{ "subject": "Using Dreamweaver visual editor", "link": "dreamweaver-intro" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "11/4",
@@ -207,7 +208,7 @@
 				{ "subject": "Web Technology Overview", "link": "web-technologies" },
 				{ "subject": "ITP web programs", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "11/11",
@@ -217,7 +218,7 @@
 					"link": "dreamweaver-behaviors"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "11/18",
@@ -227,7 +228,7 @@
 					"link": "jquery-plugins"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "11/25",
@@ -249,7 +250,7 @@
 					"link": ""
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "12/2",
@@ -263,7 +264,7 @@
 					"link": "hosting"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "Monday 12/16 at 4:30pm",
