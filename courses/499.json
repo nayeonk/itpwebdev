@@ -45,12 +45,16 @@
           "link": ""
         },
         {
-          "subject": "SQL review, joins",
+          "subject": "SQL review",
           "link": ""
         },
         {
+          "subject": "SQL joins",
+          "link": "sql-joins"
+        },
+        {
           "subject": "Classes, objects, methods, & properties",
-          "link": ""
+          "link": "oop-1"
         },
         {
           "subject": "DB driven pages with PDO",

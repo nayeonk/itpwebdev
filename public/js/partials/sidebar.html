@@ -16,7 +16,7 @@
 
 <h3 class="block-title">Students</h3>
 <div class="student-filter-container">
-	<input type="search" ng-model="search" placeholder="Search students">
+	<input type="search" ng-model="search" placeholder="Search students" ng-show="students.length">
 </div>
 <div class="row" ng-repeat="student in students | filter:search">
 	<div class="col-lg-12 student" ng-switch on="courseNumNumeric">
