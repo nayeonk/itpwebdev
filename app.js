@@ -1,8 +1,8 @@
 var express = require('express');
 var app = express();
-var fs = require('fs');
-var marked = require('marked');
 var port = process.env.PORT || 3000;
+var CourseQuery = require('./app/CourseQuery');
+var MarkdownQuery = require('./app/MarkdownQuery');
 
 app.configure(function() {
 	app.set('views', __dirname + '/views');
@@ -49,34 +49,19 @@ app.get('/playground', function(req, res) {
  */
 app.get('/courses/:courseNum', function(req, res) {
 	var courseNum = req.params.courseNum;
-	var file = 'courses/' + courseNum + '.json';
-	var stream = fs.createReadStream(file);
+	var course = new CourseQuery().find(courseNum);
 
-	stream.on('data', function(chunk) {
+	course.on('loading', function(chunk) {
 		res.write(chunk);
 	});
 
-	stream.on('end', function() {
+	course.on('loading-complete', function() {
 		res.end();
 	});
 
-	stream.on('error', function(err) {
-		var code, message;
-
-		if (err === 'ENOENT') {
-			code = 404;
-			message = 'Course file not found';
-		} else {
-			code = 500;
-			message = 'Interal server error. See /courses/:courseNum';
-		}
-
-		return res.json(code, {
-			error: code,
-			message: message
-		});
+	course.on('error', function(err) {
+		res.json(err.code, err);
 	});
-
 });
 
 /*
@@ -87,22 +72,16 @@ app.get(/(\d+)\/(notes|assignments)\/(\S+)\/?/, function(req, res) {
 	var type = req.params[1];
 	var file = req.params[2];
 
-	var path = [
-		'notes-and-assignments',
-		type,
-		courseNum,
-		file + '.md'
-	].join('/'); 
+	var query = new MarkdownQuery({
+		type: type,
+		course: courseNum,
+		file: file
+	});
 
-	fs.readFile(path, { encoding: 'utf8' }, function(err, markdown) {
-		var html;
-
-		if (err) {
-			return res.redirect('/');
-		}
-
-		html = marked(markdown);
+	query.getHtml(function(html) {
 		res.send(html);
+	}, function() {
+		res.redirect('/');
 	});
 });
 
