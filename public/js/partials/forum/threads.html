@@ -1,0 +1,11 @@
+<input type="text" placeholder="Search in threads" ng-model="threadSearch">
+<div ng-repeat="thread in threads | filter:threadSearch">
+	<div>
+		{{ thread.created_at }}
+	</div>
+	<h3>
+		<a href="#/threads/{{ thread.id }}">{{ thread.title }}</a>
+	</h3>
+
+	<p>{{ thread.content }}</p>
+</div>

@@ -1,0 +1,22 @@
+<% include header %>
+	<div>
+		<h1>ITP Web Dev Forum</h1>
+
+		<% if (accountCreated) { %>
+			<p>Your account was created successfully. Please login.</p>
+		<% } %>
+
+		<% if (accountCreationError) { %>
+			<p>There was an error creating your account. Make sure you enter in valid data in all fields.</p>
+		<% } %>
+
+		<form action="./forum/login" method="post">
+			Username: <input type="text" name="username">
+			Password: <input type="password" name="password">
+			<input type="submit" value="Login">
+		</form>
+
+		<p>Not a user? <a href="forum/account/create">Create an account</a></p>
+
+	</div>
+<% include footer %>

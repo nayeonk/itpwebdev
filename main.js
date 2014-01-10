@@ -1,6 +1,8 @@
 var express = require('express');
 var app = express();
 var port = process.env.PORT || 3000;
+var routes = require('./routes');
+
 var CourseQuery = require('./app/CourseQuery');
 var MarkdownQuery = require('./app/MarkdownQuery');
 
@@ -9,6 +11,8 @@ app.configure(function() {
 	app.set('view engine', 'ejs');
 
 	app.use(express.logger());
+	app.use(express.cookieParser());
+	app.use(express.session({ secret: 'bazinga' }));
 	app.use(express.bodyParser());
 	app.use(app.router); // parse the routes before static assets
 	app.use(express.static(__dirname + '/public'));
@@ -19,6 +23,7 @@ app.configure(function() {
 
 app.configure('dev', function() {
 	app.set('url', 'http://localhost:' + port);
+	console.log(app.get('url'), '###############################################')
 });
 
 app.configure('prod', function() {
@@ -84,6 +89,23 @@ app.get(/(\d+)\/(notes|assignments)\/(\S+)\/?/, function(req, res) {
 		res.redirect('/');
 	});
 });
+
+app.get('/me', function(req, res) {
+	res.json({
+		loggedin: req.session.loggedin,
+		username: req.session.username
+	});
+});
+
+app.get('/forum', routes.forum.index);
+app.get('/forum/account/create', routes.forum.accountCreate);
+app.post('/forum/account/store', routes.forum.accountStore);
+app.post('/forum/login', routes.forum.login);
+app.get('/forum/logout', routes.forum.logout);
+
+app.get('/threads', routes.forum.threads);
+app.get('/threads/:id', routes.forum.show);
+
 
 app.listen(port, function() {
 	console.log('Listening on port ' + port)

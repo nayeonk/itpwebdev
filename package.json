@@ -7,6 +7,8 @@
     "express": "3.x",
     "ejs": "0.8.5",
     "marked": "~0.2.10",
-    "mysql": "~2.0.0-rc2"
+    "mysql": "~2.0.0-rc2",
+    "validatorjs": "~1.0.0",
+    "orm": "~2.1.3"
   }
 }

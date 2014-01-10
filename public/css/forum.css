@@ -1,0 +1,20 @@
+body {
+	padding-top: 50px;
+}
+
+.nav .active {
+	color: red;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.threads {
+	margin-top: 15px;
+}
+
+.thread {
+	border-top: 1px solid #aaa;
+	background-color: #eee;
+}
