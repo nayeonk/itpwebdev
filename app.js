@@ -21,14 +21,14 @@ app.configure(function() {
 	});
 });
 
-app.configure('dev', function() {
-	app.set('url', 'http://localhost:' + port);
-	console.log(app.get('url'), '###############################################')
-});
+// app.configure('dev', function() {
+// 	app.set('url', 'http://localhost:' + port);
+// 	console.log(app.get('url'), '###############################################')
+// });
 
-app.configure('prod', function() {
-	app.set('url', 'http://itpwebdev.herokuapp.com/');
-});
+// app.configure('prod', function() {
+// 	app.set('url', 'http://itpwebdev.herokuapp.com/');
+// });
 
 /*
  ******************************************************************************************
@@ -43,11 +43,6 @@ app.get('/', function(req, res) {
 app.get('/playground', function(req, res) {
 	res.render('playground');
 });
-
-// app.post('/playground/render', function(req, res) {
-// 	var html = req.body.html;
-// 	res.send(html);
-// });
 
 /*
  * AJAX: Shows the home page for a specific course
@@ -97,14 +92,14 @@ app.get('/me', function(req, res) {
 	});
 });
 
-app.get('/forum', routes.forum.index);
-app.get('/forum/account/create', routes.forum.accountCreate);
-app.post('/forum/account/store', routes.forum.accountStore);
-app.post('/forum/login', routes.forum.login);
-app.get('/forum/logout', routes.forum.logout);
+// app.get('/forum', routes.forum.index);
+// app.get('/forum/account/create', routes.forum.accountCreate);
+// app.post('/forum/account/store', routes.forum.accountStore);
+// app.post('/forum/login', routes.forum.login);
+// app.get('/forum/logout', routes.forum.logout);
 
-app.get('/threads', routes.forum.threads);
-app.get('/threads/:id', routes.forum.show);
+// app.get('/threads', routes.forum.threads);
+// app.get('/threads/:id', routes.forum.show);
 
 
 app.listen(port, function() {
