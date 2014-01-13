@@ -2,7 +2,7 @@
 	"course_name": "Interactive Web Development",
 	"color": "pink",
 	"instructor": "David Tang",
-	"syllabus": "",
+	"syllabus": "http://web-app.usc.edu/soc/syllabus/20141/31824.pdf",
 	"time": "M, W 2-5pm",
 	"office_hours": "OHE 530F: Mon 12:30 - 2pm, Wed 5 - 7:30pm",
 	"ta": [
@@ -19,16 +19,17 @@
 			"units": [
 				{ "subject": "Course overview", "link": "" },
 				{ "subject": "Browser technologies, scripting languages, the DOM", "link": "" },
-				{ "subject": "What are objects?", "link": "" }
+				{ "subject": "What are objects?", "link": "" },
+				{ "subject": "Chrome Developer Tools - Elements panel and styles", "link": "" },
+				{ "subject": "Slides", "link": "http://slid.es/davidtang/itp-301" }
 			],
 			"active": 1
 		},
 		{
 			"date": "1/15",
 			"units": [
-				{ "subject": "CSS review", "link": "" },
-				{ "subject": "Chrome Developer Tools - Elements panel and styles", "link": "" },
-				{ "subject": "Using jQuery plugins", "link": "" }
+				{ "subject": "CSS review (Yuanbo)", "link": "" },
+				{ "subject": "Using jQuery plugins (Yuanbo)", "link": "" }
 			],
 			"active": 1
 		},
