@@ -25,9 +25,10 @@
 			"date": "1/13",
 			"units": [
 				{ "subject": "Course overview", "link": "" },
-				{ "subject": "Browser technologies, scripting languages, the DOM", "link": "" },
+				{ "subject": "Browser technologies and scripting languages", "link": "" },
+				{ "subject": "The DOM", "link": "http://css-tricks.com/dom/" },
 				{ "subject": "What are objects?", "link": "" },
-				{ "subject": "Chrome Developer Tools - Elements panel and styles", "link": "" },
+				{ "subject": "Chrome Developer Tools - Elements panel and styles", "link": "https://developers.google.com/chrome-developer-tools/" },
 				{ "subject": "Slides", "link": "http://slid.es/davidtang/itp-301" }
 			],
 			"active": 1
