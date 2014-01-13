@@ -11,6 +11,13 @@
 		{ "name": "Kevin Macwan (Grader)", "email": "" }
 	],
 	"homework": [
+		{
+			"name": "Classpage",
+			"type": "lab",
+			"due": "1/15",
+			"link": "classpage",
+			"active": 1
+		}
 	],
 
 	"weeks": [
