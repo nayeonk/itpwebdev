@@ -67,7 +67,7 @@ So regardless of what server platform you build a site in (.Net, PHP, etc.) what
 * catch variables/data from server-side and store
 
 #### Javascript examples and notes ####
-* Images swapping and pre-caching
+* ___Images swapping and pre-caching___
   * Related Concepts:
     * Pre-caching Images
     * Vary Basic Programming:
@@ -76,11 +76,11 @@ So regardless of what server platform you build a site in (.Net, PHP, etc.) what
       * Loops
     * Example http://www.dannyg.com/javascript/imgobj/imgobject.htm
 
-* Interactive UIs
+* ___Interactive UIs___
   * Drop-down navigation menus
-  * Spry Tabbed Panels
-  * Spry Accordians
-  * Custom Interactive Photo Galleries
+  * [Spry Tabbed Panels](http://webdev.usc.edu/itp104/lecture_examples/spry_tabbed_panels.html)
+  * [Spry Accordians](http://webdev.usc.edu/itp204/lecture_examples/colors_spry_accord.html)
+  * [Custom Interactive Photo Galleries](http://webdev.usc.edu/itp104/lecture_examples/fg/div_sample_2b.html)
 
 * Storing/retrieveing data inside (conditional) routines.
   * Related concepts:
