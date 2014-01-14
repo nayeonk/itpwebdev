@@ -24,12 +24,11 @@
 		{
 			"date": "1/14",
 			"units": [
-				{ "subject": "Course overview", "link": "" },
-				{ "subject": "Browser technologies and scripting languages", "link": "" },
+				{ "subject": "Course overview", "link": "http://web-app.usc.edu/soc/syllabus/20141/32035.pdf" },
+				{ "subject": "Browser technologies and scripting languages", "link": "broswer-technologies" },
 				{ "subject": "The DOM", "link": "http://css-tricks.com/dom/" },
-				{ "subject": "What are objects?", "link": "" },
+				{ "subject": "What are objects?", "link": "http://www.w3schools.com/jsref/dom_obj_object.asp" },
 				{ "subject": "Chrome Developer Tools - Elements panel and styles", "link": "https://developers.google.com/chrome-developer-tools/" },
-				{ "subject": "Slides", "link": "http://slid.es/davidtang/itp-301" }
 			],
 			"active": 1
 		},
