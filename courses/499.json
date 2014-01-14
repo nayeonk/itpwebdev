@@ -27,13 +27,17 @@
 					"link": ""
 				},
 				{
-					"subject": "Development Environments",
-					"link": ""
+					"subject": "Virtual Development Environments w/ Virtual Box and Vagrant",
+					"link": "dev-environments"
 				},
 				{
 					"subject": "Command Line (CLI) Basics",
 					"link": "command-line-basics"
-				}
+				},
+        {
+          "subject": "Slides",
+          "link": "https://slid.es/davidtang/virtual-dev-environments"
+        }
 			],
 			"active": 1
 		},
@@ -65,7 +69,7 @@
           "link": ""
         }
       ],
-      "active": 1
+      "active": 0
     },
     {
       "date": "1/28",
@@ -75,7 +79,7 @@
           "link": ""
         }
       ],
-      "active": 1
+      "active": 0
     },
     {
       "date": "2/4",
