@@ -1,18 +1,20 @@
 {
 	"course_name": "Interactive Web Development",
-	"color": "pink",
-	"instructor": "Yuanbo Wang",
-	"syllabus": "",
-	"time": "",
-	"office_hours": "",
+	"color": "yellow",
+	"instructor": "(Bo) Yuanbo Wang",
+	"syllabus": "http://web-app.usc.edu/soc/syllabus/20141/32035.pdf",
+	"time": "T, TH 2-5pm",
+	"office_hours": "OHE 530A: T TH 12 - 1pm",
 	"ta": [
-		
+		{ "name": "Wei Zong", "email": "wzong@usc.edu" },
+		{ "name": "Cheng Li", "email": "" },
+		{ "name": "Zune Nguyen (Grader)", "email": "tridungn@usc.edu" }
 	],
 	"homework": [
 		{
 			"name": "Classpage",
 			"type": "lab",
-			"due": "1/15",
+			"due": "1/16",
 			"link": "classpage",
 			"active": 1
 		}
@@ -20,7 +22,7 @@
 
 	"weeks": [
 		{
-			"date": "1/13",
+			"date": "1/14",
 			"units": [
 				{ "subject": "Course overview", "link": "" },
 				{ "subject": "Browser technologies and scripting languages", "link": "" },
@@ -32,19 +34,19 @@
 			"active": 1
 		},
 		{
-			"date": "1/15",
+			"date": "1/17",
 			"units": [
 				{ "subject": "CSS review", "link": "" },
-				{ "subject": "Using jQuery plugins", "link": "" }
+				{ "subject": "Using jQuery plugins ", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "1/20",
 			"units": [
 				{ "subject": "Holiday - MLK", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "1/22",
