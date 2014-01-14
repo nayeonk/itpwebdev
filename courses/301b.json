@@ -1,13 +1,13 @@
 {
 	"course_name": "Interactive Web Development",
 	"color": "yellow",
-	"instructor": "(Bo) Yuanbo Wang",
+	"instructor": "Yuanbo Wang",
 	"syllabus": "http://web-app.usc.edu/soc/syllabus/20141/32035.pdf",
 	"time": "T, TH 2-5pm",
 	"office_hours": "OHE 530A: T TH 12 - 1pm",
 	"ta": [
 		{ "name": "Wei Zong", "email": "wzong@usc.edu" },
-		{ "name": "Cheng Li", "email": "" },
+		{ "name": "Cheng Li", "email": "cli539@usc.edu" },
 		{ "name": "Zune Nguyen (Grader)", "email": "tridungn@usc.edu" }
 	],
 	"homework": [
