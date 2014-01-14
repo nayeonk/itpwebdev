@@ -1,0 +1,266 @@
+{
+	"course_name": "Interactive Web Development",
+	"color": "pink",
+	"instructor": "Yuanbo Wang",
+	"syllabus": "",
+	"time": "",
+	"office_hours": "",
+	"ta": [
+		
+	],
+	"homework": [
+		{
+			"name": "Classpage",
+			"type": "lab",
+			"due": "1/15",
+			"link": "classpage",
+			"active": 1
+		}
+	],
+
+	"weeks": [
+		{
+			"date": "1/13",
+			"units": [
+				{ "subject": "Course overview", "link": "" },
+				{ "subject": "Browser technologies and scripting languages", "link": "" },
+				{ "subject": "The DOM", "link": "http://css-tricks.com/dom/" },
+				{ "subject": "What are objects?", "link": "" },
+				{ "subject": "Chrome Developer Tools - Elements panel and styles", "link": "https://developers.google.com/chrome-developer-tools/" },
+				{ "subject": "Slides", "link": "http://slid.es/davidtang/itp-301" }
+			],
+			"active": 1
+		},
+		{
+			"date": "1/15",
+			"units": [
+				{ "subject": "CSS review", "link": "" },
+				{ "subject": "Using jQuery plugins", "link": "" }
+			],
+			"active": 1
+		},
+		{
+			"date": "1/20",
+			"units": [
+				{ "subject": "Holiday - MLK", "link": "" }
+			],
+			"active": 1
+		},
+		{
+			"date": "1/22",
+			"units": [
+				{ "subject": "Introduction to jQuery", "link": "" },
+				{ "subject": "Debugging", "link": "" }
+			],
+			"active": 0
+		},
+		{
+			"date": "Jan 22",
+			"units": [
+				{ "subject": "Script tags, semicolons", "link": "" },
+				{ "subject": "Variables, primitive data types", "link": "" },
+				{ "subject": "functions, inputs, outputs", "link": "" },
+				{ "subject": "Events", "link": "" },
+				{ "subject": "parseInt, parseFloat", "link": "" },
+				{ "subject": "getElementById", "link": "" },
+				{ "subject": "Chrome Developer Tools: Console", "link": "" }
+			],
+			"active": 0
+		},
+		{
+			"date": "Jan 27",
+			"units": [
+				{ "subject": "Conditional logic", "link": "" },
+				{ "subject": "return statement", "link": "" }
+			],
+			"active": 0
+		},
+		{
+			"date": "Jan 29",
+			"units": [
+				{ "subject": "Editing style properties", "link": "" }
+			],
+			"active": 0
+		},
+		{
+			"date": "Feb 3",
+			"units": [
+				{ "subject": "Indexed arrays", "link": "" },
+				{ "subject": "For loops", "link": "" },
+				{ "subject": "innerHTML", "link": "" }
+			],
+			"active": 0
+		},
+		{
+			"date": "Feb 5",
+			"units": [
+				{ "subject": "Data validation", "link": "" },
+				{ "subject": "indexOf", "link": "" },
+				{ "subject": "Regular expressions", "link": "" }
+			],
+			"active": 0
+		},
+		{
+			"date": "Feb 10",
+			"units": [
+				{ "subject": "Searching through arrays", "link": "" }
+			],
+			"active": 0
+		},
+		{
+			"date": "Feb 12",
+			"units": [
+				{ "subject": "Querying the DOM with querySelector, querySelectorAll, getElementsByTagName", "link": "" }
+			],
+			"active": 0
+		},
+		{
+			"date": "Feb 17",
+			"units": [
+				{ "subject": "Holiday - Presidents' Day", "link": "" }
+			],
+			"active": 0
+		},
+		{
+			"date": "Feb 19",
+			"units": [
+				{ "subject": "Event listeners", "link": "" },
+				{ "subject": "this keyword", "link": "" }
+			],
+			"active": 0
+		},
+		{
+			"date": "Feb 24",
+			"units": [
+				{ "subject": "Introduction to jQuery", "link": "" }
+			],
+			"active": 0
+		},
+		{
+			"date": "Feb 26",
+			"units": [
+				{ "subject": "", "link": "" }
+			],
+			"active": 0
+		},
+		{
+			"date": "Mar 3",
+			"units": [
+				{ "subject": "", "link": "" }
+			],
+			"active": 0
+		},
+		{
+			"date": "Mar 5",
+			"units": [
+				{ "subject": "", "link": "" }
+			],
+			"active": 0
+		},
+		{
+			"date": "Mar 10",
+			"units": [
+				{ "subject": "Written Exam", "link": "" }
+			],
+			"active": 0
+		},
+		{
+			"date": "Mar 12",
+			"units": [
+				{ "subject": "Practical Exam", "link": "" }
+			],
+			"active": 0
+		},
+		{
+			"date": "Mar 17 - 22",
+			"units": [
+				{ "subject": "Spring Break", "link": "" }
+			],
+			"active": 0
+		},
+		{
+			"date": "Mar 24",
+			"units": [
+				{ "subject": "", "link": "" }
+			],
+			"active": 0
+		},
+		{
+			"date": "Mar 26",
+			"units": [
+				{ "subject": "", "link": "" }
+			],
+			"active": 0
+		},
+		{
+			"date": "Mar 31",
+			"units": [
+				{ "subject": "", "link": "" }
+			],
+			"active": 0
+		},
+		{
+			"date": "Apr 2",
+			"units": [
+				{ "subject": "", "link": "" }
+			],
+			"active": 0
+		},
+		{
+			"date": "Apr 7",
+			"units": [
+				{ "subject": "", "link": "" }
+			],
+			"active": 0
+		},
+		{
+			"date": "Apr 9",
+			"units": [
+				{ "subject": "", "link": "" }
+			],
+			"active": 0
+		},
+		{
+			"date": "Apr 14",
+			"units": [
+				{ "subject": "Student conferences", "link": "" }
+			],
+			"active": 0
+		},
+		{
+			"date": "Apr 16",
+			"units": [
+				{ "subject": "Student conferences", "link": "" }
+			],
+			"active": 0
+		},
+		{
+			"date": "Apr 21",
+			"units": [
+				{ "subject": "Special topics: Local storage", "link": "" }
+			],
+			"active": 0
+		},
+		{
+			"date": "Apr 23",
+			"units": [
+				{ "subject": "Special Topics: JSONP", "link": "" }
+			],
+			"active": 0
+		},
+		{
+			"date": "Apr 28",
+			"units": [
+				{ "subject": "JS group project presentations", "link": "" }
+			],
+			"active": 0
+		},
+		{
+			"date": "Apr 30",
+			"units": [
+				{ "subject": "", "link": "" }
+			],
+			"active": 0
+		}
+	]
+}
