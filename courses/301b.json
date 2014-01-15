@@ -17,6 +17,20 @@
 			"due": "1/16",
 			"link": "classpage-by-bo",
 			"active": 1
+		},
+		{
+			"name": "CSS Zen Garden",
+			"type": "L",
+			"due": "1/23",
+			"link": "css-zen-garden",
+			"active": 1
+		},
+		{
+			"name": "TV Show Page",
+			"type": "A",
+			"due": "1/23",
+			"link": "tv-show-page",
+			"active": 1
 		}
 	],
 
@@ -33,12 +47,13 @@
 			"active": 1
 		},
 		{
-			"date": "1/17",
+			"date": "1/16",
 			"units": [
-				{ "subject": "CSS review", "link": "" },
-				{ "subject": "Using jQuery plugins ", "link": "" }
+				{ "subject": "CSS review (Yuanbo)", "link": "css-menu-review" },
+				{ "subject": "Using jQuery plugins (Yuanbo)", "link": "jquery-plugins" },
+				{ "subject": "Reading - CSS references, Layouts with Divs", "link": "reading-css-reviews" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "1/20",
