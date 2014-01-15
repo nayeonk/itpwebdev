@@ -50,8 +50,9 @@
 		{
 			"date": "1/15",
 			"units": [
-				{ "subject": "CSS review (Yuanbo)", "link": "" },
-				{ "subject": "Using jQuery plugins (Yuanbo)", "link": "jquery-plugins" }
+				{ "subject": "CSS review (Yuanbo)", "link": "css-menu-review" },
+				{ "subject": "Using jQuery plugins (Yuanbo)", "link": "jquery-plugins" },
+				{ "subject": "Reading - CSS references, Layouts with Divs", "link": "reading-css-reviews" },
 			],
 			"active": 1
 		},
