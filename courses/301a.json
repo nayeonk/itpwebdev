@@ -13,9 +13,23 @@
 	"homework": [
 		{
 			"name": "Classpage",
-			"type": "lab",
+			"type": "L",
 			"due": "1/15",
 			"link": "classpage",
+			"active": 1
+		},
+		{
+			"name": "CSS Zen Garden",
+			"type": "L",
+			"due": "1/22",
+			"link": "css-zen-garden",
+			"active": 1
+		},
+		{
+			"name": "TV Show Page",
+			"type": "A",
+			"due": "1/22",
+			"link": "tv-show-page",
 			"active": 1
 		}
 	],
@@ -37,7 +51,7 @@
 			"date": "1/15",
 			"units": [
 				{ "subject": "CSS review (Yuanbo)", "link": "" },
-				{ "subject": "Using jQuery plugins (Yuanbo)", "link": "" }
+				{ "subject": "Using jQuery plugins (Yuanbo)", "link": "jquery-plugins" }
 			],
 			"active": 1
 		},
