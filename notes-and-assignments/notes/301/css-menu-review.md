@@ -3,10 +3,10 @@ Lecture - CSS menus review
 Review of creating css-driven menus plus a bit extra. Also resources on CSS3.
 
 Save to your computer before lecture:
-* [cssreview.css]
-* [page to lay out]
-* [Menu page with no css]
-* [Menu page with basic css]
+* [cssreview.css](http://wr.gs/cf1)
+* [page to lay out](http://wr.gs/cf2)
+* [Menu page with no css](http://wr.gs/cf3)
+* [Menu page with basic css](http://wr.gs/cf4)
 
 ####CSS2 review and intro to some areas of CSS3####
 
