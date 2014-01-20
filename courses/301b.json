@@ -31,6 +31,20 @@
 			"due": "1/23",
 			"link": "tv-show-page",
 			"active": 1
+		},
+		{
+			"name": "Remove USC Notice",
+			"type": "A",
+			"due": "N/A",
+			"link": "remove_usc_notice",
+			"active": 1
+		},
+		{
+			"name": "jQuery Animation Effect",
+			"type": "L",
+			"due": "1/28",
+			"link": "lab-animation_effect",
+			"active": 1
 		}
 	],
 
@@ -56,11 +70,13 @@
 			"active": 1
 		},
 		{
-			"date": "1/20",
+			"date": "1/21",
 			"units": [
-				{ "subject": "Holiday - MLK", "link": "" }
+				{ "subject": "Introduction to jQuery", "link": "intro_to_jquery" },
+				{ "subject": "Reading-jQuery Intro Article", "link": "reading-jquery_intro_article" },
+				{ "subject": "Debugging", "link": "debugging" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "1/22",
