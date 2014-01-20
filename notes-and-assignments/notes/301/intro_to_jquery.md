@@ -4,7 +4,7 @@ Introduction to capabilities and syntax of jQuery
 
 Save to your computer helloworld1.html and jq_effects1a.html
 
-##"jQuery for Designers" -- a cursory overview of jQuery from a non-programming level
+###"jQuery for Designers" -- a cursory overview of jQuery from a non-programming level
 
 To borrow from an intro page from the docs.jquery.com site:
 ```
@@ -28,13 +28,14 @@ To start we are going to take a basic, non-scripting approach to jQuery. We will
 As the semester progresses, and we later get into the underlying language of Javascript on which jQuery is built, we will repeatedy double-back through jQ with an eye toward its capabilities as we expand our knowledge and perspective on client-side Web development. 
   
   
-###jQuery -- the fundamental basics:
+####jQuery -- the fundamental basics:
 
 To start, ANY page that you want to run jQuery in must have two basic components:
-1. A script tag with a src attribute to "load" into the page the underlying jQuery code / library:
+
+1. A script tag with a src attribute to "load" into the page the underlying jQuery code / library:   
 	```html
 	<script src="http://code.jquery.com/jquery.js"></script>
-	```
+	```   
 	Note: A BETTER practice is to save a copy of the current jQuery library to your local server, and load it locally such as src='jQuery.js'
 	Note2: I have sved a copy of a recent, stable version of the jQuery base on webdev as well. So you can also link to http://webdev.usc.edu/jquuery.js
  
@@ -81,7 +82,7 @@ Now, we are going to type lots of jQuery commands, and instead of having to star
 Before we dive deeper into jQuery's capabilities, let's pause to ask "why jQuery"...
 
 
-###Why jQuery? -- compatibility
+####Why jQuery? -- compatibility
 
 jQuery is a great language to use because it is very streamlined and simple. But beyond that, it boast incredible compatibility across most browsers and operating systems.
 
