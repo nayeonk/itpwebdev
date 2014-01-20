@@ -12,3 +12,5 @@ mycollege.html page contains general info about USC. Using the knowledge we lear
 1.  Using 3 different effect to show & change the content of each section
   * To show: using (fadeIn, show, slideDown, etc)
   * To change effect (css, attr, addClass)
+
+Feel Free to change html structures. (Add Tags, IDs or Classes)
