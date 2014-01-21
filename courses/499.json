@@ -15,7 +15,14 @@
 			"due": "1/21",
 			"link": "environment-setup",
 			"active": 1
-		}
+		},
+    {
+      "name": "DVD search using PDO",
+      "type": "A",
+      "due": "1/28",
+      "link": "pdo",
+      "active": 1
+    }
 	],
 
 	"weeks": [
@@ -49,10 +56,6 @@
           "link": ""
         },
         {
-          "subject": "SQL review",
-          "link": ""
-        },
-        {
           "subject": "SQL joins",
           "link": "sql-joins"
         },
@@ -67,9 +70,13 @@
         {
           "subject": "Version Control w/ Git & Github",
           "link": ""
+        },
+        {
+          "subject": "Slides",
+          "link": "http://slid.es/davidtang/pdo"
         }
       ],
-      "active": 0
+      "active": 1
     },
     {
       "date": "1/28",
