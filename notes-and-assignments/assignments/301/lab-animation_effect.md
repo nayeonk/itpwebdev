@@ -2,7 +2,7 @@ jQuery Animation Effect
 ==============
 Using jQuery to add animation to mycollege.html page.
 
-Download the starter file here [mycollege.html]()
+Download the starter file here [mycollege.html](http://usc.yuanbowang.com/files/lab2/mycollege.html)
 
 mycollege.html page contains general info about USC. Using the knowledge we learnt in class, create the on click animation effect for each of the seciton.
 
