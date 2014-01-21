@@ -10,6 +10,10 @@ Create search and results pages using the dvd database and PDO. Name your search
 
 ### Results page
 
+Your results page should display what the user searched, like this:
+
+"You searched for 'em':"
+
 Display the following fields on the results page in divs or an HTML table
 
 * title
