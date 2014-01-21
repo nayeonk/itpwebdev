@@ -25,6 +25,8 @@ When joining tables in your query, use the INNER JOIN syntax. You should have 3 
 
 Also, when searching for a DVD title, be sure to use the LIKE operator so that if I type in "Die" in the search form, all movies that contain "Die" in the title will show up (like Die Hard).
 
+If no results are returned from the query, display a message to the user saying Nothing was found with a link back to the search page.
+
 ### Database Connection
 
 ```php
