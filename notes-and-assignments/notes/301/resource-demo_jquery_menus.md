@@ -5,7 +5,7 @@ Demo project - jQeury Sliding Drop-down Menus
 This simple jquery-driven, animated drop-down menu example pre-supposed a basic knowledge of:
 
 *	Basic CSS knowledge
-*	Fundamental jQuery implementation, including using a "bind" statement
+*	Fundamental jQuery implementation, including using a "on" statement
 *	Basic jQuery "chaining"
 *	Introduces the jQuery selector of children()
 
@@ -35,10 +35,10 @@ And then lets put in the basic jQuery set up code. That should bring us to [jqme
 
 Ok, now let's use jQuery to create the interactivity.
 
-Now, let's put back in a jQuery bind for mouseover that targets #menu li:
+Now, let's put back in a jQuery "on" for mouseover that targets #menu li:
 
 ```html
-	$("#menu li").bind("mouseover",function() {
+	$("#menu li").on("mouseover",function() {
 
 	});
 ```
@@ -55,18 +55,18 @@ And trying to slideDown this does not help us, as that is the li not the ul insi
 			$(this).slideDown(1000)
 ```
 
-So what we actually can do is use a selector called .children() ... which targets items INSIDE of an item. Now if we just did $(this).children() that would represent ALL items inside the li we are hovering... but if we narrowed it down futher to $(this).children("ul) ... that would represent a ul INSIDE the current object (the li we hovered over. And then we can chain a slideDown() after the children selector. That gives us, inside our original bind:
+So what we actually can do is use a selector called .children() ... which targets items INSIDE of an item. Now if we just did $(this).children() that would represent ALL items inside the li we are hovering... but if we narrowed it down futher to $(this).children("ul) ... that would represent a ul INSIDE the current object (the li we hovered over. And then we can chain a slideDown() after the children selector. That gives us, inside our original "on":
 
 ```html
-	$("#menu li").bind("mouseover",function() {
+	$("#menu li").on("mouseover",function() {
 		$(this).children("ul").slideDown(1000)
 	});
 ```
 
-And then finally, we just add a bind to mouseout that does a slideOut:
+And then finally, we just add a "on" to mouseout that does a slideOut:
 
 ```html
-	$("#menu li").bind("mouseout",function() {
+	$("#menu li").on("mouseout",function() {
 		$(this).children("ul").slideUp(1000)
 	});
 ```
