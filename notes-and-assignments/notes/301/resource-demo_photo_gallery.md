@@ -13,9 +13,9 @@ First off, load up the start file [yosemite_start.html](http://webdev.usc.edu/it
 Now perform the following steps inside the document ready jQuery script area provided:
 
 *	On start use fadeTo to set the opacity of all #thumb objects to 0.5 opacity over 0 seconds.
-*	Bind to all .thumb objects a mouseover event that instantly sets the opacity of just THAT objct to 1.0 (usng fadeTo).
-*	Bind to all .thumb objects a mouseout event that instantly sets the opacity of THAT object (back) to 0.5.. you could also just reset the opacity of all #thumb objects to 0.5
-*	Bind to the #thumb2 object the following:
+*	Use "on" action to bind to all .thumb objects a mouseover event that instantly sets the opacity of just THAT objct to 1.0 (usng fadeTo).
+*	Use "on" action bind to all .thumb objects a mouseout event that instantly sets the opacity of THAT object (back) to 0.5.. you could also just reset the opacity of all #thumb objects to 0.5
+*	Use "on" action to bind to the #thumb2 object the following:
 	1.	Hide #mainphoto
 	2.	Set the .attr "src" of #mainphoto to "y1.jpg"
 	3.	fadeIn #mainphoto
