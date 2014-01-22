@@ -82,7 +82,7 @@ So what that instruction does is target the object with an ID of secondp and run
 Now, we are going to type lots of jQuery commands, and instead of having to start all of our statements with jQuery there is a shortcut we can use with $ instead of jQuery. So lets change the above statement to:
 
 ```js
- $("#secondp").hide();
+$("#secondp").hide();
 ```
 Before we dive deeper into jQuery's capabilities, let's pause to ask "why jQuery"...
 
@@ -142,7 +142,7 @@ toggleClass()
 Ok, so with some of that in mind, let's revisit that [helloworld1.html](http://webdev.usc.edu/itp301/lecture_examples/helloworld1.html) page we started working on above. First, try adding a second statement (to that jQuery block) of:
 
 ```js
-	$("ul").addClass("redbox");
+$("ul").addClass("redbox");
 ```
 Ok, so addClass lets us take an exisitng object and "add" a class instuction to it. To remind ourselves of the different, let's instead edit the above statement to target list items:
 
@@ -166,57 +166,59 @@ To make this work, first lets see about setting up a specific action to occur wh
 In the page we are working on, delete the instruction that hides the secondp object. Then put in some blank lines in the jQuery area and then type in the following lines:
 
 ```js
-	$("#secondp").bind("hover",function() {
-		// CODE to be executed when the user hovers on the object #secondp 
-	});
+$("#secondp").bind("hover",function() {
+	// CODE to be executed when the user hovers on the object #secondp 
+});
 ```
 
 Now, that overall syntax is probably a bit confusing... but that's the most complexity of syntax you will need to deal with for now with jQuery. And it's even uglier when we view it in the context of the wider code. Edit that code to add the following line inside the bound event: $("#secondp").addClass("greenonyellow"); That should leave your overall script block looking like:
 
 ```js
-	$(document).ready(function(){
-   
-		// HERE write the jQuery code to be run after page load     
-		$("li").addClass("redbox");
+$(document).ready(function(){
+ 
+	// HERE write the jQuery code to be run after page load     
+	$("li").addClass("redbox");
 
-		$("#secondp").bind("hover",function() {
-			// CODE to be executed when the user hovers on the object #secondp
-			$("#secondp").addClass("greenonyellow");
-		})	
-
+	$("#secondp").bind("hover",function() {
+		// CODE to be executed when the user hovers on the object #secondp
+		$("#secondp").addClass("greenonyellow");
 	});
+
+});
 ```
 
 Ok, now notice that when you "hover" on the paragraph it turns to the green text, yellow background. BUT, when you "leave" the object it does not "undo" it. So how about binding an event for mouseout that does a removeClass command:
 
 ```js
-	$("#secondp").bind("mouseout",function() {
-	    $("#secondp").removeClass("greenonyellow");
-	})
+$("#secondp").bind("mouseout",function() {
+    $("#secondp").removeClass("greenonyellow");
+});
 ```
 
-Ok, now one final thing before we move on. Let's set up an instruction that when you mouseover over any li object adds the largetext class, and when you mouseout removes that class...
+Ok, now one final thing before we move on. Let's set up an instruction that when you mouseover over any li object, it adds the largetext class, and when you mouseout removes that class...
 
 ```js
-	$("li").bind("mouseover",function() {
-		$("li").addClass("large);
-	});
+$("li").bind("mouseover",function() {
+	$("li").addClass("large);
+});
 
-	$("li").bind("mouseout",function() {
-		$("li").removeClass("largetext");
-	});
+$("li").bind("mouseout",function() {
+	$("li").removeClass("largetext");
+});
 ```
+
 Well if we implement that with the same approach we took with #secondp, when you rollover one li ALL li get large text.. not just that one. But luckily we have a cool object called "this" that we can use when inside of a bind... that will only target the object on which the "event" occurred. Instead of the code above try:
 
 ```js
-	$("li").bind("mouseover",function() {
-		$(this).addClass("large);
-	});
+$("li").bind("mouseover",function() {
+	$(this).addClass("large);
+});
 
-	$("li").bind("mouseout",function() {
-		$(this).removeClass("largetext");
-	});
+$("li").bind("mouseout",function() {
+	$(this).removeClass("largetext");
+});
 ```
+
 Notice that when using the __this__ object you do NOT put in quotes... because it is a literal object/concept in the language and not a CSS selector (like #secondp or li).
 
 At this point if you want to see the page with updated script you can open up [helloworld2.html](http://webdev.usc.edu/itp301/lecture_examples/helloworld2.html).
