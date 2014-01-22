@@ -1,24 +1,25 @@
 Lecture - Intro to jQuery
-===================
+=========================
+
 Introduction to capabilities and syntax of jQuery
+
 **********
 Save to your computer [helloworld1.html](http://webdev.usc.edu/itp301/lecture_examples/helloworld1.html) and [jq_effects1a.html](http://webdev.usc.edu/itp301/lecture_examples/jq_effects1a.html)
 **********
-###"jQuery for Designers" -- a cursory overview of jQuery from a non-programming level
+
+### "jQuery for Designers" -- a cursory overview of jQuery from a non-programming level
 
 To borrow from an intro page from the docs.jquery.com site:
-```
-Mythical widget
 
-Let's pretend for a minute that there's this mythical widget thingy that we can put into our markup. 
+> Let's pretend for a minute that there's this mythical widget thingy that we can put into our markup. 
 It will do all sorts of clever things in a very easy manner without our having to be a programming wiz, 
 and it won't damage our nice clean markup. 
-```
 
 jQuery is a pre-written library of Javascript routines and syntactical structure that allows for rapid scripting of transformative, interactive elements to a web page without substantive scripting or programming knowledge... although we will see later in the semester that a basic knowledge of the underlying Javascript WILL empower and expand the reach and scope of jQuery.
 
-So... before we begin... what is the scope and capabilities of jQuery?
-* Isolate and manipulate HTML elements/objects through CSS-like selectors (and later XPath)
+### What is the scope and capabilities of jQuery?
+
+* Isolate and manipulate HTML elements/objects through CSS-like selectors
 * Edit, change and add html AND css properties of objects
 * Transform object changes over time as "effects" and "animations"
 * Delay and tie execution of above to sync with "events" rather than running immediately on page load
@@ -28,17 +29,19 @@ To start we are going to take a basic, non-scripting approach to jQuery. We will
 As the semester progresses, and we later get into the underlying language of Javascript on which jQuery is built, we will repeatedy double-back through jQ with an eye toward its capabilities as we expand our knowledge and perspective on client-side Web development. 
   
   
-####jQuery -- the fundamental basics:
+### jQuery - the fundamental basics
 
 To start, ANY page that you want to run jQuery in must have two basic components:
 
-1. A script tag with a src attribute to "load" into the page the underlying jQuery code / library:   
+#### 1. Load in jQuery  
 	
 ```html
 <script src="http://code.jquery.com/jquery.js"></script>
 ```   
 	
-2. A separate script block with jQuery code to "wait" until page load, and then inside that code the jQ instructions for the page:
+#### 2. Wait until the page is ready
+
+Set up a separate script block with jQuery code to "wait" until page load, and then inside that code the jQuery instructions for the page will run.
 
 ```html
 <script>
@@ -84,7 +87,7 @@ Now, we are going to type lots of jQuery commands, and instead of having to star
 Before we dive deeper into jQuery's capabilities, let's pause to ask "why jQuery"...
 
 
-#### Why jQuery? -- compatibility
+### Why jQuery? -- compatibility
 
 jQuery is a great language to use because it is very streamlined and simple. But beyond that, it boast incredible compatibility across most browsers and operating systems.
 
@@ -97,7 +100,7 @@ The "magic" of jQuery is that the underlying library, written in Javascript, han
 Ok, so lets look at some of the "actions" jQuery can perform on objects...
 
 
-####jQuery Effects and Manupulations -- a starter list of jQ "actions"
+###jQuery Effects and Manupulations -- a starter list of jQ "actions"
 
 Below is a partial list of the core/main jQuery "actions":
 
@@ -154,7 +157,7 @@ $("p").addClass("greenonyellow");
 Now that's not a bad look... but what if we only wanted to add that instruction when a user moused on a paragraph -- i.e. to create an effect of "highlighting" a paragraph by changing it to that style when someone hovered on it?
 
 
-#### jQuery Manupulations -- a starter list of jQ "actions"
+### jQuery Manupulations -- a starter list of jQ "actions"
 
 One of the keys to interactive programing is DELAYED execution -- that we often have activities we do not want to occur until a cwertain event (usually user interaction) occurs. So extending the example above, we want to set the class for a paragraph to greenonyellow WHEN a user "hovers" onto a paragraph... for that paragraph.
 
