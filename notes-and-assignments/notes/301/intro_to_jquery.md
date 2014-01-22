@@ -217,10 +217,12 @@ $("li").on("mouseout",function() {
 });
 ```
 
-Notice that when using the __this__ object you do NOT put in quotes, because it is a literal object/concept in the language and not a CSS selector (like #secondp or li). __this__ represents the element that the even took place on.
+Notice that when using the __this__ object you do NOT put in quotes, because it is a literal object/concept in the language and not a CSS selector (like #secondp or li). __this__ represents the element that the event took place on.
 
 At this point if you want to see the page with updated script you can open up [helloworld2.html](http://webdev.usc.edu/itp301/lecture_examples/helloworld2.html).
 
+### jQuery Animations
+
 Ok, so let's move on to playing around with some page-wide functionality that features a lot of animation of elements using toggle and slide.
 
-To start, open up the [jq_effects1a.html](http://webdev.usc.edu/itp301/lecture_examples/jq_effects1a.html) file. Then read the instructions on the page to add various jQuery elements including using toggle, slideToggle and fadeToggle. To see a version of the page with many of the effects implemented open up [jq_effects1b.html](http://webdev.usc.edu/itp301/lecture_examples/jq_effects1b.html).
+To start, open up the [jq_effects1a.html](http://webdev.usc.edu/itp301/lecture_examples/jq_effects1a.html) file. Then read the instructions on the page to add various jQuery elements including using toggle(), slideToggle(), and fadeToggle(). To see a version of the page with many of the effects implemented open up [jq_effects1b.html](http://webdev.usc.edu/itp301/lecture_examples/jq_effects1b.html).
