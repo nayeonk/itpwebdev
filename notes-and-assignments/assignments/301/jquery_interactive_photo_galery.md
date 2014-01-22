@@ -1,31 +1,25 @@
-TV Show Page
+Assignment - jQuery Interactive Photo Galery
 ============
+Use jQuery (and a little graphics) to build an interactive photo gallery on a topic.
 
-Create a web page for a TV Show that includes general show information and pictures from the show, information on the main characters, pictures of the characters, and information on the underlying actors. 
- 
-This page will be laid out using divs as described below:
+Create an Interactive Slideshow about yourself
 
-1. Find a real web site based on a TV Show. Get text and graphic assets from the site. Also come up with a basic color scheme (background, 2 or 3 primary text colors, etc.) based on the show's graphics.
-2. External Stylesheet: The entire page has an external stylesheet that controls all design and graphics (through css).
-3. Body style: The overall page has a background color, specific font, etc., all dictated through a style call using the body tag.
-4. Header: The top of the page has a header with a DEFINED WIDTH (800 pixel, or whatnot) that is centered across across the page/browser, that includes the title of the show (centered) and a background color (NOT a background image). A specially non-repeated background image will be added later. The width of the header will be the "max" width of the layout area of the page (all following areas).
-5. Footer: The bottom of the page will contain a copyright notice (grab one from the site you get all your content from) and the same background color as the header.
-6. Left sidebar: The main web page will feature a column (NO WRAP) that runs down the left side of the page. This column will list the major characters of the show. Each character will have a small photo/graphic and a short description. For each character:
-	1. Create a DIV (within the column) with a unique ID (like Brian).
-	2. Inside that div put the character's name and photo
-	3. Inside the div built another div with its own unique ID (like BrianDescription). Inside that div put the description of the character
-	4. In your stylesheet create one style entry under the ID of the description div that sets visibility:hidden
-	5. Then create a second entry that features a compound of the firstID:hover descriptionID that sets the visiblity:visible
-	6. When those two stylesheet entries are done the description div should be hidden by default... but if you mouseover/hover the main div for that character the description should show up... and then when you mouseout of the character box it should go back to hidden.
-7. Right sidebar: 5 episodes
-	1. The main page should have a right sidebar that floats to the right and that the main/center article WRAPS arounds.
-	2. The box should have a unique background color and padding/margins to space the text inside the box.
-8. Main content: The major section of the page should contain a large amount of textual AND image content about the TV show. All images should be "floated" to the left inside the text/section.
-9. Left sidebar and content background: Create a GIF that has a repeatable/tileable pattern or look that could be tiled behind the left sidebar AND the main content area. I.e. some kind of unique look/appearance that would set off the left column, then another look/style that would visually "defined" the content area. Make sure that the tiling graphic of the left sidebar STARTS are the top of the column. 
+1.	Pic at least 6 photos about yourself(vacation, family, attending events, etc). Collect the photos and captions for each one.
+2.	Create a UI for the gallery. It should look like a unified interface, and not just image and text elements. You can use a program such as Fireworks or Dreamweaver to create a simple graphic layout for the "photo viewer" and use AP DIVs to place the elements on top, or you can design something purely in CSS. The gallery UI should have an area for the name of the page, one for the thumbnails, a large photo, and a space for the large photo's caption. A sample of a gallery UI is to the right.
+3.	Div and image set up:
+	1.	If you use a background image (for the UI) then you will most likely need to lay out your page with AP divs, placing the background UI graphic in one AP div, then all of the main page elements in other AP divs laid out on top of that one. Or if you are using CSS just make sure your divs have a uniform look and design (including colors, rounded corners, etc.).
+	2.	In the thumbnail div, place thumbnail images running down the side (vertically). I would suggest setting all of those images to the SAME class, but giving each one unique IDs.
+	3.	Place one of the images in a large size inside the mainphoto div... and give that image a UNIQUE ID such as bigphoto.
+	4.	Write and style a text headline into your title/headline div.
+4.	Use jQuery to set up the following interactivity/heaviors:
+	1.	When the page loads set the opacity of all thumbnails to 0.5.
+	2.	When a user mouses over a thumbnail set THAT thumb to 1.0 opacity.
+	3.	When a user mouses out of a thumbnail (re)set all thumbs to 0.5 opacity.
+	4.	When the user CLICKS on a SPECIFIC thumbnail (code by #id):
+		1.	Hide the bigphoto
+		2.	Set the .attr "src" of the bigphoto to the appropriate file name.
+		3.	fadeIn the bigphoto
+		4.	Set the .html of the caption div to an appropriate text caption.
+		5.	Set the .csss border-width of ALL thumbs to 0px (by class) and the botder-width of THAT thumb to 2px.
 
-
-### Examples
-
-![Entourage](http://webdev.usc.edu/itp301/samples/tvshow_sample1.png)
-![Raising Hope](http://webdev.usc.edu/itp301/samples/tvshow_sample2.png)
-![How I Met Your Mother](http://webdev.usc.edu/itp301/samples/tvshow_sample3.png)
+_If you have problems getting start on the coding, you can review the Resource "Demo photo gallery" from the course site._
