@@ -2,7 +2,7 @@ Introduction to jQuery
 ======================
 
 **********
-Save to your computer [helloworld1.html](c) and [jq_effects1a.html](http://webdev.usc.edu/itp301/lecture_examples/jq_effects1a.html)
+Save to your computer [helloworld1.html](http://webdev.usc.edu/itp301/lecture_examples/helloworld1.html) and [jq_effects1a.html](http://webdev.usc.edu/itp301/lecture_examples/jq_effects1a.html)
 **********
 
 ### "jQuery for Designers" -- a cursory overview of jQuery from a non-programming level
