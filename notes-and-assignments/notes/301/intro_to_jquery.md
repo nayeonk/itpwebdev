@@ -33,29 +33,29 @@ As the semester progresses, and we later get into the underlying language of Jav
 To start, ANY page that you want to run jQuery in must have two basic components:
 
 1. A script tag with a src attribute to "load" into the page the underlying jQuery code / library:   
-	```html
-	<script src="http://code.jquery.com/jquery.js"></script>
-	```   
-	Note: A BETTER practice is to save a copy of the current jQuery library to your local server, and load it locally such as src='jQuery.js'
-	Note2: I have sved a copy of a recent, stable version of the jQuery base on webdev as well. So you can also link to http://webdev.usc.edu/jquuery.js
- 
+	
+```html
+<script src="http://code.jquery.com/jquery.js"></script>
+```   
+	
 2. A separate script block with jQuery code to "wait" until page load, and then inside that code the jQ instructions for the page:
-	```html
-	<script>
-	   // When the page is ready
-	   $(document).ready(function(){
-	   
-		// HERE write the jQuery code to be run after page load     
-		
-	   });
-	</script>
-	```
+
+```html
+<script>
+   // When the page is ready
+   $(document).ready(function(){
+   
+	// HERE write the jQuery code to be run after page load     
+	
+   });
+</script>
+```
 	
 Ok, so let's take a basic Hello World page that contains some h1, paragraphs, etc. Open the starter helloworld1.html page.
 
 Now first, we need to add the following into the HEAD of that page:
 ```html
-<script src="http://webdev.usc.edu/jquery.js"></script>
+<script src="http://code.jquery.com/jquery.js"></script>
 <script>
    // When the page is ready
    $(document).ready(function(){
@@ -69,20 +69,22 @@ Now first, we need to add the following into the HEAD of that page:
 Re-run the page, and notice nothing is different. All we have done is "set up" the jQuery in the page. The line that starts with "// HERE ..." is a "comment" block... which we can replace with "real" jQuery instructions.
 
 So inside that block we can write some jQuery. A basic jQuery instruction consists of a reference to an object a period and then what action you want to perform on that object. I.e. OBJECT.ACTION; Now, the syntax looks much more complicated than that, but a straight jQ instruction can be that simple. Take a look at the jQuery line:
-```html
+
+```js
 jQuery("#secondp").hide();
 ```
 
 So what that instruction does is target the object with an ID of secondp and run the "hide" command on it... such that the second paragraph is hidden.
 
 Now, we are going to type lots of jQuery commands, and instead of having to start all of our statements with jQuery there is a shortcut we can use with $ instead of jQuery. So lets change the above statement to:
-```html
+
+```js
  $("#secondp").hide();
 ```
 Before we dive deeper into jQuery's capabilities, let's pause to ask "why jQuery"...
 
 
-####Why jQuery? -- compatibility
+#### Why jQuery? -- compatibility
 
 jQuery is a great language to use because it is very streamlined and simple. But beyond that, it boast incredible compatibility across most browsers and operating systems.
 
@@ -98,6 +100,7 @@ Ok, so lets look at some of the "actions" jQuery can perform on objects...
 ####jQuery Effects and Manupulations -- a starter list of jQ "actions"
 
 Below is a partial list of the core/main jQuery "actions":
+
 ```
 addClass()
 	Add a CSS class to an object
@@ -133,22 +136,25 @@ toggleClass()
 	Add or remove a class (alternating) to/from an object
 ```
 
-Ok, so with some of that in mind, let's revisit that [helloworld1.html](http://webdev.usc.edu/itp301/lecture_examples/helloworld1.html) page we started working on above. First, try adding a second statement (to that jQuery block) of:   
-```html
-$("ul").addClass("redbox");
+Ok, so with some of that in mind, let's revisit that [helloworld1.html](http://webdev.usc.edu/itp301/lecture_examples/helloworld1.html) page we started working on above. First, try adding a second statement (to that jQuery block) of:
+
+```js
+	$("ul").addClass("redbox");
 ```
-Ok, so addClass lets us take an exisitng object and "add" a class instuction to it. To remind ourselves of the different, let's instead edit the above statement to target list items:   
-```html
+Ok, so addClass lets us take an exisitng object and "add" a class instuction to it. To remind ourselves of the different, let's instead edit the above statement to target list items:
+
+```js
 $("li").addClass("redbox");
 ```
-Now see if you can write the jQuery instuction that would add the class greenonyellow to all paragraphs:   
-```html
+Now see if you can write the jQuery instuction that would add the class greenonyellow to all paragraphs:
+
+```js
 $("p").addClass("greenonyellow");
 ```
 Now that's not a bad look... but what if we only wanted to add that instruction when a user moused on a paragraph -- i.e. to create an effect of "highlighting" a paragraph by changing it to that style when someone hovered on it?
 
 
-####jQuery Manupulations -- a starter list of jQ "actions"
+#### jQuery Manupulations -- a starter list of jQ "actions"
 
 One of the keys to interactive programing is DELAYED execution -- that we often have activities we do not want to occur until a cwertain event (usually user interaction) occurs. So extending the example above, we want to set the class for a paragraph to greenonyellow WHEN a user "hovers" onto a paragraph... for that paragraph.
 
@@ -156,16 +162,15 @@ To make this work, first lets see about setting up a specific action to occur wh
 
 In the page we are working on, delete the instruction that hides the secondp object. Then put in some blank lines in the jQuery area and then type in the following lines:
 
-```html
+```js
 	$("#secondp").bind("hover",function() {
-		// CODE to be executed when the user hovers on the object #secondp
-	    
-	})
+		// CODE to be executed when the user hovers on the object #secondp 
+	});
 ```
 
 Now, that overall syntax is probably a bit confusing... but that's the most complexity of syntax you will need to deal with for now with jQuery. And it's even uglier when we view it in the context of the wider code. Edit that code to add the following line inside the bound event: $("#secondp").addClass("greenonyellow"); That should leave your overall script block looking like:
 
-```html
+```js
 	$(document).ready(function(){
    
 		// HERE write the jQuery code to be run after page load     
@@ -181,7 +186,7 @@ Now, that overall syntax is probably a bit confusing... but that's the most comp
 
 Ok, now notice that when you "hover" on the paragraph it turns to the green text, yellow background. BUT, when you "leave" the object it does not "undo" it. So how about binding an event for mouseout that does a removeClass command:
 
-```html
+```js
 	$("#secondp").bind("mouseout",function() {
 	    $("#secondp").removeClass("greenonyellow");
 	})
@@ -189,29 +194,29 @@ Ok, now notice that when you "hover" on the paragraph it turns to the green text
 
 Ok, now one final thing before we move on. Let's set up an instruction that when you mouseover over any li object adds the largetext class, and when you mouseout removes that class...
 
-```html
+```js
 	$("li").bind("mouseover",function() {
 		$("li").addClass("large);
-	})	
+	});
 
 	$("li").bind("mouseout",function() {
 		$("li").removeClass("largetext");
-	})	
+	});
 ```
 Well if we implement that with the same approach we took with #secondp, when you rollover one li ALL li get large text.. not just that one. But luckily we have a cool object called "this" that we can use when inside of a bind... that will only target the object on which the "event" occurred. Instead of the code above try:
-```html
+
+```js
 	$("li").bind("mouseover",function() {
 		$(this).addClass("large);
-	})	
+	});
 
 	$("li").bind("mouseout",function() {
 		$(this).removeClass("largetext");
-	})	
+	});
 ```
-Notice that when using the this object you do NOT put in quotes... because it is a literal object/concept in the language and not a CSS selector (like #secondp or li).
+Notice that when using the __this__ object you do NOT put in quotes... because it is a literal object/concept in the language and not a CSS selector (like #secondp or li).
 
 At this point if you want to see the page with updated script you can open up [helloworld2.html](http://webdev.usc.edu/itp301/lecture_examples/helloworld2.html).
-
 
 Ok, so let's move on to playing around with some page-wide functionality that features a lot of animation of elements using toggle and slide.
 

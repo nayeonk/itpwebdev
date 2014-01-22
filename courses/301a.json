@@ -31,6 +31,13 @@
 			"due": "1/22",
 			"link": "tv-show-page",
 			"active": 1
+		},
+		{
+			"name": "jQuery Animation Effect",
+			"type": "L",
+			"due": "1/22",
+			"link": "lab-animation_effect",
+			"active": 1
 		}
 	],
 
@@ -66,10 +73,11 @@
 		{
 			"date": "1/22",
 			"units": [
-				{ "subject": "Introduction to jQuery", "link": "" },
-				{ "subject": "Debugging", "link": "" }
+				{ "subject": "Introduction to jQuery", "link": "intro_to_jquery" },
+				{ "subject": "Reading - jQuery Intro Article", "link": "reading-jquery_intro_article" },
+				{ "subject": "Debugging", "link": "debugging" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "Jan 22",
