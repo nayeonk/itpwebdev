@@ -91,16 +91,12 @@ Before we dive deeper into jQuery's capabilities, let's pause to ask "why jQuery
 
 jQuery is a great library to use because it is very streamlined and simple. But beyond that, it boast incredible __compatibility across most browsers__.
 
-So in the example above, how did it "hide" the paragraph IDed as secondp? Does it set the css property of visibility to hidden? Does it set the opacity to 0? Does it change the display to none?
-
-You don't know... and DON'T NEED to know.
-
 The "magic" of jQuery is that the underlying library, written in Javascript, handles all of the behind-the-scenes details including COMPLETE cross-browser compatibility. So whereas with CSS3 we would have to worry about whether a particular browser might know certain CSS commands like transform or transition, similar functions if implemented through jQuery will work in every browser (well every browser that supports Javascript)!
 
 Ok, so lets look at some of the "actions" jQuery can perform on objects...
 
 
-### jQuery Effects and Manupulations -- a starter list of jQ "actions"
+### jQuery Effects and Manupulations -- a starter list of jQuery "actions"
 
 Below is a partial list of the core/main jQuery "actions":
 
@@ -154,20 +150,20 @@ Now see if you can write the jQuery instuction that would add the class greenony
 ```js
 $("p").addClass("greenonyellow");
 ```
-Now that's not a bad look... but what if we only wanted to add that instruction when a user moused on a paragraph -- i.e. to create an effect of "highlighting" a paragraph by changing it to that style when someone hovered on it?
+Now that's not a bad look... but what if we only wanted to add that instruction when a user moused on a paragraph -- i.e. to create an effect of "highlighting" a paragraph by changing it to that style when someone moused over it?
 
 
 ### Events with jQuery
 
-One of the keys to interactive programming is DELAYED execution -- that we often have activities we do not want to occur until a certain event (usually user interaction) occurs. So extending the example above, we want to set the class for a paragraph to greenonyellow WHEN a user "hovers" onto a paragraph... for that paragraph.
+One of the keys to interactive programming is DELAYED execution -- that we often have activities we do not want to occur until a certain event (usually user interaction) occurs. So extending the example above, we want to set the class for a paragraph to greenonyellow WHEN a user "mouseovers" a paragraph... for that paragraph.
 
-To make this work, first lets see about setting up a specific action to occur when a specific object is hovered.
+To make this work, first lets see about setting up a specific action to occur when a specific object is moused over.
 
 In the page we are working on, delete the instruction that hides the secondp object. Then put in some blank lines in the jQuery area and then type in the following lines:
 
 ```js
-$("#secondp").on("hover",function() {
-	// CODE to be executed when the user hovers on the object #secondp 
+$("#secondp").on("mouseover",function() {
+	// CODE to be executed when the user mouses over the object #secondp 
 });
 ```
 
@@ -181,15 +177,15 @@ $(document).ready(function(){
 	// HERE write the jQuery code to be run after page load     
 	$("li").addClass("redbox");
 
-	$("#secondp").on("hover",function() {
-		// CODE to be executed when the user hovers on the object #secondp
+	$("#secondp").on("mouseover",function() {
+		// CODE to be executed when the user places their mouse over the object #secondp
 		$("#secondp").addClass("greenonyellow");
 	});
 
 });
 ```
 
-Ok, now notice that when you "hover" on the paragraph it turns to the green text, yellow background. BUT, when you "leave" the object it does not "undo" it. So how about binding an event for mouseout that does a removeClass function:
+Ok, now notice that when you "mouseover" the paragraph it turns to the green text, yellow background. BUT, when you "leave" the object it does not "undo" it. So how about binding an event for mouseout that does a removeClass function:
 
 ```js
 $("#secondp").on("mouseout", function() {
@@ -227,4 +223,4 @@ At this point if you want to see the page with updated script you can open up [h
 
 Ok, so let's move on to playing around with some page-wide functionality that features a lot of animation of elements using toggle and slide.
 
-To start, open up the [jq\_effects1a.html](http://webdev.usc.edu/itp301/lecture_examples/jq_effects1a.html) file. Then read the instructions on the page to add various jQuery elements including using toggle, slideToggle and fadeToggle. To see a version of the page with many of the effects implemented open up [jq_effects1b.html](http://webdev.usc.edu/itp301/lecture_examples/jq_effects1b.html).
+To start, open up the [jq_effects1a.html](http://webdev.usc.edu/itp301/lecture_examples/jq_effects1a.html) file. Then read the instructions on the page to add various jQuery elements including using toggle, slideToggle and fadeToggle. To see a version of the page with many of the effects implemented open up [jq_effects1b.html](http://webdev.usc.edu/itp301/lecture_examples/jq_effects1b.html).
