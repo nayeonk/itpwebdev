@@ -93,7 +93,7 @@
 				{ "subject": "Resource-Demo Photo Gallery", "link": "resource-demo_photo_gallery" },
 				{ "subject": "Resource-Demo Sliding Panels", "link": "resource-demo_sliding_panels" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "Jan 22",
