@@ -18,7 +18,9 @@ This form should send a POST request to add-song-process.php
 
 ### Processing page (add-song-process.php)
 
-In this page, you should accept the user input and insert the song into the database. Rather than using plain PDO, here you will define a class called Song. To insert a song into the the database, you should be able to do the following:
+In this page, you should accept the user input and insert the song into the database. Rather than using plain PDO, here you will define a class called Song in a file called Song.php. Include Song.php in your add-song-process.php.
+
+To insert a song into the the database, you should be able to do the following:
 
 ```php
 	$pdo = new PDO("mysql:host=$host;dbname=$dbname", $user, $pass);
