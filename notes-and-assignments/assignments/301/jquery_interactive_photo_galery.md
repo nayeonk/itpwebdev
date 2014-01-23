@@ -5,7 +5,12 @@ Use jQuery (and a little graphics) to build an interactive photo gallery on a to
 Create an Interactive Slideshow about yourself
 
 1.	Pic at least 6 photos about yourself(vacation, family, attending events, etc). Collect the photos and captions for each one.
-2.	Create a UI for the gallery. It should look like a unified interface, and not just image and text elements. You can use a program such as Fireworks or Dreamweaver to create a simple graphic layout for the "photo viewer" and use AP DIVs to place the elements on top, or you can design something purely in CSS. The gallery UI should have an area for the name of the page, one for the thumbnails, a large photo, and a space for the large photo's caption. A sample of a gallery UI is to the right.
+2.	Using headings tags to give your gallery a title, ("My Seattle Trip", etc).
+3.	Create a layout for your photo gallery page:
+	*	You could use top-down(same as the example in class, or main page on top, thumbnails on bottom.)
+	*	You could use side by side. (Thumbnails on left, the main picture on the right)
+	*	Or, You could also have thumbnails on (top and bottom or left and right), then have main image in the middle.
+	* 	Other layout style at your choice.
 3.	Div and image set up:
 	1.	If you use a background image (for the UI) then you will most likely need to lay out your page with AP divs, placing the background UI graphic in one AP div, then all of the main page elements in other AP divs laid out on top of that one. Or if you are using CSS just make sure your divs have a uniform look and design (including colors, rounded corners, etc.).
 	2.	In the thumbnail div, place thumbnail images running down the side (vertically). I would suggest setting all of those images to the SAME class, but giving each one unique IDs.
