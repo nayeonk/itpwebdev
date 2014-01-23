@@ -1,0 +1,15 @@
+{
+  "name": "grs-scraper",
+  "version": "0.0.1",
+  "description": "grs student roster scraper",
+  "main": "app.js",
+  "dependencies": {
+    "cheerio": "~0.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Tang",
+  "license": "BSD-2-Clause"
+}
