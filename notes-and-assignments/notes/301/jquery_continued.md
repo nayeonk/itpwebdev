@@ -3,16 +3,8 @@ Lecture - jQuery Continued
 Review of jQuery Syntax, Selectors, effects, manipulations and expanded complexity
 
 ******************
-Save the following four pages AND four images:
-
-*	[jq_effects2a.html](http://webdev.usc.edu/itp301/lecture_examples/jq_effects2a.html)
-*	[jq_classes_1a.html](http://webdev.usc.edu/itp301/lecture_examples/jq_classes_1a.html)
-*	[jqmenu_1a.html](http://webdev.usc.edu/itp301/lecture_examples/jqmenu_1a.html)
-*	[yosemite_start.html](http://webdev.usc.edu/itp301/lecture_examples/yosemite/yosemite_start.html)
-*	http://webdev.usc.edu/itp301/lecture_examples/yosemite/y1.jpg
-*	http://webdev.usc.edu/itp301/lecture_examples/yosemite/y2.jpg
-*	http://webdev.usc.edu/itp301/lecture_examples/yosemite/y3.jpg
-*	http://webdev.usc.edu/itp301/lecture_examples/yosemite/y4.jpg
+Save this zip file and extra the folder to your desktop
+[wk2 cl2.zip](http://wr.gs/1401301bwk2cl2)
 
 ******************
 
