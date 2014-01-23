@@ -9,7 +9,7 @@ But what does that really mean in simple terms? Let's look at how JavaScript is 
 
 ### JavaScript in the Browser
 
-Node.js provides a JavaScript platform on the server that is __event driven__ and __asynchronous__ much like the browser. Let's look at an example.
+Node.js provides a JavaScript platform on the server that is __event driven__ and __asynchronous__ much like the browser. Let's look at an example using jQuery.
 
 ```js
 $.ajax({ 
@@ -40,6 +40,18 @@ I/O stands for __Input/Output__. Computers are based on input and output. Think 
 
 Let's get to the next part. That AJAX request is non-blocking. As the code executes linearly, the line that performs the AJAX call doesn't wait until the I/O operation is completed before the rest of the code will execute. That I/O operations doesn't __block__ the execution of the script.
 
+If this AJAX request did block the execution of the script, you can imagine how poor of a user experience this would be. Everytime the application in the browser would have to fetch something from a server, it would have to wait around and block any other type of user events from happening.
+
+##### Threads
+
+The browser is single threaded.
+
+As stated on [techterms.com](http://www.techterms.com/definition/thread):
+
+> "What do a t-shirt and a computer program have in common? They are both composed of many threads! While the threads in a t-shirt hold the shirt together, the threads of a computer program alllow the program to execute sequential actions or many actions at once."
+
+Because the browser is single threaded, it can only execute one thing at a time.
+
 =============
 
 Asychronous programming
@@ -66,3 +78,8 @@ Threads work in the same way. A CPU is giving you the illusion that it's doing m
 On a more technical level, an execution context (therefore a thread) consists of the values of the CPU's registers.
 
 Last: threads are different from processes. A thread is a context of execution, while a process is a bunch of resources associated with a computation. A process can have one or many threads.
+
+
+### Resources
+
+* http://www.techterms.com/definition/thread
