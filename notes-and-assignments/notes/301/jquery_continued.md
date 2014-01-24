@@ -1,14 +1,14 @@
 jQuery Continued
 ================
 
-Review of jQuery Syntax, Selectors, animations, DOM manipulations, and expanded complexity
+Review of jQuery Syntax, CSS Selectors, effects/animations, manipulations, and expanded complexity
 
 ******************
 Save this zip file and extra the folder to your desktop
 [wk2 cl2.zip](http://wr.gs/1401301bwk2cl2)
 ******************
 
-### Basic jQuery concepts:
+### Basic jQuery concepts
 
 Load the jQuery library into a page, then set up a script block and a document ready statement:
 
@@ -77,9 +77,21 @@ $("dd").hide().slideDown(1000).slideUp(1000);
 In effect that line is executing three actions on the same set of objects, one after another.
 
  
-### Animations
+### Effects/Animations
 
-jQuery has a set of stock effects that are easy to use on objects such as fadeIn, fadeOut, and fadeToggle, hide, show and toggle, and slideDown, slideUp and slideToggle. And as mentioned above you can "chain" more than one animation in a row.
+jQuery has a set of stock effects that are easy to use on objects such as:
+
+* fadeIn()
+* fadeOut()
+* fadeToggle()
+* hide()
+* show()
+* toggle()
+* slideDown()
+* slideUp()
+* slideToggle()
+
+As mentioned above, you can "chain" more than one animation in a row.
 
 There is also a delay action that lets you put a pause in. So for instance, in the example below it fades in all dd objects, pauses for 2 seconds, and then fades them out:
 
@@ -96,10 +108,15 @@ A full list can be found on the jQuery Effects page at http://api.jquery.com/cat
 
 We also previously looked at common jQuery manipulation actions such as addClass, removeClass and toggleClass. There are many other types of manipulation, some of which we will come back to after we get into Javascript. But the following three are worth mentioning:
 
-__css()__ sets a css property of an object. So for instance $("a").css("color","green") would set all css color properties of all anchor tags to green.
+__css()__ sets a CSS property of an object. So for instance $("a").css("color","green") would set all css color properties of all anchor tags to green.
  
-__attr()__ sets an html property of an objects, so for instance $("img#bigimage").attr("src","mainpic.jpg") would set the src of the image IDed as bigimage to mainpic.jpg
+__attr()__ sets an attribute to HTML objects, so for instance $("img#bigimage").attr("src", "mainpic.jpg") would set the _src_ of the image IDed as bigimage to mainpic.jpg
  
-__html()__ sets the html CONTENT of an object. So for instance $("div#caption").html("This is a picture of a dog") would set the contents of a div IDed as caption to the text This is a picture of a dog. You CAN include html instructions inside of the html function... so the previous statement could also be $("div#caption").html("This is a <strong>picture</strong> of a dog")
+__html()__ sets the html CONTENT of an object. So for instance $("div#caption").html("This is a picture of a dog") would set the contents of a div IDed as caption to the text 'This is a picture of a dog'. You CAN include html instructions inside of the html() function... so the previous statement could also be:
+
+```js
+$("div#caption").html("This is a <strong>picture</strong> of a dog");
+```
+
 You can see the complete list of jQuery Manipulation actions at http://api.jquery.com/category/manipulation/
 
