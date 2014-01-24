@@ -5,7 +5,7 @@ Node.js allows us to write JavaScript on the server. It is defined as:
 
 > "a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. Node.js uses an __event driven, non-blocking I/O model__ that makes it lightweight and efficient..."
 
-But what does that really mean in simple terms? Let's look at how JavaScript is handled in the browser first.
+But what do all those terms really mean? Let's look at how JavaScript is handled in the browser first.
 
 ### JavaScript in the Browser
 
@@ -30,27 +30,42 @@ world
 ajax request finished
 ```
 
-That AJAX call is performing an I/O operation and is said to be non-blocking.
+That AJAX call is performing an I/O operation and is said to be __non-blocking__. While the AJAX request is doing its thing, the rest of the code can continue to execute. The __blocking__ version of this would result in:
+
+```
+ajax request finished
+hello
+world
+```
+
+In the __blocking__ scenario, the AJAX request blocks the rest of the code from executing until it is finished. You can imagine how poor of a user experience this would be if for every I/O operation the user had to wait around until it finished before continuing to use the application. No other user interactions or code execution could take place.
 
 ##### What is I/O?
 
-I/O stands for __Input/Output__. Computers are based on input and output. Think about when you type on your keyboard. You are giving your computer some input, and that input is display on the screen as the output. In the context of a web application, say your application is communicating with a database. Your application is giving the database some Input in the form of a SQL statement and getting some returned output in the form of database results.
+So I mentioned that the AJAX request is a type of I/O. What is that? I/O stands for __Input/Output__. Computers are based on input and output. Think about when you type on your keyboard. You are giving your computer some input, and that input is displayed on the screen as output. In the context of a web application, say your application is communicating with a database. Your application is giving the database some Input in the form of a SQL statement and getting some returned output in the form of database results.
+
+That AJAX request is performing I/O where we make a request to the server (giving it input) and we get a response back (getting the output).
 
 ##### Non-blocking
 
-Let's get to the next part. That AJAX request is non-blocking. As the code executes linearly, the line that performs the AJAX call doesn't wait until the I/O operation is completed before the rest of the code will execute. That I/O operations doesn't __block__ the execution of the script.
+AJAX requests are I/O operations that don't __block__ the execution of the script (unless configured to). It happens __asynchronously__ (outside the main script execution). 
 
-If this AJAX request did block the execution of the script, you can imagine how poor of a user experience this would be. Everytime the application in the browser would have to fetch something from a server, it would have to wait around and block any other type of user events from happening.
 
-##### Threads
+### Browser Event Loop & Threads
 
-The browser is single threaded.
+I/O operations like AJAX requests happen outside of the __browser event loop__. A browser event loop is a __thread__ created by the browser and it waits for events and processes them.
 
 As stated on [techterms.com](http://www.techterms.com/definition/thread):
 
-> "What do a t-shirt and a computer program have in common? They are both composed of many threads! While the threads in a t-shirt hold the shirt together, the threads of a computer program alllow the program to execute sequential actions or many actions at once."
+> "What do a t-shirt and a computer program have in common? They are both composed of many threads! While the threads in a t-shirt hold the shirt together, the threads of a computer program allow the program to execute sequential actions or many actions at once."
 
-Because the browser is single threaded, it can only execute one thing at a time.
+Because __the browser is single threaded__, it can only execute one thing at a time. If we made our AJAX requests blocking, the browser event loop could not process any other user events and actin and our applications would not be very responsive.
+
+Now that we understand non-blocking I/O in the browser, let's look at JavaScript on the server.
+
+### JavaScript on the Server
+
+To be continued...
 
 =============
 
