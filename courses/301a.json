@@ -38,6 +38,13 @@
 			"due": "1/27",
 			"link": "lab-animation_effect",
 			"active": 1
+		},
+		{
+			"name": "jQuery interactive photo galery",
+			"type": "A",
+			"due": "2/3",
+			"link": "jquery_interactive_photo_galery",
+			"active": 1
 		}
 	],
 
@@ -76,6 +83,16 @@
 				{ "subject": "Introduction to jQuery", "link": "intro_to_jquery" },
 				{ "subject": "Reading - jQuery Intro Article", "link": "reading-jquery_intro_article" },
 				{ "subject": "Debugging", "link": "debugging" }
+			],
+			"active": 1
+		},
+		{
+			"date": "1/27",
+			"units": [
+				{ "subject": "jQuery continued", "link": "jquery_continued" },
+				{ "subject": "Resource-Demo jQuery Menus", "link": "resource-demo_jquery_menus" },
+				{ "subject": "Resource-Demo Photo Gallery", "link": "resource-demo_photo_gallery" },
+				{ "subject": "Resource-Demo Sliding Panels", "link": "resource-demo_sliding_panels" }
 			],
 			"active": 1
 		},
