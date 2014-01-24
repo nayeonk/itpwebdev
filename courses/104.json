@@ -15,14 +15,14 @@
 		{
 			"name": "First web page",
 			"type": "lab",
-			"due": "9/16",
+			"due": "2/3",
 			"link": "first-webpage",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "Resume",
 			"type": "assignment",
-			"due": "9/23",
+			"due": "2/3",
 			"link": "resume",
 			"active": 0
 		},
@@ -139,7 +139,7 @@
 				{ "subject": "Basic HTML", "link": "basic-html" },
 				{ "subject": "FTP and uploading files to a server", "link": "ftp" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "9/16",

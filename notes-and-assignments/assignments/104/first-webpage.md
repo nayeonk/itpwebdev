@@ -30,4 +30,4 @@ To complete this lab you need to :
 By the beginning of the next class (see this lab's due date) you should be able to click on your name on the course site and reach the page you created and uploaded. 
 
 <h2>Example</h2>
-<img src="http://itpwebdev.usc.edu/images/myfirstpage.gif" />
+<img src="./images/myfirstpage.gif" />
