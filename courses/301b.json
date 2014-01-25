@@ -52,6 +52,13 @@
 			"due": "1/30",
 			"link": "jquery_interactive_photo_galery",
 			"active": 1
+		},
+		{
+			"name": "Simple JS App - color setter",
+			"type": "A",
+			"due": "2/04",
+			"link": "js_color_setter",
+			"active": 1
 		}
 	],
 
@@ -96,17 +103,11 @@
 			"active": 1
 		},
 		{
-			"date": "Jan 22",
+			"date": "01/27",
 			"units": [
-				{ "subject": "Script tags, semicolons", "link": "" },
-				{ "subject": "Variables, primitive data types", "link": "" },
-				{ "subject": "functions, inputs, outputs", "link": "" },
-				{ "subject": "Events", "link": "" },
-				{ "subject": "parseInt, parseFloat", "link": "" },
-				{ "subject": "getElementById", "link": "" },
-				{ "subject": "Chrome Developer Tools: Console", "link": "" }
+				{ "subject": "Intro to programming and JS", "link": "intro_to_programming_and_js" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "Jan 27",
