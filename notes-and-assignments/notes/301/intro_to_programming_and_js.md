@@ -14,13 +14,13 @@ Save to your computer sample page start and the graphics flip.gif and flop.gif
 	*	Properties of objects
 	*	Methods -- programs/functionalities of objects
 	*	Events / event handlers
-*	DOM: Domain Object Model -- drilling down through object tree to access objects vs. 'named' objects
+*	DOM: Document Object Model -- drilling down through object tree to access objects vs. 'named' objects
 *	Functions: Routines written in JS and called within HTML
 *	JS within head, body or in html tags (in event handlers)
 *	Filtering out non-JS browsers
 *	Browser compatibility issues
   
-##### Domain Object Model (DOM):
+##### Document Object Model (DOM):
 *	Defines the object tree of a web page, from the window, browser (navigator) and document objects, to all of their possible sub-objects.
 *	Defines the properties of objects (src for img, bgColor for document, etc.)
 *	Defines technologies and object+property equivalents are part of objects
@@ -58,7 +58,7 @@ Save to your computer sample page start and the graphics flip.gif and flop.gif
 *	All css style properties (such as background-color) have slightly different name syntax (backgroundColor instead of background-color) in JS, and reside inside of a sub-object called "style" inside of their object (OBJ1.style.backgroundColor not OBJ1.backgroundcolor).
 *	Perhaps the most important property is the 'name' of an object. Most html elements can have "name" and "id" attributes. The using a named ID is the most widely compatible way to script objects in a web page..
 *	Besides typically having unique identifiers, objects are also listed (in an array) and numbered according to their object type or group, and the order they were created in. The number order starts with 0 (this is a typical JS convention). So the second form on a page would be form<1>.
-*	Objects typically have hierarchical nesting orders according to the DOM (domain object model). In many cases you can refer to an object without using its parent (so for instance you can refer to a document without window.document, and it is assumed to be the current document (within the active window).
+*	Objects typically have hierarchical nesting orders according to the DOM (document object model). In many cases you can refer to an object without using its parent (so for instance you can refer to a document without window.document, and it is assumed to be the current document (within the active window).
 *	There are typically multiple ways to reference to objects:
 	*	window.document.obj1
 	*	document.obj1
