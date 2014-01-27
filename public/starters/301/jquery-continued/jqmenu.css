@@ -2,11 +2,13 @@
 	margin: 0;
 	padding: 0;
 }
+
 #menu li {
 	position: relative;
 	float: left;
 	list-style: none;
 }
+
 #menu li a {
 	width: 100px;
 	height: 30px;
@@ -17,15 +19,17 @@
 	background-color: #063;
 	color: #9CF;
 }
-#menu ul ul {
+
+#menu ul {
 	position: absolute;
 	top: 30px;
 	display: none;
 }
+
 #menu li a:hover {
 	background-color: yellow;
 }
 
-#menu ul li:hover ul{
+#menu li:hover ul{
 	display:block;
 }
