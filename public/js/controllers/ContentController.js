@@ -10,7 +10,6 @@ angular.module('itpwebdev')
 
 		Content.get(courseNumNumeric, resourceType, file).then(function(resp) {
 			var safeHTML = $sce.trustAsHtml(resp.data);
-			// console.log(safeHTML);
 			$scope.content = safeHTML;
 		});
 	});

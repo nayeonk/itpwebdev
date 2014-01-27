@@ -1,6 +1,6 @@
-angular.module('itpwebdev', ['ngRoute']);
+var app = angular.module('itpwebdev', ['ngRoute']);
 
-angular.module('itpwebdev').config(function($routeProvider) {
+app.config(function($routeProvider) {
 	$routeProvider
 		.when('/', {
 			templateUrl: 'js/partials/course-listing.html'
@@ -17,3 +17,6 @@ angular.module('itpwebdev').config(function($routeProvider) {
 			redirectTo: '/'
 		});
 });
+
+app.value('$', jQuery);
+app.value('hljs', hljs);
