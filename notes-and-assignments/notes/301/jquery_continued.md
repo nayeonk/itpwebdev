@@ -13,15 +13,18 @@ Save this zip file and extract the folder to your desktop
 * review document ready
 * review jQuery syntax -- selectors, manipulations: .hide(), .addClass(), .removeClass(), animations, 
 * review events with .on()
-* .html()
-* .attr()
-* .css()
+* .html() - set text and html of another element
+* .attr() - image rollover
+* .css() - change styles - selecting from a list of stuff. selected items change styles.
 * .fadeTo(200, 0.5)
 * method chaining
+	* .css() chaining
+	* .hide().fadeIn() vs setting CSS display none/block
 * DOM traversal
 	* .next() - list of jQuery core functions: jq_effects-start.html
 	* .children() - Dropdown menu example: jqmenu-start.html
 * homework & example
+	* gallery starter
 
 ### Basic jQuery concepts
 
