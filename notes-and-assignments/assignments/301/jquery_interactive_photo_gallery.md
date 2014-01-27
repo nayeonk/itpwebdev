@@ -1,11 +1,9 @@
-jQuery Interactive Photo Galery
-===============================
+jQuery Interactive Photo Gallery
+================================
 
-Use jQuery (and a few graphics) to build an interactive photo gallery on a topic.
+Use jQuery and a few graphics to build an interactive photo gallery about yourself.
 
-Create an Interactive Slideshow about yourself
-
-1.	Pic at least 6 photos about yourself (vacation, family, attending events, etc). Collect the photos and write captions for each one.
+1.	Pick at least 6 photos about yourself (vacation, family, attending events, etc). Collect the photos and write captions for each one.
 2.	Using a heading tag to give your gallery a title, ("My Seattle Trip", etc).
 3.	Create a layout for your photo gallery page:
 	*	You could use top-down (same as the example in class, or main page on top, thumbnails on bottom.)

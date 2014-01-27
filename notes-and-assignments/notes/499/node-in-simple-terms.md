@@ -59,7 +59,7 @@ As stated on [techterms.com](http://www.techterms.com/definition/thread):
 
 > "What do a t-shirt and a computer program have in common? They are both composed of many threads! While the threads in a t-shirt hold the shirt together, the threads of a computer program allow the program to execute sequential actions or many actions at once."
 
-Because __the browser is single threaded__, it can only execute one thing at a time. If we made our AJAX requests blocking, the browser event loop could not process any other user events and actin and our applications would not be very responsive.
+Because __the browser is single threaded__, it can only execute one thing at a time. If we made our AJAX requests blocking, the browser event loop could not process any other user events and our applications would not be very responsive.
 
 Now that we understand non-blocking I/O in the browser, let's look at JavaScript on the server.
 

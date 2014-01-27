@@ -40,10 +40,10 @@
 			"active": 1
 		},
 		{
-			"name": "jQuery interactive photo galery",
+			"name": "jQuery interactive photo gallery",
 			"type": "A",
 			"due": "2/3",
-			"link": "jquery_interactive_photo_galery",
+			"link": "jquery_interactive_photo_gallery",
 			"active": 1
 		}
 	],
