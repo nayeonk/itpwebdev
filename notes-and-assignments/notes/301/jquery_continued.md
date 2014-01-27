@@ -4,9 +4,24 @@ jQuery Continued
 Review of jQuery Syntax, CSS Selectors, effects/animations, manipulations, and expanded complexity
 
 ******************
-Save this zip file and extra the folder to your desktop
-[wk2 cl2.zip](http://wr.gs/1401301bwk2cl2)
+Save this zip file and extract the folder to your desktop
+[starter files](http://itpwebdev.usc.edu/starters/301/jquery-continued.zip)
 ******************
+
+### Overview
+
+* review document ready
+* review jQuery syntax -- selectors, manipulations: .hide(), .addClass(), .removeClass(), animations, 
+* review events with .on()
+* .html()
+* .attr()
+* .css()
+* .fadeTo(200, 0.5)
+* method chaining
+* DOM traversal
+	* .next() - list of jQuery core functions: jq_effects-start.html
+	* .children() - Dropdown menu example: jqmenu-start.html
+* homework & example
 
 ### Basic jQuery concepts
 
@@ -15,7 +30,7 @@ Load the jQuery library into a page, then set up a script block and a document r
 ```html
 <script src="http://jquery.com/src/jquery-latest.js"></script>
 <script>
-  $(document).ready(function(){
+  $(document).ready(function() {
   	// CODE HERE
   });
 </script>
@@ -44,29 +59,27 @@ $("a").on("mouseout", function() {
 });
 ```
  
-### Event handlers in jQuery:
+### Event handlers in jQuery
 
-"Events" are the different types on user interactions that we "on" to objects such as mouseover, click, etc. There are also some "shortcut' events and syntax.
+"Events" are the different types of user interactions that we "on" to objects such as mouseover, click, etc. There are also some "shortcut' events and syntax.
 
 The main events we will use are mouseover, mouseout, click, dblclick, blur, focus, and change.
 
 The full list of supported events can be found on the jQuery Events list at http://api.jquery.com/category/events/.
 
 
-### Additional/special selectors in jQuery -- and "chaining":
+### Method Chaining
 
-Besides using css selectors to find objects, we can also add or "chain" additional selectors on top of an object. Some examples of other selectors are .next() .prev() .parent() and .children()
+We can select elements based on other elements using a pattern in jQuery called chaining. To see how this could be useful, let's revisit a previous example where we collapsed open and closed panels.
 
-To see how these could be useful, let's revisit a previous example where we collapsed open and closed panels.
-
-Let's go back to the page of jQuery effect and manipulations terms and their definitions. Open up [jq_effects2a.html](http://webdev.usc.edu/itp301/lecture_examples/jq_effects2a.html). Now this time instead of binding events to individual objects (through their IDs) we instead want to be able to bind to ALL dt tags an instruction that toggles the visibility of the NEXT object on the page -- which would be the dd with definitions:
+Let's go back to the page of jQuery effects and manipulations terms and their definitions. Open up [jq_effects2a.html](http://webdev.usc.edu/itp301/lecture_examples/jq_effects2a.html). Now this time instead of binding events to individual objects (through their IDs) we instead want to be able to bind to ALL dt tags an instruction that toggles the visibility of the __NEXT__ object on the page -- which would be the dd with definitions:
 
 ```js
-$("dt").on("click",function() {
+$("dt").on("click", function() {
 	$(this).next().toggle();
 });
 ```
-See how afer the this object... which targets the dt that was clicked... it then adds an additional selector of next. That targets the VERY NEXT object on the page after the clicked one. And then runs a toggle visibility command on that. You can see that working in jq_effects2b.html.
+See how afer the __this__ object... which targets the dt that was clicked, it then selects the next element in the DOM using next(). That targets the VERY NEXT object on the page after the clicked one. And then runs a toggle visibility command on that. You can see that working in jq_effects2b.html.
 
 So we can not only add additional selectors on to objects, but we can then add actions on top of those. We can even "chain" actions together. For instance, what if when the page first loaded it hid all definitions, then animated all of them open at once, and thenn closed all of them. Take a look at line below:
 

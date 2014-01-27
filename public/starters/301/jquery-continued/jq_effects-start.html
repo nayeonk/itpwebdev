@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>jQuery Effects/Animations</title>
+<link rel="stylesheet" href="jq_effects.css">
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script>
+   $(document).ready(function() {
+		$("dd").hide();
+   });
+</script>
+</head>
+<body>
+
+<h4>jQuery Effects and Manupulations .... but this time using .next()</h4>
+<p> Below is a partial list of the core/main jQuery "actions". This time around rather than individually targeting terms to open up their definitions when clicked, let's write ONE generic jQuery that will work with/target ALL dt / dd pairs at once! </p>
+<p> First off, bind on click for all dt objects. Then, inside that bind write a toggle that runs against the NEXT element on the page... that would be  $(this).next().toggle() </p>
+<dl>
+	<dt id="dtaddclass"> <strong>addClass()</strong> </dt>
+	<dd id="ddaddclass"> Add a CSS class to an object</dd>
+
+	<dt id="dtappend"> append() </dt>
+	<dd id="ddappend"> Add content to the end of an element<br />
+		sd DA<br/>
+		<br />
+		sd DA<br/>
+		<br />
+		sd DA<br/>
+		<br />
+		sd DA<br/>
+		<br />
+		sd DA<br/>
+		<br />
+		sd DA<br/>
+	</dd>
+	
+	<dt id="dtattr"> attr() </dt>
+	<dd id="ddattr"> Retrieve or set the value of an attribute of an HTML object</dd>
+	
+	<dt id="dtcss"> css() </dt>
+	<dd id="ddcss"> Retrieve or set the value of a CSS property of an element</dd>
+	
+	<dt id="dtfadein"> fadeIn() </dt>
+	<dd id="ddfadein"> Fade in an object</dd>
+	
+	<dt id="dtfadeout"> fadeOut() </dt>
+	<dd id="ddfadeout"> Fade out an object</dd>
+	
+	<dt id="dtfadetoggle"> fadeToggle() </dt>
+	<dd dd="ddfadetoggle"> Alternate fading in or out an object</dd>
+	
+	<dt id="dthide"> hide() </dt>
+	<dd id="ddhide"> Make an element disappear</dd>
+	
+	<dt id="dtprepend"> prepend() </dt>
+	<dd id="ddprepend"> Add content to the front/beginning of an element</dd>
+	
+	<dt id="dtremoveclass"> removeClass() </dt>
+	<dd id="ddremoveclass"> Remove a CSS class from an object</dd>
+	
+	<dt id="dtshow"> show() </dt>
+	<dd id="ddshow"> Make an element appear</dd>
+	
+	<dt id="dtslidedown"> slideDown() </dt>
+	<dd id="ddslidedown"> Reveral an item</dd>
+	
+	<dt id="dtslideup"> slideUp() </dt>
+	<dd id="ddslideup"> Aniamte out an </dd>
+	
+	<dt id="dtslidetoggle"> slideToggle() </dt>
+	<dd id="ddslidetoggle"> Alternate revealing and hiding an item</dd>
+	
+	<dt id="dttoggle"> toggle() </dt>
+	<dd id="ddtoggle"> Alternat hiding and showing an element</dd>
+	
+	<dt id="dttoggleclass"> toggleClass() </dt>
+	<dd id="ddtoggleclass"> Add or remove a class (alternating) to/from an object</dd>
+</dl>
+
+</body>
+</html>

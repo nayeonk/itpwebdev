@@ -1,0 +1,14 @@
+#container {
+	margin: auto;
+	width: 800px;
+}
+#thumbnails {
+	margin: auto;
+	width: 500px;
+	text-align: center;
+}
+#main {
+	width: 500px;
+	margin: auto;
+	text-align: center;
+}
