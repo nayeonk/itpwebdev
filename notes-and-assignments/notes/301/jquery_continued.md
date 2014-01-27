@@ -5,7 +5,7 @@ Review of jQuery Syntax, CSS Selectors, effects/animations, manipulations, and e
 
 ******************
 Save this zip file and extract the folder to your desktop
-[starter files](http://itpwebdev.usc.edu/starters/301/jquery-continued.zip)
+[starter files](http://itpwebdev.herokuapp.com/starters/301/jquery-continued.zip)
 ******************
 
 ### Overview
