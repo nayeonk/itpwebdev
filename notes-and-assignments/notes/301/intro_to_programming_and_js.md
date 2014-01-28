@@ -2,7 +2,8 @@ Lecture - Intro to Programming and JS
 ===========
 Introduction to object-oriented programming and Javascript
 
-Save to your computer sample page start and the graphics flip.gif and flop.gif
+Please download the following zip file and extract it to a folder
+[starter files](http://itpwebdev.herokuapp.com/starters/301/intro_to_js_and_programming.zip)
 
 ### Javascript Introduction
 
