@@ -1,12 +1,14 @@
 Lecture - Intro to Programming and JS
-===========
+=====================================
+
 Introduction to object-oriented programming and Javascript
 
+***********
 Please download the following zip file and extract it to a folder
 [starter files](http://itpwebdev.herokuapp.com/starters/301/intro_to_js_and_programming.zip)
+***********
 
 ### Javascript Introduction
-
 
 #### Javascript:
 *	Object-oriented language: Objects within HTML documents
@@ -109,7 +111,7 @@ Where do we place Javascript:
 *	In script block in head -- executes on page load (actually, technically, BEFORE the page builds)
 *	In script block inline with html in body -- executes when that line is encountered
 
-	```js
+	```html
 		<p> First paragraph </p>
 		<script language="javascript">
 			alert('You should see this pop-up message BEFORE the second paragraph eppears on the page.')
@@ -119,7 +121,7 @@ Where do we place Javascript:
 	
 *	In event handler INSIDE html tag -- executes when event of event handler occurs, i.e. delayed code, and does NOT have a script tag
 
-	```js
+	```html
 	<div id="div1"  onmouseover="document.getElementById('div1').style.backgroundColor = 'yellow'" 
 	onmouseout="document.getElementById('div1').style.backgroundColor = 'white'"   >
 		Mouse over this paragraph to see a highlight background color
