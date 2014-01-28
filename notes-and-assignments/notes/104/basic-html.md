@@ -4,10 +4,10 @@ Basic HTML
 ### Lecture Overview
 
 *   What is a web page made of? HTML, HTML Tags/Elements/objects
-*   Text Editors (Notepad, TextEdit)
+*   Text Editors (Notepad, Komodo Edit)
 *   Block elements: h1, h2 ... h6, p
 *   Inline elements: em, strong, anchors;
-*   Close your tags
+*   Dont forget to close your tags!
 *   Creating links with anchor tags
   *   HTML attributes (href, title, target attributes), 
   *   Absolute paths and relative paths for anchor href
@@ -15,10 +15,9 @@ Basic HTML
 *   Properly nesting HTML elements
 *   HTML document structure
 *   Self closing tags: break tag, horizontal rule
-*   style=&quot;background-color: YOUR COLOR HERE&quot;
+*   style="background-color: YOUR COLOR HERE";
 *   FTP, USC Server Space
 *   Lab: First Web Page
-*   Connecting to the virtual lab
 
 ### Basic HTML
 
@@ -58,9 +57,9 @@ Basic HTML
 </html>
 ```
 
-#### Tags (HTML Elements)
+#### Tags (HTML Elements/Objects)
 
-* To tell the broswer about the structure of your page, use pairs of tags around your content.
+* To tell the browser about the structure of your page, use pairs of tags around your content.
 * Element = Opening Tag + Content + Closing Tag
 * An element can have one or more attributes. **Attributes** are always written the same way: first comes the attribute name, followed by an equals sign, and then the attribute value surrounded in double quotes.
 *   Some tags are **block** elements.  They are always displayed as if they have a linebreak before and after them.  Some examples are &lt;h1&gt; ... &lt;h6&gt;,
@@ -75,7 +74,7 @@ Basic HTML
       a forward slash (/), and finally close the tag.  Two examples are &lt;br /&gt; and
       &lt;hr /&gt;.
 
-#### Links
+#### Links (Anchors)
 
 *   Anchors are inline elements
 *   When you want to link from one page to another, use the **&lt;a&gt;** element.
@@ -107,24 +106,28 @@ Basic HTML
 
 #### Link Examples
 
-Link to an external website (the USC website)
+Link to an external website (the USC website):
+
 ```html
-  <a href="http://www.usc.edu">USC</a>
+<a href="http://www.usc.edu">USC</a>
 ```
 
-Link to another HTML file in the same folder as the current HTML file   
+Link to another HTML file in the same folder as the current HTML file:
+
 ```html
-  <a href="tags.html">Tags</a>
+<a href="tags.html">Tags</a>
 ```
 
-Link to another HTML file in the parent folder of the current HTML file (one folder up)
+Link to another HTML file in the parent folder of the current HTML file (one folder up):
+
 ```html
-  <a href="../some-parent-directory.html">Web Space</a>
+<a href="../some-parent-directory.html">Web Space</a>
 ```
 
-Use the target attribute to open USC in another browser window/tab     
+Use the target attribute to open USC in another browser window/tab:
+
 ```html
-  <a href="http://www.usc.edu" target="_blank">USC</a>
+<a href="http://www.usc.edu" target="_blank">USC</a>
 ```
 
 #### Lists

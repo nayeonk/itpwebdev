@@ -1,4 +1,4 @@
 git add --all; 
-git commit -m 'update'; 
+git commit -m 'automated commit: updated notes or assignment';
 git push; 
 git push heroku master;
