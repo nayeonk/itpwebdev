@@ -24,11 +24,11 @@
       "active": 1
     },
     {
-      "name": "Insert new Song()",
+      "name": "Insert Pages using Classes",
       "type": "A",
       "due": "2/4",
       "link": "oop",
-      "active": 0
+      "active": 1
     }
 	],
 
@@ -91,9 +91,17 @@
         {
           "subject": "Object Oriented Programming - part 2",
           "link": ""
+        },
+        {
+          "subject": "PHP OOS Ch 1 (optional)",
+          "link": ""
+        },
+        {
+          "subject": "Object Oriented PHP blog article",
+          "link": "http://net.tutsplus.com/tutorials/php/object-oriented-php-for-beginners/"
         }
       ],
-      "active": 0
+      "active": 1
     },
     {
       "date": "2/4",
