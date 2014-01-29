@@ -1,5 +1,5 @@
-Lecture - Intro to Programming and JavaScript
-=============================================
+Introduction to Programming and JavaScript
+==========================================
 
 ******************************************************************
 Please download the following zip file and extract it to a folder: 
@@ -129,7 +129,11 @@ In event handler INSIDE an HTML tag -- executes when event of event handler occu
 </div>
 ```
 
-In a separate file that is included in a page like how we included jQuery.
+In a separate file that is included in a page like how we included jQuery. This can be a relative or absolute path, just like how we specify an image src or anchor's href.
+
+```html
+<script src="main.js"></script>
+```
 
 *****************************************************************************************************************
 
