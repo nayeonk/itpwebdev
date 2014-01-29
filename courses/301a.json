@@ -45,6 +45,13 @@
 			"due": "2/3",
 			"link": "jquery_interactive_photo_gallery",
 			"active": 1
+		},
+		{
+			"name": "Simple JS App - color setter",
+			"type": "A",
+			"due": "2/5",
+			"link": "js_color_setter",
+			"active": 1
 		}
 	],
 
@@ -93,6 +100,13 @@
 				{ "subject": "Resource-Demo jQuery Menus", "link": "resource-demo_jquery_menus" },
 				{ "subject": "Resource-Demo Photo Gallery", "link": "resource-demo_photo_gallery" },
 				{ "subject": "Resource-Demo Sliding Panels", "link": "resource-demo_sliding_panels" }
+			],
+			"active": 1
+		},
+		{
+			"date": "1/29",
+			"units": [
+				{ "subject": "Intro to programming and JavaScript", "link": "intro_to_programming_and_js" }
 			],
 			"active": 1
 		},
