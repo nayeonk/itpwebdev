@@ -1,6 +1,8 @@
 Installing Composer
 ===================
 
+Documentation: https://getcomposer.org/download/
+
 ### Mac
 
 Run this in your terminal to get the latest Composer version:
