@@ -109,9 +109,13 @@
         {
           "subject": "Namespacing, autoloading, & dependency management",
           "link": ""
+        },
+        {
+          "subject": "Installing Composer",
+          "link": "installing-composer"
         }
       ],
-      "active": 0
+      "active": 1
     }
 	]
 }
