@@ -25,7 +25,7 @@ You should see an output like:
 	Vagrant 1.3.5
 ```
 
-Next, head over to [https://github.com/skaterdav85/vagrant-499](https://github.com/skaterdav85/vagrant-499). Download the repository to your local computer, cd into the directory (refer to the command line basics resource page), and run 'vagrant up'. This will take a while the first time. If everything works ok, you should be able to browse to http://localhost:3333/phpinfo.php and see the index.php page running. 
+Next, head over to [https://github.com/skaterdav85/499-non-framework](https://github.com/skaterdav85/499-non-framework). Download the repository to your local computer, cd into the directory (refer to the command line basics resource page), and run 'vagrant up'. This will take a while the first time. If everything works ok, you should be able to browse to http://localhost:3333/phpinfo.php and see the index.php page running. 
 
 __Before class each week, you should start up the virtual machine so that your environment is all ready and we can get started immediately. We will be using the above repository to set up our environment for the next few weeks. Then I will point you to another repository that will be used to set up our environment for Laravel.__
 

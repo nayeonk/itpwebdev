@@ -116,4 +116,4 @@ $pdo = new PDO("mysql:host=$host;dbname=$dbname", $user, $pass);
 
 ### Submission
 
-To submit, push this code up to the __another repository__ called PHP-OOP-A2 and email the repository URL to itpwebdev@gmail.com
+To submit, push this code up to the __same repository__ with a folder called PHP-OOP-A2 and email the repository URL to itpwebdev@gmail.com

@@ -1,16 +1,13 @@
-Lecture - Intro to Programming and JS
-=====================================
+Lecture - Intro to Programming and JavaScript
+=============================================
 
-Introduction to object-oriented programming and Javascript
-
-***********
+******************************************************************
 Please download the following zip file and extract it to a folder
 [starter files](http://itpwebdev.herokuapp.com/starters/301/intro_to_js_and_programming.zip)
-***********
+******************************************************************
 
-### Javascript Introduction
+### Javascript
 
-#### Javascript:
 *	Object-oriented language: Objects within HTML documents
 *	Objects:
 	*	Objects: window, document, objects in document
@@ -23,12 +20,13 @@ Please download the following zip file and extract it to a folder
 *	Filtering out non-JS browsers
 *	Browser compatibility issues
   
-##### Document Object Model (DOM):
+### Document Object Model (DOM)
+
 *	Defines the object tree of a web page, from the window, browser (navigator) and document objects, to all of their possible sub-objects.
 *	Defines the properties of objects (src for img, bgColor for document, etc.)
 *	Defines technologies and object+property equivalents are part of objects
 
-##### Some common/major page objects in Javascript:
+### Some common/major page objects in Javascript
 
 *	window -- this represents the browser   
 *	document -- this represents the page inside the browser, the html file or document that was loaded   
@@ -37,7 +35,8 @@ Please download the following zip file and extract it to a folder
 
 
 
-#### Javascript:
+### Javascript
+
 -	Javascript is an object-oriented language:
 	*	It detects actions or activities of objects
 	*	It can read/parse aspects and values of objects
@@ -47,7 +46,7 @@ Please download the following zip file and extract it to a folder
 -	DHTML = HTML + Javascript (+ CSS Styles)
 
 
-#### Objects:
+#### Objects
 *	When an object is created (in HTML) the browser defines an object in memory. 
 *	An object can be anything from the entire document to a small text input field in a form in the document.
 *	There are three CRUCIAL aspects to objects:
@@ -55,7 +54,8 @@ Please download the following zip file and extract it to a folder
 	*	Methods: Actions that object can perform or behaviors they can do such as writing content to a document (page) or submitting a form to another page/server.
 	*	Event Handlers: Events that objects can undergo and that be used as triggers such as a user clicking on an object or the contents of a form field changing.
 
-#### (Object) Properties:
+#### (Object) Properties
+
 *	Most common object properties are set through HTML tag attributes
 *	HTML tags have 'default attributes' which means that those objects have default attributes such as the 'fgcolor' and 'bgcolor' properties of a document, the border property of an image, or the cellspacing and cellpadding properties of a table object.
 *	All css style properties (such as background-color) have slightly different name syntax (backgroundColor instead of background-color) in JS, and reside inside of a sub-object called "style" inside of their object (OBJ1.style.backgroundColor not OBJ1.backgroundcolor).
@@ -67,12 +67,14 @@ Please download the following zip file and extract it to a folder
 	*	document.obj1
 	*	document.getElementById('obj1') -- most cross-browser compatible
 
-#### (Object) Methods:
+#### (Object) Methods
+
 *	Methods are "actions" that objects can perform, such as writing information (HTML and text) to a document, submitting a form to a page/server, or changing or formatting certain kings of data.
 *	Methods tend to be specific to objects, although similar objects often have similar methods. For instance, the close() method is typically used only with the window object (to close a window), and the round() method is used with the Math object to round off numbers. But the select() method works with multiple form objects to highlight or select their content, and the indexOf method returns the location of a specified character or string within any kind of string data object.
 *	Methods 'do something'
 
-#### (Object) Event Handlers:
+#### (Object) Event Handlers
+
 *	Event handlers or 'triggers' detect user activity on a page. For instance, when a user selects the contents of a form element, clicks an object on a page, moves off of one object by highlighting or clicking another, etc. 
 *	Event handlers are typically used to delay the execution of code until a certain action occurs. For instance, to wait to bring up a pop-up window until someone clicks on a link that says "Pop-up information".
 
@@ -84,24 +86,24 @@ Ok, so beyond the basic theory, let's dig into two core concepts -- __setting an
 #### Setting an object's property:
 *	First you have to find/locate the object.
 
-	```js
-		document     (the main page/body)
-		document.getElementById('Pic1')     (object in the page that is IDed as Pic1)
-	```
+```js
+document     // (the main page/body)
+document.getElementById('Pic1')     // (object in the page that is IDed as Pic1)
+```
 	
 *	Once you have a reference to an object, then you can add on a property
 
-	```js
-		document.bgColor     (the background color property of the page)
-		document.getElementById('Pic1').src     (the html src property of the object IDed as Pic1)
-	```
+```js
+document.bgColor     // (the background color property of the page)
+document.getElementById('Pic1').src     // (the html src property of the object IDed as Pic1)
+```
 
 *	Then if you want to set a new value for that property, you set the obj.prop = 'value'
 
-	```js
-		document.bgColor = 'teal'
-		document.getElementById('Pic1').src = 'newpic.jpg'
-	```
+```js
+document.bgColor = 'teal'
+document.getElementById('Pic1').src = 'newpic.jpg'
+```
 
 *	When dealing with values in Javascript, need to use QUOTE marks around all non-number data
 
@@ -111,26 +113,26 @@ Where do we place Javascript:
 *	In script block in head -- executes on page load (actually, technically, BEFORE the page builds)
 *	In script block inline with html in body -- executes when that line is encountered
 
-	```html
-		<p> First paragraph </p>
-		<script language="javascript">
-			alert('You should see this pop-up message BEFORE the second paragraph eppears on the page.')
-		</script>
-		<p>Second paragraph</p>
-	```
+```html
+<p> First paragraph </p>
+<script language="javascript">
+	alert('You should see this pop-up message BEFORE the second paragraph eppears on the page.');
+</script>
+<p>Second paragraph</p>
+```
 	
 *	In event handler INSIDE html tag -- executes when event of event handler occurs, i.e. delayed code, and does NOT have a script tag
 
-	```html
-	<div id="div1"  onmouseover="document.getElementById('div1').style.backgroundColor = 'yellow'" 
-	onmouseout="document.getElementById('div1').style.backgroundColor = 'white'"   >
-		Mouse over this paragraph to see a highlight background color
-	</div>
-	```
+```html
+<div id="div1" onmouseover="document.getElementById('div1').style.backgroundColor = 'yellow'" 
+onmouseout="document.getElementById('div1').style.backgroundColor = 'white'"   >
+	Mouse over this paragraph to see a highlight background color
+</div>
+```
 
 *	In a separate file that is included in a page. Note: this requires all events to be 'bound' to objects, like in jQuery, rather than to have event handlers inside html tags.
 
-*************
+********************************************************************************************************************************
 
 Sample Page: [start](http://webdev.usc.edu/itp301/lecture_examples/js1a_start.html) (save that file) and end page [with scripting](http://webdev.usc.edu/itp301/lecture_examples/js1a_end.html)
 
