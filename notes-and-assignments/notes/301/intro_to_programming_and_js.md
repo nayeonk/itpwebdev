@@ -6,6 +6,18 @@ Please download the following zip file and extract it to a folder:
 [starter files](http://itpwebdev.herokuapp.com/starters/301/intro_to_js_and_programming.zip)
 ******************************************************************
 
+### Lecture Overview
+
+* jQuery vs JavaScript
+* DOM
+* HTML objects and properties
+* Other browser objects (window, document, document.body)
+* Object methods
+	* document.getElementById()
+	* window.alert()
+* Event handlers
+* Demo
+
 ### Javascript
 
 * Important to understand how certain objects work in HTML in order to understand how JS will interact with them
@@ -14,7 +26,7 @@ Please download the following zip file and extract it to a folder:
 *	Objects within HTML documents
 	*	Objects: window, document, HTML objects in document
 	*	Properties of objects
-	*	Methods - programs/functionalities of objects
+	*	Methods - object behaviors / functionality
 	*	Events / event handlers
 *	DOM: Document Object Model - tree of HTML objects that make up the web page
 *	Functions: Routines written in JS and called within HTML
