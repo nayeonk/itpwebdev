@@ -32,12 +32,12 @@ Create a form with username and password inputs. It will make a post request to 
 
 This page is responsible for processing a login request.
 
-* if the user navigates directly to this page, redirect back to the login page
-* if valid credentials are passed, store the following data in the session
+* If the user navigates directly to this page and they are logged in, redirect to dashboard. Otherwise, redirect back to the login page
+* If valid credentials are passed, store the following data in the session
 	* username
 	* unix timestamp of the logged in time
-* once logged in redirect to dashboard.php and display a flash message "You have successfully logged in!"
-* if invalid credentials were passed, redirect to login.php with an error flash message "Incorrect credentials"
+* Once logged in redirect to dashboard.php and display a flash message "You have successfully logged in!"
+* If invalid credentials were passed, redirect to login.php with an error flash message "Incorrect credentials"
 
 Create an Auth class in the ITP namespace. This will use PDO behind the scenes. It will have a method _attempt()_ to check if a username and password are valid credentials and it will return a Boolean. Make sure you use prepared statements.
 
