@@ -79,8 +79,6 @@ This should destroy the session and redirect to login.php.
 
 ### Other Requirements
 
-* on every page, there should be a check to see if the user is logged in. if so, redirect to dashboard.php
-* you must use Carbon to display the date on the dashboard
 * There should only be 1 database connection per request. Create a file called db.php like in previous assignment and use that same connection across pages
 * Classes should be in their own file and namespaced properly to follow psr-0 autoloading standard.
 * Make these pages presentable where it is easy for me to use and read (data should be organized on the screen with plenty of white space and separators).
