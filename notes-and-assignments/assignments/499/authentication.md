@@ -41,7 +41,7 @@ This page is responsible for processing a login request.
 
 Create an Auth class in the ITP namespace. This will use PDO behind the scenes. It will have a method _attempt()_ to check if a username and password are valid credentials and it will return a Boolean. Make sure you use prepared statements.
 
-```
+```php
 $authentication = new ITP\Auth($pdo);
 $authentication->attempt($username, $password); // returns TRUE or FALSE
 ```
