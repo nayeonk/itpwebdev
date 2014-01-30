@@ -50,7 +50,7 @@ $authentication->attempt($username, $password); // returns TRUE or FALSE
 
 The dashboard is a page that only authenticated users can access. If I navigate directly to this page and I am not logged in, I should be redirected to login.php.
 
-Display a table of all songs containing
+Display a table with headings of all songs containing:
 
 * title
 * artist
