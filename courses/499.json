@@ -29,6 +29,13 @@
       "due": "2/4",
       "link": "oop",
       "active": 1
+    },
+    {
+      "name": "Authentication",
+      "type": "A",
+      "due": "2/11",
+      "link": "authentication",
+      "active": 0
     }
 	],
 
