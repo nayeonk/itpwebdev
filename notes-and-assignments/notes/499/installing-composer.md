@@ -32,3 +32,13 @@ composer
 ```
 
 ### Windows
+
+Download the [Zip file for PHP 5.5](http://windows.php.net/download/) (either the VC11 x86 Thread Safe or VC11 x64 Thread Safe builds). Extract the zip to a permanent location such as the root C:\ folder.
+
+Then download [the Windows installer for Composer](https://getcomposer.org/doc/00-intro.md#using-the-installer). During the installation process, when prompted for the location of php.exe, point it to the php.exe that is inside the folder you extracted from the PHP Zip file.
+
+After installation completes, open the command prompt and type:
+
+```
+composer
+```
