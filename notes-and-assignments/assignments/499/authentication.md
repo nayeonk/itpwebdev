@@ -13,7 +13,7 @@ You will be creating an authentication module where users can login to an admini
 
 You will __NOT__ be accessing PHP superglobal data using $\_GET, $\_POST, or $\_SESSION. You will instead use Symfony's HttpFoundation.
 
-You will create 4 pages:
+You will create 4 php scripts:
 
 * login.php
 * login-process.php
