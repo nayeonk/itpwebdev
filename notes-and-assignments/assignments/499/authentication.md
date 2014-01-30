@@ -11,7 +11,7 @@ You will be creating an authentication module where users can login to an admini
 	* responses (redirects)
 * Carbon for date formatting on the Dashboard page
 
-You will __NOT__ be accessing PHP superglobal data using $\_REQUEST, $\_GET, $\_POST, or $\_SESSION. You will instead use the Symfony HttpFoundation components.
+You will __NOT__ be accessing PHP superglobal data using $\_REQUEST, $\_GET, $\_POST, or $\_SESSION. You will instead use the [Symfony HttpFoundation components](http://symfony.com/doc/current/components/http_foundation/index.html).
 
 You will create 4 php scripts:
 
