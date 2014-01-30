@@ -67,7 +67,7 @@ $songQuery->orderBy('title');
 $songs = $songQuery->all();
 ```
 
-The _all()__ method should return an array of objects.
+The _all()_ method should return an array of objects.
 
 In the upper right corner, display:
 
