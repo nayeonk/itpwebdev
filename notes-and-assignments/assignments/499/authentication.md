@@ -9,7 +9,7 @@ You will be creating an authentication module where users can login to an admini
 	* request data
 	* sessions
 	* responses (redirects)
-* Carbon for date formatting on the Dashboard page
+* [Carbon](https://packagist.org/packages/nesbot/carbon) for date formatting on the Dashboard page
 
 You will __NOT__ be accessing PHP superglobal data using $_GET, $_POST, or $_SESSION. You will instead use Symfony's HttpFoundation.
 
