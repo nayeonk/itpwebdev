@@ -33,8 +33,9 @@ Create a form with username and password inputs. It will make a post request to 
 This page is responsible for processing a login request.
 
 * if the user navigates directly to this page, redirect back to the login page
-* if valid credentials are passed, store the following data in the session
+* if the login is successful, store the following data in the session:
 	* username
+	* email
 	* unix timestamp of the logged in time
 * once logged in redirect to dashboard.php and display a flash message "You have successfully logged in!"
 * if invalid credentials were passed, redirect to login.php with an error flash message "Incorrect credentials"
@@ -71,7 +72,7 @@ The _all()_ method should return an array of objects.
 
 In the upper right corner, display:
 
-* the username of the logged in user
+* the username and email of the logged in user
 * the time of the login in the format: Last Login: 5 seconds ago. Use the Carbon package for this.
 * Logout link
 
@@ -83,7 +84,12 @@ This should destroy the session and redirect to login.php.
 
 * There should only be 1 database connection per request. Create a file called db.php like in previous assignment and use that same connection across pages
 * Classes should be in their own file and namespaced properly to follow psr-0 autoloading standard.
-* Make these pages presentable where it is easy for me to use and read (data should be organized on the screen with plenty of white space and separators).
+* Make these pages presentable where it is easy for me to use and read data.
+
+### Tips
+
+* You may need to implement other public methods or properties in the classes you define
+* If you can't get someting working, write comments in your code explaining your process
 
 ### Resources
 
