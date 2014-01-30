@@ -67,6 +67,8 @@ $songQuery->orderBy('title');
 $songs = $songQuery->all();
 ```
 
+The _all()__ method should return an array of objects.
+
 In the upper right corner, display:
 
 * the username of the logged in user
