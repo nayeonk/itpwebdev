@@ -13,7 +13,7 @@
 	"homework": [
 		{
 			"name": "Classpage",
-			"type": "lab",
+			"type": "L",
 			"due": "1/16",
 			"link": "classpage-by-bo",
 			"active": 1
@@ -58,6 +58,13 @@
 			"type": "A",
 			"due": "2/04",
 			"link": "js_color_setter",
+			"active": 1
+		},
+		{
+			"name": "Function Lab",
+			"type": "A",
+			"due": "02/06",
+			"link": "function_lab",
 			"active": 1
 		}
 	],
@@ -110,12 +117,12 @@
 			"active": 1
 		},
 		{
-			"date": "Jan 27",
+			"date": "01/30",
 			"units": [
-				{ "subject": "Conditional logic", "link": "" },
-				{ "subject": "return statement", "link": "" }
+				{ "subject": "JS variables, expressions, functions", "link": "js_var_exp_fun" },
+				{ "subject": "Resource-Beginning JS tips, reference", "link": "resource-beginning_js_tips_reference" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "Jan 29",
