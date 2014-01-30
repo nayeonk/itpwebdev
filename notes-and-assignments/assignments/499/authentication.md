@@ -39,7 +39,7 @@ This page is responsible for processing a login request.
 * once logged in redirect to dashboard.php and display a flash message "You have successfully logged in!"
 * if invalid credentials were passed, redirect to login.php with an error flash message "Incorrect credentials"
 
-Create an Auth class in the ITP namespace. This will use PDO behind the scenes. It will have an attempt to check if a username and password are valid credentials and it will return a Boolean. Make sure you use prepared statements.
+Create an Auth class in the ITP namespace. This will use PDO behind the scenes. It will have a method _attempt()_ to check if a username and password are valid credentials and it will return a Boolean. Make sure you use prepared statements.
 
 ```
 $authentication = new ITP\Auth($pdo);
