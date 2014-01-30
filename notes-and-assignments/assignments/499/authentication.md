@@ -30,17 +30,20 @@ Create a form with username and password inputs. It will submit to login-process
 
 ### login-process.php
 
-This page is responsible for processing a login request. The process should go like this:
+This page is responsible for processing a login request.
+
+* if the user navigates directly to this page, redirect back to the login page
+* if valid credentials are passed, store the following data in the session
+	* username
+	* unix timestamp of the logged in time
+* once logged in redirect to dashboard.php and display a flash message "You have successfully logged in!"
+* if invalid credentials were passed, redirect to login.php with an error flash message "Incorrect credentials"
+
+Create an Auth class in the ITP namespace. This will use PDO behind the scenes. It will have an attempt to check if a username and password are valid credentials and it will return a Boolean. Make sure you use prepared statements.
 
 ```
-if no username or password from the request, redirect back to login page
-	check if user exists in the database for the given credentils
-		yes
-			create a session storing _username_ and _loggedInAt_ (which is a timestamp)
-			create a 'success' flash message to be displayed on the dashboard "You have successfully logged in!"
-			redirect to dashboard.php and display flash message
-		no
-			redirect to login.php with an error flash message stating "Incorrect credentials"
+$authentication = new ITP\Auth($pdo);
+$authentication->attempt($username, $password); // returns TRUE or FALSE
 ```
 
 ### dashboard.php
@@ -54,9 +57,25 @@ Display a table of all songs containing
 * genre
 * price
 
+Your query should be wrapped in a class with the following API:
+
+```php
+$songQuery = new ITP\Songs\SongQuery($pdo);
+$songQuery->withArtist();
+$songQuery->withGenre();
+$songQuery->orderBy('title');
+$songs = $songQuery->all();
+```
+
+In the upper right corner, display:
+
+* the username of the logged in user
+* the time of the login in the format: Last Login: 5 seconds ago. Use the Carbon package for this.
+* Logout link
+
 ### logout.php
 
-This should clear the session and redirect to login.php.
+This should destroy the session and redirect to login.php.
 
 ### Other Requirements
 
