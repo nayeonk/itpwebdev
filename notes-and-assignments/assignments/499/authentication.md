@@ -5,13 +5,13 @@ Authentication
 
 You will be creating an authentication module where users can login to an administrative dashboard. In this homework, you will use Composer to leverage 2 popular PHP packages:
 
-* Symfony's HttpFoundation Components to interact with:
+* [Symfony's HttpFoundation Component](https://packagist.org/packages/symfony/http-foundation) to interact with:
 	* request data
 	* sessions
 	* responses (redirects)
 * [Carbon](https://packagist.org/packages/nesbot/carbon) for date formatting on the Dashboard page
 
-You will __NOT__ be accessing PHP superglobal data using $\_REQUEST, $\_GET, $\_POST, or $\_SESSION. You will instead use the [Symfony HttpFoundation components](http://symfony.com/doc/current/components/http_foundation/index.html).
+You will __NOT__ be accessing PHP superglobal data using $\_REQUEST, $\_GET, $\_POST, or $\_SESSION. You will instead use the Symfony HttpFoundation component.
 
 You will create 4 php scripts:
 
@@ -84,6 +84,11 @@ This should destroy the session and redirect to login.php.
 * There should only be 1 database connection per request. Create a file called db.php like in previous assignment and use that same connection across pages
 * Classes should be in their own file and namespaced properly to follow psr-0 autoloading standard.
 * Make these pages presentable where it is easy for me to use and read (data should be organized on the screen with plenty of white space and separators).
+
+### Resources
+
+* [Symfony HttpFoundation Component documentation](http://symfony.com/doc/current/components/http_foundation/index.html)
+* [Carbon documentation](https://github.com/briannesbitt/Carbon)
 
 ### Submission
 
