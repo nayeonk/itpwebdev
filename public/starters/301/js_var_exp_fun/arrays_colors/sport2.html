@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+
+<script language="javascript">
+var sportname = new Array         // the name of a sport such as baseball
+var sportarena = new Array         // the name of a location for the sport
+var sportobject = new Array       // the name of the object players manipulate
+var sportpoint = new Array        // what you call a point
+
+
+sportname[0] = "football"; sportarena[0] = "stadium" ; sportobject[0] = "pigskin" ; sportpoint[0] = "touchdown"
+
+sportname[1] = "basketball" ; sportarena[1] = "court" ; sportobject[1] = "bball" ; sportpoint[1] = "baskets"
+
+sportname[2] = "baseball" ; sportarena[2] = "field" ; sportobject[2] = "stitch" ; sportpoint[2] = "runs"
+
+sportname[3] = "hockey" ; sportarena[3] = "rink" ; sportobject[3] = "puck" ; sportpoint[3] = "goal"
+
+var findsport = function(sporttofind)
+	{
+	for(i=0;i<4;i=i+1)
+		{ 
+		if(sporttofind.toUpperCase() == sportname[i].toUpperCase())
+			{ alert('Found the sport ' + theword) }
+		}
+	}
+</script>
+
+Search for sport:<br />
+<input type="text" id="sportbox" onChange="findsport(this.value)" />
+
+</body>
+</html>

@@ -4,7 +4,7 @@ Introduction to Javascript Variables, Expressions and Operators, and Functions a
 
 ******************************************************************
 Please download the following zip file and extract it to a folder: 
-[starter files](http://itpwebdev.herokuapp.com/starters/301/intro_to_js_and_programming.zip)
+[starter files](http://itpwebdev.herokuapp.com/starters/301/js_var_exp_fun.zip)
 ******************************************************************
 
 ### What is Javascript:
