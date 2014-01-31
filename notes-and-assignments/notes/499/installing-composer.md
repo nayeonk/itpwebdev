@@ -37,7 +37,15 @@ Download the [Zip file for PHP 5.5](http://windows.php.net/download/) (either th
 
 Then download [the Windows installer for Composer](https://getcomposer.org/doc/00-intro.md#using-the-installer). During the installation process, when prompted for the location of php.exe, point it to the php.exe that is inside the folder you extracted from the PHP Zip file.
 
-After installation completes, open the command prompt and type:
+After installation completes, navigate to the PHP folder and rename `php.ini-production` to `php.ini`. Then open up the file in a text editor.
+
+On line 889, remove the semicolon so that it uncomments `extension=php_openssl.dll`. Then on line 731, remove the semicolon and change the directory to the ext folder of your PHP folder:
+
+```
+extension_dir = "C:\php\ext"
+```
+
+Then, open the command prompt and type:
 
 ```
 composer
