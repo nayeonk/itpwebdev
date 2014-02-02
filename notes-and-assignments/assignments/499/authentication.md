@@ -11,7 +11,7 @@ You will be creating an authentication module where users can login to an admini
 	* responses (redirects)
 * [Carbon](https://packagist.org/packages/nesbot/carbon) for date formatting on the Dashboard page
 
-You will __NOT__ be accessing PHP superglobal data using $\_REQUEST, $\_GET, $\_POST, or $\_SESSION. You will instead use the Symfony HttpFoundation component.
+You will __NOT__ be accessing PHP superglobal data directly using $\_REQUEST, $\_GET, $\_POST, or $\_SESSION. You will instead use the Symfony HttpFoundation component.
 
 You will create 4 php scripts:
 
@@ -37,15 +37,10 @@ This page is responsible for processing a login request.
 	* username
 	* email
 	* unix timestamp of the logged in time
-* Once logged in redirect to dashboard.php and display a flash message "You have successfully logged in!"
+* Redirect users to dashboard.php if they log in successfully and display a flash message "You have successfully logged in!"
 * If invalid credentials were passed, redirect to login.php with an error flash message "Incorrect credentials"
 
-Create an Auth class in the ITP namespace. This will use PDO behind the scenes. It will have a method _attempt()_ to check if a username and password are valid credentials and it will return a Boolean. Make sure you use prepared statements.
-
-```php
-$authentication = new ITP\Auth($pdo);
-$authentication->attempt($username, $password); // returns TRUE or FALSE
-```
+Create an Auth class in the ITP namespace. This will use PDO behind the scenes. It will have a method _attempt($username, $password)_ to check if a username and password are valid credentials and it will return a boolean. Make sure you use prepared statements.
 
 ### dashboard.php
 
@@ -62,34 +57,34 @@ Your query should be wrapped in a class with the following API:
 
 ```php
 $songQuery = new ITP\Songs\SongQuery($pdo);
-$songQuery->withArtist();
-$songQuery->withGenre();
-$songQuery->orderBy('title');
-$songs = $songQuery->all();
+$songs = $songQuery
+	->withArtist()
+	->withGenre()
+	->orderBy('title')
+	->all();
 ```
 
-The _all()_ method should return an array of objects.
+The _all()_ method should return an array of objects. This pattern is called _method chaining_. You can achieve method chaining by returning _$this_.
 
 In the upper right corner, display:
 
 * the username and email of the logged in user
-* the time of the login in the format: Last Login: 5 seconds ago. Use the Carbon package for this.
+* the time of the login in the format: __Last Login: 5 seconds ago__. Use the Carbon package for this.
 * Logout link
 
 ### logout.php
 
-This should destroy the session and redirect to login.php.
+This should destroy the session and redirect users to login.php.
 
 ### Other Requirements
 
-* There should only be 1 database connection per request. Create a file called db.php like in previous assignment and use that same connection across pages
-* Classes should be in their own file and namespaced properly to follow psr-0 autoloading standard.
-* Make these pages presentable where it is easy for me to use and read data.
+* There should only be 1 database connection per request.
+* Classes should be in their own file and namespaced properly to follow PSR-0 autoloading standard.
+* Style your pages. You are welcome to use any frontend libraries like Bootstrap or Foundation.
 
 ### Tips
 
 * You may need to implement other public methods or properties in the classes you define
-* If you can't get someting working, write comments in your code explaining your process
 
 ### Resources
 
