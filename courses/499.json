@@ -120,6 +120,18 @@
         {
           "subject": "Installing Composer",
           "link": "installing-composer"
+        },
+        {
+          "subject": "Reading - PSR Huh?",
+          "link": "http://net.tutsplus.com/tutorials/php/psr-huh/"
+        },
+        {
+          "subject": "Reading - Easy package management with Composer",
+          "link": "http://net.tutsplus.com/tutorials/php/easy-package-management-with-composer/"
+        },
+        {
+          "subject": "Reading - PSR0 vs PSR4",
+          "link": "http://www.sitepoint.com/battle-autoloaders-psr-0-vs-psr-4/"
         }
       ],
       "active": 1

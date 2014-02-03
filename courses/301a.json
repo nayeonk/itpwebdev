@@ -52,6 +52,13 @@
 			"due": "2/5",
 			"link": "js_color_setter",
 			"active": 1
+		},
+		{
+			"name": "Function Lab",
+			"type": "L",
+			"due": "2/10",
+			"link": "function_lab",
+			"active": 1
 		}
 	],
 
@@ -107,6 +114,14 @@
 			"date": "1/29",
 			"units": [
 				{ "subject": "Intro to programming and JavaScript", "link": "intro_to_programming_and_js" }
+			],
+			"active": 1
+		},
+		{
+			"date": "2/3",
+			"units": [
+				{ "subject": "JS variables, expressions, functions", "link": "js_var_exp_fun" },
+				{ "subject": "Resource-Beginning JS tips, reference", "link": "resource-beginning_js_tips_reference" }
 			],
 			"active": 1
 		},

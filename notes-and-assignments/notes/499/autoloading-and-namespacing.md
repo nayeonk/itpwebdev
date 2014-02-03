@@ -11,6 +11,7 @@ Autoloading and Namespacing
 * autoloading & Composer
 	* autoloading files with __autoload magic function
 		* autoload example
+	* autoloading files with spl_autoload_register
 	* autoloading classes using classmap
 	* autoloading classes using psr-0 (php standards recommendation)
 	* What is Composer? (see website)
@@ -34,13 +35,8 @@ Autoloading and Namespacing
 	* redirects
 
 ### Packages
+
 	* Symfony HTTPFoundation
-		* https://packagist.org/packages/symfony/http-foundation
-		* http://symfony.com/doc/current/components/http_foundation/introduction.html
-		* [Sessions](http://symfony.com/doc/current/components/http_foundation/sessions.html)
+		* Packagist: https://packagist.org/packages/symfony/http-foundation
+		* Documentation: http://symfony.com/doc/current/components/http_foundation/introduction.html
 
-### Extra Reading
-
-* [Composter article](http://net.tutsplus.com/tutorials/php/easy-package-management-with-composer/)
-* [PSR Huh?](http://net.tutsplus.com/tutorials/php/psr-huh/)
-* [__autoload magic function](http://www.php.net/manual/en/function.autoload.php)

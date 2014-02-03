@@ -26,5 +26,5 @@ For this assignment you can use graphics and photos from the web or ones that yo
 
 Below are some sample resumes. Please note that not all examples meet all criteria, so please make sure you complete all required elements.
 
-* [Example 1](http://itpwebdev.usc.edu/images/resume1.gif)
-* [Example 2](http://itpwebdev.usc.edu/images/resume2.gif)
+* [Example 1](http://itpwebdev.herokuapp.com/images/resume1.gif)
+* [Example 2](http://itpwebdev.herokuapp.com/images/resume2.gif)

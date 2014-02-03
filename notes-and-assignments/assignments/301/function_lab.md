@@ -1,7 +1,7 @@
 Function Lab
 ============
 
-Save the [starter file](http://webdev.usc.edu/itp301/lab_files/objects_prop_funct_lab.html) to your computer, as well as the [main image](http://webdev.usc.edu/itp204//lab_files/familyguy6.jpg).
+Save the [starter file](http://itpwebdev.herokuapp.com/starters/301/functions-lab.html) to your computer, as well as the [main image](http://itpwebdev.herokuapp.com/starters/301/familyguy6.jpg).
 
 Look at the code. The page already contains two functions. One will change the height, width and border properties of the image using the data from the text boxes. The other will bring up an alert box that tells the user the current height, width and border of the iamge.
 

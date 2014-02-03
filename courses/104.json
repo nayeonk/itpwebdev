@@ -22,9 +22,9 @@
 		{
 			"name": "Resume",
 			"type": "assignment",
-			"due": "2/3",
+			"due": "2/10",
 			"link": "resume",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "Film Article",
@@ -142,13 +142,13 @@
 			"active": 1
 		},
 		{
-			"date": "9/16",
+			"date": "2/3",
 			"units": [
 				{ "subject": "Basic HTML review and good code", "link": "html-review-good-code" },
 				{ "subject": "Working with images", "link": "images" },
 				{ "subject": "Intro to styles", "link": "styles-intro" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "9/23",
