@@ -20,14 +20,14 @@ David's class: http://itpwebdev.herokuapp.com/starters/301/s-vars-expressions-fu
 	* HTML attributes are HTML object properties
 	* objects can contain other objects (style object)
 	* methods = functions
-* data types
+* data types (chrome console to experiment)
 	* numbers
 	* strings
 	* booleans
 	* null
 	* objects
 	* functions
-* expressions, alert, console.log()
+* expressions
 	* arithmetic
 	* string concatanation
 	* comparison expressions
@@ -58,7 +58,7 @@ Javascript is scripting language with:
 	
 *	Programming fundamentals like variables, loops, logic, etc.
 *	Can write and then call routines (functions)
-*	Object-oriented in which objects have pre-defined methods or actions
+*	Object-oriented in which objects have pre-defined methods/functions or actions
 *	It IS CASE-SENSITIVE
 
 
