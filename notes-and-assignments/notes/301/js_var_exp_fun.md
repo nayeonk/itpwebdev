@@ -6,7 +6,7 @@ Please download the following zip file and extract it to a folder:
 
 Yuanbo's class: [starter files](http://itpwebdev.herokuapp.com/starters/301/js_var_exp_fun.zip)
 
-David's class: http://itpwebdev.herokuapp.com/starters/301/s-vars-expressions-functions.zip
+David's class: http://itpwebdev.herokuapp.com/starters/301/js-vars-expressions-functions.zip
 ******************************************************************
 
 ### Overview
