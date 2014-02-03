@@ -12,6 +12,14 @@ David's class: http://itpwebdev.herokuapp.com/starters/301/s-vars-expressions-fu
 ### Overview
 
 * Review of last lecture (objects, properties, methods, event handlers, DOM manipulation)
+	* HTML objects
+	* document object
+	* window object
+	* methods
+		* alert(), getElementById()
+	* HTML attributes are HTML object properties
+	* objects can contain other objects (style object)
+	* methods = functions
 * data types
 	* numbers
 	* strings
@@ -25,15 +33,21 @@ David's class: http://itpwebdev.herokuapp.com/starters/301/s-vars-expressions-fu
 	* comparison expressions
 * variables
 	* window.prompt()
+	* reading / writing HTML object properties
+		* read image width (from attribute), add 200, write it back
 * functions
 	* 2 ways to define functions
-	* Ex 1: image rollover functions
-		* hardcoded image src
-		* arguments / parameters
-	* Ex 2: image scaling function (using style property)
-		* scaling an image w/ hardcoded values in function
-		* passing values as parameters scale('image-id', 200, 200) - variables for px
-	* Ex 3: setting font size using prompt()
+	* functions WITHOUT inputs or outputs
+		* Ex 1: rollover
+	* functions with inputs
+		* local variables
+		* Ex 2: image rollover function with arguments / parameters
+		* Ex 3: image scaling function (using style property)
+			* start w/ hardcoded values in function
+			* passing values as parameters scale('image-id', 200, 200) - variables for px
+		* Ex 4: setting font size using prompt()
+	* functions with inputs and outputs
+		* averge function with 2 numbers
 * comments
 
 
