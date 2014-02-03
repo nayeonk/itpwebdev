@@ -46,6 +46,7 @@ David's class: http://itpwebdev.herokuapp.com/starters/301/s-vars-expressions-fu
 			* start w/ hardcoded values in function
 			* passing values as parameters scale('image-id', 200, 200) - variables for px
 		* Ex 4: setting font size using prompt()
+		* Ex 5: Ex 4 with input type text
 	* functions with inputs and outputs
 		* averge function with 2 numbers
 * comments
