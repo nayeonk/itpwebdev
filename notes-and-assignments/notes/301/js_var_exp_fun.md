@@ -33,7 +33,7 @@ David's class: http://itpwebdev.herokuapp.com/starters/301/s-vars-expressions-fu
 	* Ex 2: image scaling function (using style property)
 		* scaling an image w/ hardcoded values in function
 		* passing values as parameters scale('image-id', 200, 200) - variables for px
-	* Ex 3: image scaling reading from inputs
+	* Ex 3: setting font size using prompt()
 * comments
 
 

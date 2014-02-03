@@ -4,24 +4,24 @@
 <title>Functions Lab</title>
 <script>
 
-var imageInfo = function () {
+var imageInfo = function() {
 // write a function that gathers all of the information about the image and outputs it to an alert box.
 // The final message should say "The image has a height of X and a width of Y and a border of Z".
 // The first part of the function has been written for you. You need to continue adding more values to the variable theinfo
-theinfo = "";
-theinfo = "The image has a height of ";
-theinfo = theinfo + document.getElementById('theimage').style.height;
+  var theinfo = "The image has a height of ";
+  theinfo = theinfo + document.getElementById('theimage').style.height;
 
-alert(theinfo);
+  alert(theinfo);
 };
 
 
 
-var scaleImage = function (newwidth, newheight, newborder) {
-// this function has three parameters, meaning when it is called two pieces of information should be passed to it
-// the three arguments passed to it will be the width and height that the image should be scaled to
+var scaleImage = function(newwidth, newheight, newborder) {
+// this function has three parameters, meaning when it is called 3 pieces of information should be passed to it
+// the three arguments passed to it will be the width, height, and border that the image should be scaled to
 
-// you should have three lines in this function. each line will set a new style property for the image: width, height and border
+// you should have three lines in this function.
+// each line will set a new style property for the image: width, height and border
 
 // the name of the object is static (i.e. there is only one image on the page, so you can use that imagename as part of your calls)
 };
@@ -31,47 +31,43 @@ var scaleImage = function (newwidth, newheight, newborder) {
 
 <body>
 <div style="float:left;width:500px">
-<form id="form1" name="f1" method="post" action="">
-      <p>Image Scaling</p>
-      <p>
-        <label>Width
-        <input name="w" type="text" id="w" />
-        </label>
-      </p>
-      <p>
-        <label>
-        Height 
-        <input name="h" type="text" id="h" />
-        </label>
-      </p>
-      <p>
-        <label>
-        Border
-	  <input name="b" type="text" id="b" />
-        </label>
-      </p>
-      <p>
-        <label>
-		<!-- The below button needs to have an onClick trigger added that calls the scaleImage function. When that function is called it needs to include three arguments corresponding to width, height and border. The data for those arguments should come from the form fields. -->
-        <input onClick="" type="button" name="Button" value="Scale Image" />
-        </label>
-      </p>
-      <p>
-        <label>
-		<!-- The button below needs to have an onClick trigger added that calls the imageInfo function -->
-        <input  type="button" name="Button" value="Current Image Info" />
-        </label>
-      </p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-    </form>
-    <p>&nbsp;</p>
-  <p>&nbsp;</p>
-</div>
-<div style="float:left;width:400px">
-<img name="theimage" id="theimage" src="familyguy6.jpg" style="width:320px; height:400px" />
+  <form id="form1" name="f1" method="post" action="">
+    <p>Image Scaling</p>
+    <p>
+      <label>Width
+      <input name="w" type="text" id="w" />
+      </label>
+    </p>
+    <p>
+      <label>
+      Height 
+      <input name="h" type="text" id="h" />
+      </label>
+    </p>
+    <p>
+      <label>
+      Border
+  <input name="b" type="text" id="b" />
+      </label>
+    </p>
+    <p>
+      <label>
+  <!-- The below button needs to have an onClick trigger added that calls the scaleImage function. When that function is called it needs to include three arguments corresponding to width, height and border. The data for those arguments should come from the form fields. -->
+      <input onClick="" type="button" name="Button" value="Scale Image" />
+      </label>
+    </p>
+    <p>
+      <label>
+  <!-- The button below needs to have an onClick trigger added that calls the imageInfo function -->
+      <input type="button" name="Button" value="Current Image Info" />
+      </label>
+    </p>
+  </form>
 </div>
 
+<div style="float:left;width:400px">
+  <img name="theimage" id="theimage" src="familyguy6.jpg" style="width:320px; height:400px" />
+</div>
 
 </body>
 </html>
