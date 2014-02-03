@@ -32,21 +32,25 @@ David's class: http://itpwebdev.herokuapp.com/starters/301/js-vars-expressions-f
 	* string concatanation
 	* comparison expressions
 * variables
+	* var keyword, letters, numbers, $, _
+	* vars with simple types
+	* Ex: averge 3 numbers
+	* Ex: manipulating an anchor object (href, innerHTML, title)
 	* window.prompt()
 	* reading / writing HTML object properties
-		* read image width (from attribute), add 200, write it back
+		* Ex: read image width (from attribute), add 200, write it back
 * functions
 	* 2 ways to define functions
 	* functions WITHOUT inputs or outputs
-		* Ex 1: rollover
+		* Ex: rollover
 	* functions with inputs
 		* local variables
-		* Ex 2: image rollover function with arguments / parameters
-		* Ex 3: image scaling function (using style property)
-			* start w/ hardcoded values in function
-			* passing values as parameters scale('image-id', 200, 200) - variables for px
-		* Ex 4: setting font size using prompt()
-		* Ex 5: Ex 4 with input type text
+		* Ex: image rollover function with arguments / parameters: rollover(id, newImageSrc)
+		* Ex: image scaling function (img width property, then using style property)
+			* start w/ hardcoded values in function scaleImage()
+			* passing values as parameters scaleImage('image-id', 200, 200) - variables for px
+		* Ex: setting font size using prompt()
+		* Ex: Prev example with input type text
 	* functions with inputs and outputs
 		* averge function with 2 numbers
 * comments
