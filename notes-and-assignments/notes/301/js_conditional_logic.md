@@ -1,5 +1,6 @@
 Lecture - Conditional Logic
-=======================
+===========================
+
 Review of JS basics, conditional logic 
 
 ******************************************************************
@@ -23,10 +24,12 @@ Image named "mypic" could be referenced as document.mypic or better would be to 
 
 
 Objects have properties that can be read and changed through Javascript. Image swapping: changing the src property of an image object usch as 
+
 ```js
 document.myimage.src = 'newimage.gif' 
 ```
 or 
+
 ```js
 document.getElementById('myimage').src='newimage.gif'
 ```
@@ -41,7 +44,7 @@ Objects have methods which are like stored procedures specific to that objects. 
 __Information Prompt__: This window method brings up a prompt for the user to input information. To set a new variable named 'userinfo' to the results of a prompt that says 'Please enter your information' you could code:
 
 ```js
-  var userinfo = prompt('Please enter your information')
+var userinfo = prompt('Please enter your information');
 ```
 
 Objects have __event handlers__ that detect user interaction and act as triggers for Javascript. These can detect things like when a user has their mouse over an object, when they select an object and when a page finishes loading. Different objects support different event handlers. Event handlers begin with 'on', OnMouseUp: Detect when someone releases a mouseclick. So, for instance, to run a function called "PageLoad" when someone releases a mouse click on an anchor tag you could include onMouseUp="PageLoad()" in the a tag.
@@ -67,12 +70,11 @@ Functions with parameters assign the argument data to "local variables". These v
 
 __Example1:__
 
-```js
-<script language='javascript'>
-  var LinkAlert =  function(linkmsg)
-  {
+```html
+<script>
+var LinkAlert =  function(linkmsg) {
   alert('You are leaving the current site and going to ' + linkmsg)
-  } 
+};
 </script>
 
 <a href='mypage.html' onMouseDown="LinkAlert('My Page')"> my link </a>
@@ -88,15 +90,14 @@ So in this example 'You are leaving the current site and are going to My Page' w
 
 __Example2:__
 
-```js
-<script language="javascript">
-  var DisplayInfo = function(info)
-  {
-  alert(info)
-  }
+```html
+<script>
+  var DisplayInfo = function(info) {
+    alert(info)
+  };
 </script>
 
-<form name="myform>
+<form name="myform">
   <input type="text" name="thename" id="thename" onChange="DisplayInfo(this.value)">
 </form>
 ```
@@ -167,10 +168,9 @@ Assigned code executes if expression is evaluated as true
 Similar to functions, curly crackets are used to delineate the code to be executed.
 
 ```js
-if (document.getElementById('n1').value == '1')
-  { 
-  alert('You entered 1') 
-  }
+if (document.getElementById('n1').value == '1') { 
+  alert('You entered 1');
+}
 ```
 
 __else clause__ in if statement Creates basic true/false conditional routines
@@ -178,14 +178,12 @@ __else clause__ in if statement Creates basic true/false conditional routines
 else assigns code to a false expression evaluation -- creates a second code branch in condition if routine 
 
 ```js
-if (document.getElementById('n1').value == '1')
-  { 
-  alert('You entered 1')
-  }
-else
-  { 
-  alert('You did not enter 1')
-  }
+if (document.getElementById('n1').value == '1') { 
+  alert('You entered 1');
+}
+else { 
+  alert('You did not enter 1');
+}
 ```
 
 __else if clause__ in if statement Creates ADDITONAL logic branches OFF the original statement.
@@ -195,22 +193,18 @@ ONLY is evaluated if the first/previous statement/s (expression evaluations) wer
 can have one or more of these AFTER the if statement but BEFORE the catch-all "else" statement (if it exists) 
 
 ```js
-if (parseFloat(document.getElementById('n1').value) > 18)
-  {
+if (parseFloat(document.getElementById('n1').value) > 18) {
   alert('You are of legal voting age')
-  }
-else if (parseFloat(document.getElementById('n1').value) < 18)
-  { 
+}
+else if (parseFloat(document.getElementById('n1').value) < 18) { 
   alert('You cannot yet vote')
-  }
-else if (parseFloat(document.getElementById('n1').value) == 18)
-  {
+}
+else if (parseFloat(document.getElementById('n1').value) == 18) {
   alert('Congratulations! Just this year you became eligible to vote!')
-  }
-else
-  { 
-  alert('Hmm. It does not appear that you entered a valid age.')
-  }
+}
+else { 
+ alert('Hmm. It does not appear that you entered a valid age.')
+}
  ```
  
 Lecture [example](http://webdev.usc.edu/itp301/lecture_examples/conditional_agecheck.html) that takes a piece of data, converts it to a number, then evaluates it according to certain criteria.
