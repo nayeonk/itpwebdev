@@ -43,6 +43,7 @@ Autoloading and Namespacing
 * Packagist.org
 * composer.json
 * loading other packages into our project -> install monolog
+* wildcards
 * composer install
 * /vendor directory
 * composer.lock
