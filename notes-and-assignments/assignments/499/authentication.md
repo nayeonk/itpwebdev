@@ -40,7 +40,7 @@ This page is responsible for processing a login request.
 * Redirect users to dashboard.php if they log in successfully and display a flash message "You have successfully logged in!"
 * If invalid credentials were passed, redirect to login.php with an error flash message "Incorrect credentials"
 
-Create an Auth class in the ITP namespace. This will use PDO behind the scenes. It will have a method _attempt($username, $password)_ to check if a username and password are valid credentials and it will return a boolean. Make sure you use prepared statements.
+Create an Auth class in the ITP namespace. This will use PDO behind the scenes. It will have an instance method _attempt($username, $password)_ to check if a username and password are valid credentials and it will return a boolean. Make sure you use prepared statements.
 
 ### dashboard.php
 
@@ -81,6 +81,19 @@ This should destroy the session and redirect users to login.php.
 * There should only be 1 database connection per request.
 * Classes should be in their own file and namespaced properly to follow PSR-0 autoloading standard.
 * Style your pages. You are welcome to use any frontend libraries like Bootstrap or Foundation.
+* Make sure all of your HTML pages have a valid HTML document structure like below:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	
+</body>
+</html>
+```
 
 ### Tips
 

@@ -35,9 +35,3 @@ Autoloading and Namespacing
 	* post data
 	* redirects
 
-### Packages
-
-* Symfony HTTPFoundation
-	* Packagist: https://packagist.org/packages/symfony/http-foundation
-	* Documentation: http://symfony.com/doc/current/components/http_foundation/introduction.html
-
