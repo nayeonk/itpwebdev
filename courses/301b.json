@@ -66,6 +66,20 @@
 			"due": "02/06",
 			"link": "function_lab",
 			"active": 1
+		},
+		{
+			"name": "Function Lab",
+			"type": "L",
+			"due": "02/06",
+			"link": "function_lab",
+			"active": 1
+		},
+		{
+			"name": "Calculator App",
+			"type": "A",
+			"due": "02/11",
+			"link": "cal_app",
+			"active": 1
 		}
 	],
 
@@ -125,11 +139,11 @@
 			"active": 1
 		},
 		{
-			"date": "Jan 29",
+			"date": "02/04",
 			"units": [
-				{ "subject": "Editing style properties", "link": "" }
+				{ "subject": "JS Conditional Logic", "link": "js_conditional_logic" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "Feb 3",

@@ -4,7 +4,7 @@ Review of JS basics, conditional logic
 
 ******************************************************************
 Please download the following zip file and extract it to a folder: 
-[starter files](http://itpwebdev.herokuapp.com/starters/301/js_var_exp_fun.zip)
+[starter files](http://itpwebdev.herokuapp.com/starters/301/js_conditional_logic.zip)
 ******************************************************************
 
 ### JS implementation and objects Review:
