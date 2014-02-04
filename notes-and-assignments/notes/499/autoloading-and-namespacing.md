@@ -7,6 +7,7 @@ Autoloading and Namespacing
 	* creating a namespace
 	* using a class with a namespace
 	* use statement
+	* aliasing namespaced classes
 	* namespaced classes using built-in php classes
 * autoloading & Composer
 	* autoloading files with __autoload magic function
@@ -36,7 +37,7 @@ Autoloading and Namespacing
 
 ### Packages
 
-	* Symfony HTTPFoundation
-		* Packagist: https://packagist.org/packages/symfony/http-foundation
-		* Documentation: http://symfony.com/doc/current/components/http_foundation/introduction.html
+* Symfony HTTPFoundation
+	* Packagist: https://packagist.org/packages/symfony/http-foundation
+	* Documentation: http://symfony.com/doc/current/components/http_foundation/introduction.html
 

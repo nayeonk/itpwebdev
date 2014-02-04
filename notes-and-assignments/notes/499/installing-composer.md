@@ -22,7 +22,7 @@ And that will list out a bunch of different composer commands.
 Or you can move it to somewhere in your PATH such as /usr/local/bin:
 
 ```
-mv composer.phar /usr/local/bin/composer.phar
+mv composer.phar /usr/local/bin/composer
 ```
 
 and then type:
