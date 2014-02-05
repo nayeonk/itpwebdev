@@ -3,7 +3,7 @@ Calculator
 
 For this assignment, you will need to create graphics, as well as write the JavaScript to create a basic four-function web-based graphic calculator.
 
-Save the [startpage](http://itpwebdev.usc.edu/starters/301/calculator_start.html) to your computer. Notice that this file ALREADY has some functions and variables defined in it. These should help to give some structure and hints to help you start. 
+Save the [startpage](http://itpwebdev.herokuapp.com/starters/301/calculator_start.html) to your computer. Notice that this file ALREADY has some functions and variables defined in it. These should help to give some structure and hints to help you start. 
 
 Basic workflow of this page is that a person enters in a number using the calculator buttons, then presses a math function, then types in a second number, then presses the equal sign, and the result appears. 
 
