@@ -62,13 +62,6 @@
 		},
 		{
 			"name": "Function Lab",
-			"type": "A",
-			"due": "02/06",
-			"link": "function_lab",
-			"active": 1
-		},
-		{
-			"name": "Function Lab",
 			"type": "L",
 			"due": "02/06",
 			"link": "function_lab",
@@ -142,6 +135,13 @@
 			"date": "02/04",
 			"units": [
 				{ "subject": "JS Conditional Logic", "link": "js_conditional_logic" }
+			],
+			"active": 1
+		},
+		{
+			"date": "02/06",
+			"units": [
+				{ "subject": "\"this\" keyword, Editing Style Properties", "link": "this_editing_style_properties" }
 			],
 			"active": 1
 		},

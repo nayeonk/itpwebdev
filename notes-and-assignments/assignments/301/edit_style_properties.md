@@ -2,7 +2,7 @@ Lab - Edit style properties
 ============
 Write Javascript to edit style properties of IDed DIVs
 
-Save this start page. The first thing you might want to do is open that page in DW so that you can see the 3 layers that are in the page (but have initial visibility properties of "hidden"). 
+Save this [start](http://webdev.usc.edu/itp301/assignment_files/edit_styles_lab.html) page. The first thing you might want to do is open that page in DW so that you can see the 3 layers that are in the page (but have initial visibility properties of "hidden"). 
 
 Using JAVASCRIPT (NOT jQuery) write JS for the first two rows of buttons. Each "change" requires setting a particular style property of a layer (div). 
 
