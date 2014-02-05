@@ -59,6 +59,13 @@
 			"due": "2/10",
 			"link": "function_lab",
 			"active": 1
+		},
+		{
+			"name": "Calculator App",
+			"type": "A",
+			"due": "2/12",
+			"link": "cal_app",
+			"active": 1
 		}
 	],
 
@@ -122,6 +129,13 @@
 			"units": [
 				{ "subject": "JS variables, expressions, functions", "link": "js_var_exp_fun" },
 				{ "subject": "Resource-Beginning JS tips, reference", "link": "resource-beginning_js_tips_reference" }
+			],
+			"active": 1
+		},
+		{
+			"date": "2/5",
+			"units": [
+				{ "subject": "JS Conditional Logic", "link": "js_conditional_logic" }
 			],
 			"active": 1
 		},

@@ -1,7 +1,10 @@
+<!DOCTYPE html>
 <html>
 <head>
-
-<script language="javascript">
+<style>
+	div { margin: 20px 0; }
+</style>
+<script>
 
 // The following function receives three pieces of data (properties from an image) and displays their value in an alert box along with string data
 
@@ -9,10 +12,8 @@
 // The following function receives an entire image OBJECT and extras values from different properties of that image, and then displays them (along with string data) in an alert box
 
 
-
 // make an image larger by a factor of 2
-var imagebig = function(obj1)
-{
+var doubleImageSize = function(imageObject) {
 // receive objeect
 
 // read its width and height properties
@@ -21,46 +22,35 @@ var imagebig = function(obj1)
 
 // set its height to current height * 2
 
+};
 
+var checkage = function() {
 
-}
-
-// Take the text from the text box and bring up an elert that greets that name
-// Note to display the concept of string versus variable that the difference between the two alerts below
-var checkage = function (){
-}
-var checkage2 = function (){
-}
+};
 
 </script>
 
 </head>
 <body>
-<script>
-</script>
 
-<!--
-Note that the JS in the first image uses the document.objname technique whereas the JS in the second image uses the document.GetElementById method to "locate" the object and pass it along to the function
--->
+<div>
+	Click picture for more details: 
+	<img src="funny_cartoon.jpg" style="width:70px; height:67px;" alt="Cartoon 1" id="funny-cartoon-1" onclick="" />
+</div>
 
-Click picture for more details: 
-<img src="funny_cartoon.jpg"  style="width:70px; height:67px; border: solid 1px black" id="mypic1" onclick="" />
-<br> <br />
-Click picture to enlarge: 
-<img src="funny_cartoon_2.jpg" style="width:70px; height:67px; border: solid 1px black" id="mypic2" onclick= ""  />
+<div>
+	Click [+] to enlarge, Click image for details: 
+	<img src="funny_cartoon_2.jpg" style="width:70px; height:67px;" alt="Cartoon 2" id="funny-cartoon-2" onclick=""  />
+	<a href="#">[+]</a>
+</div>
 
-
-<span onclick="" >click this text to for more info</span>
-<form name="f1">
-
-<br> <br>
-Your name:
-<input type="text" name="t1" id="t1">
-<input type ="text" name ="age" id="age">
-<br>
-<input type="button" value="Check Age" onclick="">
+<form>
+	Name: <input type="text" name="name" id="name">
+	<br />
+	Age: <input type ="text" name ="age" id="age">
+	<br />
+	<input type="button" value="Check Age">
 </form>
-
 
 </body>
 </html>

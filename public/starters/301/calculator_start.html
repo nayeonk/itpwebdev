@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculator</title>
+<script>
+
+var firstnumber = 0;
+var secondnumber = 0;
+var themathfunction = '';
+
+function reset() {
+// clear all variables
+// reset input window to 0
+}
+
+function savefunction(mathfunction) {
+	// save first number
+	firstnumber = document.getElementById('content').value;
+	firstnumber = parseFloat(firstnumber);
+	// save selected mathfunction
+	themathfunction = mathfunction;
+	// reset input window to 0
+	document.getElementById('content').value = '';
+}
+
+function performcalculation() {
+
+// OPTIONAL - check to see
+	// is there a first number?
+	// is there a mathfunction?
+
+// if ---- then perform addition
+ 
+// if --- then perform substraction
+
+// if --- then  perform multiplication
+
+// if --- then perform division 
+	
+// display result
+
+}
+
+</script>
+
+<style>
+	div { margin:4px;	float:left; }
+	#calculator { background-color: #496889; width:300px; }		
+	#readout { width:100%; text-align:center; }
+	#content { width:280px;	}
+	.bc { clear:both;	}
+	img { width:50px; height:50px; border: 1px solid black; }
+</style>
+</head>
+
+<body style="background-color: #FFFFFF; color: #000;">
+
+<form name="calculator">
+	<div id="calculator">
+		<div id="readout">
+	    <input type="text" name="content" id="content" />
+	  </div>
+		<br class="bc" />
+		<div style="width:45%; text-align:center">
+			<a href="#" onClick=""><img src="clear.gif" /></a>
+		</div>
+		<div style="width:45%; text-align:center">
+			<a href="#" onClick=""><img src="equal.gif" /></a></td>
+		</div>
+		<br class="bc" />
+		<div style="width:22%; text-align:center">
+			<a href="#" onClick="document.getElementById('content').value=document.getElementById('content').value+'1'">
+				<img src="1.gif" />
+			</a>
+    </div>
+		<div style="width:22%; text-align:center">
+			<a href="#" onClick="document.getElementById('content').value=document.getElementById('content').value+'2'">
+				<img src="2.gif" />
+			</a>
+    </div>
+		<div style="width:22%; text-align:center">
+			<a href="#" onClick="">
+				<img src="3.gif" />
+			</a>
+		</div>
+		<div style="width:22%; text-align:center">
+			<a href="#" onClick="savefunction('add')">
+				<img src="plus.gif" name="p" />
+			</a>
+		</div>
+		<br class="bc" />
+		<div style="width:22%; text-align:center">
+			<a href="#" onClick="">
+				<img src="4.gif" />
+			</a>
+		</div>
+		<div style="width:22%; text-align:center">
+			<a href="#" onClick="">
+				<img src="5.gif" />
+			</a>
+		</div>
+		<div style="width:22%; text-align:center">
+			<a href="#" onClick="">
+				<img src="6.gif"/>
+			</a>
+		</div>
+		<div style="width:22%; text-align:center">
+			<a href="#" onClick="">
+				<img src="subtract.gif" name="s" />
+			</a>
+		</div>
+		<br class="bc" />
+		<div style="width:22%; text-align:center">
+			<a href="#" onClick="">
+				<img src="7.gif" />
+			</a>
+		</div>
+		<div style="width:22%; text-align:center">
+			<a href="#" onClick="">
+				<img src="8.gif" />
+			</a>
+		</div>
+		<div style="width:22%; text-align:center">
+			<a href="#" onClick="">
+				<img src="9.gif"/>
+			</a>
+		</div>
+		<div style="width:22%; text-align:center">
+			<a href="#" onClick=""><img src="m.gif" name="multiply" /></a>
+		</div>
+		<br class="bc" />
+		<div style="width:22%; text-align:center">
+			&nbsp;
+		</div>
+		<div style="width:22%; text-align:center">
+			<a href="#" onClick=""><img src="0.gif" /></a>
+		</div>
+		<div style="width:22%; text-align:center">
+			&nbsp;
+		</div>
+		<div style="width:22%; text-align:center">
+			<a href="#" onClick=""><img src="divide.gif" name="d" /></a>
+		</div>
+		<br class="bc" />
+	</div>
+</form>
+
+</body>
+</html>
