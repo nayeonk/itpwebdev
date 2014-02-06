@@ -4,7 +4,7 @@ The "this" object, editing style properties with JS
 
 ******************************************************************
 Please download the following zip file and extract it to a folder: 
-[starter files](http://itpwebdev.herokuapp.com/starters/301/js_var_exp_fun.zip)
+[starter files](http://itpwebdev.herokuapp.com/starters/301/js-review.zip)
 ******************************************************************
 
 #### Conditional logic, style editing review

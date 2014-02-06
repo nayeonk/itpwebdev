@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+
+<script>
+var changeColor = function(color){
+}
+var checkEmail = function (domain){
+	//if usc.edu alert go trojan.
+	//else if ucla.edu prompt to ask age, if 18 alert oh boy, you are lost!
+	//else if ebay.com or amazon.com alert ecommerce!
+	//else alert we don't know what you want!
+}
+var toggleDisplay = function(obj){
+	//check the obj current display value,
+	//if none, set it to block, 
+	//else set it to none.
+}
+var fontColor;
+var fontSize;
+var changeFont = function(obj,mouseevent){
+	//check the mouseevent,
+	//if event is "over",set the fontColor to "teal", and fontSize to "24px";
+	//else, restore it back to the originial fontSize and color;
+}
+//use JQuery bind and call changeFont Function to all achor tag under the List.
+</script>
+</head>
+
+<body>
+Playing with conditional logic AND styles AND using "this": <br />
+<form>
+	<div style="background-color: yellow; width:400px; float:right">
+		<ul>
+			<li>Write a function changebg that has ONE input parameter -- the color you want to change to.</li>
+			<li>Call it off the button, passing in the value from the box.</li>
+			<li>Call it off the box, using an onchange eventhandler, but use this.value.</li>
+		</ul>
+	</div>
+	<input type="text" id="color" name="color" onchange="" />
+	<input type="button" value="Change bgcolor to" onclick=""/>
+	<br style="clear:both"/>
+	<br />
+	<div style="background-color: yellow; width:400px; float:right" >
+		<ul>
+			<li>Write a function called emailcheck that has ONE input parameter -- the email domain the user provided.</li>
+			<li>In the function, set up a msg variable with a default message, and then output the message through an alert... like:
+				<pre>
+msg = "hello person from " + domain
+alert(msg)</pre>
+			</li>
+			<li> Then between those two lines (the msg set up and the alert) write some conditional clauses that changes the message if they provided a specific domain such as usc.edu or ucla.edu or google.com....</li>
+			<li> is write some conditional clauses that changes to a a mariabCall it off the button, passing in the value from the box.</li>
+			<li>Call the function off the button, passing the contents of the domain box as the argument</li>
+		</ul>
+	</div>
+	Email Domain:
+	<input type="text" id="email" name="email" />
+	<input type="button" onclick="checkEmail(document.getElementById('email').value)" value="What do we think about that email?" />
+	<br style="clear:both"/>
+</form>
+<button onclick="">Hide (Visibility)</button>
+<button onclick="">Show (Visibility)</button>
+<button onclick="">Toggle</button>
+<div id="instruction" style="background-color:yellow;">
+	<h3>Let's build 3 buttons:</h3>
+	<ul>
+		<li>First one set the CSS "Visibility" instruction div to "hidden"</li>
+		<li>Second one set the CSS "Visibility" instruction div to "visible"</li>
+		<li>Third one Call a function called "toggleDisplay" to toggle make instruction div hide and show.</li>
+	</ul>
+</div>
+<br />
+<br />
+<br />
+<style>
+a { font-size:12pt;color:purple;
+	line-height:28px;
+ }
+li { line-height:16pt; }
+</style>
+<div style="background-color: yellow; width:400px; float:right">
+	<ul>
+		<li>In each link, put an event handler that when mouseover changes the font-size and color with Javascript</li>
+		<li>Also in each link add an event handlers for onmouseout that sets the font-size and color back to "normal"</li>
+	</ul>
+</div>
+News Links:
+<ul id="links">
+	<li><a href="http://latimes.com">L.A. Times</a></li>
+	<li><a href="http://nytimes.com">N.Y. Times</a></li>
+	<li><a href="http://slate.com" style="color:red; font-size:10px;">Slate</a></li>
+	<li><a href="http://cnet.com">Cnet</a></li>
+</ul>
+</body>
+</html>

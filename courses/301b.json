@@ -73,6 +73,13 @@
 			"due": "02/11",
 			"link": "cal_app",
 			"active": 1
+		},
+		{
+			"name": "Edit Style Properties",
+			"type": "L",
+			"due": "02/13",
+			"link": "edit_style_properties",
+			"active": 1
 		}
 	],
 
