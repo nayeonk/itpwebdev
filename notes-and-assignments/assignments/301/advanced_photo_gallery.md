@@ -1,0 +1,3 @@
+Resource - Remove USC Notice:
+========
+Need to be revised...

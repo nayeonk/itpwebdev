@@ -80,6 +80,27 @@
 			"due": "02/13",
 			"link": "edit_style_properties",
 			"active": 1
+		},
+		{
+			"name": "Random Photo Page",
+			"type": "A",
+			"due": "02/18",
+			"link": "random_photo_page",
+			"active": 1
+		},
+		{
+			"name": "E-mail Validation",
+			"type": "L",
+			"due": "02/20",
+			"link": "email_validation",
+			"active": 0
+		},
+		{
+			"name": "Advanced Photo Gallery",
+			"type": "L",
+			"due": "02/20",
+			"link": "advanced_photo_gallery",
+			"active": 0
 		}
 	],
 
@@ -153,20 +174,17 @@
 			"active": 1
 		},
 		{
-			"date": "Feb 3",
+			"date": "02/11",
 			"units": [
-				{ "subject": "Indexed arrays", "link": "" },
-				{ "subject": "For loops", "link": "" },
-				{ "subject": "innerHTML", "link": "" }
+				{ "subject": "Indexed arrays, innerHTML", "link": "arrays_innerhtml" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
-			"date": "Feb 5",
+			"date": "02/13",
 			"units": [
-				{ "subject": "Data validation", "link": "" },
-				{ "subject": "indexOf", "link": "" },
-				{ "subject": "Regular expressions", "link": "" }
+				{ "subject": "indexOf, Data validation", "link": "indexof_datavalidation" },
+				{ "subject": "Resource: Practice form quiz", "link": "resource-practice_from_quiz" }
 			],
 			"active": 0
 		},
