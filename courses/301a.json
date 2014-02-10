@@ -66,6 +66,20 @@
 			"due": "2/12",
 			"link": "cal_app",
 			"active": 1
+		},
+		{
+			"name": "Edit Style Properties",
+			"type": "L",
+			"due": "2/17",
+			"link": "edit_style_properties",
+			"active": 1
+		},
+		{
+			"name": "Random Photo Page",
+			"type": "A",
+			"due": "2/19",
+			"link": "random_photo_page",
+			"active": 0
 		}
 	],
 
@@ -136,6 +150,13 @@
 			"date": "2/5",
 			"units": [
 				{ "subject": "JS Conditional Logic", "link": "js_conditional_logic" }
+			],
+			"active": 1
+		},
+		{
+			"date": "2/10",
+			"units": [
+				{ "subject": "\"this\" keyword, Editing Style Properties", "link": "this_editing_style_properties" }
 			],
 			"active": 1
 		},

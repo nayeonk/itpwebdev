@@ -1,5 +1,6 @@
-Assignment - Random photo page
-=========
+Random photo page
+=================
+
 Use arrays to generate a random photo
 
 Create a simple content-driven page that you would want to have one of 10 random images come up on. So first, pick a topic, gather some basic text (3 paragraphs maybe), and find 10 related photos. 

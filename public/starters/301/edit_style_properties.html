@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS manipulation with JS and jQuery</title>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+
+<div id="news" style="position:absolute; width:277px; height:339px; z-index:1; left: 185px; top: 118px; background-color: #999900; layer-background-color: #999900; border: 1px none #000000; visibility: hidden;"> 
+  <h3>NEWS</h3>
+  <hr />
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, aspernatur, delectus, deleniti id nisi libero harum itaque illo dolore nemo tempora illum cum enim quas doloremque officia corporis vel similique!</p>
+</div>
+
+<div id="business" style="position:absolute; width:277px; height:339px; z-index:1; left: 164px; top: 100px; background-color: #33CC66; layer-background-color: #33CC66; border: 1px none #000000; visibility: hidden;"> 
+  <h3>BUSINESS</h3>
+  <hr />
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, dolor aspernatur voluptatum natus adipisci excepturi modi. A, porro, hic error delectus impedit non eius corporis tempore inventore provident dolorum recusandae.</p>
+</div>
+
+<div id="sports" style="position:absolute; width:277px; height:339px; z-index:1; left: 144px; top: 84px; background-color: #FF9900; layer-background-color: #FF9900; border: 1px none #000000; visibility: hidden;"> 
+  <h3>SPORTS</h3>
+  <hr />
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, explicabo, eligendi, quam repellendus accusamus dolores voluptatibus repellat itaque illo numquam aliquam placeat nisi ab aliquid vero deserunt aut laborum beatae.</p>
+</div>
+
+<div>
+  News:
+  <input type="button" value="Show layer" onclick="document.getElementById('news').style.visibility='visible'" /> | 
+  <input type="button" value="Hide layer" /> | 
+  <input type="button" value="Change line spacing to '2'" />
+</div> 
+
+<div>
+  Business:   
+  <input type="button" value="Toggle Visiblity" onclick="if (document.getElementById('news').style.visibility=='visible') { document.getElementById('news').style.visibility='hidden' } else {document.getElementById('news').style.visibility='visible'}"/> | 
+  <input type="button" value="Move to 500,500" /> | 
+  <input type="button" value="Double the layer in size" />
+</div>
+
+<div>
+  Sports: 
+  <input type="button" value="Toggle Visiblity" /> | 
+  <input type="button" value="Move to 700,700" /> | 
+  <input type="button" value="Change background color to pink" />
+</div>
+
+</body>
+</html>

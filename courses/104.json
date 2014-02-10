@@ -29,9 +29,9 @@
 		{
 			"name": "Film Article",
 			"type": "assignment",
-			"due": "9/30",
+			"due": "2/24",
 			"link": "film-article",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "Calendar",
@@ -158,7 +158,7 @@
 					"link": "divs-layouts-boxmodel"
 				}
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "9/30",
