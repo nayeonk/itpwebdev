@@ -21,19 +21,19 @@ var toggleDisplay = function(obj) {
 	//else set it to none.
 };
 
-var fontColor;
-var fontSize;
+var changeFont = function(obj) {
 
-var changeFont = function(obj, mouseevent) {
-	//check the mouseevent,
-	//if event is "over",set the fontColor to "teal", and fontSize to "24px";
-	//else, restore it back to the originial fontSize and color;
 };
 
-//use JQuery bind and call changeFont Function to all achor tag under the List.
+//use jQuery bind and call changeFont function to all achor tag under the List.
 </script>
 </head>
 <body>
+
+<div>
+	<p style="color: purple;">Reading style properties</p>
+</div>
+
 
 <p>Playing with conditional logic AND styles AND using "this": </p>
 
@@ -58,7 +58,6 @@ msg = "hello person from " + domain
 alert(msg)</pre>
 			</li>
 			<li> Then between those two lines (the msg set up and the alert) write some conditional clauses that changes the message if they provided a specific domain such as usc.edu or ucla.edu or google.com....</li>
-			<li> is write some conditional clauses that changes to a a mariabCall it off the button, passing in the value from the box.</li>
 			<li>Call the function off the button, passing the contents of the domain box as the argument</li>
 		</ul>
 	</div>
@@ -84,9 +83,7 @@ alert(msg)</pre>
 <br /><br /><br />
 
 <style>
-a { font-size:12pt;color:purple;
-	line-height:28px;
- }
+a { font-size:12pt; color:purple; line-height:28px; }
 li { line-height:16pt; }
 </style>
 
@@ -94,6 +91,7 @@ li { line-height:16pt; }
 	<ul>
 		<li>In each link, put an event handler that when mouseover changes the font-size and color with Javascript</li>
 		<li>Also in each link add an event handlers for onmouseout that sets the font-size and color back to "normal"</li>
+		<li>Now perform the same functionality using jQuery</li>
 	</ul>
 </div>
 
