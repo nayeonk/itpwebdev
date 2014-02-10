@@ -16,7 +16,7 @@ In your film reviews you must:
 
 Below are some layout examples. __Note: examples may NOT adhere 100% to assignment requirements. Make sure to carefully read through assignment requirements.__
 
-[Example 1](http://itpwebdev.usc.edu/images/film_example.gif)
-[Example 2](http://itpwebdev.usc.edu/images/film_example2.gif)
-[Example 3](http://itpwebdev.usc.edu/images/film_example3.gif)
+![Example 1](http://itpwebdev.herokuapp.com/images/film_example.gif)
+![Example 2](http://itpwebdev.herokuapp.com/images/film_example2.gif)
+![Example 3](http://itpwebdev.herokuapp.com/images/film_example3.gif)
  

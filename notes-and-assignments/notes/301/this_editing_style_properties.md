@@ -3,7 +3,7 @@ Keyword "this" and editing style properties
 
 ******************************************************************
 Please download the following zip file and extract it to a folder: 
-[starter files](http://itpwebdev.herokuapp.com/starters/301/JS_review_start.html)
+[starter files](http://itpwebdev.herokuapp.com/starters/301/js-review/JS_review_start.html)
 ******************************************************************
 
 ### Conditional logic, style editing review
