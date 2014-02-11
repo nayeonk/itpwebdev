@@ -1,6 +1,5 @@
 Lecture - Arrays, dynamic documents
 ===================================
-
 Building strings, document.write(), arrays, creating dynamic pages
 
 ******************************************************************
@@ -102,7 +101,7 @@ In general these kinds of pages have data abstracted/stored in variables and arr
 
 The simplest example would be a random image, or otherwise pages that have elements that make the page different based on random numbers and data extraction. 
 
-At the core of dynamic elements is the document.write() method. This allows you to create html instructions/tags on-the-fly. For instance, rather than creating a static html tag of <img src="pic1.gif"> ... you could dynamically generate the picture source. 
+At the core of dynamic elements is the document.write() method. This allows you to create html instructions/tags on-the-fly. For instance, rather than creating a static html tag of \<img src="pic1.gif"\> ... you could dynamically generate the picture source. 
 
 Of course, you can use document.write statements for static html code as well. The key concept is that you are actually writing into the html file with that statement... as if the page had originally had that code in it. For instance, having the literal code <img src="pic1.gif"> in a page would be identical to having the following code in its place:
 
@@ -154,13 +153,29 @@ Now, to extend this further, imagine that you have a set of parallel arrays -- f
 	var photos = []; 
 	var photocaptions = [];
 	
-	photos[0] = "washington.jpg" ; photocaptions<0> = "George Washington at the head of his army."
-	photos[1] = "lincoln.jpg" ; photocaptions<1> = "Abraham Lincoln in front of his home."
-	photos[2] = "franklin.jpg" ; photocaptions<2> = "Ben Franklin seated inside his library."
+	photos[0] = "washington.jpg" ; photocaptions[0] = "George Washington at the head of his army."
+	photos[1] = "lincoln.jpg" ; photocaptions[1] = "Abraham Lincoln in front of his home."
+	photos[2] = "franklin.jpg" ; photocaptions[2] = "Ben Franklin seated inside his library."
 	```
 	
 Note that in the above example, I have placed the parallel arrays on the same lines (separating the two statements on each line with a semi-color). I did that to make their relationship more clear to myself as a coder, but it is not required. Instead of 4 lines the above code could have been 8 lines (with just one statement per line).
 
+
+#### innerHTML
+Very similar to .html() in jQuery. In JS, you could use innerHTML property to set the content of an existing DOM object.
+We could build image tags using the array we used above, then save the Tag code in an parameter. Once we have the tag built, we could set it to an existing project using .innerHTML property.
+
+	```js
+		var photoTags = [];
+		photoTags[0] = "<img src='" + photo[0] + "' />";
+		photoTags[1] = "<img src='" + photo[1] + "' />";
+		photoTags[2] = "<img src='" + photo[2] + "' />";
+		
+		document.getElementById('imgContainer').innerHTML = photoTags[0];
+		document.getElementById('photocaption').innerHTML = photocaptions[0];
+		
+	```
+	
  
 ### Dyamic Page Example
  
