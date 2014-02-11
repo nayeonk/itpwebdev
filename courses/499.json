@@ -33,8 +33,15 @@
     {
       "name": "Authentication",
       "type": "A",
-      "due": "2/11",
+      "due": "2/18",
       "link": "authentication",
+      "active": 1
+    },
+    {
+      "name": "DVD Search Page (Laravel)",
+      "type": "A",
+      "due": "2/18",
+      "link": "mvc1",
       "active": 1
     }
 	],

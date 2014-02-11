@@ -1,36 +1,42 @@
+Two-page DVD search with Laravel  
+================================
 
+Build a two-page search module using the dvd database. You will be building search and results pages. 
 
-### Songs display
+### Search
 
-__Route:__ GET /songs
+Route: /dvds/search
 
-* Display all songs ordered first by play_count in descending order and then ordered by artist name
-* Display songs in an HTML table or divs with the following data:
-	* song title
-	* artist name
-	* genre
-	* price
-	* play count
+This route should display a form with a text field, 2 drop-down menus, and a submit button. The drop-down menus need to be populated by database queries (i.e. list of Genres and Ratings directly from the database):
 
-### Song creation form
+* Every SELECT menu should be populated by queries
+* Text box for "title"
+* Select menu for genre
+* Select menu for rating
+* Submit button
 
-__Route:__ GET /songs/create
+This form should make a GET request to the results page.
 
-* Display an HTML form to enter songs into the song table
-* artist and genre fields in the form should be select menus populated by the artist and genre tables in the database
+Create an "All" entry in the genre and rating drop-down menus. 
 
-### Song creation process
+### Results
 
-__Route:__ POST /songs
+Route: /dvds
 
-* Insert song into the songs table
-* Redirect user to /songs route
+* Dynamic query builds a list of dvd results based on the three form fields from the search page. This should use [Laravel's Query builder](http://laravel.com/docs/queries)
+* Results are listed out in formatted columns (using divs or tables), with display columns for:
 
+* Title
+* Rating
+* Genre
+* Label
+* Sound
+* Format
+* Release Date (formatted)
+
+Use some conditional logic that only applies the genre and rating form data if the field is NOT "All".
 
 ### Models and Controllers
 
-Make sure you create models and controllers instead of putting all of your logic directly in Route callback functions. You should have:
-
-* SongsController
-* Song model
-* 
+* Create a model called _Dvd_ to handle all your database code
+* Create a Dvd controller for your 2 routes.

@@ -8,8 +8,13 @@ MVC and Laravel
 * Routes
 * Views
 * Database access
-	* Query Builder
+	* [Query Builder](http://laravel.com/docs/queries)
 	* Models
 * Controllers
 
-http://laravel.com/docs
+Laravel Documentation: http://laravel.com/docs
+
+### New Vagrantfile and boostrap shell script
+
+* [Vagrantfile](https://raw2.github.com/skaterdav85/Vagrant-Setup/master/Vagrantfile)
+* [install.sh](https://raw2.github.com/skaterdav85/Vagrant-Setup/master/install.sh)

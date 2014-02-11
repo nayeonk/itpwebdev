@@ -1,5 +1,5 @@
 Two-page DVD search (PHP-MySQL)  
-=========
+===============================
 
 Using the PHP MySQL commands, build a two-page search module. You will be building search and results pages. 
 
