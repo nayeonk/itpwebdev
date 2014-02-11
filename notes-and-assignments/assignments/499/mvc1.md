@@ -32,7 +32,7 @@ Route: /dvds
 * Label
 * Sound
 * Format
-* Release Date (formatted)
+* Release Date (formatted) -- See http://www.w3schools.com/sql/func_date_format.asp
 
 Use some conditional logic that only applies the genre and rating form data if the field is NOT "All".
 
