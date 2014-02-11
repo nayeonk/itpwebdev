@@ -35,4 +35,4 @@ When you download the Vagrantfile, it might download as a txt file. Save it as j
 mv Vagrantfile.txt Vagrantfile
 ```
 
-Finally, run vagrant up!
+Finally, run vagrant up and browse to: http://localhost:8080/
