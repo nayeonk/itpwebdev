@@ -5,7 +5,7 @@ Building strings, document.write(), arrays, creating dynamic pages
 ******************************************************************
 Please download the following zip file and extract it to a folder:
 
-Yuanbo's class: [starter files](http://itpwebdev.herokuapp.com/starters/301/xxx.zip)
+Yuanbo's class: [starter files](http://itpwebdev.herokuapp.com/starters/301/array_innerhtml.zip)
 ******************************************************************
 
 
