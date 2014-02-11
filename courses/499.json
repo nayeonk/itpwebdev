@@ -147,7 +147,11 @@
       "date": "2/11",
       "units": [
         {
-          "subject": "MVC and Laravel - part 1",
+          "subject": "MVC Theory (slides)",
+          "link": "https://www.dropbox.com/s/ekumojddtyhiuqz/mvc.pdf"
+        },
+        {
+          "subject": "Class overview and Installation",
           "link": "mvc1"
         }
       ],
