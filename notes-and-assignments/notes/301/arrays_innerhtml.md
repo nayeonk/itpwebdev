@@ -108,7 +108,7 @@ Of course, you can use document.write statements for static html code as well. T
 
 	```html
 	<script>
-		document.write('<img src="pic1.gif">')
+		document.write('<img src="pic1.gif">');
 	</script>
 	```
 
@@ -122,7 +122,7 @@ document.write('<img src="pic1.gif">');
 that you wrote two string pieces with a variable in between such as
 
 ```js
-document.write('<img src="' + picnamevariable + 'pic1.gif">')
+document.write('<img src="' + picnamevariable + 'pic1.gif">');
 ```
 	
 ... of course, that would assume that you had previously defined the variable picnamevariable. 
