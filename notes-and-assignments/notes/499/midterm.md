@@ -9,6 +9,7 @@ You will __NOT__ have to know:
 
 * php/mysql or php/mysqli database functions
 * php superglobal arrays: $_POST, $_SESSION, $_GET, etc
+* miscellaneious php functions
 * Symfony HttpFoundation component
 * Carbon date library
 * anything Laravel specific
@@ -19,14 +20,19 @@ You __WILL__ have to know:
 * Development environments and workflow
 * HTTP life cycle
 * Basic SQL
+* require statements
 * PHP Data Objects
 * Namespacing
-* Composer & autoloading theory (classmap & psr-0)
-* Model-View-Controller theory
-* Application organization
-* ORM theory
+* Dependency management with Composer
+* How to use composer.json / composer.lock
+* Autoloading theory (classmap & psr-0)
+* Model-View-Controller architectural pattern
+* Application organization / structure
+* ORM theory (advantages + disadvantages)
+* Best practices when working with 3rd party APIs
+* Testing theory
 
-__More will be added to this last as we have more lectures__
+__This list is mostly complete. Last updated 2/12 2:14am__
 
 The written exam is __closed notes, books, internet, etc__.
 
