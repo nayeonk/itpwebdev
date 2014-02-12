@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Array innerHTML Answer</title>
+
+<script src="http://code.jquery.com/jquery-1.11.0.js"></script>
+<script>
+// You can ignore this code. It is running the hidden image displays
+$(document).ready(function() {
+	$("#thumbs").hide();
+	$("#toggle").bind("click", function(){
+		$("#thumbs").toggle();	
+	});
+});
+// This sets up three parallel arrays -- one for color names, one for images, and one for phrases
+var imgUrls = [];
+var captions = [];
+var colors = [];
+imgUrls[0] = "orange.jpg"; captions[0] = "I love oranges!"; colors[0] = "orange";
+imgUrls[1] = "yellow.jpg"; captions[1] = "Stop at Yellow lights?"; colors[1] = "yellow";
+imgUrls[2] = "blue.jpg"; captions[2] = "Why avartar is blue?"; colors[2] = "blue";
+imgUrls[3] = "green.jpg"; captions[3] = "Because green is TMNT"; colors[3] = "green";
+imgUrls[4] = "gray.gif"; captions[4] = "Gray Gray Gray."; colors[4] = "gray";
+imgUrls[5] = "red.jpg"; captions[5] = "Red stands for blood? no... tomato..."; colors[5] = "red";
+
+
+
+// random Change function, pic a random number and set the color and pictures accordingly.
+var randomPage = function(){
+	// Also ignore this line to start . It is creating a random number and sving it under the variable thenumber
+	randNum = Math.floor(Math.random()*6);
+	
+	//Use InnerHTML to set the page and content.
+	document.bgColor = colors[randNum];
+	/*
+	document.getElementById('mainImg').src = imgUrls[1];
+	document.getElementById('caption').innerHTML = captions[1];
+	*/
+	var content = "<img src = '"+ imgUrls[randNum] +"' /> <div>" + captions[randNum] + "</div>";
+	document.getElementById("imgContainer").innerHTML = content;
+	
+}
+</script>
+
+</head>
+<body bgcolor="red">
+
+<div style="text-align:center">
+	<div id="imgContainer" style="margin:auto">
+		<script type="text/javascript">
+			//Use document.write to write the first project first
+			document.write("<img id='mainImg' src='"+imgUrls[5]+"' />");
+			document.write("<div id='caption'>The red picture!</div>");
+		</script>
+	</div>
+	<button onclick="randomPage();">Jump!</button>
+</div>
+  
+<br /> <br /> <br /> <br />
+  
+<button id="toggle">(Show/hide guide)</button>
+<div id="thumbs">
+
+	<em>
+		This is a static page that displays a red background and the red image. Below here are all color images at once.
+  
+  	<br /> &nbsp; <br />
+  
+  	The goal of the demo is to store the color names, images and descriptions into arrays, randomly pick one, set the background color of the page to THAT color, then use document.write statements to dynamically display the correspondng image and text phrase.
+  </em>
+	
+	<br/>&nbsp;<br />
+	
+	To start, you will want to have saved the code of this page and all of the images below to your computer.	
+  
+  <div>
+		<img src="orange.jpg" style="width: 100px; height: 100px" />
+		<img src= "yellow.jpg" style="width: 100px; height: 100px" />
+		<img src="blue.jpg" style="width: 100px; height: 100px" />
+		<img src="green.jpg" style="width: 100px; height: 100px" />
+		<img src="gray.gif" style="width: 100px; height: 100px" />
+		<img src="red.jpg" style="width: 100px; height: 100px" />
+	</div>
+	
+	&nbsp; <br />
+
+	If the images above are not dispaying then you did NOT save the images to your computer. If so below are images loaded directly from webdev that you can save to your computer:
+     
+</div>
+</body>
+</html>

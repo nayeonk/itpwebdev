@@ -79,7 +79,7 @@
 			"type": "A",
 			"due": "2/19",
 			"link": "random_photo_page",
-			"active": 0
+			"active": 1
 		}
 	],
 
@@ -157,6 +157,13 @@
 			"date": "2/10",
 			"units": [
 				{ "subject": "\"this\" keyword, Editing Style Properties", "link": "this_editing_style_properties" }
+			],
+			"active": 1
+		},
+		{
+			"date": "2/12",
+			"units": [
+				{ "subject": "Indexed arrays, innerHTML", "link": "arrays_innerhtml" }
 			],
 			"active": 1
 		},

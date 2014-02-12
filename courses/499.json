@@ -156,6 +156,58 @@
         }
       ],
       "active": 1
+    },
+    {
+      "date": "2/18",
+      "units": [
+        {
+          "subject": "Object Relational Mapping",
+          "link": ""
+        },
+        {
+          "subject": "Data Validation",
+          "link": ""
+        }
+      ],
+      "active": 1
+    },
+    {
+      "date": "2/25",
+      "units": [
+        {
+          "subject": "Web API's",
+          "link": ""
+        },
+        {
+          "subject": "Application Structure & Patterns",
+          "link": ""
+        }
+      ],
+      "active": 1
+    },
+    {
+      "date": "3/4",
+      "units": [
+        {
+          "subject": "Testing Overview",
+          "link": ""
+        },
+        {
+          "subject": "PHPUnit introduction",
+          "link": ""
+        }
+      ],
+      "active": 1
+    },
+    {
+      "date": "3/11",
+      "units": [
+        {
+          "subject": "Midterm",
+          "link": ""
+        }
+      ],
+      "active": 1
     }
 	]
 }
