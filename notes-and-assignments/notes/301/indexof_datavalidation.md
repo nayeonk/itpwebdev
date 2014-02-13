@@ -5,7 +5,7 @@ indexOf method, validation data for certain characters, lengths, etc.
 ******************************************************************
 Please download the following zip file and extract it to a folder:
 
-Yuanbo's class: [starter files](http://itpwebdev.herokuapp.com/starters/301/xxx.zip)
+Yuanbo's class: [starter files](http://itpwebdev.herokuapp.com/starters/301/indexof_data_validation.zip)
 
 ******************************************************************
 
