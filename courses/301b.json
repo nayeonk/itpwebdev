@@ -93,14 +93,14 @@
 			"type": "L",
 			"due": "02/20",
 			"link": "email_validation",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "Advanced Photo Gallery",
 			"type": "L",
 			"due": "02/20",
 			"link": "advanced_photo_gallery",
-			"active": 0
+			"active": 1
 		}
 	],
 
@@ -186,7 +186,7 @@
 				{ "subject": "indexOf, Data validation", "link": "indexof_datavalidation" },
 				{ "subject": "Resource: Practice form quiz", "link": "resource-practice_from_quiz" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "Feb 10",
