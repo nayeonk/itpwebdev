@@ -29,18 +29,18 @@ You should see an output like:
 
 You have a few options here in recommended order.
 
-#### Option 1. Vagrant / VirtualBox set up with Vaprobrush
+#### Option 1. Vagrant / VirtualBox set up with Vaprobash
 
 1. Go to https://github.com/fideloper/Vaprobash
 2. Download the Vagrantfile and place it in your project root. I put my projects in ~/Dev on Mac.
 	* Windows users: Delete the 4 lines for config.vm.synced_folder from Vagrantfile. This is explained in the Vaprobash repository readme.
 3. Run vagrant up
 4. Create an html or php file in your project
-4. Visit your project with the URL: http://192.168.33.10.xip.io/
+4. Visit your project with the URL: http://192.168.33.10.xip.io/index.php
 
 #### Option 2. PHP on your local machine
 
-If you have PHP >= 5.4, php offers a built in web server that you can use by running the following command in your project directory:
+If you have PHP >= 5.4 installed, php offers a built in web server that you can use by running the following command in your project directory:
 
 ```
 php -S localhost:4000
