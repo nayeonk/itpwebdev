@@ -27,7 +27,9 @@ You should see an output like:
 
 ### 3. LAMP stack setup
 
-#### Vagrant / Virtual Box set up with Vaprobrush
+You have a few options here in recommended order.
+
+#### Option 1. Vagrant / Virtual Box set up with Vaprobrush
 
 1. Go to https://github.com/fideloper/Vaprobash
 2. Download the Vagrantfile and place it in your project root. I put my projects in ~/Dev on Mac.
@@ -36,7 +38,7 @@ You should see an output like:
 4. Create an html or php file in your project
 4. Visit your project with the URL: http://192.168.33.10.xip.io/
 
-#### PHP on your local machine
+#### Option 2. PHP on your local machine
 
 __Mac__
 
@@ -44,13 +46,17 @@ Open up Terminal and run php -v. If you have >= 5.4, php offers a built in web s
 
 __Windows__
 
-Download the PHP executable. See the TA for instructions.
+Download the PHP executable http://windows.php.net/download/. See the TA for instructions.
 
 Then you can cd into your project and run:
 
 ```
 php -S localhost:4000
 ```
+
+#### Option 3
+
+MAMP (mac), WAMP (windows), XAMPP (cross platform)
 
 ### 3. MySQL Database
 
