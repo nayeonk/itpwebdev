@@ -46,6 +46,12 @@ If you have PHP >= 5.4 installed, php offers a built in web server that you can 
 php -S localhost:4000
 ```
 
+If you are running a Laravel project, you can cd into your project root, and run:
+
+```
+php artisan serve
+```
+
 __Mac__
 
 Open up Terminal and run php -v. If you want to upgrade to 5.5 and include other extensions that you will probably need with Laravel, visit http://php-osx.liip.ch/ for instructions.
