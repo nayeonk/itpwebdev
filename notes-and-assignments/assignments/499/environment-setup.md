@@ -4,7 +4,7 @@ You are welcome to use whatever IDE / editor you like. In this class I will be u
 
 http://www.jetbrains.com/phpstorm/
 
-### 2. Environment setup
+### 2. Tools
 
 1. Install [Git](http://git-scm.com/downloads) - will discuss later
 2. Create a [Github account](https://github.com/) - will discuss later
@@ -25,9 +25,32 @@ You should see an output like:
 	Vagrant 1.3.5
 ```
 
-Next, head over to [https://github.com/skaterdav85/499-non-framework](https://github.com/skaterdav85/499-non-framework). Download the repository to your local computer, cd into the directory (refer to the command line basics resource page), and run 'vagrant up'. This will take a while the first time. If everything works ok, you should be able to browse to http://localhost:3333/phpinfo.php and see the index.php page running. 
+### 3. LAMP stack setup
 
-__Before class each week, you should start up the virtual machine so that your environment is all ready and we can get started immediately. We will be using the above repository to set up our environment for the next few weeks. Then I will point you to another repository that will be used to set up our environment for Laravel.__
+#### Vagrant / Virtual Box set up with Vaprobrush
+
+1. Go to https://github.com/fideloper/Vaprobash
+2. Download the Vagrantfile and place it in your project root. I put my projects in ~/Dev on Mac.
+	* Windows users: Delete the 4 lines for config.vm.synced_folder from Vagrantfile. This is explained in the Vaprobash repository readme.
+3. Run vagrant up
+4. Create an html or php file in your project
+4. Visit your project with the URL: http://192.168.33.10.xip.io/
+
+#### PHP on your local machine
+
+__Mac__
+
+Open up Terminal and run php -v. If you have >= 5.4, php offers a built in web server that you can use. However, you might want to upgrade it to 5.5 and include other extensions that you will probably need with Laravel. Visit http://php-osx.liip.ch/ for instructions.
+
+__Windows__
+
+Download the PHP executable. See the TA for instructions.
+
+Then you can cd into your project and run:
+
+```
+php -S localhost:4000
+```
 
 ### 3. MySQL Database
 
