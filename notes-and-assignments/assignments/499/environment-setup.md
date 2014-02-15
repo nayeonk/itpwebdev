@@ -29,7 +29,7 @@ You should see an output like:
 
 You have a few options here in recommended order.
 
-#### Option 1. Vagrant / Virtual Box set up with Vaprobrush
+#### Option 1. Vagrant / VirtualBox set up with Vaprobrush
 
 1. Go to https://github.com/fideloper/Vaprobash
 2. Download the Vagrantfile and place it in your project root. I put my projects in ~/Dev on Mac.
@@ -40,21 +40,23 @@ You have a few options here in recommended order.
 
 #### Option 2. PHP on your local machine
 
-__Mac__
-
-Open up Terminal and run php -v. If you have >= 5.4, php offers a built in web server that you can use. However, you might want to upgrade it to 5.5 and include other extensions that you will probably need with Laravel. Visit http://php-osx.liip.ch/ for instructions.
-
-__Windows__
-
-Download the PHP executable http://windows.php.net/download/. See the TA for instructions.
-
-Then you can cd into your project and run:
+If you have PHP >= 5.4, php offers a built in web server that you can use by running the following command in your project directory:
 
 ```
 php -S localhost:4000
 ```
 
+__Mac__
+
+Open up Terminal and run php -v. If you want to upgrade to 5.5 and include other extensions that you will probably need with Laravel, visit http://php-osx.liip.ch/ for instructions.
+
+__Windows__
+
+Download the latest PHP executable http://windows.php.net/download/. See the TA for instructions.
+
 #### Option 3
+
+The following are 1-click installs to have php, apache, and mysql installed locally on your machine.
 
 MAMP (mac), WAMP (windows), XAMPP (cross platform)
 
