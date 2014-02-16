@@ -29,19 +29,17 @@ You should see an output like:
 
 You have a few options here in recommended order.
 
-#### Option 1. Vagrant / VirtualBox set up with Vaprobash
+#### Option 1. Vagrant / VirtualBox
 
-1. Go to https://github.com/fideloper/Vaprobash
-2. Download the Vagrantfile and place it in your project root. I put my projects in ~/Dev on Mac.
-	* Windows users: Delete the 4 lines for config.vm.synced_folder from Vagrantfile. This is explained in the Vaprobash repository readme.
-3. Uncomment the line after "Provision Apache Base" in Vagrantfile
-4. Run vagrant up
-5. Create an html or php file in your project
-6. Visit your project with the URL: http://192.168.33.10.xip.io
+__Non-framework setup:__ https://github.com/skaterdav85/vagrant-php-env
+
+__Laravel setup:__ https://github.com/skaterdav85/vagrant-laravel-env
+
+Windows users, you will likely need to delete the 4 lines for config.vm.synced_folder in Vagrantfile. See Vaprobash for details why.
 
 #### Option 2. PHP on your local machine
 
-If you have PHP >= 5.4 installed, php offers a built in web server that you can use by running the following command in your project directory:
+If you install PHP >= 5.4, php offers a built in web server that you can use by running the following command in your project directory (with whatever port you want):
 
 ```
 php -S localhost:4000
@@ -53,13 +51,13 @@ Open up Terminal and run php -v. If you want to upgrade to 5.5 and include other
 
 __Windows__
 
-Download the latest PHP executable http://windows.php.net/download/. See the TA for instructions.
+Download the latest PHP executable http://windows.php.net/download/ and see documentation.
 
 #### Option 3
 
 The following are 1-click installs to have php, apache, and mysql installed locally on your machine.
 
-MAMP (mac), WAMP (windows), XAMPP (cross platform)
+MAMP (mac), XAMPP (windows and mac), WAMP (windows).
 
 ### 3. MySQL Database
 
