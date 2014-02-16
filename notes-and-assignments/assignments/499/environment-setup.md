@@ -41,11 +41,13 @@ If you install PHP >= 5.4, php offers a built in web server that you can use by 
 php -S localhost:4000
 ```
 
-If you are running a Laravel project, you can cd into your project root, and run:
+If you are running a Laravel project and you have the proper PHP extensions installed, you can cd into your project root, and run:
 
 ```
 php artisan serve
 ```
+
+This will use php's built in web server and set the public directory as the server root.
 
 __Mac__
 
