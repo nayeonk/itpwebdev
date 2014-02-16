@@ -31,7 +31,7 @@ __Non-framework setup:__ https://github.com/skaterdav85/vagrant-php-env
 
 __Laravel setup:__ https://github.com/skaterdav85/vagrant-laravel-env
 
-Windows users, you will likely need to delete the 4 lines for config.vm.synced_folder in Vagrantfile. See Vaprobash for details why.
+Windows users, you will likely need to delete the 4 lines for config.vm.synced_folder in Vagrantfile in both setups. See [Vaprobash](https://github.com/fideloper/Vaprobash) for details why.
 
 #### Option 2. PHP on your local machine
 
