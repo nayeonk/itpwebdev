@@ -16,14 +16,10 @@ We will be using the command line interface (CLI) in this class. For Windows use
 Once installed, verify that Vagrant works by going to the command line and entering:
 
 ```
-	vagrant -v
+vagrant -v
 ```
 
-You should see an output like:
-
-```
-	Vagrant 1.3.5
-```
+You should see an output like: Vagrant 1.3.5
 
 ### 3. LAMP stack setup
 
