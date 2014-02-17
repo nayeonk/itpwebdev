@@ -36,8 +36,6 @@ You __WILL__ have to know:
 
 Any code you will have to write will be very short and target concepts. Many of the questions are scenario based.
 
-__This list is mostly complete. Last updated 2/17 10:33am__
-
 The written exam is __closed notes, books, internet, etc__.
 
 ### Practical
