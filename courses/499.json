@@ -43,6 +43,13 @@
       "due": "2/18",
       "link": "mvc1",
       "active": 1
+    },
+    {
+      "name": "DVD Crud with Eloquent (Laravel)",
+      "type": "A",
+      "due": "2/25",
+      "link": "orm",
+      "active": 1
     }
 	],
 
@@ -63,7 +70,7 @@
 					"link": "command-line-basics"
 				},
         {
-          "subject": "Slides",
+          "subject": "Virtual Dev Environment Slides",
           "link": "https://slid.es/davidtang/virtual-dev-environments"
         }
 			],
@@ -81,7 +88,7 @@
           "link": "sql-joins"
         },
         {
-          "subject": "Object Oriented Programming - part 1",
+          "subject": "Object Oriented Programming Part 1: Working with PDO",
           "link": "oop-1"
         },
         {
@@ -103,8 +110,8 @@
       "date": "1/28",
       "units": [
         {
-          "subject": "Object Oriented Programming - part 2",
-          "link": ""
+          "subject": "Object Oriented Programming Part 2: Custom classes",
+          "link": "https://www.dropbox.com/s/6xiuzmi9qh765fu/oop.pdf"
         },
         {
           "subject": "PHP OOS Ch 1 (optional)",
@@ -161,12 +168,8 @@
       "date": "2/18",
       "units": [
         {
-          "subject": "Object Relational Mapping",
-          "link": ""
-        },
-        {
-          "subject": "Data Validation",
-          "link": ""
+          "subject": "Object Relational Mapping (ORM)",
+          "link": "https://www.dropbox.com/s/hd05p9xwtzmicls/orm.pdf"
         }
       ],
       "active": 1
@@ -175,11 +178,15 @@
       "date": "2/25",
       "units": [
         {
-          "subject": "Web API's",
+          "subject": "Data Validation",
           "link": ""
         },
         {
-          "subject": "Application Structure & Patterns",
+          "subject": "Web APIs",
+          "link": ""
+        },
+        {
+          "subject": "Application Structure - Defining Custom Classes",
           "link": ""
         }
       ],

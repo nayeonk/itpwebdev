@@ -17,26 +17,30 @@ You will __NOT__ have to know:
 
 You __WILL__ have to know:
 
-* Development environments and workflow
 * HTTP life cycle
 * Basic SQL
 * require statements
-* PHP Data Objects
+* PHP Data Objects (PDO class)
+* Defining classes, methods, properties, statics, and inheritance in PHP
 * Namespacing
+	* Defining a namespace
+	* Working with namespaced classes
 * Dependency management with Composer
-* How to use composer.json / composer.lock
+* How composer.json and composer.lock work and why
 * Autoloading theory (classmap & psr-0)
 * Model-View-Controller architectural pattern
+* Object Relational Mapping theory
 * Application organization / structure
-* ORM theory (advantages + disadvantages)
 * Best practices when working with 3rd party APIs
 * Testing theory
 
-__This list is mostly complete. Last updated 2/12 2:14am__
+Any code you will have to write will be very short and target concepts. Many of the questions are scenario based.
+
+__This list is mostly complete. Last updated 2/17 10:33am__
 
 The written exam is __closed notes, books, internet, etc__.
 
 ### Practical
 
-You will have from 6 - 8pm to complete the practical. I will give you a prompt and you will implement the requirements using Laravel. This portion of the midterm is __open notes, previous assignments, book, and internet__. You may not communicate with anyone during the practical.
+You will have from 6 - 8pm to complete the practical. I will give you a prompt and you will implement the requirements using Laravel. This portion of the midterm is __open notes, previous assignments, book, and internet__. However, you may not communicate with anyone during the practical.
 
