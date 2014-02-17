@@ -1,5 +1,5 @@
-DVD Crud with Eloquent
-======================
+DVD Pages with Eloquent
+=======================
 
 ### DVD Search
 
@@ -14,21 +14,9 @@ To keep things simple, you can display _dvds.release_date_ as the raw mysql date
 
 Create the route __GET /dvds/create__. This should display a form to insert a new dvd into the database. Create dynamic drop downs for label, sound, genre, rating, and format. Use Eloquent to populate these select menus.
 
-Sometimes URL paths dont come out to what you want when using relative paths. It is often simpler to use an absolute path, say for the action attribute of the form. Laravel has a [helper function for generating absolute urls](http://laravel.com/docs/helpers#urls). The url() function takes the route path as the argument.  
+Next, create the route __POST /dvds__. This should add a new record in the dvds table and redirect the user back to __GET /dvds/create__.
 
-```html
-<form action="<?php echo url('dvds') ?>" method="post">
-```
-
-This will generate something like : localhost:8000/dvds.
-
-Next, create the route __POST /dvds__. This should add a new record in the dvds table and redirect the user back to __GET /dvds/create__. You can redirect from a controller or route to another route with:
-
-```php
-return Redirect::to('dvds/create');
-```
-
-Add a flash message and display on the page saying that the record was inserted successfully.
+Add a flash message and display on the page saying that the record was inserted successfully with a green background color.
 
 ### Optional: DVD Listing by Genre
 

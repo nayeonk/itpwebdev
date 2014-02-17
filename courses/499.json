@@ -45,7 +45,7 @@
       "active": 1
     },
     {
-      "name": "DVD Crud with Eloquent (Laravel)",
+      "name": "DVD Pages with Eloquent (Laravel)",
       "type": "A",
       "due": "2/25",
       "link": "orm",
@@ -170,6 +170,10 @@
         {
           "subject": "Object Relational Mapping (ORM)",
           "link": "https://www.dropbox.com/s/hd05p9xwtzmicls/orm.pdf"
+        },
+        {
+          "subject": "Redirects, url helpers, & flash messages in Laravel",
+          "link": "laravel-misc"
         }
       ],
       "active": 1
