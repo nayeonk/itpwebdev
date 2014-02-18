@@ -97,9 +97,16 @@
 		},
 		{
 			"name": "Advanced Photo Gallery",
-			"type": "L",
-			"due": "02/20",
+			"type": "A",
+			"due": "02/24",
 			"link": "advanced_photo_gallery",
+			"active": 1
+		},
+		{
+			"name": "Re-structure Data",
+			"type": "L",
+			"due": "02/28",
+			"link": "restructuring_data",
 			"active": 0
 		}
 	],
@@ -189,14 +196,21 @@
 			"active": 1
 		},
 		{
-			"date": "Feb 10",
+			"date": "02/18",
 			"units": [
-				{ "subject": "Searching through arrays", "link": "" }
+				{ "subject": "Loops, charAt, substring, replace", "link": "loops_charat_substring_replace" }
+			],
+			"active": 1
+		},
+		{
+			"date": "02/20",
+			"units": [
+				{ "subject": "Searching through arrays", "link": "searching_through_arrays" }
 			],
 			"active": 0
 		},
 		{
-			"date": "Feb 12",
+			"date": "02/20",
 			"units": [
 				{ "subject": "Querying the DOM with querySelector, querySelectorAll, getElementsByTagName", "link": "" }
 			],
