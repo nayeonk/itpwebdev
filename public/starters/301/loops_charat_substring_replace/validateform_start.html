@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Data Validation AND Transformation page</title>
+    <script language="javascript">
+
+        var emailInfo = function (obj) {
+            // substring out prefix and suffix from provided email address
+
+        }
+
+
+        var patFix = function (obj) {
+            // "pat" should be replaced with "patrick". BUT only if pat (not spat, patrick, etc.);
+        }
+
+
+        var isEmail = function (obj) {
+            // to validate if a textbox has a "valid" email address
+
+            // FIRST, let's fix addresses from aol that are missing the .com
+
+
+            // NEXT let's fix emails that erroneously have usc.com and change to usc.edu
+
+            var atPosition = "";
+            var perPosition = "";
+
+            // THEN validate the email address-- does it have an @ sign and a period to the right of the @ sign?
+
+
+            // if not throw an alert
+
+
+        }
+
+
+        var removespaces = function (obj) {
+            // remove spaces AND common punctuations from text in object (textbox)
+
+        }
+
+
+    </script>
+
+</head>
+
+<body>
+
+<form>
+    <div id="error" style="color: red;"></div>
+    Email:
+    <input type="text" name="email" id="email"/>
+    Prefix: <span id="prefix"></span> Sufix: <span id="sufix"></span>
+    <br/>
+    FirstName:
+    <input type="text" name="fname" id="fname"/>
+    <br/>
+    Password Phrase:
+    <input type="text" name="phrase" id="phrase" size="90"/>
+    <br/>
+    <input type="button" value="Info about Email address" onClick="emailInfo(document.getElementById('email'))"/>
+
+    <!-- // CALL emailInfo() and pass email object to it -->
+
+    <input type="button" value="Convert 'pat' to 'patrick' in FirstName"
+           onClick="patFix(document.getElementById('fname'))"/>
+    <!-- Call patFix() and pass fname object to it -->
+
+    <input type="button" value="Email Fix and Validate" onClick="isEmail(document.getElementById('email'))"/>
+    <!-- Call isEmail() and pass email object to it -->
+
+    <input type="button" value="Remove spaces/punctuation from Phrase"
+           onClick="removespaces(document.getElementById('phrase'))"/>
+    <!-- Call removespaces() and pass phrase object to it -->
+</form>
+
+&nbsp;<br>&nbsp;
+
+<div style="background-color: #FF9">
+    Functions to write for this page:
+    <hr/>
+    <p>
+        <strong>emailInfo(obj)</strong>:
+        <br/>
+        Use indexOf() to find the @ sign in email. Then use the new substring() method to extract the prefix and suffix/
+    </p>
+
+
+    <p>
+        <strong>patFix(obj)</strong>:
+        <br/>
+        Using the replace method to replace "pat" with "patrick". But need to use special regular expression components
+        to make sure only get the stand-alone work "pat" and not fragments of words like spat, patrick, etc.
+    </p>
+
+    <p>
+        <strong>isEmail(obj)</strong>:
+        <br/>
+        Use replace to fix some possible errors in domains of an email (aol, usc.com). Then validate if the email
+        address is valid.
+    </p>
+
+    <p>
+        <strong>removespaces(obj)</strong>:
+        Remove all spaces AND common punctuations from a phrase.
+    </p>
+
+</div>
+
+</body>
+</html>

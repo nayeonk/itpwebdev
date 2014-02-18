@@ -2,6 +2,17 @@ Lecture - Loops, charAt, substring, replace
 ==========
 Conditional loops, data transformation using charAt and substring, and replace and regular expressions
 
+******************************************************************
+Please download the following zip file and extract it to a folder:
+
+[starter files](http://itpwebdev.herokuapp.com/starters/301/loops_charat_substring_replace.zip)
+
+<!--
+[Full Lecture Sample](http://itpwebdev.herokuapp.com/starters/301/loops_charat_substring_replace_end.zip)
+-->
+******************************************************************
+
+
 ### Conditional "Loops":
 *	A "loop" takes a set of code and runs it over and over... "looping" around the one or more lines of code inside it. But of course, if you had a generic loop as I just described it would just run and run and run, and after the millionth or so time the computer would lock and up stop :>
 *	A 'for' loop in Javascript is a loop that runs as long as a defined condition is met. Think of taking the "condition" from an if statement, and using that to determine whether a loop continues to run (to repeat). Most commonly a "for loop" or conditional loop simply runs a certain number of times. 

@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Class Example</title>
+<script language="javascript">
+	var names = new Array
+	names[0] = "Steven"
+	names[1] = "Patrick"
+	names[2] = "Sam"
+	names[3] = "Green"
+	names[4] = "David"
+	
+function loadNames(){
+	var content = ""
+	for(var i = 0; i<5;i++){
+		content = content + names[i]+ "<br/>";
+	}
+	document.getElementById('names').innerHTML = content;
+}
+</script>
+
+</head>
+<body>
+
+This page will test loops!
+<div id="names">
+</div>
+<button onclick="loadNames()">Load Names</button>
+</body>
+</html>
