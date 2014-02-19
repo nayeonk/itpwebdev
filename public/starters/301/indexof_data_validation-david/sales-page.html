@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sales Page</title>
+</head>
+
+<body style="background-color: teal; color: white;">
+
+<table width="75%" border="0" cellpadding="9">
+  <tr>
+    <td>
+      <img src="http://webdev.usc.edu/itp301/lecture_examples/order_files/figure.jpg" width="109" height="215">
+    </td>
+    <td>
+      <p><strong>Figure</strong></p>
+      <p><strong>$9.95</strong></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p><strong>Lava Lamp</strong></p>
+      <p><strong>$79.95</strong></p>
+    </td>
+    <td><img src="http://webdev.usc.edu/itp301/lecture_examples/order_files/lavalamp.gif" width="140" height="191">
+    </td>
+  </tr>
+  <tr>
+    <td><img src="http://webdev.usc.edu/itp301/lecture_examples/order_files/mug.gif" width="100" height="108"></td>
+    <td>
+      <p><strong>Mug</strong></p>
+      <p><strong>$12.95</strong></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p><strong>T-Shirt</strong></p>
+      <p><strong>$19.95</strong></p>
+    </td>
+    <td><img src="http://webdev.usc.edu/itp301/lecture_examples/order_files/shirt.gif" width="109" height="140">
+    </td>
+  </tr>
+  <tr>
+    <td><img src="http://webdev.usc.edu/itp301/lecture_examples/order_files/watch.gif" width="109" height="140">
+    </td>
+    <td>
+      <p><strong>Watch</strong></p>
+      <p><strong>$39.95</strong></p>
+    </td>
+  </tr>
+</table>
+
+
+
+<form name="form1">
+  <table border="0" cellpadding="12">
+  <tr>
+    <td valign="top">
+      <table border="0" cellpadding="5">
+        <tr>
+          <td colspan="2" style="text-align: center;"><strong>Customer Information</strong>
+              <hr>
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align: right;">First Name</td>
+          <td><input type="text" name="fname" size="20"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right;">Last Name</td>
+          <td><input type="text" name="lname" size="20"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right;">Address</td>
+          <td><input type="text" name="address" size="40"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right;">City</td>
+          <td><input type="text" name="lname" size="20"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right;">State</td>
+          <td><input type="text" name="state" size="4" maxlength="2"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right;">Zip Code</td>
+          <td><input type="text" name="zip" size="20"></td>
+        </tr>
+      </table>
+    </td>
+    <td valign="top">
+      <table border="0" cellpadding="9" bordercolor="#FFFFFF">
+        <tr>
+          <td style="text-align: center;" colspan="2"><strong>Order Form</strong>
+              <hr>
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align: center;"><i><strong>Items</strong></i></td>
+          <td style="text-align: center;"><i><strong>Qty</strong></i></td>
+        </tr>
+        <tr>
+          <td>
+              <hr>
+          </td>
+          <td>
+            <hr>
+          </td>
+        </tr>
+        <tr>
+            <td>Figures ($9.95 each)</td>
+            <td style="text-align: center;">
+              <input type="text" name="fnumb" id="fnumb" size="4" value="0" >
+              <input type="button" value="-" onclick="decreaseNum('fnumb')">
+              <input type="button" value="+" onclick="increaseNum('fnumb')">
+            </td>
+        </tr>
+        <tr>
+          <td>
+              Lava lamps ($79.95 each)
+          </td>
+          <td style="text-align: center;">
+              <input type="text" name="lnumb" id="lnumb" size="4" value="0" >
+              <input type="button" value="-" onclick="decreaseNum('lnumb')">
+              <input type="button" value="+" onclick="increaseNum('lnumb')">
+          </td>
+        </tr>
+        <tr>
+            <td>Mugs ($12.95 each)</td>
+            <td style="text-align: center;">
+              <input type="text" name="mnumb" id="mnumb" size="4" value="0">
+              <input type="button" value="-" onclick="decreaseNum('mnumb')">
+              <input type="button" value="+" onclick="increaseNum('mnumb')">
+            </td>
+        </tr>
+        <tr>
+            <td>T-Shirts ($19.95 each)</td>
+            <td style="text-align: center;">
+              <input type="text" name="tnumb" id="tnumb" size="4" value="0" >
+              <input type="button" value="-" onclick="decreaseNum('tnumb')">
+              <input type="button" value="+" onclick="increaseNum('tnumb')">
+            </td>
+        </tr>
+        <tr>
+          <td>Watches ($39.95 each)</td>
+          <td style="text-align: center;">
+            <input type="text" name="wnumb" id="wnumb" size="4" value="0" >
+            <input type="button" value="-" onclick="decreaseNum('wnumb')">
+            <input type="button" value="+" onclick="increaseNum('wnumb')">
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <hr>
+            <input type="button" value="calculate" onclick="calculate()">
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"><i>Sub-total</i></td>
+          <td><input type="text" name="subt" id="subt" size="15"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"><i>Tax</i></td>
+          <td><input type="text" name="tax" id="tax" size="15"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"><i>Total</i></td>
+          <td><input type="text" name="total" id="total" size="15"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  </table>
+</form>
+
+</body>
+</html>

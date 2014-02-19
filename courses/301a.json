@@ -80,6 +80,13 @@
 			"due": "2/19",
 			"link": "random_photo_page-david",
 			"active": 1
+		},
+		{
+			"name": "E-mail Validation",
+			"type": "L",
+			"due": "2/26",
+			"link": "email_validation",
+			"active": 1
 		}
 	],
 
@@ -164,6 +171,14 @@
 			"date": "2/12",
 			"units": [
 				{ "subject": "Indexed arrays, innerHTML", "link": "arrays_innerhtml" }
+			],
+			"active": 1
+		},
+		{
+			"date": "2/19",
+			"units": [
+				{ "subject": "indexOf, Data validation", "link": "indexof_datavalidation" },
+				{ "subject": "Resource: Practice form quiz", "link": "resource-practice_from_quiz" }
 			],
 			"active": 1
 		},
