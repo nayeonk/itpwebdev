@@ -8,7 +8,7 @@ Data Validation, indexOf
 	* string properties
 		* length
 	* string methods
-		* indexOf() - character indexes, like arrays
+		* indexOf() - character positions starting with 0, like arrays
 		* toUpperCase()
 		* toLowerCase()
 * Multi-condition if statements
