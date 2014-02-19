@@ -7,9 +7,9 @@ Please download the following zip file and extract it to a folder:
 
 [starter files](http://itpwebdev.herokuapp.com/starters/301/loops_charat_substring_replace.zip)
 
-<!--
+
 [Full Lecture Sample](http://itpwebdev.herokuapp.com/starters/301/loops_charat_substring_replace_end.zip)
--->
+
 ******************************************************************
 
 
