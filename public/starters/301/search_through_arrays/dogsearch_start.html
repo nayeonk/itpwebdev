@@ -1,0 +1,59 @@
+
+<html>
+<head>
+<title>Untitled Document</title>
+
+<script language="javascript">
+var wpath = "http://webdev.usc.edu/itp301/dogs/"
+			var imgname = [] ; var imgdescr = [];
+			imgname[0] = 'dogs01_s.jpg' ; imgdescr[0] = "white gray black dogs boxer";
+			imgname[1] = 'dogs02_s.jpg' ; imgdescr[1] = "white black dog boxer fighting";
+			imgname[2] = 'dogs03_s.jpg' ; imgdescr[2] = "white dog chasing running black boxer dog";
+			imgname[3] = 'dogs09_s.jpg' ; imgdescr[3] = "white boxer dog licking white dog mouth";
+			imgname[4] = 'dogs11_s.jpg' ; imgdescr[4] = "white dog catching black boxer dog";
+			imgname[5] = 'dogs12_s.jpg' ; imgdescr[5] = "white boxer dog with blue ball";
+			imgname[6] = 'dogs18_s.jpg' ; imgdescr[6] = "white ad black boxer dogs looking out";
+			imgname[7] = 'dogs14_s.jpg' ; imgdescr[7] = "white and black boxer dogs on bed";
+			imgname[8] = 'dogs15_s.jpg' ; imgdescr[8] = "white boxer dog open mouth";
+			imgname[9] = 'dogs16_s.jpg' ; imgdescr[9] = "tan italian greyhouse sniffing black boxer dog ear";
+			imgname[10] = 'dogs17_s.jpg' ; imgdescr[10] = "close up of white boxer dog";
+</script>
+
+</head>
+
+<body>
+Image Search:
+
+Please type in a phrase to "search" for imagesThere is a library of dog images.
+
+<form>
+<input type="text" id="searchbox" value="dog" />
+<input type="button" value="Search for images" onClick="showimages(document.getElementById('searchbox').value)" />
+</form>
+
+<br /><br />
+
+Image Results:
+<hr/ >
+<div id="contentbox">
+
+</div>
+<script>
+
+// Below "starter" code in the function sets up a blank/clear variable (newhtml).
+
+// Then it loops through all images and for each record/row in the array adds one image tag to the variable. So when it is done it has built a variable that contains a bunch of img tags.
+
+// Then it takes the contents of the div IDed as contentbox and sets its content (innerHTML) to that code... basically wiping the current content of the div and adding to newly built series of HTML img tags to it.
+
+// So what we wat to do is, inside the loop, add a conditional cluase that checks if the search term is contained (indexOf) inside the imgdescr array... and if so only THEN adds an image tag for the corresponding image to the newhtml code.
+
+var showimages = function(searchphrase){
+	
+
+}
+
+</script>
+
+</body>
+</html>

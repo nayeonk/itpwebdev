@@ -1,0 +1,65 @@
+<html >
+<head>
+<style>
+span{
+	display:inline-block;
+	width:200px;
+	text-align: center;
+}
+.sportname{
+    background:#aede2f;
+}
+.sportarena{
+    background: #99CCFF;
+}
+.sportobject{
+    background: #f9e830;
+}
+.sportpoint{
+    background: #C1C3E3;
+}
+</style>
+<title>Sport Search</title>
+<script>
+var showData = function(divObj){
+}
+var findSport = function(keyword,divObj){
+}
+var realtimeSearch = function(keyword,divObj){
+}
+</script>
+</head>
+
+<body>
+
+<script language="javascript">
+var sportname = [];         // the name of a sport such as baseball
+var sportarena = [];         // the name of a location for the sport
+var sportobject = [];       // the name of the object players manipulate
+var sportpoint = [];        // what you call a point
+
+sportname[0] = "football";		sportarena[0] = "stadium" ;	sportobject[0] = "pigskin" ;	sportpoint[0] = "touchdown"
+sportname[1] = "basketball";	sportarena[1] = "court" ; 	sportobject[1] = "bball" ; 		sportpoint[1] = "baskets"
+sportname[2] = "baseball" ;		sportarena[2] = "field" ;	sportobject[2] = "stitch" ;		sportpoint[2] = "runs"
+sportname[3] = "hockey" ;		sportarena[3] = "rink" ;	sportobject[3] = "puck" ;		sportpoint[3] = "goal"
+
+// What we need to do:
+ // 1. Set up a function to call. It should have the "search term" passed into it (function variable). To test the function perhaps have it bring up an alert with the value passed in. Then set an onclick event handler on the button to run the function.
+ // 2. Have the function search through each row of the "sportname" array looking for the search term.
+ // 3. If it finds a match run an alert that tells about the sport like:
+ //   alert('The sport ' + sportname[i] + ' is played with a ' + sportobject[i] + ' inside a ' + sportarena[i] + ' and is won by scoring more ' + sportpoint[i] + ' than the other team.'
+ // 4. Finally further test the app by adding one more row to each array for another sport, and try searching for that one.	
+
+</script>
+
+
+<form>
+<input type="text" id="searchbox" onKeyUp="realtimeSearch(document.getElementById('searchbox').value,document.getElementById('result'))" />
+<input type="button" value="Search for a Sport" onClick="findSport(document.getElementById('searchbox').value,document.getElementById('result'))"/>
+</form>
+<button onClick="showData(document.getElementById('result'))">Show Data</button>
+<div id="result">
+</div>
+
+</body>
+</html>

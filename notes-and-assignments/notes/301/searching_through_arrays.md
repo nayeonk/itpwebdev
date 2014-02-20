@@ -1,3 +1,16 @@
+Searching Through Arrays
+============================================
+Using an IF inside a FOR, to "find" data inside an array dataset. The "break" command. Writing to innerHTML of divs
+
+******************************************************************
+Please download the following zip file and extract it to a folder:
+
+Yuanbo's class: [starter files](http://itpwebdev.herokuapp.com/starters/301/search_through_arrays.zip)
+
+******************************************************************
+
+
+
 ###Searching through arrays:
 
 *	So we have used arrays to store data. And we've learned to create dynamic pages based around that data by either picking one random row of an array and using that information, or creating a condtional loop that parses through ALL data in array/s. The next step would be to set up a loop that SEARCHES through an array for a particular piece of data.
