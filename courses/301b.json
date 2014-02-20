@@ -107,7 +107,7 @@
 			"type": "L",
 			"due": "02/28",
 			"link": "restructuring_data",
-			"active": 0
+			"active": 1
 		}
 	],
 
@@ -207,7 +207,7 @@
 			"units": [
 				{ "subject": "Searching through arrays", "link": "searching_through_arrays" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "02/20",
