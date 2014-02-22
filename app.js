@@ -92,6 +92,36 @@ app.get('/me', function(req, res) {
 	});
 });
 
+
+app.get('/buzzfeed', function(req, res) {
+	var random = Math.floor(Math.random() * 2);
+	var data = [];
+
+	data[0] = {
+		status: 'error',
+		message: 'Aw Snap! Something went wrong!'
+	};
+
+	data[1] = {
+		status: 'success',
+		source: {
+			name: 'Buzzfeed',
+			title: '27 Things Only Developers Will Find Funny',
+			url: 'http://www.buzzfeed.com/lukelewis/28-things-only-developers-will-find-funny',
+			date: 'July 25, 2013'
+		},
+		data: [
+			{ id: 0, title: 'CSS is Awesome', img: 'http://s3-ec.buzzfed.com/static/enhanced/webdr03/2013/7/25/6/enhanced-buzz-20746-1374746508-22.jpg' },
+			{ id: 1, title: 'This Comparison', img: 'http://s3-ec.buzzfed.com/static/enhanced/webdr06/2013/7/25/6/enhanced-buzz-29278-1374748083-4.jpg' },
+			{ id: 2, title: 'A Developer\'s Week', img: 'http://s3-ec.buzzfed.com/static/enhanced/webdr03/2013/7/25/5/enhanced-buzz-18231-1374744160-12.jpg' },
+			{ id: 3, title: 'This common relationship problem', img: 'http://s3-ec.buzzfed.com/static/enhanced/webdr03/2013/7/25/3/enhanced-buzz-17903-1374739080-12.jpg' },
+			{ id: 4, title: 'This cartoon strip', img: 'http://s3-ec.buzzfed.com/static/enhanced/webdr01/2013/7/25/5/enhanced-buzz-7412-1374744272-18.jpg' }
+		]
+	};
+
+	res.json(data[random]);
+});
+
 // app.get('/forum', routes.forum.index);
 // app.get('/forum/account/create', routes.forum.accountCreate);
 // app.post('/forum/account/store', routes.forum.accountStore);

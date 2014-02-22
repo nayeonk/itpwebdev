@@ -182,15 +182,11 @@
       "date": "2/25",
       "units": [
         {
-          "subject": "Data Validation",
-          "link": ""
+          "subject": "Where do we put things? - Data Validation",
+          "link": "data-validation"
         },
         {
-          "subject": "Web APIs",
-          "link": ""
-        },
-        {
-          "subject": "Application Structure - Defining Custom Classes",
+          "subject": "Where do we put things? - Services",
           "link": ""
         }
       ],
