@@ -4,7 +4,7 @@ Calendar
 Using divs, create a web page that is a graphic calendar of your birth month. The calendar must include:
 
 * The overall calendar should have a set width, and there should be a unique background color for the whole calendar
-* Across the top of the calendar you should have a graphic in the background, with the name of the month and the year on top of it. This can be done through a background image in css and text in the cell. The text can be on "top" of the graphic, or to the side. Alternatively, if you prefer, you can create a graphic that has the month+year on top of an image. __Note: We will be starting graphic creation next week. So a self-created image is optional__.
+* Across the top of the calendar you should have a graphic in the background, with the name of the month and the year __on top of it__. This can be done through a background image in css and text in the cell. The text can be on "top" of the graphic, or to the side. Alternatively, if you prefer, you can create a graphic that has the month+year on top of an image. __Note: We will be starting graphic creation next week. So a self-created image is optional__.
 * If the "month" graphic does not stretch across the entire top (the full width), then that top region should have a unique background color. 
 * In the body of the calendar, which should have seven columns (for each day of the week). There should be one "header" row that lists the days of the month (at the top of each column).
 * Each 'day' of the calendar should have the number representing that day.
@@ -17,5 +17,5 @@ Using divs, create a web page that is a graphic calendar of your birth month. Th
 
 ### Some past examples:
 
-* [Sample 1](http://itpwebdev.usc.edu/images/calendar_sample_1.gif)
-* [Sample 2](http://itpwebdev.usc.edu/images/calendar_sample_2.gif)
+* [Sample 1](http://itpwebdev.heroku.com/images/calendar_sample_1.gif)
+* [Sample 2](http://itpwebdev.heroku.com/images/calendar_sample_2.gif)

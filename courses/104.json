@@ -36,9 +36,9 @@
 		{
 			"name": "Calendar",
 			"type": "assignment",
-			"due": "10/7",
+			"due": "3/3",
 			"link": "calendar",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "Major Project Proposal",
@@ -161,14 +161,14 @@
 			"active": 1
 		},
 		{
-			"date": "9/30",
+			"date": "2/24",
 			"units": [
 				{
 					"subject": "Intro to Stylesheets, div layouts continued",
 					"link": "divs-continued-stylesheets"
 				}
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "10/7",
