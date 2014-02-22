@@ -6,6 +6,7 @@ Using an IF inside a FOR, to "find" data inside an array dataset. The "break" co
 Please download the following zip file and extract it to a folder:
 
 Yuanbo's class: [starter files](http://itpwebdev.herokuapp.com/starters/301/search_through_arrays.zip)
+						[Finalized]([starter files](http://itpwebdev.herokuapp.com/starters/301/search_through_arrays_Finalized)
 
 ******************************************************************
 
