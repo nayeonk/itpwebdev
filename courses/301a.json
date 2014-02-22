@@ -87,6 +87,13 @@
 			"due": "2/26",
 			"link": "email_validation",
 			"active": 1
+		},
+		{
+			"name": "Advanced Photo Gallery",
+			"type": "A",
+			"due": "3/3",
+			"link": "advanced_photo_gallery",
+			"active": 1
 		}
 	],
 
@@ -181,6 +188,20 @@
 				{ "subject": "Resource: Practice form quiz", "link": "resource-practice_from_quiz" }
 			],
 			"active": 1
+		},
+		{
+			"date": "2/24",
+			"units": [
+				{ "subject": "Loops", "link": "loops" }
+			],
+			"active": 1
+		},
+		{
+			"date": "2/26",
+			"units": [
+				{ "subject": "charAt, substring, replace, regular expressions, searching arrays", "link": "loops_charat_substring_replace" }
+			],
+			"active": 0
 		},
 		{
 			"date": "Jan 22",
