@@ -8,7 +8,6 @@ Build a page that looks like [this](http://webdev.usc.edu/itp301/dogs/dogs_page.
 *	Pick a topic of interest to you:
 	*	Your favorite pets
 	*	Awards you earned
-	* travel
 *	Find at least 15 pictures related to your topic, and store all core photo names (dog01.jpg, dog02.jpg, cat.jpg) in an array.
 *	The top photo on the page (portrait) has a hyperlink that loads dog1.jpg.
 *	The three photos below it are generated randomly (differently) each time in the medium size, from the array. Also, each of those three photos have hyperlinks around them that opens the full version (such as dog02.jpg) into the portrait. 

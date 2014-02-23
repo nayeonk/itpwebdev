@@ -92,7 +92,7 @@
 			"name": "Advanced Photo Gallery",
 			"type": "A",
 			"due": "3/3",
-			"link": "advanced_photo_gallery",
+			"link": "advanced-photo-gallery",
 			"active": 1
 		}
 	],
@@ -192,7 +192,8 @@
 		{
 			"date": "2/24",
 			"units": [
-				{ "subject": "Loops", "link": "loops" }
+				{ "subject": "Loops", "link": "loops" },
+				{ "subject": "Function returns", "link": "return" }
 			],
 			"active": 1
 		},
