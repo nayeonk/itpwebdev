@@ -11,7 +11,7 @@ Build a page that looks like [this](http://webdev.usc.edu/itp301/dogs/dogs_page.
 *	Find at least 15 pictures related to your topic, and store all core photo names (dog01.jpg, dog02.jpg, cat.jpg) in an array.
 *	The top photo on the page (portrait) has a hyperlink that loads dog1.jpg.
 *	The three photos below it are generated randomly (differently) each time in the medium size, from the array. Also, each of those three photos have hyperlinks around them that opens the full version (such as dog02.jpg) into the portrait. 
-*	And below the line is a listing of the other dog photos. This last part must be done through a loop that works with the array. And each of the thumbnails should have a click button 
+*	And below the line is a listing of the other dog photos. This last part must be done through a loop that works with the array. And each of the thumbnails should bind with an onclick event(when click the top portrait photo will be swapped with the picture clicked).
 
 __Hint 1__: To do the random photos, you will need to use something like the following, where n represents the length of your array.
 

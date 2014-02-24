@@ -108,6 +108,20 @@
 			"due": "02/28",
 			"link": "restructuring_data",
 			"active": 1
+		},
+		{
+			"name": "Re-structure Data",
+			"type": "A",
+			"due": "03/04",
+			"link": "restructuring_data",
+			"active": 1
+		},
+		{
+			"name": "Bookmark/link page",
+			"type": "A",
+			"due": "03/04",
+			"link": "bookmark_link_page",
+			"active": 1
 		}
 	],
 
@@ -210,11 +224,12 @@
 			"active": 1
 		},
 		{
-			"date": "02/20",
+			"date": "02/25",
 			"units": [
-				{ "subject": "Querying the DOM with querySelector, querySelectorAll, getElementsByTagName", "link": "" }
+				{ "subject": "DHTML, Cross-browser, Page Info", "link": "dhtml_cross_browser_page_info" },
+				{ "subject": "jQuery Review and JS", "link": "jquery_review_and_js" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "Feb 17",
