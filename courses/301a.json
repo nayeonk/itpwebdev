@@ -192,6 +192,7 @@
 		{
 			"date": "2/24",
 			"units": [
+				{ "subject": "Lecture Overview", "link": "overview-loops-return" },
 				{ "subject": "Loops", "link": "loops" },
 				{ "subject": "Function returns", "link": "return" }
 			],
@@ -200,56 +201,12 @@
 		{
 			"date": "2/26",
 			"units": [
-				{ "subject": "charAt, substring, replace, regular expressions, searching arrays", "link": "loops_charat_substring_replace" }
+				{ "subject": "charAt, substring, replace, regular expressions", "link": "charAt-substring-replace-regex" },
+				{ "subject": "searching arrays, break statement", "link": "searching-arrays" }
 			],
 			"active": 0
 		},
-		{
-			"date": "Jan 22",
-			"units": [
-				{ "subject": "Script tags, semicolons", "link": "" },
-				{ "subject": "Variables, primitive data types", "link": "" },
-				{ "subject": "functions, inputs, outputs", "link": "" },
-				{ "subject": "Events", "link": "" },
-				{ "subject": "parseInt, parseFloat", "link": "" },
-				{ "subject": "getElementById", "link": "" },
-				{ "subject": "Chrome Developer Tools: Console", "link": "" }
-			],
-			"active": 0
-		},
-		{
-			"date": "Jan 27",
-			"units": [
-				{ "subject": "Conditional logic", "link": "" },
-				{ "subject": "return statement", "link": "" }
-			],
-			"active": 0
-		},
-		{
-			"date": "Jan 29",
-			"units": [
-				{ "subject": "Editing style properties", "link": "" }
-			],
-			"active": 0
-		},
-		{
-			"date": "Feb 3",
-			"units": [
-				{ "subject": "Indexed arrays", "link": "" },
-				{ "subject": "For loops", "link": "" },
-				{ "subject": "innerHTML", "link": "" }
-			],
-			"active": 0
-		},
-		{
-			"date": "Feb 5",
-			"units": [
-				{ "subject": "Data validation", "link": "" },
-				{ "subject": "indexOf", "link": "" },
-				{ "subject": "Regular expressions", "link": "" }
-			],
-			"active": 0
-		},
+		
 		{
 			"date": "Feb 10",
 			"units": [
