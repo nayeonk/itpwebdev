@@ -189,6 +189,10 @@
       "date": "2/25",
       "units": [
         {
+          "subject": "Assignment Tips: Eager loading related models with constraints",
+          "link": "https://github.com/skaterdav85/499-laravel-examples2/blob/related-model-constraints/laravel/app/routes.php"
+        },
+        {
           "subject": "Where do we put things? - Data Validation",
           "link": "data-validation"
         },
