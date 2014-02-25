@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Untitled Document</title>
+    <style>
+        body {
+            background-color: lightsteelblue
+        }
+
+        #infobox {
+            width: 600px;
+            margin: auto;
+            background-color: yellow;
+            padding: 5px;
+        }
+    </style>
+    <script src="http://webdev.usc.edu/jquery.js"></script>
+    <script>
+
+        var info = function () {
+            var summary = "Summary of the navigator, browser and other information for the page<hr />";
+            summary = summary + "<strong>Individual Browser checks (.webkit, .mozilla, etc.):</strong><br />" + "NOT used in jQuery. Older $.browser.webkit, $.browser.mozilla, etc., is depricated and then removed from jQ";
+            summary = summary + "<br /> <br />";
+            summary = summary + "<strong>Browser Version:</strong><br />" + "NOT used in jQuery. Older $.browser.version was depricated and then removed from jQ";
+            summary = summary + "<br /> <br />";
+            summary = summary + "<strong>Window width:</strong><br />" + $(window).width();
+            summary = summary + "<br /> <br />";
+            summary = summary + "<strong>Window height</strong>:<br />" + $(window).height();
+            summary = summary + "<br /> <br />";
+            summary = summary + "<strong>the css() background property of the body tag " + $("body").css("background-color");
+            summary = summary + " <br />"
+
+            $("#infobox").html(summary);
+        }
+
+        $(document).ready(function () {
+            info();
+            $("body").bind("click", function (e) {
+                alert("User clicked at " + e.pageX + " across and " + e.pageY + "down");
+            });
+        });
+
+    </script>
+
+</head>
+
+<body>
+<input type="button" value="Reload info" onclick="info()"/>
+<br/> <br/>
+
+<div id="infobox"></div>
+
+</body>
+</html>

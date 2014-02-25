@@ -2,6 +2,12 @@ Lecture - DHTML, cross-browser, page info
 =============
 Review of cross-browser DHTML issues. Page/window environment info.
 
+******************************************************************
+Please download the following zip file and extract it to a folder:
+
+Yuanbo's class: http://itpwebdev.herokuapp.com/starters/301/dhtml_cross-broswer_page_info.zip
+
+******************************************************************
 
 
 

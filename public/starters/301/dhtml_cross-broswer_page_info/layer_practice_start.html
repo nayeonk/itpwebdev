@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+    <title>Class Example</title>
+    <style type="text/css">
+        <!--
+        body {
+            background-color: black;
+            color: white;
+            font-weight: bold;
+        }
+
+        #thelayer {
+            position: absolute;
+            width: 200px;
+            height: 115px;
+            z-index: 3;
+            left: 254px;
+            top: 306px;
+        }
+
+        #messagelayer {
+            position: absolute;
+            width: 600px;
+            height: 40px;
+            z-index: 5;
+            left: 500px;
+            top: 20px;
+        }
+
+    </style>
+    <script src="http://code.jquery.com/jquery-1.11.0.js"></script>
+    <script>
+    </script>
+</head>
+
+<body>
+Can you write JS and jQuery to:
+<ul>
+    <li> Toggle the visibility of the layer?
+        <button id="toggle">Toggle</button>
+        <br/>&nbsp;
+    <li> Move the layer to 400,400?
+        <button id="move400">Move 400</button>
+        <br/>&nbsp;
+    <li> Move the layer 10 pixels to the LEFT?
+        <button id="moveLeft">Move left 10px</button>
+        <br/>&nbsp;
+    <li> Enable the "arrows" to move the layer around the page?
+        <br/>&nbsp;
+
+        <br/>&nbsp;
+    <li> Center the layer on the page?
+        <button id="center">Center</button>
+        <br/>&nbsp;
+    <li> Move the layer to the top coordinate that the user types into a prompt?
+        <button id="prompt">Prompt</button>
+        <br/>&nbsp;
+    <li> Summarize the current information about the layer and write that information into the message layer.
+        <button id="info">Show Info</button>
+</ul>
+<div id="messagelayer">
+</div>
+<div id="thelayer">
+    <table width="100%" border="0">
+        <tbody>
+        <tr>
+            <td>&nbsp;</td>
+            <td align="center"><img id="upArrow" src="http://webdev.usc.edu/itp301/lecture_examples/layers_watchmen/up.gif" width="40" height="38"></td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+
+            <td><img id="leftArrow" src="http://webdev.usc.edu/itp301/lecture_examples/layers_watchmen/left.gif" width="37" height="38"></td>
+            <td><img src="http://webdev.usc.edu/itp301/lecture_examples/layers_watchmen/owl_figure.jpg" width="148" height="243"></td>
+            <td><img id="rightArrow" src="http://webdev.usc.edu/itp301/lecture_examples/layers_watchmen/right.gif" width="40" height="38"></td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td align="center"><img  id="upArrow" src="http://webdev.usc.edu/itp301/lecture_examples/layers_watchmen/down.gif" width="38" height="39"></td>
+            <td>&nbsp;</td>
+        </tr>
+
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>

@@ -110,10 +110,10 @@
 			"active": 1
 		},
 		{
-			"name": "Re-structure Data",
+			"name": "Project Proposal: Brainstorming Draft",
 			"type": "A",
 			"due": "03/04",
-			"link": "restructuring_data",
+			"link": "project_proposal_brainstorming_draft",
 			"active": 1
 		},
 		{
@@ -226,8 +226,7 @@
 		{
 			"date": "02/25",
 			"units": [
-				{ "subject": "DHTML, Cross-browser, Page Info", "link": "dhtml_cross_browser_page_info" },
-				{ "subject": "jQuery Review and JS", "link": "jquery_review_and_js" }
+				{ "subject": "DHTML, Cross-browser, Page Info", "link": "dhtml_cross_browser_page_info" }
 			],
 			"active": 1
 		},

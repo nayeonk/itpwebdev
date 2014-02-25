@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Untitled Document</title>
+    <style>
+        body {
+            background-color: lightsteelblue
+        }
+
+        #infobox {
+            width: 600px;
+            margin: auto;
+            background-color: yellow;
+            padding: 5px;
+        }
+    </style>
+    <script language="javascript">
+        var info = function () {
+            var summary = "Summary of the navigator, browser and other information for the page<hr />";
+            summary = summary + "<strong>Browser App:</strong><br />" + navigator.appName;
+            summary = summary + "<br /> <br />";
+            summary = summary + "<strong>Browser Version:</strong><br />" + navigator.appVersion;
+            summary = summary + "<br /> <br />";
+            summary = summary + "<strong>Browser width:</strong><br />" + document.documentElement.clientWidth;
+            summary = summary + "<br /> <br />";
+            summary = summary + "<strong>Browser height</strong>:<br />" + document.documentElement.clientHeight;
+            summary = summary + "<br /> <br />";
+            summary = summary + "<strong>Document bgColor:</strong><br />" + document.bgColor;
+            summary = summary + "<br /> <br />";
+            summary = summary + "<strong>Document.body.style.backgroundColor:</strong><br />" + document.body.style.backgroundColor;
+            summary = summary + " <br />";
+
+            document.getElementById('infobox').innerHTML = summary;
+        }
+
+    </script>
+
+</head>
+
+<body onLoad="info()">
+<input type="button" value="Reload info" onclick="info()"/>
+<br/> <br/>
+
+<div id="infobox"></div>
+
+</body>
+</html>
