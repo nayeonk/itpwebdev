@@ -57,6 +57,13 @@
       "due": "3/4",
       "link": "where-do-we-put-this",
       "active": 1
+    },
+    {
+      "name": "Final Project",
+      "type": "P",
+      "due": "4/29 (last day of class)",
+      "link": "final-project",
+      "active": 1
     }
 	],
 
