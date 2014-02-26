@@ -94,6 +94,13 @@
 			"due": "3/3",
 			"link": "advanced-photo-gallery",
 			"active": 1
+		},
+		{
+			"name": "Re-structure Data",
+			"type": "L",
+			"due": "3/5",
+			"link": "restructuring_data",
+			"active": 1
 		}
 	],
 
@@ -184,7 +191,7 @@
 		{
 			"date": "2/19",
 			"units": [
-				{ "subject": "indexOf, Data validation", "link": "indexof_datavalidation" },
+				{ "subject": "Data validation 1: indexOf, length, toUpperCase(), toLowerCase(), multi-conditional if statements", "link": "indexof_datavalidation" },
 				{ "subject": "Resource: Practice form quiz", "link": "resource-practice_from_quiz" }
 			],
 			"active": 1
@@ -201,94 +208,51 @@
 		{
 			"date": "2/26",
 			"units": [
-				{ "subject": "charAt, substring, replace, regular expressions", "link": "charAt-substring-replace-regex" },
-				{ "subject": "searching arrays, break statement", "link": "searching-arrays" }
+				{ "subject": "Data Validation 2: substring and regular expressions", "link": "substring-regex" }
 			],
-			"active": 0
+			"active": 1
 		},
-		
 		{
-			"date": "Feb 10",
+			"date": "3/3",
 			"units": [
-				{ "subject": "Searching through arrays", "link": "" }
+				{ "subject": "Searching arrays, break statement, array push, array split", "link": "" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
-			"date": "Feb 12",
+			"date": "3/5",
 			"units": [
-				{ "subject": "Querying the DOM with querySelector, querySelectorAll, getElementsByTagName", "link": "" }
+				{ "subject": "callback functions", "link": "" },
+				{ "subject": "jQuery + JS integration", "link": "" },
+				{ "subject": "Exam review", "link": "" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
-			"date": "Feb 17",
-			"units": [
-				{ "subject": "Holiday - Presidents' Day", "link": "" }
-			],
-			"active": 0
-		},
-		{
-			"date": "Feb 19",
-			"units": [
-				{ "subject": "Event listeners", "link": "" },
-				{ "subject": "this keyword", "link": "" }
-			],
-			"active": 0
-		},
-		{
-			"date": "Feb 24",
-			"units": [
-				{ "subject": "Introduction to jQuery", "link": "" }
-			],
-			"active": 0
-		},
-		{
-			"date": "Feb 26",
-			"units": [
-				{ "subject": "", "link": "" }
-			],
-			"active": 0
-		},
-		{
-			"date": "Mar 3",
-			"units": [
-				{ "subject": "", "link": "" }
-			],
-			"active": 0
-		},
-		{
-			"date": "Mar 5",
-			"units": [
-				{ "subject": "", "link": "" }
-			],
-			"active": 0
-		},
-		{
-			"date": "Mar 10",
+			"date": "3/10",
 			"units": [
 				{ "subject": "Written Exam", "link": "" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
-			"date": "Mar 12",
+			"date": "3/12",
 			"units": [
 				{ "subject": "Practical Exam", "link": "" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
-			"date": "Mar 17 - 22",
+			"date": "3/17 - 3/22",
 			"units": [
 				{ "subject": "Spring Break", "link": "" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "Mar 24",
 			"units": [
-				{ "subject": "", "link": "" }
+				{ "subject": "Querying the DOM with querySelector, querySelectorAll, getElementsByTagName", "link": "" }
 			],
 			"active": 0
 		},
