@@ -27,6 +27,7 @@ You must use at least 1 project extra
 * Laravel's templating engine, Blade
 * IoC container usage
 * Node.js integration with Laravel
+* additional API calls
 
 ### Submission
 
