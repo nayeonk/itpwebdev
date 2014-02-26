@@ -98,14 +98,14 @@
 		{
 			"name": "Advanced Photo Gallery",
 			"type": "A",
-			"due": "02/24",
+			"due": "02/25",
 			"link": "advanced_photo_gallery",
 			"active": 1
 		},
 		{
 			"name": "Re-structure Data",
 			"type": "L",
-			"due": "02/28",
+			"due": "02/27",
 			"link": "restructuring_data",
 			"active": 1
 		},
