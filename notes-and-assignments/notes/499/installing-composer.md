@@ -39,7 +39,11 @@ Then download [the Windows installer for Composer](https://getcomposer.org/doc/0
 
 After installation completes, navigate to the PHP folder and rename `php.ini-production` to `php.ini`. Then open up the file in a text editor.
 
-On line 889, remove the semicolon so that it uncomments `extension=php_openssl.dll`. Then on line 731, remove the semicolon and change the directory to the ext folder of your PHP folder:
+Find the line that contains `extension=php_openssl.dll` and uncomment it by removing the semicolon at the beginning of the line. This allows Composer to make https requests when retrieving dependencies for a project.
+
+Then find the line that contains `extension=php_pdo_mysql.dll` and also uncomment it by removing the beginning semicolon. This enables the PDO driver for MySQL.
+
+Then find `extension_dir=` and set the value to the location of the ext folder inside your PHP folder. For example, use the following if the PHP folder is located at the root C:\ drive:
 
 ```
 extension_dir = "C:\php\ext"
