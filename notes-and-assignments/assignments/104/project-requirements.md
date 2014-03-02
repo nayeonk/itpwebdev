@@ -1,13 +1,13 @@
 Project Requirements
 ====================
 
-Due Date: December 7th at 4:30pm
-Late due date: December 16th 4:30pm (day of the final presentations)
-Project presentations: December 16th 4:30pm (day of the final presentations)
+* Due Date: 4/28 by 11:59pm
+* Late due date: 5/5 by 11:59pm
+* Project presentations: 5/12 at 4:30pm
 
 ### Late Deadline 
 
-The late deadline for projects is the day of the presentation (final exam day). If you turn in your project at that time (rather than the due date) you will receive 94% credit. If you are going to take advantage of the late deadline you MUST send an e-mail to the instructor and grader by the due date letting us know (that you are opting for the late deadline)... otherwise your project (whatever its status) will be graded as-is.  
+If you are going to take advantage of the late deadline you MUST send an e-mail to the instructor and grader by the due date letting us know. Otherwise your project (whatever its status) will be graded as-is on the due date.
 
 ### Requirements
 

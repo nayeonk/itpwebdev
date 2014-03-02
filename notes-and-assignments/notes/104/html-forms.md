@@ -1,7 +1,6 @@
 HTML Forms and USC Form Scripts
 ===============================
 
-* Vlab
 * span tags
 * rounded corners
 * HTML forms

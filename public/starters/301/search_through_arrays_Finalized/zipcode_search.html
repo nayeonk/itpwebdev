@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Zipcode Search Class Example</title>
+<script src="zipcode.js"></script>
+<script type="text/javascript">
+var lookup = function(inputObj,outputObj){
+	var content = "";
+	for( var i = 0; i < zipcodes.length ; i++){
+		if(inputObj.value == zipcodes[i]){
+			content = "The zipcode: " + inputObj.value + " is for " + cities[i];
+			break;
+		}
+	}
+	if(content ==""){
+		outputObj.innerHTML = "Did not find matching City";
+	}else{
+		outputObj.innerHTML = content;
+	}
+
+}
+</script>
+</head>
+<body>
+<input id="zipcode"  />
+<button onclick="lookup(document.getElementById('zipcode'),document.getElementById('output'))">Lookup</button>
+<div id="output"></div>
+</body>
+</html>

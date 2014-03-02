@@ -14,98 +14,98 @@
 	"homework": [
 		{
 			"name": "First web page",
-			"type": "lab",
+			"type": "L",
 			"due": "2/3",
 			"link": "first-webpage",
 			"active": 1
 		},
 		{
 			"name": "Resume",
-			"type": "assignment",
+			"type": "A",
 			"due": "2/10",
 			"link": "resume",
 			"active": 1
 		},
 		{
 			"name": "Film Article",
-			"type": "assignment",
+			"type": "A",
 			"due": "2/24",
 			"link": "film-article",
 			"active": 1
 		},
 		{
 			"name": "Calendar",
-			"type": "assignment",
+			"type": "A",
 			"due": "3/3",
 			"link": "calendar",
 			"active": 1
 		},
 		{
-			"name": "Major Project Proposal",
-			"type": "assignment",
-			"due": "10/14",
-			"link": "project-proposal",
-			"active": 0
+			"name": "Survey",
+			"type": "A",
+			"due": "3/10",
+			"link": "survey",
+			"active": 1
 		},
 		{
 			"name": "Graphic redesign",
-			"type": "lab",
+			"type": "L",
 			"due": "10/14",
 			"link": "graphic-redesign",
 			"active": 0
 		},
 		{
-			"name": "Survey",
-			"type": "assignment",
-			"due": "10/28",
-			"link": "survey",
-			"active": 0
+			"name": "Practice practical exam",
+			"type": "L",
+			"due": "3/10",
+			"link": "practice-practical",
+			"active": 1
 		},
 		{
-			"name": "Practice exam",
-			"type": "lab",
-			"due": "10/21",
-			"link": "practice-practical",
-			"active": 0
+			"name": "Major Project Proposal",
+			"type": "A",
+			"due": "3/24",
+			"link": "project-proposal",
+			"active": 1
 		},
 		{
 			"name": "Major project frontpage & graphics",
-			"type": "assignment",
+			"type": "A",
 			"due": "11/4",
 			"link": "project-homepage",
 			"active": 0
 		},
 		{
 			"name": "Dreamweaver News Article",
-			"type": "lab",
+			"type": "L",
 			"due": "11/4",
 			"link": "dreamweaver-news-article",
 			"active": 0
 		},
 		{
 			"name": "Web Technology Article",
-			"type": "assignment",
+			"type": "A",
 			"due": "11/11",
 			"link": "web-technology-article",
 			"active": 0
 		},
 		{
 			"name": "Final Project Requirements",
-			"type": "project",
-			"due": "12/7 4:30pm",
+			"type": "P",
+			"due": "4/28 11:59pm",
 			"link": "project-requirements",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "Behaviors",
-			"type": "lab",
+			"type": "L",
 			"due": "11/18",
 			"link": "behaviors",
 			"active": 0
 		},
 		{
 			"name": "jQuery cycle 2 plugin",
-			"type": "lab",
+			"type": "L",
 			"due": "11/25",
 			"link": "jquery-plugin",
 			"active": 0
@@ -181,15 +181,15 @@
 			"active": 0
 		},
 		{
-			"date": "10/14",
+			"date": "3/3",
 			"units": [
 				{ "subject": "HTML Forms & USC Form Scripts", "link": "html-forms" },
 				{ "subject": "Exam Study Guide", "link": "study-guide" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
-			"date": "10/21",
+			"date": "3/10",
 			"units": [
 				{ "subject": "HTML & CSS Exam", "link": "exam" }
 			],

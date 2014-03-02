@@ -7,9 +7,10 @@ First, pick a political web site of any kind: a candidate site, one forwarding a
 
 Take the main logo from that political site and make note of the general color scheme.
 
-Then build a Web page that is a survey about a related topic or issue. The page should feature the logo of the political site and should use colors that reflect the logo or parent site. Your page SHOULD have a relatively clean look -- with all of your labels (name, email, age) in a distinct different column and it would be most efficient if you set up a separate class for all your labels. AND your overall form should be one background color (or gradient) with ROUNDED corners.
+Then build a Web page that is a survey about a related topic or issue. The page should feature the logo of the political site and should use colors that reflect the logo or parent site. Your page SHOULD have a relatively clean look -- with all of your labels (name, email, age) in a different column. Your overall form should be one background color (or gradient) with ROUNDED corners.
 
 The main survey should use all of the major form objects (at least one of each):
+
 * Text inputs 
 * Radio Buttons 
 * Checkboxes 
