@@ -171,16 +171,6 @@
 			"active": 1
 		},
 		{
-			"date": "10/7",
-			"units": [
-				{
-					"subject": "Intro to Photoshop, CSS tricks",
-					"link": "web-design-color-issues-photoshop"
-				}
-			],
-			"active": 0
-		},
-		{
 			"date": "3/3",
 			"units": [
 				{ "subject": "HTML Forms & USC Form Scripts", "link": "html-forms" },
@@ -191,66 +181,95 @@
 		{
 			"date": "3/10",
 			"units": [
-				{ "subject": "HTML & CSS Exam", "link": "exam" }
+				{ "subject": "HTML & CSS Exam", "link": "" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
-			"date": "10/28",
+			"date": "3/17",
 			"units": [
-				{ "subject": "Using Dreamweaver visual editor", "link": "dreamweaver-intro" }
+				{ "subject": "Spring Break", "link": "" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
-			"date": "11/4",
-			"units": [
-				{ "subject": "Web Technology Overview", "link": "web-technologies" },
-				{ "subject": "ITP web programs", "link": "" }
-			],
-			"active": 0
-		},
-		{
-			"date": "11/11",
+			"date": "3/24",
 			"units": [
 				{
-					"subject": "Dreamweaver Behaviors and Effects",
-					"link": "dreamweaver-behaviors"
+					"subject": "CSS tricks",
+					"link": ""
+				},
+				{
+					"subject": "Guest Lecture on Photoshop & graphics for the web (Sara Clayton)",
+					"link": ""
 				}
 			],
-			"active": 0
+			"active": 1
+		},
+		{
+			"date": "3/31",
+			"units": [
+				{ "subject": "Dreamweaver Visual Editor", "link": "" },
+				{
+					"subject": "Intermediate CSS Selectors",
+					"link": ""
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "4/7",
+			"units": [
+				{ "subject": "Web Technology Overview", "link": "" },
+				{ "subject": "ITP web programs", "link": "" },
+				{
+					"subject": "Dreamweaver Behaviors and Effects (Recorded Lecture)",
+					"link": ""
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "4/14",
+			"units": [
+				{ "subject": "Guest Lecture on Wordpress (Michael Shen)", "link": "" }
+			],
+			"active": 1
+		},
+		{
+			"date": "4/21",
+			"units": [
+				{
+					"subject": "jQuery plugins",
+					"link": ""
+				},
+				{
+					"subject": "CSS Positioning, Dropdown Navigations (Recorded Lecture)",
+					"link": ""
+				}
+			],
+			"active": 1
 		},
 		{
 			"date": "11/18",
 			"units": [
-				{
-					"subject": "jQuery plugins",
-					"link": "jquery-plugins"
-				}
+				
 			],
 			"active": 0
 		},
 		{
-			"date": "11/25",
+			"date": "4/28",
 			"units": [
 				{
-					"subject": "jQuery plugins (continued) - Isotope",
-					"link": "http://isotope.metafizzy.co/"
-				},
-				{
-					"subject": "Relative and Absolute Positioning",
-					"link": "http://www.w3schools.com/css/css_positioning.asp"
-				},
-				{
-					"subject": "Intermediate CSS Selectors",
+					"subject": "Social media widgets",
 					"link": ""
 				},
 				{
-					"subject": "CSS Dropdown Navigations",
+					"subject": "Taking your site beyond USC, web hosting, and domains",
 					"link": ""
 				}
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "12/2",
