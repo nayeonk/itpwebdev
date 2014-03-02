@@ -101,6 +101,20 @@
 			"due": "3/5",
 			"link": "restructuring_data",
 			"active": 1
+		},
+		{
+			"name": "Project Proposal: Brainstorming Draft",
+			"type": "A",
+			"due": "3/10",
+			"link": "project_proposal_brainstorming_draft",
+			"active": 1
+		},
+		{
+			"name": "Bookmark/link page",
+			"type": "A",
+			"due": "3/10",
+			"link": "bookmark-links",
+			"active": 1
 		}
 	],
 
@@ -215,7 +229,7 @@
 		{
 			"date": "3/3",
 			"units": [
-				{ "subject": "Searching arrays, break statement, array push, array split", "link": "" }
+				{ "subject": "Searching arrays, break statements, array push, & single responsibility", "link": "searching-arrays" }
 			],
 			"active": 1
 		},
