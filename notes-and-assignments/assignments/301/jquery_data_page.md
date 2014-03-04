@@ -17,6 +17,7 @@ When your UI is done the idea is that the page explains the data, shows them one
 Ok so now you have JS in your page that has all of the data stored in arrays. When the page first loads it can go ahead and display the first record (row 0 in your arrays) in the page. You can hand-code the html (do not have to use document.write or whatnot) to display the initial data. Also set up a global variable (such as "currentrecord") and set it to 0. 
 
 Now, use jQ to bind to the next and previous buttons against a click event. Each time it is clicked your jQ code should:
+
 1.	Increment or decrement your record variable. If the variable goes below 0 it should be reset to the highest row number.
 1.	Hide the div that contains all of the data. You can use any of a number of jQ events to hide it (including plain old hide).
 1.	Edit the data, replacing the current record data in each field with the new data. USE the HTML method of JS to do this (similar to the innerHTML function in JS).
@@ -24,7 +25,7 @@ Now, use jQ to bind to the next and previous buttons against a click event. Each
 
 Finally, at the bottom of your page set up a form with text boxes that correspond with each of your data records, and a button that says "Add new record". 
 
-Use jQ to bind to the button a function that takes the data from each of the text fields and adds that data to the correpsonding array. __Note: It is ok to use the Javascript push() method inside your jQ function (see bottom for overview of push). __
+Use jQ to bind to the button a function that takes the data from each of the text fields and adds that data to the correpsonding array. __Note: It is ok to use the Javascript push\(\) method inside your jQ function \(see bottom for overview of push\).__
 
 
 #### Overall requirements:
@@ -32,6 +33,8 @@ Use jQ to bind to the button a function that takes the data from each of the tex
 *	Display the first record on the page along with Next and Previous buttons.
 *	Use jQ to script the arrows so that they move between records, loading another row of data into the page and animating the appearance.
 *	Create an "add record" section at the bottom of the page. Use jQ (and Javascript as well if you like) to add new records to the corresponding arrays... allowing the user to add more records to your page.
+
+![Sample Screen Shot](http://itpwebdev.herokuapp.com/resources/datapage.gif)
 
 #### Note: Short primer on JS push() method:
 
