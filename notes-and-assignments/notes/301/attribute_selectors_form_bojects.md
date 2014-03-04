@@ -2,6 +2,13 @@ Lecture - Attribute Selectors, Form Objects (JS and jQ)
 ============
 Selectors by HTML tag attributes; Working with different form objects in Javascript vs jQuery
 
+******************************************************************
+Please download the following zip file and extract it to a folder:
+
+Yuanbo's class: http://wr.gs/20140304classexample
+
+******************************************************************
+
 
 ##	Selectors by attribute; Form Objects revisited for JS and jQuery
 
