@@ -235,13 +235,13 @@
 			"units": [
 				{ "subject": "Class cancelled", "link": "" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
-			"date": "Feb 19",
+			"date": "03/04",
 			"units": [
-				{ "subject": "Event listeners", "link": "" },
-				{ "subject": "this keyword", "link": "" }
+				{ "subject": "Attribute Selectors, Form Objects (JS and jQ)", "link": "attribute_selectors_form_bojects" },
+				{ "subject": "Next/prev, toggle, parent/child, prepend/append", "link": "next_prev_toggle_parent_child_prepend_append" }
 			],
 			"active": 0
 		},
