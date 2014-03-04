@@ -1,5 +1,14 @@
 Testing Demo Overview
-===
+=====================
+
+* Calculator example
+	* AAA
+	* assertEquals
+	* other assertions
+* Billing example
+	* setUp
+	* tearDown
+* running phpunit in Laravel
 
 ### 1. Billing example
 
