@@ -12,13 +12,13 @@ You will __NOT__ have to know:
 * miscellaneious php functions
 * Symfony HttpFoundation component
 * Carbon date library
-* anything Laravel specific
+* anything Laravel specific (except for the practical)
 * working with MySQL datetime
 
 You __WILL__ have to know:
 
 * HTTP life cycle
-* Basic SQL
+* Basic SQL and INNER Joins
 * require statements
 * PHP Data Objects (PDO class)
 * Defining classes, methods, properties, statics, and inheritance in PHP
@@ -31,7 +31,9 @@ You __WILL__ have to know:
 * Model-View-Controller architectural pattern
 * Object Relational Mapping theory
 * Application organization / structure
-* Best practices when working with 3rd party APIs
+* Working with APIs
+	* json_decode()
+	* file_get_contents()
 * Testing theory
 
 Any code you will have to write will be very short and target concepts. Many of the questions are scenario based.
@@ -40,5 +42,7 @@ The written exam is __closed notes, books, internet, etc__.
 
 ### Practical
 
-You will have from 6 - 8pm to complete the practical. I will give you a prompt and you will implement the requirements using Laravel. This portion of the midterm is __open notes, previous assignments, book, and internet__. However, you may not communicate with anyone during the practical.
+You will have from 6 - 8pm to complete the practical. I will give you a prompt and you will implement the requirements using Laravel and PHPUnit. This portion of the midterm is __open notes, previous assignments, book, and internet__, since in the workplace you have these resources at your disposal. However, you may not communicate with anyone during the practical.
+
+I suggest that you download a fresh copy of Laravel before exam day so you don't have to wait for it to download during the test.
 

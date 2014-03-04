@@ -64,6 +64,13 @@
       "due": "4/29 (last day of class)",
       "link": "final-project",
       "active": 1
+    },
+    {
+      "name": "Unit Testing",
+      "type": "L",
+      "due": "3/11",
+      "link": "unit-testing",
+      "active": 1
     }
 	],
 
@@ -214,12 +221,16 @@
       "date": "3/4",
       "units": [
         {
-          "subject": "Testing Overview",
-          "link": ""
+          "subject": "Testing Overview and PHPUnit introduction (slides)",
+          "link": "https://www.dropbox.com/s/3kj0g982u5xkatv/unit-testing.pdf"
         },
         {
-          "subject": "PHPUnit introduction",
-          "link": ""
+          "subject": "Demo overview",
+          "link": "testing-demo-overview"
+        },
+        {
+          "subject": "Resource: PHPUnit Documentation",
+          "link": "http://phpunit.de/"
         }
       ],
       "active": 1
@@ -228,7 +239,7 @@
       "date": "3/11",
       "units": [
         {
-          "subject": "Midterm - Last updated 2/17 10:33am",
+          "subject": "Midterm - Last updated 3/4 2:13am",
           "link": "midterm"
         }
       ],
