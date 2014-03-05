@@ -1,13 +1,13 @@
-Lecture - DHTML, cross-browser, page info
-=============
+DHTML, cross-browser, page info
+================================
+
+
 Review of cross-browser DHTML issues. Page/window environment info.
 
 ******************************************************************
-Please download the following zip file and extract it to a folder:
-
 Yuanbo's class: http://itpwebdev.herokuapp.com/starters/301/dhtml_cross-broswer_page_info.zip [Finalized](http://itpwebdev.herokuapp.com/starters/301/dhtml_cross-broswer_page_info_finalized.zip)
 
-
+David's class: http://itpwebdev.herokuapp.com/starters/301/can-you-write-js-to.zip
 ******************************************************************
 
 
@@ -54,9 +54,9 @@ How about finding the location of the mouse? Well, when an event takes place (mo
 So, for instance, look at the jQuery code below:
 
 ```js
-	$("body).bind("click", function(e){
-		alert('User clicked at " + e.pageX + " across and " + e.pageY + "down");
-	});
+$("body").on("click", function(e) {
+	alert("User clicked at " + e.pageX + " across and " + e.pageY + "down");
+});
 ```
 
 

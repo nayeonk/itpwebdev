@@ -236,9 +236,8 @@
 		{
 			"date": "3/5",
 			"units": [
-				{ "subject": "callback functions", "link": "" },
-				{ "subject": "jQuery + JS integration", "link": "" },
-				{ "subject": "Exam review", "link": "" }
+				{ "subject": "DHTML, Cross-browser, Page Info", "link": "dhtml_cross_browser_page_info" },
+				{ "subject": "Study Guide", "link": "study-guide" }
 			],
 			"active": 1
 		},
@@ -266,6 +265,7 @@
 		{
 			"date": "Mar 24",
 			"units": [
+				{ "subject": "callback functions", "link": "" },
 				{ "subject": "Querying the DOM with querySelector, querySelectorAll, getElementsByTagName", "link": "" }
 			],
 			"active": 0

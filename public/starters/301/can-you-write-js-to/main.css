@@ -1,0 +1,21 @@
+body {
+	background-color: black;
+	color: white;
+	font-weight: bold;
+}
+#thelayer {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:3;
+	left: 254px;
+	top: 406px;
+}
+#messagelayer {
+	position:absolute;
+	width:600px;
+	height:40px;
+	z-index:5;
+	left: 500px;
+	top: 20px;
+}
