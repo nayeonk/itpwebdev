@@ -5,8 +5,8 @@ body {
 }
 #thelayer {
 	position:absolute;
-	width:200px;
-	height:115px;
+/*	width:200px;
+	height:115px;*/
 	z-index:3;
 	left: 254px;
 	top: 406px;

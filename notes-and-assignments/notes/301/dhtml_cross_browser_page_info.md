@@ -23,6 +23,7 @@ David's class: http://itpwebdev.herokuapp.com/starters/301/can-you-write-js-to.z
 * Getting info about the window
 	* document.documentElement.clientWidth vs $(window).width()
 * event object e.pageX, e.pageY
+	* cross browser event object
 
 ### JavaScript across browsers
 
