@@ -74,7 +74,7 @@ __Test 2:__
 ```php
 // notice how i am not setting anything in $_GET here
 Input::get('email') // null, see assertNull()
-Input::get('plan') // standard, since it did not exist in $_GET
+Input::get('plan', 'standard') // assertEquals 'standard', since it did not exist in $_GET. You are basically providing a default value here
 ```
 
 For test 1 and 2 for Input class, be sure to clean out the data you set to $_GET in your tearDown method. This way each test is executed with an empty $_GET superglobal array.
