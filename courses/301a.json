@@ -236,7 +236,7 @@
 		{
 			"date": "3/5",
 			"units": [
-				{ "subject": "DHTML, Cross-browser, Page Info", "link": "dhtml_cross_browser_page_info" },
+				{ "subject": "Cross-browser JS, jQuery, and Page Info", "link": "dhtml_cross_browser_page_info" },
 				{ "subject": "Study Guide", "link": "study-guide" }
 			],
 			"active": 1

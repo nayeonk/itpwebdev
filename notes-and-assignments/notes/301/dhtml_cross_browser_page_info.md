@@ -1,5 +1,5 @@
 JavaScript cross-browser, page info
-================================
+===================================
 
 
 Review of cross-browser DHTML issues. Page/window environment info.
