@@ -2,7 +2,12 @@ Lecture - jQuery review and JS
 ===========
 jQuery review and integration with JS 
 
+*****************************
 
+Yuanbo's class: hhttp://itpwebdev.herokuapp.com/starters/301/jquery_js_review.zip
+
+
+*****************************
 ### jQuery review and integration with Javascript
 
 First off, what are the two basics for using jQuery:
