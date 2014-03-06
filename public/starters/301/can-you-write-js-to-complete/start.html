@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+<title>Can you write JS to...</title>
+	<link rel="stylesheet" href="main.css">
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="main.js"></script>
+</head>
+<body>
+Can you write JS to:
+<ul>
+	<li>
+		<input type="button" value="Toggle the visibility of the layer?" id="toggle" />
+	</li>
+	<li>
+		<input type="button" value="Move the layer to 400,400" id="move400" />
+	</li>
+	<li>
+		<input type="button" value="Move the layer 10 pixels to the LEFT" id="move10left" />
+	</li>
+	<li>
+		<input type="button" value="Enable the 'arrows' to move the layer around the page" />
+	</li>
+	<li>
+		<input type="button" value="Center the layer on the page" id="center" />
+	</li>
+	<li>
+		<input type="button" value="Move the layer to the top coordinate that the user types into a prompt" id="prompttop"/>
+	</li>
+	<li>
+		<input type="button" value="Summarize the current information about the layer and write that information into the message layer" id="layerinfo" />
+	</li>
+</ul>
+<div id="messagelayer"></div>
+<div id="thelayer">
+  <table width="100%" border="0">
+    <tr>
+      <td>&nbsp;</td>
+      <td align="center"><img src="up.gif" width="40" height="38" id="up" onclick="moveup()"/></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+
+      <td><img src="left.gif" width="37" height="38" /></td>
+      <td><img src="sheldon.jpg" width="330" height="250" /></td>
+      <td><img src="right.gif" width="40" height="38" /></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td align="center"><img src="down.gif" width="38" height="39" /></td>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+</div>
+
+</body>
+</html>
