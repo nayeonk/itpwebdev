@@ -126,7 +126,7 @@
 		{
 			"name": "jQuery Data",
 			"type": "A",
-			"due": "03/011",
+			"due": "03/11",
 			"link": "jquery_data_page",
 			"active": 1
 		}
@@ -255,11 +255,11 @@
 		{
 			"date": "03/06",
 			"units": [
-				{ "subject": "jQuery and JS Review", "link": "intro_to_programming_and_js" },
-				{ "subject": "Midterm Notes": "midterm_notes" },
-				{ "subject": "Resource - Study Guide - JS conceptual review": "study-guide" },
-				{ "subject": "Resource - Practice exam 'Images' (no solution)": "resource-practice_exam_images" },
-				{ "subject": "Resource - Practice exam 'Colors' (w/solution)": "resource-practice_exam_colors" }
+				{ "subject": "jQuery and JS Review", "link": "jquery_review_and_js" },
+				{ "subject": "Midterm Notes", "link": "midterm_notes" },
+				{ "subject": "Resource - Study Guide - JS conceptual review", "link": "study-guide" },
+				{ "subject": "Resource - Practice exam 'Images' (no solution)", "link": "resource-practice_exam_images" },
+				{ "subject": "Resource - Practice exam 'Colors' (w/solution)", "link": "resource-practice_exam_colors" }
 			],
 			"active": 1
 		},
