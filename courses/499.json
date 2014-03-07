@@ -244,6 +244,76 @@
         }
       ],
       "active": 1
+    },
+    {
+      "date": "3/18",
+      "units": [
+        {
+          "subject": "Spring Break",
+          "link": ""
+        }
+      ],
+      "active": 1
+    },
+    {
+      "date": "3/25",
+      "units": [
+        {
+          "subject": "Integration Tests, Dependency Injection, Test Doubles",
+          "link": ""
+        }
+      ],
+      "active": 1
+    },
+    {
+      "date": "4/1",
+      "units": [
+        {
+          "subject": "Interfaces, Inversion of Control",
+          "link": ""
+        }
+      ],
+      "active": 1
+    },
+    {
+      "date": "4/8",
+      "units": [
+        {
+          "subject": "Guest Lecture?",
+          "link": ""
+        }
+      ],
+      "active": 1
+    },
+    {
+      "date": "4/15",
+      "units": [
+        {
+          "subject": "API's part 2",
+          "link": ""
+        }
+      ],
+      "active": 1
+    },
+    {
+      "date": "4/22",
+      "units": [
+        {
+          "subject": "Asynchronous Programming with Node.js - Part 1",
+          "link": ""
+        }
+      ],
+      "active": 1
+    },
+    {
+      "date": "4/29",
+      "units": [
+        {
+          "subject": "Asynchronous Programming with Node.js - Part 2",
+          "link": ""
+        }
+      ],
+      "active": 1
     }
 	]
 }

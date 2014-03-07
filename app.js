@@ -44,6 +44,11 @@ app.get('/playground', function(req, res) {
 	res.render('playground');
 });
 
+
+app.get('/jobs', function(req, res) {
+	res.render('jobs');
+});
+
 /*
  * AJAX: Shows the home page for a specific course
  */
