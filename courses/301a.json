@@ -115,6 +115,13 @@
 			"due": "3/10",
 			"link": "bookmark-links",
 			"active": 1
+		},
+		{
+			"name": "Photo Gallery with Objects",
+			"type": "A",
+			"due": "3/31",
+			"link": "photo-gallery-with-objects",
+			"active": 1
 		}
 	],
 
@@ -265,87 +272,86 @@
 		{
 			"date": "Mar 24",
 			"units": [
-				{ "subject": "callback functions", "link": "" },
-				{ "subject": "Querying the DOM with querySelector, querySelectorAll, getElementsByTagName", "link": "" }
+				{ "subject": "Introduction to objects, searching arrays of objects, object methods", "link": "objects1" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "Mar 26",
 			"units": [
-				{ "subject": "", "link": "" }
+				{ "subject": "More on DOM Traversal w/ jQuery", "link": "" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "Mar 31",
 			"units": [
-				{ "subject": "", "link": "" }
+				{ "subject": "Timers and Async code", "link": "" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "Apr 2",
 			"units": [
-				{ "subject": "", "link": "" }
+				{ "subject": "Data Storage 1: Cookies", "link": "" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "Apr 7",
 			"units": [
-				{ "subject": "", "link": "" }
+				{ "subject": "Data Storage 2: Local and Session Storage", "link": "" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "Apr 9",
 			"units": [
-				{ "subject": "", "link": "" }
+				{ "subject": "Real-time APIs", "link": "" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "Apr 14",
 			"units": [
 				{ "subject": "Student conferences", "link": "" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "Apr 16",
 			"units": [
 				{ "subject": "Student conferences", "link": "" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "Apr 21",
 			"units": [
-				{ "subject": "Special topics: Local storage", "link": "" }
+				{ "subject": "Guest Lecture", "link": "" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "Apr 23",
 			"units": [
 				{ "subject": "Special Topics: JSONP", "link": "" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "Apr 28",
 			"units": [
 				{ "subject": "JS group project presentations", "link": "" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "Apr 30",
 			"units": [
-				{ "subject": "", "link": "" }
+				{ "subject": "Student Project Presentations", "link": "" }
 			],
-			"active": 0
+			"active": 1
 		}
 	]
 }
