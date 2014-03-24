@@ -321,7 +321,8 @@
 		{
 			"date": "Apr 16",
 			"units": [
-				{ "subject": "Real-time APIs", "link": "" }
+				{ "subject": "Real-time APIs", "link": "" },
+				{ "subject": "JS Group Project Assigned", "link": "" }
 			],
 			"active": 1
 		},
@@ -335,7 +336,7 @@
 		{
 			"date": "Apr 23",
 			"units": [
-				{ "subject": "Special Topics: TBA, JS Group Project Assigned", "link": "" }
+				{ "subject": "Special Topics: TBA", "link": "" }
 			],
 			"active": 1
 		},
