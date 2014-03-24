@@ -1,3 +1,6 @@
+Graphic Redesign
+================
+
 <p>Pick a professional web site you are familiar with. It could be a sports site, news, ecommerce, film,  etc.</p>
 
 

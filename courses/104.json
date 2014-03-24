@@ -48,13 +48,6 @@
 			"active": 1
 		},
 		{
-			"name": "Graphic redesign",
-			"type": "L",
-			"due": "10/14",
-			"link": "graphic-redesign",
-			"active": 0
-		},
-		{
 			"name": "Practice practical exam",
 			"type": "L",
 			"due": "3/10",
@@ -94,6 +87,13 @@
 			"type": "P",
 			"due": "4/28 11:59pm",
 			"link": "project-requirements",
+			"active": 1
+		},
+		{
+			"name": "Graphic redesign",
+			"type": "L",
+			"due": "3/31",
+			"link": "graphic-redesign",
 			"active": 1
 		},
 		{

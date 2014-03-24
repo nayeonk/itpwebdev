@@ -2,12 +2,12 @@
 <p style="font-size: 11px; margin-left: 10px;">
 	L = Lab, A = Assignment, P = Project, NC = No Credit
 </p>
-<ul>
+<ol>
 	<li ng-repeat="hw in course.homework | filter:{ active: '1' }">
 		<a href="#/{{ courseNum }}/assignments/{{ hw.link }}">{{ hw.name }} ({{hw.type}})</a> 
 		<span>due {{ hw.due }}</span>
 	</li>
-</ul>
+</ol>
 
 <h3 class="block-title">Resources</h3>
 <ul>
