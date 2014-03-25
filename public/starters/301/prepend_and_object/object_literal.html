@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS Object Literal</title>
+    <style>
+        #savebox{
+            border: 1px solid #0072cf;
+            width: 400px;
+            margin-bottom: 100px;
+        }
+        #savebox label{
+            display:inline-block;
+            width:200px;
+        }
+        #savebox input{
+            display:inline-block;
+            width:180px;
+        }
+        #showbox{
+            border: 1px solid #ffcc00;
+            width:400px;
+        }
+    </style>
+    <script src="http://code.jquery.com/jquery-1.11.0.js"></script>
+    <script type="text/javascript">
+        var person = [];
+        person["firstname"] = "Yuanbo";
+        person["lastname"] = "Wang";
+        person["age"] = 25;
+        person["play"] = "golf";
+
+        $(document).ready(function(){
+            var showInfo = function(fn,ln,age,play){
+                $("#firstname").html(fn);
+                $("#lastname").html(ln);
+                $("#age").html(age);
+                $("#play").html(play);
+            }
+            var saveInfo = function(fn,ln,age,play){
+                person["firstname"] = fn;
+                person["lastname"] = ln;
+                person["age"] = age;
+                person["play"] = play;
+            }
+
+            $("#show").click(function(){
+                showInfo(person["firstname"],person["lastname"],person["age"],person["play"]);
+
+            });
+            $("#save").click(function(){
+               saveInfo($("input[name='firstname']").val(),$("input[name='lastname']").val(),$("input[name='age']").val(),$("input[name='play']").val());
+            });
+        });
+
+    </script>
+</head>
+<body>
+<div id="main">
+    <div id="savebox">
+            <label for="firstname">Firstname: </label><input type="text" name="firstname" />
+            <label for="lastname">Lastname: </label><input type="text" name="lastname" />
+            <label for="age">Age: </label><input type="text" name="age" />
+            <label for="play">Play: </label><input type="text" name="play" />
+            <button id="save">Save</button>
+    </div>
+    <div id="showbox">
+        <div>Firstname: <span id="firstname"></span></div>
+        <div>Lastname: <span id="lastname"></span> </div>
+        <div>Age: <span id="age"></span></div>
+        <div>Play: <span id="play"></span></div>
+        <button id="show">Show</button>
+    </div>
+</div>
+</body>
+</html>

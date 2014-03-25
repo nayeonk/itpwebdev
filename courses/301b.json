@@ -247,8 +247,7 @@
 		{
 			"date": "03/04",
 			"units": [
-				{ "subject": "Attribute Selectors, Form Objects (JS and jQ)", "link": "attribute_selectors_form_bojects" },
-				{ "subject": "Next/prev, toggle, parent/child, prepend/append", "link": "next_prev_toggle_parent_child_prepend_append" }
+				{ "subject": "Attribute Selectors, Form Objects (JS and jQ)", "link": "attribute_selectors_form_bojects" }
 			],
 			"active": 1
 		},
@@ -264,30 +263,31 @@
 			"active": 1
 		},
 		{
-			"date": "Feb 26",
+			"date": "03/11",
 			"units": [
-				{ "subject": "", "link": "" }
+				{ "subject": "Written Midterm", "link": "" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
-			"date": "Mar 3",
+			"date": "03/13",
 			"units": [
-				{ "subject": "", "link": "" }
+				{ "subject": "Practical Midterm", "link": "" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
-			"date": "Mar 5",
+			"date": "03/17-03/21",
 			"units": [
-				{ "subject": "", "link": "" }
+				{ "subject": "Spring Break!!", "link": "" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
-			"date": "Mar 10",
+			"date": "03/24",
 			"units": [
-				{ "subject": "Written Exam", "link": "" }
+				{ "subject": "Next/prev, toggle, parent/child, prepend/append", "link": "next_prev_toggle_parent_child_prepend_append" },
+				{ "subject": "Introduction to objects, searching arrays of objects, object methods", "link": "objects1" }
 			],
 			"active": 0
 		},

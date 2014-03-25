@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>jQuery Example 3</title>
+<style>
+
+/*facebook.html*/
+div#wall {
+	margin:20px auto;
+	width:600px;
+	border:1px solid #ccc;
+	padding:15px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+}
+div#wrap {
+	padding:5px;
+	border:1px solid #ccc;
+	margin-bottom:8px;
+}
+div#wrap textarea {
+	border:0;
+	width:100%;
+	outline:none;
+	font-family: 'Lucida Grande',Tahoma,Verdana,Arial,sans-serif;
+	font-size:12px;
+}
+div#share_button{
+	text-align:right;
+	margin-bottom:15px;
+}
+#share {
+	color:white;
+	font-size:13px;
+	background-color: #4a67a9;
+	font-weight:bold;
+	border:0 none;
+	cursor:pointer;
+	font-family: 'Lucida Grande',Tahoma,Verdana,Arial,sans-serif;
+	padding:1px 3px 2px 4px;
+	outline:medium none;
+}
+div.comments {
+	font-family: 'Lucida Grande',Tahoma,Verdana,Arial,sans-serif;
+	margin-bottom:20px;
+	border-bottom:1px solid #ccc;
+	padding:10px;
+	font-size:11px;
+	position:relative;
+}
+div.comments span.hidePost {
+	text-decoration:none;
+	color:#999;
+	font-weight:bold;
+	font-size:12px;
+	font-family: 'Lucida Grande',Tahoma,Verdana,Arial,sans-serif;
+	position:absolute;
+	top:10px;
+	right:10px;
+}
+#itp-title {
+	font-family: 'Lucida Grande',Tahoma,Verdana,Arial,sans-serif;
+	color:white;
+	background-color: #4a67a9;
+	font-weight:bold;
+	padding:5px;
+	font-size:19px;
+}
+</style>
+
+<script src="http://code.jquery.com/jquery-1.11.0.js" type="text/javascript"></script>
+<script>
+$(document).ready(function(){
+	// when someone clicks on the #share button
+
+		// create variables for the opening div and anchor and X, the actual comment, and the close div
+			
+		// prepend that div code to #commentSection ... then hide and fade it in
+			
+		
+	// To enable the "X" (to remove posts)... create a command that fadesout the PARENT of the X (a.hidepost) objects
+
+	// BUT... if you simply use a normal "bind" it does affect NEW objects added to the page... 
+	// so you have to use "live" instead of "bind"
+
+});
+</script>
+</head>
+<body>
+	
+	<div id="wall">
+		<h1 id="itp-title">ITP 301 Wall</h1>
+		<div id="wrap">
+			<textarea id="typeHere">Write something...</textarea>
+		</div>
+		<div id="share_button">
+			<input type="button" id="share" value="Share" />
+		</div>
+		<div id="commentSection">
+			<div class="comments">
+				<span href="#" class="hidePost">X</span>
+				Facebook sure is fun!
+			</div>
+			<div class="comments">
+				<span href="#" class="hidePost">X</span>
+				ITP 301 is even more fun!
+			</div>
+		</div><!-- end of #commentSection -->
+	</div>
+	
+</body>
+</html>

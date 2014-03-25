@@ -2,6 +2,8 @@ Lecture - Next/prev, toggle, parent/child, prepend/append
 =================
 jQuery object manipulation: Review next/previous. Toggle with code branches. Parent/child. Append and prepend.
 
+Yuanbo's class: http://itpwebdev.herokuapp.com/starters/301/prepend_and_object.zip
+
 
 ### Review of next() and prev(). Diving into toggle(). Venturing into append() and prepend()
 

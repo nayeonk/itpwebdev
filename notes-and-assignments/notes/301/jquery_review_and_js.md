@@ -4,7 +4,7 @@ jQuery review and integration with JS
 
 *****************************
 
-Yuanbo's class: hhttp://itpwebdev.herokuapp.com/starters/301/jquery_js_review.zip
+Yuanbo's class: http://itpwebdev.herokuapp.com/starters/301/jquery_js_review.zip
 
 
 *****************************
