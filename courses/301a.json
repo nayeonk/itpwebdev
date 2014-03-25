@@ -293,7 +293,8 @@
 		{
 			"date": "Apr 2",
 			"units": [
-				{ "subject": "Data Storage: Cookies, Local Storage, Session Storage", "link": "" }
+				{ "subject": "Data Storage: Cookies, Local Storage, Session Storage", "link": "" },
+				{ "subject": "Student conferences (Lab)", "link": "" }
 			],
 			"active": 1
 		},
@@ -307,7 +308,7 @@
 		{
 			"date": "Apr 9",
 			"units": [
-				{ "subject": "Student conferences", "link": "" }
+				{ "subject": "No Class", "link": "" }
 			],
 			"active": 1
 		},
