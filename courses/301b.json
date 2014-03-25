@@ -296,7 +296,7 @@
 				{ "subject": "Next/prev, toggle, parent/child, prepend/append", "link": "next_prev_toggle_parent_child_prepend_append" },
 				{ "subject": "Introduction to objects, searching arrays of objects, object methods", "link": "objects1" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "Mar 12",
