@@ -315,7 +315,8 @@
 		{
 			"date": "Apr 14",
 			"units": [
-				{ "subject": "Special Topics: JSON, callback functions, & JSONP", "link": "" }
+				{ "subject": "Special Topics: JSON, callback functions, & JSONP", "link": "" },
+				{ "subject": "Student conferences (Lab)", "link": "" }
 			],
 			"active": 1
 		},
