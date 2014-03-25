@@ -129,6 +129,13 @@
 			"due": "03/11",
 			"link": "jquery_data_page",
 			"active": 1
+		},
+		{
+			"name": "Photo Gallery with Objects",
+			"type": "A",
+			"due": "3/31",
+			"link": "photo-gallery-with-objects",
+			"active": 1
 		}
 	],
 
