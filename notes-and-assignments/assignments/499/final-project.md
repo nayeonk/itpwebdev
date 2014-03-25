@@ -14,7 +14,7 @@ your application. You should have at least 3 tables. I will need to set up a mys
 * Use of controllers to group related actions 
 * Application structure for classes that don’t fit within Models or Controllers and use of 
 namespacing and composer psr-0 autoloading
-* At least 5 unit / integration tests using PHPUnit
+* At least 2 unit / integration tests using PHPUnit
 * Site content (graphics, narrative text, etc.) beyond the database content
 * General design that is consistent across site and sections 
 * Easy to use 
