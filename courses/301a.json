@@ -279,7 +279,7 @@
 		{
 			"date": "Mar 26",
 			"units": [
-				{ "subject": "More on DOM Traversal w/ jQuery", "link": "" }
+				{ "subject": "More on DOM Traversal w/ jQuery", "link": "next_prev_toggle_parent_child_prepend_append" }
 			],
 			"active": 1
 		},

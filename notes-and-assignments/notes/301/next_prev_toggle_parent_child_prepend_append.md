@@ -4,6 +4,8 @@ jQuery object manipulation: Review next/previous. Toggle with code branches. Par
 
 Yuanbo's class: http://itpwebdev.herokuapp.com/starters/301/prepend_and_object.zip
 
+David's class: https://github.com/ITP-Webdev/dom-traversal
+
 
 ### Review of next() and prev(). Diving into toggle(). Venturing into append() and prepend()
 
