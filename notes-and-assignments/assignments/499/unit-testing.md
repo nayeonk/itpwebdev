@@ -77,6 +77,8 @@ Input::get('email') // null, see assertNull()
 Input::get('plan', 'standard') // assertEquals 'standard', since it did not exist in $_GET. You are basically providing a default value here
 ```
 
+Hint: see http://www.php.net/manual/en/function.func-num-args.php to determinte how many arguments are passed to a function
+
 For test 1 and 2 for Input class, be sure to clean out the data you set to $_GET in your tearDown method. This way each test is executed with an empty $_GET superglobal array.
 
 ### Submission
