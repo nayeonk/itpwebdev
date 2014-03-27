@@ -291,7 +291,7 @@
 			"active": 1
 		},
 		{
-			"date": "03/24",
+			"date": "03/25",
 			"units": [
 				{ "subject": "Next/prev, toggle, parent/child, prepend/append", "link": "next_prev_toggle_parent_child_prepend_append" },
 				{ "subject": "Introduction to objects, searching arrays of objects, object methods", "link": "objects1" }
@@ -299,11 +299,11 @@
 			"active": 1
 		},
 		{
-			"date": "Mar 12",
+			"date": "03/27",
 			"units": [
-				{ "subject": "Practical Exam", "link": "" }
+				{ "subject": "Guest Lecture: CDN, UI/UX", "link": "guest_lecture_03_26" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "Mar 17 - 22",
