@@ -279,7 +279,7 @@
       "date": "4/8",
       "units": [
         {
-          "subject": "Guest Lecture?",
+          "subject": "Guest Lecture - APIs part 2",
           "link": ""
         }
       ],
@@ -289,7 +289,7 @@
       "date": "4/15",
       "units": [
         {
-          "subject": "API's part 2",
+          "subject": "Asynchronous Programming with Node.js - Part 1",
           "link": ""
         }
       ],
@@ -299,7 +299,7 @@
       "date": "4/22",
       "units": [
         {
-          "subject": "Asynchronous Programming with Node.js - Part 1",
+          "subject": "Asynchronous Programming with Node.js - Part 2",
           "link": ""
         }
       ],
@@ -309,7 +309,7 @@
       "date": "4/29",
       "units": [
         {
-          "subject": "Asynchronous Programming with Node.js - Part 2",
+          "subject": "Project Presentations",
           "link": ""
         }
       ],
