@@ -279,14 +279,17 @@
 		{
 			"date": "Mar 26",
 			"units": [
-				{ "subject": "More on DOM Traversal w/ jQuery", "link": "next_prev_toggle_parent_child_prepend_append" }
+				{ 
+					"subject": "More on DOM Traversal w/ jQuery, Event Delegation", 
+					"link": "next_prev_toggle_parent_child_prepend_append" 
+				}
 			],
 			"active": 1
 		},
 		{
 			"date": "Mar 31",
 			"units": [
-				{ "subject": "Timers and Async code", "link": "" },
+				{ "subject": "Midterm Practical Redo", "link": "" },
 				{ "subject": "Student conferences (Lab)", "link": "" }
 			],
 			"active": 1
@@ -294,7 +297,7 @@
 		{
 			"date": "Apr 2",
 			"units": [
-				{ "subject": "Data Storage: Cookies, Local Storage, Session Storage", "link": "" },
+				{ "subject": "Timers and Async code", "link": "" },
 				{ "subject": "Student conferences (Lab)", "link": "" }
 			],
 			"active": 1
@@ -309,14 +312,17 @@
 		{
 			"date": "Apr 9",
 			"units": [
-				{ "subject": "No Class", "link": "" }
+				{ 
+					"subject": "No Class, Recorded Lecture on Local Storage", 
+					"link": "" 
+				}
 			],
 			"active": 1
 		},
 		{
 			"date": "Apr 14",
 			"units": [
-				{ "subject": "Special Topics: JSON, callback functions, & JSONP", "link": "" },
+				{ "subject": "Cookies, Session Storage", "link": "" },
 				{ "subject": "Student conferences (Lab)", "link": "" }
 			],
 			"active": 1
@@ -339,7 +345,7 @@
 		{
 			"date": "Apr 23",
 			"units": [
-				{ "subject": "Special Topics: TBA", "link": "" }
+				{ "subject": "JSON, JSONP requests, APIs", "link": "" }
 			],
 			"active": 1
 		},

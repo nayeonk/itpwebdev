@@ -269,7 +269,7 @@
       "date": "4/1",
       "units": [
         {
-          "subject": "Interfaces, Inversion of Control",
+          "subject": "Inversion of Control, Server-side Caching",
           "link": ""
         }
       ],
@@ -289,7 +289,11 @@
       "date": "4/15",
       "units": [
         {
-          "subject": "Asynchronous Programming with Node.js - Part 1",
+          "subject": "Node Overview (slides)",
+          "link": ""
+        },
+        {
+          "subject": "Node.js - Part 1: Installation, NPM, building an HTTP server, Express",
           "link": ""
         }
       ],
@@ -299,7 +303,7 @@
       "date": "4/22",
       "units": [
         {
-          "subject": "Asynchronous Programming with Node.js - Part 2",
+          "subject": "Node.js - Part 2: Common JS modules, Flow Control",
           "link": ""
         }
       ],

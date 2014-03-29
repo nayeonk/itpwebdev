@@ -205,10 +205,10 @@
 		{
 			"date": "3/31",
 			"units": [
-				{ "subject": "Dreamweaver Visual Editor", "link": "" },
+				{ "subject": "Dreamweaver Visual Editor", "link": "dreamweaver-intro" },
 				{
 					"subject": "Intermediate CSS Selectors",
-					"link": ""
+					"link": "intermediate-css-selectors"
 				}
 			],
 			"active": 1
