@@ -64,16 +64,16 @@
 		{
 			"name": "Major project frontpage & graphics",
 			"type": "A",
-			"due": "11/4",
+			"due": "4/7",
 			"link": "project-homepage",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "Dreamweaver News Article",
 			"type": "L",
-			"due": "11/4",
+			"due": "4/7",
 			"link": "dreamweaver-news-article",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "Web Technology Article",
