@@ -136,6 +136,13 @@
 			"due": "3/31",
 			"link": "photo-gallery-with-objects",
 			"active": 1
+		},
+		{
+			"name": "jQuery Cookie Page",
+			"type": "A",
+			"due": "04/08",
+			"link": "jquery_cookie_page",
+			"active": 1
 		}
 	],
 
@@ -306,37 +313,9 @@
 			"active": 1
 		},
 		{
-			"date": "Mar 17 - 22",
+			"date": "04/01",
 			"units": [
-				{ "subject": "Spring Break", "link": "" }
-			],
-			"active": 0
-		},
-		{
-			"date": "Mar 24",
-			"units": [
-				{ "subject": "", "link": "" }
-			],
-			"active": 0
-		},
-		{
-			"date": "Mar 26",
-			"units": [
-				{ "subject": "", "link": "" }
-			],
-			"active": 0
-		},
-		{
-			"date": "Mar 31",
-			"units": [
-				{ "subject": "", "link": "" }
-			],
-			"active": 0
-		},
-		{
-			"date": "Apr 2",
-			"units": [
-				{ "subject": "", "link": "" }
+				{ "subject": "Timer_Return_Cookies", "link": "timers_return_cookies" }
 			],
 			"active": 0
 		},
