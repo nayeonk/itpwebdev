@@ -71,6 +71,13 @@
       "due": "3/25",
       "link": "unit-testing",
       "active": 1
+    },
+    {
+      "name": "Project Starter 1",
+      "type": "L",
+      "due": "4/8",
+      "link": "project-starter1",
+      "active": 1
     }
 	],
 
@@ -270,11 +277,11 @@
       "units": [
         {
           "subject": "Testing organization",
-          "link": ""
+          "link": "https://github.com/ITP-Webdev/499-class-demo"
         },
         {
           "subject": "Server-side Caching, Twitter API, Configuration Data",
-          "link": ""
+          "link": "https://github.com/ITP-Webdev/499-class-demo"
         },
         {
           "subject": "Web Socket servers in PHP",
