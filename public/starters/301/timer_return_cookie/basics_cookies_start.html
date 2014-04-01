@@ -1,0 +1,70 @@
+<html>
+<head>
+    <title>Cookie test page</title>
+    <script src="http://code.jquery.com/jquery-1.11.0.js"></script>
+    <script>
+        // The following function can be used/called to retrieve a specific piece of cookie data by cookie name
+        var getCookie = function (cname) {
+            var cookieLen = cname.length;
+            var cLen = document.cookie.length;
+            var i = 0;
+            var cEnd;
+
+            while (i < cLen) {
+                var j = i + cookieLen;
+                if (document.cookie.substring(i, j) == cname) {
+                    cEnd = document.cookie.indexOf(";", j);
+
+                    if (cEnd == -1) {
+                        cEnd = document.cookie.length
+                    }
+
+                    return unescape(document.cookie.substring((j + 1), cEnd))
+                }
+                i++
+            }
+
+            return " ";
+        };
+
+        // The following piece of JS would store a cookie entry for "age" with a value of "42"
+        //		document.cookie = "age=42
+        //
+        // The following JS would store a cookie entry for "age" set to the value of the variable theage
+        //       document.cookie = "age=" + theage
+        //
+
+        $(document).ready(function () {
+
+            // fill this bind with jQuery to bring up an alert that contains ALL cookie entries (the whole cookie)
+            $("#allcookie").bind("click", function () {
+
+            });
+
+            // fill ths bind with code to retrieve the value from the #savecolor text box.
+            // then save a cookie entries named "favcolor" and set it equal to that value
+            $("#savecolor").bind("click", function () {
+
+            });
+
+            // fill this bind with code that sets a variable to a cookie entry "favcolor" using the getCookie function supplied above
+            // then set the css background-color property of document.body to that color
+            $("#setcolor").bind("click", function () {
+
+            });
+
+        });
+    </script>
+
+</head>
+<body>
+<form>
+    Background color:
+    <input type="text" name="bgc" id="bgc"/>
+    <br/> <br/>
+    <input type="button" id="savecolor" value="Save color to cookie"/>
+    <input type="button" id="setcolor" value="Load color from cookie and set background to color"/>
+    <input type="button" id="allcookie" value="Display all cookie info to pop-up message"/>
+</form>
+</body>
+</html>

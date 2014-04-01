@@ -3,7 +3,7 @@ Timers/Async Code, Return, Cookies
 setTimeout and delays. Passing data back out of a function. Working with cookies.
 
 ******************************************************************
-Yuanbo's class: http://itpwebdev.herokuapp.com/starters/301/
+Yuanbo's class: http://itpwebdev.herokuapp.com/starters/301/timer_return_cookie.zip
 
 ******************************************************************
 

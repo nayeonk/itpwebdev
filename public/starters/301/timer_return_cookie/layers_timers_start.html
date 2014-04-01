@@ -1,0 +1,61 @@
+<html>
+<head>
+    <title> Timer practice</title>
+    <style type="text/css">
+        <!--
+        .link1 {
+            background-color: #FF9900;
+        }
+
+        .link2 {
+            background-color: #00FF00;
+        }
+
+        .link3 {
+            background-color: #FF3;
+        }
+
+        -->
+    </style>
+    <script src="http://code.jquery.com/jquery-1.11.0.js"></script>
+    <script>
+        $(document).ready(function () {
+        });
+
+
+    </script>
+</head>
+
+<body>
+<p>
+    <input type="button" id="b1" value="Click with Immediate Response"/>
+    <input type="button" id="b2" value="Click me and I response in 2 seconds"/>
+</p>
+
+<p>&nbsp;</p>
+
+<p><a href="3" id="link1" class="link1">Layer 1</a></p>
+
+<div id="layer1" class="layer"
+     style="position:absolute; top:62px; left:54px; width:200px; height:64px; background-color: #FF9900; layer-background-color: #FF9900; border: 1px none #000000;">
+    I am a layer that will disappear as soon as you mouse out.
+</div>
+<p>&nbsp;</p>
+
+<p><a href="#" id="link2" class="link2">Layer 2</a></p>
+
+<p>&nbsp;</p>
+
+<div id="layer2" class="layer"
+     style="position:absolute; top:148px; left:55px; width:200px; height:153px; background-color: #33FF00; layer-background-color: #33FF00; border: 1px none #000000; ">
+    I am a layer that behaves the same... BUT when you mouse out of the layer it waits 2 seconds before hiding it.
+</div>
+<p><a href="#" id="link3" class="link3">Layer 3</a></p>
+
+<div id="layer3" class="layer"
+     style="position:absolute; top:238px; left:55px; width:200px; height:153px; background-color: #FFFF33; layer-background-color: #FFFF33; border: 1px none #000000; ">
+    And finally I am a layer that when you mouse out waits 2 seconds to hide... BUT... if you mouse back INTO the layer
+    within that 2 seconds then it does NOT hide the layer.
+</div>
+</body>
+</html>
