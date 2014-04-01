@@ -269,8 +269,16 @@
       "date": "4/1",
       "units": [
         {
-          "subject": "Inversion of Control, Server-side Caching",
+          "subject": "Testing organization",
           "link": ""
+        },
+        {
+          "subject": "Server-side Caching, Twitter API, Configuration Data",
+          "link": ""
+        },
+        {
+          "subject": "Web Socket servers in PHP",
+          "link": "web-socket-server"
         }
       ],
       "active": 1
