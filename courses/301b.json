@@ -139,9 +139,16 @@
 		},
 		{
 			"name": "jQuery Cookie Page",
-			"type": "A",
+			"type": "L",
 			"due": "04/08",
 			"link": "jquery_cookie_page",
+			"active": 1
+		},
+		{
+			"name": "jCaroulsel actor slideshow",
+			"type": "L",
+			"due": "04/10",
+			"link": "jcaroulsel.md",
 			"active": 1
 		}
 	],
@@ -320,11 +327,11 @@
 			"active": 1
 		},
 		{
-			"date": "Apr 7",
+			"date": "04/03",
 			"units": [
-				{ "subject": "", "link": "" }
+				{ "subject": "Animate(),jQuery UI", "link": "animate_jquery_ui" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "Apr 9",
