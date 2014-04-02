@@ -297,7 +297,7 @@
 		{
 			"date": "Apr 2",
 			"units": [
-				{ "subject": "Timers and Async code", "link": "" },
+				{ "subject": "Timers and Async code", "link": "timers" },
 				{ "subject": "Student conferences (Lab)", "link": "" }
 			],
 			"active": 1
