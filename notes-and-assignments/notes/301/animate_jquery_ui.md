@@ -4,7 +4,7 @@ Using jQuery to animate css changes. jQuery UI.
  
 ******************************************************************
 Please download the following zip file and extract it to a folder: 
-starter files http://itpwebdev.herokuapp.com/starters/301/js-review/JS_review_start.html
+starter files http://itpwebdev.herokuapp.com/starters/301/animate_jquery_ui.zip
 ******************************************************************
 
 ### Custom animation with jQuery and animate(). jQuery UI library.
