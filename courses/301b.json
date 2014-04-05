@@ -145,10 +145,10 @@
 			"active": 1
 		},
 		{
-			"name": "jCaroulsel actor slideshow",
+			"name": "jCarousel actor slideshow",
 			"type": "L",
 			"due": "04/10",
-			"link": "jcaroulsel.md",
+			"link": "jcarousel",
 			"active": 1
 		}
 	],
