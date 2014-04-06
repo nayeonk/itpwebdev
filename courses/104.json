@@ -99,9 +99,16 @@
 		{
 			"name": "Behaviors",
 			"type": "L",
-			"due": "11/18",
+			"due": "4/14",
 			"link": "behaviors",
-			"active": 0
+			"active": 1
+		},
+		{
+			"name": "Web Technology Deconstruction",
+			"type": "A",
+			"due": "4/14",
+			"link": "web-technology-deconstruction",
+			"active": 1
 		},
 		{
 			"name": "jQuery cycle 2 plugin",
@@ -216,11 +223,11 @@
 		{
 			"date": "4/7",
 			"units": [
-				{ "subject": "Web Technology Overview", "link": "" },
-				{ "subject": "ITP web programs", "link": "" },
+				{ "subject": "Web Technology Overview", "link": "web-technologies" },
+				{ "subject": "ITP web programs", "link": "http://itp.usc.edu/minors/Web-Technologies-and-Applications/" },
 				{
-					"subject": "Dreamweaver Behaviors and Effects (Recorded Lecture)",
-					"link": ""
+					"subject": "Dreamweaver Behaviors and Effects",
+					"link": "dreamweaver-behaviors"
 				}
 			],
 			"active": 1

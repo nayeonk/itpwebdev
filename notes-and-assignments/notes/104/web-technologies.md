@@ -1,5 +1,5 @@
-Web Trends and Technology Overview
-==================================
+Web Technologies Overview
+=========================
 
 This lecture brings together three semi-related topics:
 
