@@ -150,6 +150,13 @@
 			"due": "04/10",
 			"link": "jcarousel",
 			"active": 1
+		},
+		{
+			"name": "JS Plugin/Library Group Project",
+			"type": "A",
+			"due": "04/29",
+			"link": "js_lib_group",
+			"active": 1
 		}
 	],
 
@@ -334,53 +341,67 @@
 			"active": 1
 		},
 		{
-			"date": "Apr 9",
+			"date": "04/08",
 			"units": [
-				{ "subject": "", "link": "" }
+				{ "subject": "Implementing JS/jQ scripts", "link": "implementing_js_jq_scripts" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
-			"date": "Apr 14",
-			"units": [
-				{ "subject": "Student conferences", "link": "" }
-			],
-			"active": 0
-		},
-		{
-			"date": "Apr 16",
+			"date": "04/10",
 			"units": [
 				{ "subject": "Student conferences", "link": "" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
-			"date": "Apr 21",
+			"date": "04/15",
 			"units": [
-				{ "subject": "Special topics: Local storage", "link": "" }
+				{ "subject": "Student conferences", "link": "" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
-			"date": "Apr 23",
+			"date": "04/17",
 			"units": [
-				{ "subject": "Special Topics: JSONP", "link": "" }
+				{ "subject": "JSON, JSONP requests, APIs", "link": "" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
-			"date": "Apr 28",
+			"date": "04/22",
+			"units": [
+				{ "subject": "Guest Lecture", "link": "" }
+			],
+			"active": 1
+		},
+		{
+			"date": "04/24",
+			"units": [
+				{ "subject": "Lunch day", "link": "" }
+			],
+			"active": 1
+		},
+		{
+			"date": "04/29",
 			"units": [
 				{ "subject": "JS group project presentations", "link": "" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
-			"date": "Apr 30",
+			"date": "05/01",
 			"units": [
 				{ "subject": "", "link": "" }
 			],
-			"active": 0
+			"active": 1
+		},
+		{
+			"date": "05/08 (Thursday) 2-4pm",
+			"units": [
+				{ "subject": "Final Exam Day (Presentation) ", "link": "" }
+			],
+			"active": 1
 		}
 	]
 }
