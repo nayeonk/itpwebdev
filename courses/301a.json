@@ -323,6 +323,7 @@
 			"date": "Apr 14",
 			"units": [
 				{ "subject": "Cookies, Session Storage", "link": "" },
+				{ "subject": "JSON, JSONP requests, APIs", "link": "" },
 				{ "subject": "Student conferences (Lab)", "link": "" }
 			],
 			"active": 1
@@ -345,7 +346,7 @@
 		{
 			"date": "Apr 23",
 			"units": [
-				{ "subject": "JSON, JSONP requests, APIs", "link": "" }
+				{ "subject": "TBA", "link": "" }
 			],
 			"active": 1
 		},
