@@ -122,6 +122,13 @@
 			"due": "3/31",
 			"link": "photo-gallery-with-objects",
 			"active": 1
+		},
+		{
+			"name": "Final Project Requirements",
+			"type": "A",
+			"due": "4/30",
+			"link": "project-requirements",
+			"active": 1
 		}
 	],
 
