@@ -9,13 +9,9 @@ jQuery is an open source JavaScript Library. You can think of it like a toolbox 
 
 jQuery provides developers with a way to extend jQuery and abstract functions into a plugin. The main jQuery library includes the most common functions people use. Plugins are more specialized and may not be applicable to all sites/applications. Examples of plugins include:
 
-*		[Fancybox 2](http://fancyapps.com/fancybox/)
+*   [Fancybox 2](http://fancyapps.com/fancybox/)
 *   [Lightbox](http://leandrovieira.com/projects/jquery/lightbox/)
 *   [Cycle 2](http://jquery.malsup.com/cycle2/)
-*   [Vertical Sliding Accordion](http://tympanus.net/codrops/2011/07/22/vertical-sliding-accordion/)
-*   [Scroller](http://www.jscraft.net/demo/plugins/scroller/)
-*   [Craft Map](http://www.jscraft.net/plugins/craftmap.html)
-*   [Timeline](http://timeline.verite.co/?utm_source=javascriptweekly&utm_medium=email#hero-unit "Timeline")
 *   [Face Detection](http://facedetection.jaysalvat.com/)
 
 
