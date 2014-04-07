@@ -10,9 +10,11 @@ jQuery is an open source JavaScript Library. You can think of it like a toolbox 
 jQuery provides developers with a way to extend jQuery and abstract functions into a plugin. The main jQuery library includes the most common functions people use. Plugins are more specialized and may not be applicable to all sites/applications. Examples of plugins include:
 
 *   [Fancybox 2](http://fancyapps.com/fancybox/)
-*   [Lightbox](http://leandrovieira.com/projects/jquery/lightbox/)
+*   [Lightbox 2](http://lokeshdhakar.com/projects/lightbox2/)
 *   [Cycle 2](http://jquery.malsup.com/cycle2/)
 *   [Face Detection](http://facedetection.jaysalvat.com/)
+*   [Zoom](http://www.jacklmoore.com/zoom/)
+*   [jCarousel](http://sorgalla.com/jcarousel/)
 
 
 You can search for [more jQuery plugins in the registry](http://plugins.jquery.com/).
