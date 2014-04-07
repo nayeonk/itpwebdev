@@ -26,7 +26,7 @@ JavaScript can be placed in either an external file with a file extention of .js
 External scripts are placed in your page using the script tag with the src attribute, where src represents the path to the file name. This path can be relative or absolute.
 
 ```html
-	<script src="main.js"></script>
+<script src="main.js"></script>
 ```
 
 
@@ -34,7 +34,7 @@ Inline script blocks are when you place JavaScript code within the script tags:
 
 ```html
 <script>
-	// Javascript / jQuery code here
+// Javascript / jQuery code here
 </script>
 ```
 
