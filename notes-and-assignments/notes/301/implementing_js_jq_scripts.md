@@ -4,7 +4,7 @@ Basics of using other JS/jQ scripts/libraries. Implementing lightBox. Manipulati
  
 ******************************************************************
 Please download the following zip file and extract it to a folder: 
-starter files http://itpwebdev.herokuapp.com/starters/301/animate_jquery_ui.zip
+starter files http://itpwebdev.herokuapp.com/starters/301/implementing_js_jq_scripts.zip
 ******************************************************************
 
 ### Javascript (and jQuery) libraries and plug-ins

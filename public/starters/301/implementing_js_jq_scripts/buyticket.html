@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Ticket</title>
+    <link rel="stylesheet" href="css/sunny/jquery-ui-1.10.4.custom.min.css">
+    <style>
+        #tripinfo .input-wrapper{
+            display:inline-block;
+        }
+        #tripinfo label{
+            display: block;
+            width: 100px;
+        }
+        #ui-datepicker-div{
+            font-size:10px;
+        }
+    </style>
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+    <script>
+        $(function(){
+            $("#dateleave").datepicker({
+                minDate: +1,
+                numberOfMonths: 3,
+                onClose: function(selectedDate){
+                    $("#dateback").datepicker("option","minDate",selectedDate);
+                }
+            });
+            $("#dateback").datepicker({
+                numberOfMonths:3,
+                onClose:function(){
+                    //var dayleave = new Date()
+                    var numDays = (new Date($("#dateback").val())) - (Date($("#dateleave").val()));
+                    $("#info").html("You will be travel for " + numDays + "days");
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+<div id="container">
+    <h1>Search Ticket </h1>
+
+    <form id="tripinfo">
+        <div class="input-wrapper">
+            <label for="startcity">From:</label>
+            <input type="text" id="startcity">
+        </div>
+        <div class="input-wrapper">
+            <label for="endcity">To:</label>
+            <input type="text" id="endcity">
+        </div>
+        <div class="input-wrapper">
+            <label for="dateleave">Date Leave:</label>
+            <input type="text" id="dateleave">
+        </div>
+        <div class="input-wrapper">
+            <label for="dateback">Date Back:</label>
+            <input type="text" id="dateback">
+        </div>
+
+        <input type="submit" id="search" value="Find Flights">
+        <div id="info"></div>
+    </form>
+</div>
+</body>
+</html>
