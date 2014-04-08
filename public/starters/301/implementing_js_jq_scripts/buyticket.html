@@ -2,7 +2,6 @@
 <html>
 <head>
     <title>Search Ticket</title>
-    <link rel="stylesheet" href="css/sunny/jquery-ui-1.10.4.custom.min.css">
     <style>
         #tripinfo .input-wrapper{
             display:inline-block;
@@ -15,26 +14,9 @@
             font-size:10px;
         }
     </style>
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
     <script>
-        $(function(){
-            $("#dateleave").datepicker({
-                minDate: +1,
-                numberOfMonths: 3,
-                onClose: function(selectedDate){
-                    $("#dateback").datepicker("option","minDate",selectedDate);
-                }
-            });
-            $("#dateback").datepicker({
-                numberOfMonths:3,
-                onClose:function(){
-                    //var dayleave = new Date()
-                    var numDays = (new Date($("#dateback").val())) - (Date($("#dateleave").val()));
-                    $("#info").html("You will be travel for " + numDays + "days");
-                }
-            });
-        });
     </script>
 </head>
 <body>
