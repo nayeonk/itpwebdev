@@ -20,13 +20,6 @@ var libraries = {
 	]
 };
 
-var createHTMLDocument = function(html) {
-	var doc = document.implementation.createHTMLDocument("New Document");
-	doc.body.innerHTML = html;
-
-	return doc;
-};
-
 var insertScript = function(html, script) {
 	var newHTML = script + "\n</body>";
 	return html.replace('</body>', newHTML);
@@ -72,7 +65,7 @@ var createScriptTagsForLibrary = function(library) {
  * @param {object} textarea    HTMLTextAreaElement
  * @param {[type]} codePreview [description]
  */
-function CodeEditor(textarea, codePreview) {
+function CodeEditor(textarea, codePreview, html) {
 	this.editor = CodeMirror.fromTextArea(textarea, {
 	  mode: "text/html",
 	  lineNumbers: true,
@@ -81,6 +74,7 @@ function CodeEditor(textarea, codePreview) {
 
 	this.codePreview = codePreview;
 	this.bindEvents();
+	this.editor.setValue(html);
 }
 
 CodeEditor.prototype.bindEvents = function() {
@@ -92,9 +86,16 @@ CodeEditor.prototype.bindEvents = function() {
 
 CodeEditor.prototype.renderCode = function() {
 	var html = this.editor.getValue();
-	var doc = createHTMLDocument(html);
+	var doc = this.createHTMLDocument(html);
 	this.codePreview.insertHTMLDocumentIntoFrame(doc);
 	localStorage.setItem('myhtml', html);
+};
+
+CodeEditor.prototype.createHTMLDocument = function(html) {
+	var doc = document.implementation.createHTMLDocument("New Document");
+	doc.body.innerHTML = html;
+
+	return doc;
 };
 
 /**
@@ -137,17 +138,15 @@ var App = ({
 		"</body>",
 		"</html>"
 	].join("\n"),
-	setHTML: function(editor) {
-		var html = localStorage.getItem('myhtml') || this.defaultHTML;
-		editor.setValue(html);
-	},
+
 	init: function() {
+		var html = localStorage.getItem('myhtml') || this.defaultHTML;
 		var codeEditor = new CodeEditor(
 			document.querySelector('textarea'),
-			new CodePreview(document.querySelector('#preview'))
+			new CodePreview(document.querySelector('#preview')),
+			html
 		);
 		
-		this.setHTML(codeEditor.editor);
 		codeEditor.renderCode();
 	}
 }).init();
