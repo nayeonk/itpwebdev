@@ -27,16 +27,6 @@ var createHTMLDocument = function(html) {
 	return doc;
 };
 
-var insertHTMLDocumentIntoFrame = function(frame, doc) {
-	var destDocument = frame.contentDocument;
-  var srcNode = doc.documentElement;
-  var newNode = destDocument.importNode(srcNode, true);
-  
-  destDocument.replaceChild(newNode, destDocument.documentElement);
-
-  return destDocument;
-};
-
 var insertScript = function(html, script) {
 	var newHTML = script + "\n</body>";
 	return html.replace('</body>', newHTML);
@@ -77,15 +67,19 @@ var createScriptTagsForLibrary = function(library) {
 	return scripts.join("\n");
 };
 
-
-function CodeEditor(textarea, frame) {
+/**
+ * [CodeEditor description]
+ * @param {object} textarea    HTMLTextAreaElement
+ * @param {[type]} codePreview [description]
+ */
+function CodeEditor(textarea, codePreview) {
 	this.editor = CodeMirror.fromTextArea(textarea, {
 	  mode: "text/html",
 	  lineNumbers: true,
 	  theme: 'eclipse'
 	});
 
-	this.frame = frame;
+	this.codePreview = codePreview;
 	this.bindEvents();
 }
 
@@ -99,10 +93,27 @@ CodeEditor.prototype.bindEvents = function() {
 CodeEditor.prototype.renderCode = function() {
 	var html = this.editor.getValue();
 	var doc = createHTMLDocument(html);
-	insertHTMLDocumentIntoFrame(this.frame, doc);
+	this.codePreview.insertHTMLDocumentIntoFrame(doc);
 	localStorage.setItem('myhtml', html);
 };
 
+/**
+ * [CodePreview description]
+ * @param {iframe} frame HTML iframe element
+ */
+function CodePreview(frame) {
+	this.frame = frame;
+}
+
+CodePreview.prototype.insertHTMLDocumentIntoFrame = function(doc) {
+	var destDocument = this.frame.contentDocument;
+  var srcNode = doc.documentElement;
+  var newNode = destDocument.importNode(srcNode, true);
+  
+  destDocument.replaceChild(newNode, destDocument.documentElement);
+
+  return destDocument;
+};
 
 $('#libraries').on('change', function() {
 	var lib = this.value;
@@ -133,7 +144,7 @@ var App = ({
 	init: function() {
 		var codeEditor = new CodeEditor(
 			document.querySelector('textarea'),
-			document.querySelector('#preview')
+			new CodePreview(document.querySelector('#preview'))
 		);
 		
 		this.setHTML(codeEditor.editor);
