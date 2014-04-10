@@ -27,27 +27,24 @@ In forming the groups student pick which project to sign up. Once all group slot
 
 #### Projects:
 *	Lightbox 2 (http://lokeshdhakar.com/projects/lightbox2/)
-	Team members:
-		1.	Amy Gebert	agebert@usc.edu
-		1.	Mike Ciesielka	ciesielk@usc.edu
-		1.	Angela Liu	ziweiliu@usc.edu
-		1.	Olivia Tranfo 	tranfo@usc.edu
+	1.	Amy Gebert	agebert@usc.edu
+	1.	Mike Ciesielka	ciesielk@usc.edu
+	1.	Angela Liu	ziweiliu@usc.edu
+	1.	Olivia Tranfo 	tranfo@usc.edu
 		
 
 *	jQuery Validation (http://bassistance.de/jquery-plugins/jquery-plugin-validation/)
-	Team members:
-		1. 	Chad Martin	chadmart@usc.edu
+	1. 	Chad Martin	chadmart@usc.edu
 		
 *	jQuery UI Droppable (http://jqueryui.com/droppable/)
-	Team members:
-		1.	Marcos Carrillo	micarril@usc.edu
-		1.	Odalys Esquivel	oesquive@usc.edu
-		1.	Ailin Kim	ailinkim@usc.edu
-		1.	Drew Terry	drewpsterry@gmail.com
+	1.	Marcos Carrillo	micarril@usc.edu
+	1.	Odalys Esquivel	oesquive@usc.edu
+	1.	Ailin Kim	ailinkim@usc.edu
+	1.	Drew Terry	drewpsterry@gmail.com
 
 *	Goolge Map API (https://developers.google.com/maps/documentation/javascript/tutorial)
-	Team members:
-		1.	Tiffanie Cheng	tiffanie@usc.edu
-		1.	Kenny Song	kennyson@usc.edu
-		1.	Sophia Sodhi	ssodhi@usc.edu
-		1.	llara Uota	allarauota@gmail.com
+	Team members:  
+	1.	Tiffanie Cheng	tiffanie@usc.edu
+	1.	Kenny Song	kennyson@usc.edu
+	1.	Sophia Sodhi	ssodhi@usc.edu
+	1.	llara Uota	allarauota@gmail.com
