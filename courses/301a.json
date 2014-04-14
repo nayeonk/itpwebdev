@@ -330,7 +330,8 @@
 			"date": "Apr 14",
 			"units": [
 				{ "subject": "Cookies, Session Storage", "link": "" },
-				{ "subject": "JSON, JSONP requests, APIs", "link": "" },
+				{ "subject": "JSON & JSONP notes", "link": "jsonp" },
+				{ "subject": "JSONP APIs", "link": "https://github.com/ITP-Webdev/jsonp" },
 				{ "subject": "Student conferences (Lab)", "link": "" }
 			],
 			"active": 1
