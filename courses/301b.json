@@ -147,7 +147,7 @@
 		{
 			"name": "jCarousel actor slideshow",
 			"type": "L",
-			"due": "04/10",
+			"due": "04/17",
 			"link": "jcarousel",
 			"active": 1
 		},
@@ -156,6 +156,13 @@
 			"type": "A",
 			"due": "04/29",
 			"link": "js_lib_group",
+			"active": 1
+		},
+		{
+			"name": "Final Project Requirement",
+			"type": "A",
+			"due": "05/02",
+			"link": "final_yuanbo",
 			"active": 1
 		}
 	],
