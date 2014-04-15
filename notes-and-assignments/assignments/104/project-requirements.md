@@ -1,13 +1,21 @@
 Project Requirements
 ====================
 
-* Due Date: 4/28 by 11:59pm
-* Late due date: 5/5 by 11:59pm
-* Project presentations: 5/12 at 4:30pm
+* Due Date: 4/28 by 11:59pm posted to your class page
+* Late due date: 5/5 by 11:59pm posted to your class page
+* <span style="text-decoration:line-through;">Project presentations: 5/12 at 4:30pm</span> Screencast YouTube link posted to your classpage
 
 ### Late Deadline 
 
 If you are going to take advantage of the late deadline you MUST send an e-mail to the instructor and grader by the due date letting us know. Otherwise your project (whatever its status) will be graded as-is on the due date.
+
+### Screencast
+
+Students will create a short (less than 5 minute) screencast walking through and explaining their project and where requirements were met. This gives you a chance to demonstrate all aspects of your application that I might miss when grading. Here are a few free screencast options:
+
+* http://www.screenr.com/ (in the browser)
+* quicktime on mac
+* Jing - http://www.techsmith.com/jing.html
 
 ### Requirements
 
