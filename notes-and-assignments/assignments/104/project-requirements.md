@@ -9,9 +9,11 @@ Project Requirements
 
 If you are going to take advantage of the late deadline you MUST send an e-mail to the instructor and grader by the due date letting us know. Otherwise your project (whatever its status) will be graded as-is on the due date.
 
-### Screencast
+### Screencast Requirement
 
-Students will create a short (less than 5 minute) screencast walking through and explaining their project and where requirements were met. This gives you a chance to demonstrate all aspects of your application that I might miss when grading. Here are a few free screencast options:
+Students will create a short (less than 5 minute) screencast walking through their project. This gives you a chance to demonstrate all aspects of your site that I might miss when grading. In particular, specify where you used behaviors and where you implemented 2 of the site extras (jQuery plugin, image map, media embeds, facebook like button, etc).
+
+Here are a few free screencast options:
 
 * http://www.screenr.com/ (in the browser)
 * quicktime on mac
