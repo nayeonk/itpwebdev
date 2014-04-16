@@ -12,6 +12,8 @@ Create a short presentation (roughly 8 minutes) explaining the following:
 * a short code sample explaining the objects, methods, paramters, etc and any requirements (like if your HTML has to be set up a certain way, does it require jQuery?, any CSS files needed?)
 * A walk-through of your demo-app showing off a practical scenario for this library/plugin/framework
 
+### Libraries / Plugins / Frameworks
+
 Here are just a few libraries you are welcome to check out (but not limited to):
 
 * jQuery UI - You can choose a particular component from here
@@ -22,3 +24,7 @@ Here are just a few libraries you are welcome to check out (but not limited to):
 * Other features of PubNub
 
 Lastly, you can search through the JavaScript Weekly Newsletter archives http://javascriptweekly.com/issues. There are plenty of libraries listed in each issue.
+
+### Groups
+
+When you have formed your groups and figured out what you'd like to research, let me know so that I can post them here to make sure every group is covering a different library.
