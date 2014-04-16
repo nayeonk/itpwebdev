@@ -124,6 +124,13 @@
 			"active": 1
 		},
 		{
+			"name": "JavaScript Group Project",
+			"type": "A",
+			"due": "4/28",
+			"link": "group-project",
+			"active": 1
+		},
+		{
 			"name": "Final Project Requirements",
 			"type": "P",
 			"due": "4/30",
@@ -339,8 +346,8 @@
 		{
 			"date": "Apr 16",
 			"units": [
-				{ "subject": "Real-time APIs", "link": "" },
-				{ "subject": "JS Group Project Assigned", "link": "" }
+				{ "subject": "Custom objects with methods", "link": "" },
+				{ "subject": "Real-time APIs", "link": "" }
 			],
 			"active": 1
 		},
