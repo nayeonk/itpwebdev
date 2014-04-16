@@ -28,3 +28,32 @@ Lastly, you can search through the JavaScript Weekly Newsletter archives http://
 ### Groups
 
 When you have formed your groups and figured out what you'd like to research, let me know so that I can post them here to make sure every group is covering a different library.
+
+#### Google Maps API
+* Ganesh
+* Razan
+* Javan
+
+#### Google Charts
+* Elida
+* Yuki
+
+#### jQuery UI - Datepicker
+* Kevin
+* Chase
+* Kang
+
+#### JS Charts
+* Tyler
+* Tess (Veronica)
+* Alexa
+
+#### jQuery UI - Droppable
+* Eddie
+* Michelle
+* Dongyang
+
+#### jQuery UI - Selectable
+* Alisa
+* Nittai
+* Meruyert
