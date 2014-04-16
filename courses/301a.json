@@ -347,7 +347,7 @@
 			"date": "Apr 16",
 			"units": [
 				{ "subject": "Custom objects with methods", "link": "" },
-				{ "subject": "Real-time APIs", "link": "" }
+				{ "subject": "Real-time APIs", "link": "http://www.pubnub.com/" }
 			],
 			"active": 1
 		},
