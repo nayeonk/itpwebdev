@@ -5,6 +5,9 @@ app.config(function($routeProvider) {
 		.when('/', {
 			templateUrl: 'js/partials/course-listing.html'
 		})
+		.when('/jobs', {
+			templateUrl: '/jobs'
+		})
 		.when('/:courseNum', {
 			controller: 'HomeController',
 			templateUrl: 'js/partials/index.html'

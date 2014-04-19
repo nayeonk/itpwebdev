@@ -1,8 +1,12 @@
-<h1>Web Development Opportunities</h1>
-<hr>
-<p>April 3, 2014</p>
+Web Development Opportunities
+=============================
 
-<pre>
+If you'd like to post a web development opportunity (full-time, part-time, & internships) here for students, please send me an email at dtang@usc.edu.
+
+### 1K Studios in Burbank
+
+April 3, 2014
+
 Apply: email HR <jobs@one-k.com> by APRIL 18th
 
 At 1K Studios in Burbank, we build jaw-dropping interactive web and mobile products. We currently have 4 internship positions for this Summer:
@@ -55,10 +59,10 @@ How to apply
 - Your choice of 1 or at most 2 positions listed above.
 - Your resume with major, GPA, relevant courses, and experiences (if any).
 - Optional: brief cover letter / paragraphs about yourself with relevant links to your fun or school projects.
-</pre>
 
-<hr>
 
+
+### USC Keck School of Medicine
 
 <p>March 24, 2014</p>
 
@@ -78,12 +82,12 @@ for this role at USC.</p>
 
 <p>Contact: David Black - davidbla@usc.edu</p>
 
-<hr>
+### Drum Corps Connect
+
 <p>March 22, 2014</p>
 
 DrumCorpsConnect will be an innovative social networking web application for the DCI/WGI community.  (see http://www.dci.org/ and http://www.wgi.org/ )
 Currently there is a 21 million potential users with a growing fan base every year.  
-<br>
 
 We are looking for people with:
 
@@ -94,19 +98,18 @@ We are looking for people with:
 <li>  knowledge of Facebook, Instagram, Twitter, Linked in, Google Maps API's
 <li> minimum work 10-12 hours per week.  
 </ul>
-<br>
+
 This is a payed position and this will be discussed upon interview.  
-<br>
+
 Please email with any questions at drumcorpsconnect@gmail.com
 
-<hr>
+
+### USC Cinema School
 
 We are looking for a web developer to assist our team in developing a website for a fairly extensive project for the Cinema School. While we can't pay, the project itself has the opportunity to be shown to some high profile people across multiple industries, with the possibility of growing into something major and more long term.
-<br><br>
-We are looking for someone preferably with skills in Wordpress, some css and some php though those are not essential if you can demonstrate good enough skill in developing a website a different way. 
-<br><br>
-You also must be in a position to meet with us at least 1-2 times a week, as well as make some pretty decent progress relatively fast.
-<br><br>
-If you're interested, or want more information, please send me an email at bskaggs@usc.edu.
 
-<hr>
+We are looking for someone preferably with skills in Wordpress, some css and some php though those are not essential if you can demonstrate good enough skill in developing a website a different way. 
+
+You also must be in a position to meet with us at least 1-2 times a week, as well as make some pretty decent progress relatively fast.
+
+If you're interested, or want more information, please send me an email at bskaggs@usc.edu.

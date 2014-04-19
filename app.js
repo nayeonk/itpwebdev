@@ -2,33 +2,16 @@ var express = require('express');
 var app = express();
 var port = process.env.PORT || 3000;
 var routes = require('./routes');
+var marked = require('marked');
+var fs = require('fs');
 
 var CourseQuery = require('./app/CourseQuery');
 var MarkdownQuery = require('./app/MarkdownQuery');
 
-app.configure(function() {
-	app.set('views', __dirname + '/views');
-	app.set('view engine', 'ejs');
 
-	app.use(express.logger());
-	app.use(express.cookieParser());
-	app.use(express.session({ secret: 'bazinga' }));
-	app.use(express.bodyParser());
-	app.use(app.router); // parse the routes before static assets
-	app.use(express.static(__dirname + '/public'));
-	app.use(function(req, res) {
-		res.render('404');
-	});
-});
-
-// app.configure('dev', function() {
-// 	app.set('url', 'http://localhost:' + port);
-// 	console.log(app.get('url'), '###############################################')
-// });
-
-// app.configure('prod', function() {
-// 	app.set('url', 'http://itpwebdev.herokuapp.com/');
-// });
+app.set('views', __dirname + '/views');
+app.set('view engine', 'ejs');
+app.use(express.static(__dirname + '/public'));
 
 /*
  ******************************************************************************************
@@ -46,7 +29,10 @@ app.get('/playground', function(req, res) {
 
 
 app.get('/jobs', function(req, res) {
-	res.render('jobs');
+	fs.readFile('./views/jobs.md', { encoding: 'utf8' }, function(err, markdown) {
+		var html = marked(markdown);
+		res.send(html);
+	});
 });
 
 /*
@@ -127,15 +113,9 @@ app.get('/buzzfeed', function(req, res) {
 	res.json(data[random]);
 });
 
-// app.get('/forum', routes.forum.index);
-// app.get('/forum/account/create', routes.forum.accountCreate);
-// app.post('/forum/account/store', routes.forum.accountStore);
-// app.post('/forum/login', routes.forum.login);
-// app.get('/forum/logout', routes.forum.logout);
-
-// app.get('/threads', routes.forum.threads);
-// app.get('/threads/:id', routes.forum.show);
-
+app.use(function(req, res) {
+	res.render('404');
+});
 
 app.listen(port, function() {
 	console.log('Listening on port ' + port)
