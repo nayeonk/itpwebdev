@@ -244,11 +244,11 @@
 			"units": [
 				{
 					"subject": "jQuery plugins",
-					"link": ""
+					"link": "jquery-plugins"
 				},
 				{
-					"subject": "CSS Positioning, Dropdown Navigations (Recorded Lecture)",
-					"link": ""
+					"subject": "CSS Positioning, Dropdown Navigations",
+					"link": "https://github.com/ITP-Webdev/css-dropdown-navigation"
 				}
 			],
 			"active": 1
