@@ -319,11 +319,11 @@
       "units": [
         {
           "subject": "Node.js - Part 2: Common JS modules, Flow Control",
-          "link": "https://github.com/ITP-Webdev/node-demo1/tree/flow-control-callbacks"
+          "link": "https://github.com/ITP-Webdev/flow-control-exercises"
         },
         {
-          "subject": "In-class exercises on flow control",
-          "link": "https://github.com/ITP-Webdev/flow-control-exercises"
+          "subject": "Optional exercises on flow control",
+          "link": "https://github.com/ITP-Webdev/node-demo1"
         }
       ],
       "active": 1
