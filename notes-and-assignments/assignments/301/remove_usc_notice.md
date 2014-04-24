@@ -1,10 +1,12 @@
-Resource - Remove USC Notice:
-========
-Code to put in head of every head
+Resource - Remove USC Notice
+============================
+
+Code to put in head of every page
 
 In the HEAD of your document, paste in the following code: 
+
 ```html
-<script language="javascript">
+<script>
 <!--
 /*
 <body>
