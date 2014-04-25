@@ -378,7 +378,8 @@
 		{
 			"date": "04/22",
 			"units": [
-				{ "subject": "Guest Lecture", "link": "" }
+				{ "subject": "JSONP Lecture Example", "link": "jsonp"},
+				{ "subject": "JSONP Guest Lecture", "link": "jsonp_guest_lecture"}
 			],
 			"active": 1
 		},
