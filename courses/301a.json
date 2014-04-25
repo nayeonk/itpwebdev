@@ -360,7 +360,10 @@
 		{
 			"date": "Apr 23",
 			"units": [
-				{ "subject": "Guest Lecture on Parallax - Nayeon Kim", "link": "" }
+				{ 
+					"subject": "Guest Lecture on Parallax - Nayeon Kim", 
+					"link": "https://github.com/nayeonk/parallax-demo-starter"
+				}
 			],
 			"active": 1
 		},
