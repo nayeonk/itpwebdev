@@ -55,13 +55,11 @@ In the HEAD of your document, paste in the following code:
 
 ```html
 <script>
-<!--
 /*
 <body>
 </body>
 </html>
 */
--->
 </script>
 ```
 
