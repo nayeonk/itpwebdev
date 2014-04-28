@@ -265,19 +265,15 @@
 			"units": [
 				{
 					"subject": "Social media widgets",
-					"link": ""
-				},
-				{
-					"subject": "Fancybox with videos",
-					"link": ""
+					"link": "widgets"
 				},
 				{
 					"subject": "Google Analytics",
-					"link": ""
+					"link": "http://www.google.com/analytics/"
 				},
 				{
 					"subject": "Taking your site beyond USC, web hosting, and domains",
-					"link": ""
+					"link": "hosting"
 				}
 			],
 			"active": 1

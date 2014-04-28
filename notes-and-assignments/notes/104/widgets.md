@@ -19,6 +19,7 @@ Other media embeds you might want to explore include:
 * Soundcloud
 * Vimeo
 
+
 ### Twitter Widgets
 
 You can put an embeddable Twitter widget on your site by visiting the [https://twitter.com/settings/widgets](https://twitter.com/settings/widgets). The steps to build a Twitter widget are pretty intutitive. Also note that you must have a Twitter account in order to set up a widget.
