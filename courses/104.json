@@ -254,13 +254,6 @@
 			"active": 1
 		},
 		{
-			"date": "11/18",
-			"units": [
-				
-			],
-			"active": 0
-		},
-		{
 			"date": "4/28",
 			"units": [
 				{
@@ -268,35 +261,11 @@
 					"link": "widgets"
 				},
 				{
-					"subject": "Google Analytics",
-					"link": "http://www.google.com/analytics/"
-				},
-				{
 					"subject": "Taking your site beyond USC, web hosting, and domains",
 					"link": "hosting"
 				}
 			],
 			"active": 1
-		},
-		{
-			"date": "12/2",
-			"units": [
-				{
-					"subject": "Social media widgets",
-					"link": "widgets"
-				},
-				{
-					"subject": "Taking your site beyond USC, web hosting, and domains",
-					"link": "hosting"
-				}
-			],
-			"active": 0
-		},
-		{
-			"date": "Monday 12/16 at 4:30pm",
-			"units": [
-				{"subject": "Project Presentations", "link": ""}
-			]
 		}
 	]
 }
