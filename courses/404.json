@@ -10,10 +10,17 @@
 	],
 	"homework": [
 		{
-			"name": "jQuery Accordion",
-			"type": "lab",
-			"due": "9/10",
+			"name": "Accordion",
+			"type": "A",
+			"due": "9/2",
 			"link": "accordion",
+			"active": 1
+		},
+		{
+			"name": "Bookmark favorites list",
+			"type": "A",
+			"due": "9/9",
+			"link": "bookmark-favorites",
 			"active": 0
 		},
 		{
@@ -104,28 +111,28 @@
 
 	"weeks": [
 		{
-			"date": "8/27",
+			"date": "8/26",
 			"units": [
 				{
-					"subject": "Course Introduction",
+					"subject": "Course introduction",
 					"link": "class_overview"
 				},
 				{
-					"subject": "Slides",
-					"link": "http://slid.es/davidtang/itp-404/"
+					"subject": "JavaScript / jQuery review",
+					"link": ""
 				}
 			],
-			"active": 0
+			"active": 1
 		},
 		{
-			"date": "9/3",
+			"date": "9/2",
 			"units": [
 				{
-					"subject": "JavaScript & jQuery review",
-					"link": "jquery1"
+					"subject": "Object Oriented JavaScript Pt. 1",
+					"link": ""
 				}
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "9/10",
