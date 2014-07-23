@@ -2,11 +2,11 @@
 	"course_name": "Modern Technologies in Web Development",
 	"color": "orange",
 	"instructor": "David Tang",
-	"syllabus": "http://web-app.usc.edu/soc/syllabus/20133/31835.pdf",
+	"syllabus": "http://web-app.usc.edu/soc/syllabus/20143/31835.pdf",
 	"time": "Tuesdays 6-8:50pm",
-	"office_hours": "OHE 530F, Monday 12-2pm, Tuesday 4-6pm, Wednesday 10-12pm",
+	"office_hours": "TBA",
 	"ta": [
-		{ "name": "Herman Tran (Grader)", "email": "herman.c.tran@gmail.com" }
+		{ "name": "Kevin Macwan", "email": "kmacwan@usc.edu" }
 	],
 	"homework": [
 		{
@@ -14,91 +14,91 @@
 			"type": "lab",
 			"due": "9/10",
 			"link": "accordion",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Photo Gallery",
 			"type": "assignment",
 			"due": "9/17",
 			"link": "photo-gallery",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Form Validation",
 			"type": "assignment",
 			"due": "9/24",
 			"link": "validation",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Reusable Widget",
 			"type": "assignment",
 			"due": "10/1",
 			"link": "reusable-widget",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Position Mapper",
 			"type": "assignment",
 			"due": "10/8",
 			"link": "position-mapper",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "iTunes Search",
 			"type": "assignment",
 			"due": "10/15",
 			"link": "jsonp",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Project Proposal & Requirements",
 			"type": "assignment",
 			"due": "10/22",
 			"link": "project-proposal-requirements",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Midterm Project (posted Sunday)",
 			"type": "assignment",
 			"due": "10/20 - 10/22 6pm",
 			"link": "midterm",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Twitter Endpoints",
 			"type": "lab",
 			"due": "10/29",
 			"link": "twitter-endpoints",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "AJAX w/ PHP and JSON",
 			"type": "assignment",
 			"due": "11/5",
 			"link": "ajax",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Parse todo list",
 			"type": "assignment",
 			"due": "11/12",
 			"link": "data-storage-apis",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Final Project Requirements",
 			"type": "project",
 			"due": "TBA",
 			"link": "project-requirements",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Angular search application",
 			"type": "assignment",
 			"due": "11/19",
 			"link": "angular1",
-			"active": 1
+			"active": 0
 		}
 	],
 
@@ -115,7 +115,7 @@
 					"link": "http://slid.es/davidtang/itp-404/"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "9/3",
@@ -125,7 +125,7 @@
 					"link": "jquery1"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "9/10",
@@ -135,7 +135,7 @@
 					"link": "jquery2"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "9/17",
@@ -145,7 +145,7 @@
 					"link": "oojs1"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "9/24",
@@ -155,7 +155,7 @@
 					"link": "oojs2"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "10/1",
@@ -165,7 +165,7 @@
 					"link": "google-maps"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "10/8",
@@ -175,7 +175,7 @@
 					"link": "jsonp_templating"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "10/15",
@@ -189,7 +189,7 @@
 					"link": "rest-web-services"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "10/22",
@@ -207,7 +207,7 @@
 					"link": "http://c9.io/itpweb/instagram-demos"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "10/28",
@@ -233,7 +233,7 @@
 					"link": "http://itpwebdev.usc.edu/demos/404/ajax-with-json/"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "11/5",
@@ -247,7 +247,7 @@
 					"link": "jquery-data"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "11/12",
@@ -261,7 +261,7 @@
 					"link": "quiz2-study-guide"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "11/19",
@@ -279,7 +279,7 @@
 					"link": ""
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "11/26",
@@ -289,7 +289,7 @@
 					"link": ""
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "12/3",
@@ -299,7 +299,7 @@
 					"link": "websockets"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "Tuesday 12/17 at 7pm",
