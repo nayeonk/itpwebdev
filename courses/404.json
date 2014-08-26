@@ -115,7 +115,7 @@
 			"units": [
 				{
 					"subject": "Course introduction",
-					"link": "class_overview"
+					"link": "overview"
 				},
 				{
 					"subject": "JavaScript / jQuery review",
