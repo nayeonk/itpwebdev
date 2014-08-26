@@ -11,7 +11,6 @@ Course Introduction
   * Design patterns / good programming techniques (JS specific and more general ones)
 * Final project ideas / samples, Mashups
  * [Programmable Web](http://www.programmableweb.com/) 
-* Students backgrounds, expectations, & interest in webdev
 
 ### Web Services
 
