@@ -2,6 +2,7 @@ Object Oriented JavaScript - Part 1
 ===================================
 
 ### Overview
+
 * What are objects?
   * properties = variables
   * methods = functions
@@ -10,13 +11,18 @@ Object Oriented JavaScript - Part 1
   * properties containing functions
     * the keyword _this_
     * _this_ is determined at function invocation time
-  * Iterating over object properties
   * Bracket notation
+* "Pass by reference" vs "Pass by value"
 * Practical applications of object literals
-  * Module pattern / application namespacing [todo list final](http://jsbin.com/uXAzeGi/2/edit), [In class version](http://jsbin.com/ENEwaHu/1/edit)
-  * Passing objects as arguments
+  * Application namespacing 
+    * [todo list final](http://jsbin.com/uXAzeGi/2/edit)
+    * [In class version](http://jsbin.com/ENEwaHu/1/edit)
+  * Passing objects as arguments like with jQuery plugins
+  * Search cache example similar to an autocomplete showing bracket notation
+* Objects, _this_, and jQuery
 
 ### What are objects?
+
 Objects are containers for a collection of related properties (variables) and methods (functions). Examples of objects include:
 
 Native objects include:
@@ -39,12 +45,14 @@ The window object contains methods like:
 To create an object, use the {} braces and create key-value pairs separated by commas.
 
 Object keys must:
+
 * start with a letter, dollar sign, or underscore
 * only contain alphanumeric characters, underscores, and dollar signs
 * cannot be a reserved word in JavaScript
 * If you must use a reserved word or a special character for the key name, you must put the key in quotes
 
 Object keys can contain:
+
 * strings
 * numbers
 * booleans
@@ -70,6 +78,7 @@ Object literals are great for preventing pollution of the global scope. For exam
 ```
 
 #### Application Namespacing
+
 * Object literals are great for namespacing your application. 
 * You can organize units of code using nested object literals, similar to a directory structure.
 * you can also create self-contained units that represent different widgets on the page or _modules_.
@@ -100,6 +109,7 @@ APP.Player = {
 ```
 
 #### Function Arguments
+
 * Object literals are great for passing into functions as an argument when a function takes multiple parameters. 
 * This eliminates the need to specify the function arguments in a specific order.
 
