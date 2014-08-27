@@ -10,7 +10,7 @@
 	],
 	"homework": [
 		{
-			"name": "Accordion",
+			"name": "Accordion (optional)",
 			"type": "A",
 			"due": "9/2",
 			"link": "accordion",
@@ -130,9 +130,17 @@
 				{
 					"subject": "Object Oriented JavaScript Pt. 1",
 					"link": ""
+				},
+				{
+					"subject": "Sample project w/ Angular by Herman Tran: Race Surfer",
+					"link": "http://ng-racesurfer.aws.af.cm/#/"
+				},
+				{
+					"subject": "Sample project w/ Backbone by Herman Tran: Race Surfer",
+					"link": "http://ec2-54-200-181-70.us-west-2.compute.amazonaws.com/"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "9/10",
