@@ -21,7 +21,7 @@
 			"type": "A",
 			"due": "9/9",
 			"link": "bookmark-favorites",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "Photo Gallery",
@@ -140,7 +140,7 @@
 					"link": "http://ec2-54-200-181-70.us-west-2.compute.amazonaws.com/"
 				}
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "9/10",

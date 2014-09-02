@@ -3,23 +3,39 @@ Object Oriented JavaScript - Part 1
 
 ### Overview
 
-* What are objects?
+* What are objects? - in short, a group of related variables and functions
+  * native objects and their properties and methods
   * properties = variables
   * methods = functions
-* Object literals & syntax (person example)
-  * properties / values
-  * properties containing functions
+* Object literals & syntax
+  * properties (keys) and values - student example
+  * Dot notation, reading and writing
+  * "Pass by reference" vs "Pass by value"
+  * properties containing functions (methods)
     * the keyword _this_
     * _this_ is determined at function invocation time
-  * Bracket notation
-* "Pass by reference" vs "Pass by value"
-* Practical applications of object literals
-  * Application namespacing 
-    * [todo list final](http://jsbin.com/uXAzeGi/2/edit)
-    * [In class version](http://jsbin.com/ENEwaHu/1/edit)
-  * Passing objects as arguments like with jQuery plugins
-  * Search cache example similar to an autocomplete showing bracket notation
-* Objects, _this_, and jQuery
+      * function calls and this
+  * What to use objects for?
+    * distinct UI modules on the page
+    * related functionality without a UI, like validation
+    * Passing objects as arguments (like with jQuery plugins)
+      * jQuery's CSS method
+      * jQuery UI datepicker
+* __Groceries list with objects demo__
+* An application of using bracket notation
+  * Search cache example similar to an autocomplete
+* Application namespacing to prevent global variable creation
+  * [Example todo list app with namespacing from Fall 2013](http://jsbin.com/uXAzeGi/2/edit)
+* What is "this"?
+  1. __function calls__
+  2. __functions as methods__
+  3. the new operator (later)
+  4. the function bind method (later)
+  5. the call and apply methods (later)
+* Examples of what "this" is
+  * nested functions and _this_
+  * jQuery event binding inside methods
+  * this, self, that
 
 ### What are objects?
 
@@ -30,15 +46,23 @@ Native objects include:
 * the _document_ object
 * the _window_ object
 
-The document object contains methods like:
+The document object contains related methods for querying the DOM:
+
 * getElementById()
 * getElementsByTagName()
+* querySelector()
 * querySelectorAll()
+* getElementsByClassName()
+
+You can see more document properties and methods by opening up the Chrome Console and typing in "document." and looking at the autosuggestions.
 
 The window object contains methods like:
+
 * alert() or window.alert()
 * parseFloat() or window.parseFloat()
 * parseInt() or window.parseInt()
+* Math
+* document
 
 ### Object literals
 
@@ -59,7 +83,6 @@ Object keys can contain:
 * arrays
 * functions
 * other objects
-
 
 Object literals are great for preventing pollution of the global scope. For example, say you want to create a collection of configuration properties. You can create a config object rather than several global variables to house your configuration settings. Now, there is only one global variable _config_ versus the 3 created for each property in the example below:
 
@@ -152,18 +175,36 @@ $('#some-element').css({
 Objects key values can be accessed using dot notation as shown in the examples above. You can also access object key values using a bracket notation. Bracket notation is typically used when the key you want to access is a variable.
 
 ```js
-  var config = {
-    url: 'some-url-here',
-    apiKey: '90399492',
-    ajaxRoute: 'some-ajax-route'
-  };
-  
-  config['url'];
-  config['apiKey'];
+var config = {
+  url: 'some-url-here',
+  apiKey: '90399492',
+  ajaxRoute: 'some-ajax-route'
+};
 
-  // bracket notation with a variable as a key
-  var apiKey = 'apiKey';
-  config[apiKey];
+config['url'];
+config['apiKey'];
+
+// bracket notation with a variable as a key
+var apiKey = 'apiKey';
+config[apiKey];
+```
+
+One practical application for using bracket notation is when implementing a cache for your application's search autocomplete functionality. Rather than making multiple network requests to fetch results for the same search term, you can store the results in memory so that subsequent searches for the same search term dont need to be requested from the server and the results can render much faster. We haven't talked about making network requests via JS yet (a technique known as AJAX), but we will later in the semester.
+
+```js
+var searchCache = {};
+
+function search(term) {
+  var results;
+
+  if (searchCache[term]) {
+    return searchCache[term];
+  } else {
+    results = getResults(term);
+    searchCache[term] = results;
+    return results;
+  }
+}
 ```
 
 ### Iterating over objects with for...in loops
@@ -171,14 +212,14 @@ Objects key values can be accessed using dot notation as shown in the examples a
 To iterate (or loop) over an object, we use the for...in construct.
 
 ```js
-  var config = {
-    url: 'some-url-here',
-    apiKey: '90399492',
-    ajaxRoute: 'some-ajax-route'
-  };
-  
-  for (var key in config) {
-    console.log(key, config[key])
-  }
+var config = {
+  url: 'some-url-here',
+  apiKey: '90399492',
+  ajaxRoute: 'some-ajax-route'
+};
+
+for (var key in config) {
+  console.log(key, config[key])
+}
 ```
 

@@ -1,49 +1,78 @@
 Bookmark Favorites
 ==================
 
-### Display a list of bookmarks
+### 1. The Data
 
-1. Create an array of 5 bookmark objects. Each bookmark object should have properties for the url, category, and date added (any string like 9/02/2014 or Sept 2, 2014).
-2. Iterate over the list and render each bookmark object on the page displaying all properties
+Create an array of at least 3 bookmark objects. Each bookmark object should have properties 'url' and 'name'. For example, url would contain a value like 'http://facebook.com' and the name property would contain a value like 'Facebook'.
 
-### validation object
+### 2. Displaying the Data
 
-1. Create a validation object with the following methods:
-	* isURL(url), where url must contain http:// or https://
-	* isValidCategory(category), where cetegory must be either tech, politics, or sports
+Iterate over the list and render each bookmark object on the page within an element _div#bookmarks_, displaying all properties. You might want to render it where you have a link and its href attribute points to the url and the display text is the name property.
 
-```js
-validation.isURL('http://google.com') // true
-validation.isURL('david') // false
-```
+You will break down this code into a few small functions and these functions will be grouped together in a custom object called _bookmarkList_. Anything related to the list of bookmarks on the page should be contained in the _bookmarkList_ object.
+
+Create a _bookmarkList_ object using the following template as a starter. Notice how there is a property _$bookmarks_ that contains _#bookmarks_ element wrapped in jQuery. Use this property so that you don't have to reach back into the DOM for this node. Fill in each of the methods and then call the _render()_ method. You should see your list of bookmarks rendered on the screen.
 
 ```js
-validation.isValidCategory('tech') // true, can be tech, politics, or sports
-validation.isValidCategory('a') // false
-```
+var bookmarkList = {
+	$bookmarks: $('#bookmarks'),
 
-### Adding a bookmark
-
-1. Create a form with inputs for date, category, and URL and a save button.
-2. When the form is submitted, create a new bookmark object from the values in the form. Using the validation object, check if the category is valid and the url is valid. If so, push that object to the end of the bookmarks array. Otherwise, alert out a specific error message stating which properties have errors. See the Array .push() method for adding items to an array. Then, render that new bookmark object in the list if the validation passes.
-
-### Restructuring the "Adding a bookmark" code
-
-Now that you have some working code, let's restructure the part where you add the bookmark to the page.
-
-```js
-var bookmarks = [];
-var myBookmarks = {
-	init: function(selector, bookmarks) {
-		this.$container = $(selector);
-		this.bookmarks = bookmarks;
+	/**
+	 * Takes a single bookmark object and creates some HTML
+	 * @param {Object} bookmark
+	 */
+	createBookmarkHtml: function(bookmark) {
+		// Your implementation
 	},
 
-	render: function() {
-		// Fill this in
+	/**
+	 * Renders an array of bookmark objects in #bookmarks
+	 * @param {Array} bookmarks
+	 */
+	render: function(bookmarks) {
+		// Your implementation
+	},
+
+	/**
+	 * Appends a bookmark object to #bookmarks and the bookmarks array
+	 * @param {Object} bookmark
+	 */
+	addOne: function(bookmark) {
+		// Your implementation
 	}
 };
-
-myBookmarks.init('#bookmark-list1', bookmarks);
 ```
+
+### 3. Creating a form to add a new bookmark
+
+Create an HTML form on the page with text inputs to add a bookmark url and name.
+
+### 4. Bookmark Validation Object
+
+Create an object called _bookmarkValidation_. As the name suggests, this object will have methods responsible for validating a bookmark object. I have filled in the hasValidUrl() method for you.
+
+```js
+var bookmarkValidation = {
+	/**
+	* @param {String} url
+	* @return {Boolean} True if url is valid, false otherwise
+	*/
+	hasValidUrl: function(url) {
+		var regex = /^https?:\/\/.+$/;
+		return regex.test(url);
+	}
+};
+```
+
+Create a method on _bookmarkValidation_ called _isNotEmpty()_. This method should take a string value as a parameter and return true if the length is greater than 0, and false otherwise.
+
+Create another method on _bookmarkValidation_ called _passes()_. This method will take a _bookmark_ object as a parameter (an object containing properties _name_ and _url_) and check if the url property is a valid URL and the name property has at least 1 character using the _hasValidUrl()_ and _isNotEmpty()_ methods respectively. If both of these conditions pass, it will return true, and false otherwise.
+
+### 5. Adding a bookmark
+
+1. Bind a _submit_ event to the form and prevent the default form submission behavior.
+2. Validate the user submitted bookmark data using _bookmarkValidation.passes()_. 
+	* If the data is valid, call _bookmarkList.addOne()_. This should append the object to the bookmarks array and render the new bookmark. Also, empty the input fields on successful submission. 
+	* If the validation fails, prepend an error message at the top of the form stating "The name field is required and the url field must be a valid URL". Make sure that if the form is submitted multiple times with an error, only 1 error message shows at the top.
+
 
