@@ -132,6 +132,10 @@
 					"link": "oojs1"
 				},
 				{
+					"subject": "Class Demo - Groceries with Objects",
+					"link": "https://github.com/ITP-Webdev/groceries-search-with-objects"
+				},
+				{
 					"subject": "Sample project w/ Angular by Herman Tran: Race Surfer",
 					"link": "http://ng-racesurfer.aws.af.cm/#/"
 				},
