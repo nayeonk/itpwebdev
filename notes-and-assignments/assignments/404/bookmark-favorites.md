@@ -66,7 +66,24 @@ var bookmarkValidation = {
 
 Create a method on _bookmarkValidation_ called _isNotEmpty()_. This method should take a string value as a parameter and return true if the length is greater than 0, and false otherwise.
 
+```js
+bookmarkValidation.isNotEmpty(''); // false
+bookmarkValidation.isNotEmpty('a'); // true
+```
+
 Create another method on _bookmarkValidation_ called _passes()_. This method will take a _bookmark_ object as a parameter (an object containing properties _name_ and _url_) and check if the url property is a valid URL and the name property has at least 1 character using the _hasValidUrl()_ and _isNotEmpty()_ methods respectively. If both of these conditions pass, it will return true, and false otherwise.
+
+```js
+bookmarkValidation.passes({
+	url: 'http://a',
+	name: 'abc'
+}); // true
+
+bookmarkValidation.passes({
+	url: 'http://', // invalid URL
+	name: 'abc'
+}); //false
+```
 
 ### 5. Adding a bookmark
 
