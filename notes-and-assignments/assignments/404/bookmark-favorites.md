@@ -81,7 +81,12 @@ bookmarkValidation.passes({
 
 bookmarkValidation.passes({
 	url: 'http://', // invalid URL
-	name: 'abc'
+	name: 'abc' // valid name
+}); //false
+
+bookmarkValidation.passes({
+	url: 'http://a', // valid URL
+	name: '' // invalid name
 }); //false
 ```
 
