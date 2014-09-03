@@ -4,9 +4,9 @@
 	"instructor": "David Tang",
 	"syllabus": "http://web-app.usc.edu/soc/syllabus/20143/31835.pdf",
 	"time": "Tuesdays 6-8:50pm",
-	"office_hours": "TBA",
+	"office_hours": "Tuesdays 5-6pm in the classroom",
 	"ta": [
-		{ "name": "Kevin Macwan", "email": "kmacwan@usc.edu" }
+		{ "name": "Priyanka Vaishnav", "email": "priyankv@usc.edu" }
 	],
 	"homework": [
 		{
@@ -142,6 +142,24 @@
 				{
 					"subject": "Sample project w/ Backbone by Herman Tran: Race Surfer",
 					"link": "http://ec2-54-200-181-70.us-west-2.compute.amazonaws.com/"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "9/9",
+			"units": [
+				{
+					"subject": "Overview of communicating with a server, JSON & JSONP APIs, Asynchronous Programming",
+					"link": ""
+				},
+				{
+					"subject": "Client-side templating",
+					"link": ""
+				},
+				{
+					"subject": "Event Delegation",
+					"link": ""
 				}
 			],
 			"active": 1
