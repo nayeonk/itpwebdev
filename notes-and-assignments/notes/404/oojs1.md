@@ -3,6 +3,10 @@ Object Oriented JavaScript - Part 1
 
 ### Overview
 
+* Review of data types: strings, numbers, booleans, arrays, objects, undefined, null
+* typeof operator
+* What is Object Oriented Programming (OOP)?
+  * programming paradigm where everything is grouped in objects
 * What are objects? - in short, a group of related variables and functions
   * native objects and their properties and methods
   * properties = variables
