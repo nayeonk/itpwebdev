@@ -99,6 +99,6 @@ bookmarkValidation.passes({
 1. Bind a _submit_ event to the form and prevent the default form submission behavior.
 2. Validate the user submitted bookmark data using _bookmarkValidation.passes()_. 
 	* If the data is valid, call _bookmarkList.addOne()_. This should append the object to the bookmarks array and render the new bookmark. Also, empty the input fields on successful submission. 
-	* If the validation fails, prepend an error message at the top of the form stating "The name field is required and the url field must be a valid URL". Make sure that if the form is submitted multiple times with an error, only 1 error message shows at the top.
+	* If the validation fails, display an error message at the top of the form stating "The name field is required and the url field must be a valid URL". Make sure that if the form is submitted multiple times with an error, only 1 error message displays at the top.
 
 
