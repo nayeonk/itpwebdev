@@ -68,7 +68,7 @@ The window object contains methods like:
 * Math
 * document
 
-### Object literals
+### Object Literals
 
 To create an object, use the {} braces and create key-value pairs separated by commas.
 
@@ -96,23 +96,55 @@ Object keys can contain:
 * functions
 * other objects
 
-Object literals are great for preventing pollution of the global scope. For example, say you want to create a collection of configuration properties. You can create a config object rather than several global variables to house your configuration settings. Now, there is only one global variable _config_ versus the 3 created for each property in the example below:
+### Object Methods
+
+We can give objects custom behaviors / functions called methods. In order to access properties on an object within a method, you use the _this_ keyword.
 
 ```js
-	var config = {
-		url: 'some-url-here',
-		apiKey: '90399492',
-		ajaxRoute: 'some-ajax-route'
-	};
-	
-	// versus
-	
-	var url = 'some-url-here';
-	var apiKey = '90399492';
-	var ajaxRoute = 'some-ajax-route';
+var cat = {
+  name: 'Fiona',
+  age: 1.5,
+  siblings: ['Chestnut', 'Biscuit'],
+  meow: function() {
+    console.log(this.name);
+  }
+};
 ```
 
-#### Application Namespacing
+In the example above inside the meow method, if I want to access the name property on the cat object, I need to say _this.name_. _this_ corresponds to the owner of the meow method, which is the cat object. Alternatively, you could write it like this:
+
+```js
+var cat = {
+  name: 'Fiona',
+  age: 1.5,
+  siblings: ['Chestnut', 'Biscuit'],
+  meow: function() {
+    console.log(cat.name);
+  }
+};
+```
+
+We can explicitly reference the cat object within the meow method, but this has a drawback. If we rename this object to something other than cat, we would have to find every reference to cat within our object. Using the keyword _this_ makes it more flexible.
+
+### Objects and Global Variable Pollution
+
+Object literals are great for preventing global variable pollution. For example, say you want to create a collection of configuration properties for your application. You can create a config object rather than several global variables to house your configuration settings. Now, there is only one global variable _config_ versus the 3 created for each property in the example below:
+
+```js
+var config = {
+	url: 'some-url-here',
+	apiKey: '90399492',
+	ajaxRoute: 'some-ajax-route'
+};
+
+// versus
+
+var url = 'some-url-here';
+var apiKey = '90399492';
+var ajaxRoute = 'some-ajax-route';
+```
+
+#### Objects for Application Namespacing
 
 * Object literals are great for namespacing your application. 
 * You can organize units of code using nested object literals, similar to a directory structure.
@@ -143,7 +175,7 @@ APP.Player = {
 };
 ```
 
-#### Function Arguments
+#### Objects as Function Arguments
 
 * Object literals are great for passing into functions as an argument when a function takes multiple parameters. 
 * This eliminates the need to specify the function arguments in a specific order.
@@ -182,7 +214,7 @@ $('#some-element').css({
 });
 ```
 
-### Bracket Notation
+### Objects and Bracket Notation
 
 Objects key values can be accessed using dot notation as shown in the examples above. You can also access object key values using a bracket notation. Bracket notation is typically used when the key you want to access is a variable.
 
