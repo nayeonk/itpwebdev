@@ -136,7 +136,7 @@ To invoke the meow method:
 cat.meow();
 ```
 
-In the example above inside the meow method, if I want to access the name property on the cat object, I need to say _this.name_. The value of _this_ is determined when the function is invoked. In the example above when meow is called, _this_ corresponds to the object on which meow is called on which is the cat object. 
+In the example above inside the meow method, if I want to access the name property on the cat object, I need to say _this.name_. The value of _this_ is determined when the function is invoked. In the example above when meow is called, _this_ corresponds to the object on which meow is called on, which in this case is the cat object. 
 
 Alternatively, you could write the meow method like this:
 
@@ -151,7 +151,28 @@ var cat = {
 };
 ```
 
-We can explicitly reference the cat object within the meow method, but this has a drawback. If we rename this object to something other than cat, we would have to find every reference to cat within our object. Using the keyword _this_ makes it more flexible.
+We can explicitly reference the cat object within the meow method, but this has a drawback. If we rename the cat object to something other than cat, we would have to find every reference to cat within our object and replace it. Using the keyword _this_ makes our methods less coupled to the name of the variable containing the object.
+
+Methods can also call other methods on the same object:
+
+```js
+var cat = {
+  name: 'Fiona',
+  age: 1.5,
+  siblings: ['Chestnut', 'Biscuit'],
+  meow: function(catWords) {
+    console.log(catWords);
+  },
+  greet: function() {
+    this.meow('Hi, my name is ' + this.name);
+    this.meow('Give me food');
+  }
+};
+
+cat.greet();
+```
+
+The cat _greet()_ method calls the _meow()_ method using the keyword _this_. Remember, _this_ corresponds to the current object so you can't call meow directly, you need to access the method off the object.
 
 ### Objects and Global Variable Pollution
 
