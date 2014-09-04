@@ -172,7 +172,7 @@ var cat = {
 cat.greet();
 ```
 
-The cat _greet()_ method calls the _meow()_ method using the keyword _this_. Remember, _this_ corresponds to the current object so you can't call meow directly, you need to access the method off the object.
+The cat _greet()_ method calls the _meow()_ method using the keyword _this_. Remember, in order to access any properties or methods from within a method on an object, you need to use the _this_ keyword.
 
 ### Objects and Global Variable Pollution
 
