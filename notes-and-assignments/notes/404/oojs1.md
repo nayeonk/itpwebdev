@@ -136,7 +136,7 @@ To invoke the meow method:
 cat.meow();
 ```
 
-In the example above inside the meow method, if I want to access the name property on the cat object, I need to say _this.name_. _this_ corresponds to the owner of the meow method, which is the cat object. 
+In the example above inside the meow method, if I want to access the name property on the cat object, I need to say _this.name_. The value of _this_ is determined when the function is invoked. In the example above when meow is called, _this_ corresponds to the object on which meow is called on which is the cat object. 
 
 Alternatively, you could write the meow method like this:
 
