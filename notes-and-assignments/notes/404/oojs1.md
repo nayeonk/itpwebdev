@@ -72,6 +72,14 @@ The window object contains methods like:
 
 To create an object, use the {} braces and create key-value pairs separated by commas.
 
+```js
+var cat = {
+  name: 'Fiona',
+  age: 1.5,
+  siblings: ['Chestnut', 'Biscuit']
+};
+```
+
 Object keys must:
 
 * start with a letter, dollar sign, or underscore
