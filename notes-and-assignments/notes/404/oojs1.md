@@ -130,7 +130,15 @@ var cat = {
 };
 ```
 
-In the example above inside the meow method, if I want to access the name property on the cat object, I need to say _this.name_. _this_ corresponds to the owner of the meow method, which is the cat object. Alternatively, you could write it like this:
+To invoke the meow method:
+
+```js
+cat.meow();
+```
+
+In the example above inside the meow method, if I want to access the name property on the cat object, I need to say _this.name_. _this_ corresponds to the owner of the meow method, which is the cat object. 
+
+Alternatively, you could write the meow method like this:
 
 ```js
 var cat = {
