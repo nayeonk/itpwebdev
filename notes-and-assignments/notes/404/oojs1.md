@@ -96,6 +96,25 @@ Object keys can contain:
 * functions
 * other objects
 
+We can read properties off of objects using dot notation:
+
+```js
+cat.name // Fiona
+cat.age // 1.5
+```
+
+We can also change values to object properties:
+
+```js
+cat.name = 'Chestnut';
+```
+
+We can also create properties on the fly without initializing our object with a property when we defined it:
+
+```js
+cat.owner = 'David';
+```
+
 ### Object Methods
 
 We can give objects custom behaviors / functions called methods. In order to access properties on an object within a method, you use the _this_ keyword.
