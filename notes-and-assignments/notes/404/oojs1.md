@@ -192,7 +192,7 @@ var apiKey = '90399492';
 var ajaxRoute = 'some-ajax-route';
 ```
 
-#### Objects for Application Namespacing
+### Objects for Application Namespacing
 
 * Object literals are great for namespacing your application. 
 * You can organize units of code using nested object literals, similar to a directory structure.
@@ -223,7 +223,7 @@ APP.Player = {
 };
 ```
 
-#### Objects as Function Arguments
+### Objects as Function Arguments
 
 * Object literals are great for passing into functions as an argument when a function takes multiple parameters. 
 * This eliminates the need to specify the function arguments in a specific order.
