@@ -24,6 +24,13 @@
 			"active": 1
 		},
 		{
+			"name": "Rotten Tomatoes Search",
+			"type": "assignment",
+			"due": "9/16",
+			"link": "rotten-tomatoes-search",
+			"active": 1
+		},
+		{
 			"name": "Photo Gallery",
 			"type": "assignment",
 			"due": "9/17",
@@ -151,7 +158,7 @@
 			"units": [
 				{
 					"subject": "Overview of communicating with a server, JSON & JSONP APIs, Asynchronous Programming",
-					"link": ""
+					"link": "jsonp"
 				},
 				{
 					"subject": "Client-side templating",
@@ -160,6 +167,10 @@
 				{
 					"subject": "Event Delegation",
 					"link": ""
+				},
+				{
+					"subject": "Other JSONP endpoints",
+					"link": "https://github.com/ITP-Webdev/jsonp/blob/master/README.md"
 				}
 			],
 			"active": 1
