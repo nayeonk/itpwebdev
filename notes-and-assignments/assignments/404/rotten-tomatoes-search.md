@@ -25,5 +25,18 @@ Create a form where the user can type in a movie into a text input. Listen for t
 		* hint: look at Handlebars if/else helpers
 * Display a loading indicator while the jsonp request is being made
 
+### App organization
+
+Try breaking up your code into objects with related responsiblities. Here is one way you could do it:
+
+* movieList object
+	* template (that contains an individual, compiled Handlebars movie template) 
+	* setLoading()
+	* render()
+* http object - generic object for making http requests
+	* jsonp() 
+* rottenTomatoes
+	* search(term) - makes use of http.jsonp()
+
 
 Post a link of the assignment to your classpage for submission.
