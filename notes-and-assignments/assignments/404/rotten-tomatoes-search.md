@@ -37,6 +37,8 @@ Try breaking up your code into objects with related responsiblities. Here is one
 	* jsonp() 
 * rottenTomatoes
 	* search(term) - makes use of http.jsonp()
+	
+There are many ways you could break up your code into related objects. At minimum, create 2 custom objects with at least 1 method each.
 
 
 Post a link of the assignment to your classpage for submission.
