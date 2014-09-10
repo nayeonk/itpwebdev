@@ -157,7 +157,7 @@
 			"date": "9/9",
 			"units": [
 				{
-					"subject": "Overview of communicating with a server, JSON & JSONP APIs, Asynchronous Programming",
+					"subject": "Overview of communicating with a server, JSON, & JSONP APIs",
 					"link": "jsonp"
 				},
 				{
@@ -165,12 +165,22 @@
 					"link": ""
 				},
 				{
-					"subject": "Event Delegation",
+					"subject": "Other JSONP endpoints",
+					"link": "https://github.com/ITP-Webdev/jsonp/blob/master/README.md"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "9/16",
+			"units": [
+				{
+					"subject": "OOJS 2 - Constructors and Prototypes",
 					"link": ""
 				},
 				{
-					"subject": "Other JSONP endpoints",
-					"link": "https://github.com/ITP-Webdev/jsonp/blob/master/README.md"
+					"subject": "Extending native prototypes",
+					"link": ""
 				}
 			],
 			"active": 1
@@ -191,16 +201,6 @@
 				{
 					"subject": "OOJS 1 - object literals, module pattern, namespacing",
 					"link": "oojs1"
-				}
-			],
-			"active": 0
-		},
-		{
-			"date": "9/24",
-			"units": [
-				{
-					"subject": "OOJS 2 - constructors and prototypes",
-					"link": "oojs2"
 				}
 			],
 			"active": 0
