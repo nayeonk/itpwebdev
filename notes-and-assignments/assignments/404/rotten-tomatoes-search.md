@@ -32,13 +32,11 @@ Try breaking up your code into objects with related responsiblities. Here is one
 * movieList object
 	* template (that contains an individual, compiled Handlebars movie template) 
 	* setLoading()
-	* render()
-* http object - generic object for making http requests
-	* jsonp() 
+	* render() 
 * rottenTomatoes
-	* search(term) - makes use of http.jsonp()
+	* search(term) - responsible for making the jsonp request
 	
-There are many ways you could break up your code into related objects. At minimum, create 2 custom objects with at least 1 method each.
+There are many ways you could break up your code into related objects. At minimum, create 1 custom object with at least 1 method and 1 property.
 
 
 Post a link of the assignment to your classpage for submission.

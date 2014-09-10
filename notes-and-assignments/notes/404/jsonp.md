@@ -3,9 +3,10 @@ JSON & JSONP
 
 ### Overview
 
+* Review of objects
 * Communication with a server
 * What is JSON? - JavaScript Object Notation
-* Facebook API Demo
+* Facebook API and iTunes API Demos
 	* What is AJAX
 	* AJAX limitations - same origin policy, CORS
 	* JSONP
