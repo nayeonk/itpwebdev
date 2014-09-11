@@ -134,6 +134,41 @@ var Person = function(name) {
 
 then "normal walking" would be logged to the console.
 
+### Extending Reference Types
+
+Let's say we have an Animal constructor.
+
+```js
+var Animal = function() {};
+Animal.prototype.eat = function() {
+	console.log('eating');
+};
+```
+
+Now let's say we have a Cat constructor:
+
+```js
+var Cat = function() {};
+Cat.prototype.meow = function() {};
+```
+
+Cat objects should also be able to eat. How can Cat objects inherit Animal methods. Clearly there is a hierarchy here because a cat __is an_ Animal. This is one way we do it:
+
+```js
+var Animal = function() {};
+Animal.prototype.eat = function() {
+	console.log('eating');
+};
+
+var Cat = function() {};
+Cat.prototype = new Animal();
+Cat.prototype.meow = function() {};
+```
+
+_prototype_ is just a unique object on every function. Because all cat instances inherit from the Cat.prototype object, we can set that Cat.prototype object equal to an an Animal object. That Animal object will inherit from Animal.prototype where eat() is contained.
+
+Because inheritance in JS is kind of clunky, many libraries abstract this to make inheritance cleaner.
+
 ### Native Constructor Functions & their Shorthand (literal) Counterparts
 
 JavaScript has several built in functions used as constructors. They are: String, Number, Boolean, Array, Function, Object, RegExp, and Date.
