@@ -10,9 +10,10 @@ Object Oriented JavaScript - Part 2
 	* the keyword _this_
   * storing properties and functions on instance
   * instanceof operator
-  * Prototype pattern and inheritance
+* Prototype pattern and inheritance
   * own properties vs inherited properties - hasOwnProperty()
   * property lookups
+* Extending constructors
 * Native constructors 
 	* String, Number, Boolean, Array, Function, Object, RegExp, Date
 	* Run 'String' in console
