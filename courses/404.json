@@ -176,11 +176,7 @@
 			"units": [
 				{
 					"subject": "OOJS 2 - Constructors and Prototypes",
-					"link": ""
-				},
-				{
-					"subject": "Extending native prototypes",
-					"link": ""
+					"link": "oojs2"
 				}
 			],
 			"active": 1

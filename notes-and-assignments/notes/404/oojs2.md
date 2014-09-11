@@ -2,121 +2,171 @@ Object Oriented JavaScript - Part 2
 ===================================
 
 ### Overview
+
 * Objects review
-	* properties
-	* proterties that hold functions are called methods
-* Object literals are an instance of the Object() constructor
-	* new keyword
-* Native constructor functions (String, Number, Boolean, Array, Function, Object, RegExp, Date)
+	* properties and methods
+* Creating multiple object instances using functions as constructors
+	* also called custom data types, custom reference types, or "classes"
+	* the keyword _this_
+  * storing properties and functions on instance
+  * instanceof operator
+  * Prototype pattern and inheritance
+  * own properties vs inherited properties - hasOwnProperty()
+  * property lookups
+* Native constructors 
+	* String, Number, Boolean, Array, Function, Object, RegExp, Date
 	* Run 'String' in console
 	* String.prototype.indexOf()
 	* String.prototype.replace()
 	* Array.prototype.push()
 	* "Everything in JS is an object"
-* Creating multiple object instances using custom constructor functions (custom data types)
-  * Constructor pattern
-   * the keyword _this_
-   * storing properties and functions on instance
-  * instanceof operator
-  * Prototype pattern
-  	* prototype = {} or settting properties individually
-  	* own properties vs inherited properties - hasOwnProperty()
-* Building your own jQuery, [JSBin](http://jsbin.com/EnEfuna/1/edit)
-* Fluent interfaces / method chaining
+	* Extending native constructors   
 
-### Review
-Objects are containers for a collection of related properties (variables) and methods (functions). Examples of objects include:
+### Functions as Constructors
 
-* native objects include:
-	* the _document_ object
-	* the window object
-	* elements you select from the DOM 
-* Everytime you wrap a set of elements within jQuery, you are creating a unique object with a set of properties and jQuery methods
-* On Google Maps, objects are created for:
-	* map markers [example](http://www.housingmaps.com/) 
-	* the entire map
-	* info windows that open for map markers
+Functions used as constructors are sometimes referred to as:
 
-### Native Constructor Functions & their Shorthand (literal) Counterparts
+* constructor functions
+* data types
+* reference types
+* classes
+
+Functions can be invoked with the _new_ operator. When a function is invoked with the _new_ operator, this function is being used as a constructor. The function is constructing a new object.
+
+Functions used as constructors are useful if you want to create many objects with the same properties and methods.
+
+In the following example, I am creating 2 instances of the Person "class". 
+
 ```js
-	var str = new String('some string');
-	// OR
-	var str = 'some string';
+var Person = function(name, position) {
+	this.name = name;
+	this.position = position;
+};
+
+var david = new Person('David Tang', 'Lecturer');
+var patrick = new Person('Patrick Dent', 'Senior Lecturer');
 ```
 
-```js
-	var age = new Number(26);
-	// OR
-	var age = 26;
-```
+It is considered good practice to capitalize the first letter of a function used as a constructor so others know to invoke it using the "new" keyword.Functions intended to be used as constructors that are NOT invoked with the "new" operator will yield unintended results. 
+
+When a constructor function is invoked with the _new_ keyword, the keyword _this_ refers to the current object that is being constructed. If invoked without _new_, _this_ will point to the global object, which is the _window_ object in the browser. This will end up creating properties on the window object also known as global variables, and as we learned before, you want to minimize the number of global variables in your applications.
+
+### Methods
+
+To create methods for your objects, assign a function to a property. In the example below, the _hi_ property is assigned a function. When _hi_ is called off of a Person object, the keyword _this_ will correspond to the newly constructed object.
 
 ```js
-	var person = new Object();
-	// OR
-	var person = {};
-```
-
-
-
-### Constructor Functions
-
-Functions can be invoked with the _new_ operator. When a function is invoked with the _new_ operator, you are creating an object instance of that constructor. In the following example, I am creating an instance of the Person constructor (or data type) and assigning it to the variable _david_. It is considered good practice to capitalize the first letter of a constructor function to differentiate it from other functions, but it is not required.
-
-```js
-	var Person = function(name) {
-		this.name = name;
-	};
+var Person = function(name) {
+	this.name = name;
 	
-	var david = new Person('David');
-```
-
-Constructor functions that are invoked without the new operator will yield unintended results. When a constructor function is invoked with the _new_ keyword, the keyword _this_ refers to the current instance that is created. If invoked without _new_, this will point to the head object, which is the Window object in the browser. This will endup creating global properties on the window object, and as we learned before, global variables are evil!
-
-You can give objects methods too, like below. The keyword _this_ within object methods refers to the current object instance.
-
-```js
-	var Person = function(name) {
-		this.name = name;
-		
-		this.sayHello = function() {
-			alert('hello! my name is ' + this.name);
-		};
+	this.hi = function() {
+		console.log('Hi! my name is ' + this.name);
 	};
-	
-	var david = new Person('David');
+};
+
+var eminem = new Person('Slim Shady');
+eminem.hi(); // Hi! my name is Slim Shady
 ```
 
-Although you can do this, this is considered bad practice. Every time an instance is created, a new function is defined and assigned to the sayHello property, thus taking up more memory. Wouldn't it be more efficient if we could create the sayHello function once, and all object instances can share that same function definition? You can!
+This is one way you can create methods. However, this approach does have a downside. Every time an instance of Person is created, a new function is defined and assigned to the _hi_ property, thus taking up more memory. Wouldn't it be more efficient if we could define the _hi_ function once, and all object instances can share that same function definition? This is where prototypal inheritance comes in.
 
 ### Prototypal Inheritance
 
-Methods can be shared across object instances via the _prototype_ property. Object instances inherit the properties and methods defined on the prototype property of the constructor function that created the object.
+Methods can be shared across object instances via the _prototype_ property. This is called prototypal inheritance. Object instances inherit the properties and methods defined on the prototype property of the constructor function that created the object. That sounds like a mouthful so let's look at an example:
 
 ```js
-	var Person = function(name) {
-		this.name = name;
-	};
+var Person = function(name) {
+	this.name = name;
+};
 
-	Person.prototype.sayHello = function() {
-		alert('hi, my name is ' + this.name);
-	};
-	
-	Person.prototype.sleep = function() {
-		alert(this.name + ' is sleeping.');
-	};
-	
-	var david = new Person('David');
-	david.sayHello(); // hi, my name is David
-	david.sleep(); // David is sleeping
-	
-	var patrick = new Person('Patrick');
-	patrick.sayHello(); // hi, my name is Patrick
-	patrick.sleep(); // Patrick is sleeping
+Person.prototype.hi = function() {
+	console.log('hi, my name is ' + this.name);
+};
+
+Person.prototype.sleep = function() {
+	console.log(this.name + ' is sleeping.');
+};
+
+var david = new Person('David');
+david.hi(); // hi, my name is David
+david.sleep(); // David is sleeping
+
+var patrick = new Person('Patrick');
+patrick.hi(); // hi, my name is Patrick
+patrick.sleep(); // Patrick is sleeping
 ```
 
-### jQuery
-* jQuery itself is a custom constructor function
-* jQuery doesn't force you to invoke it using the new operator. If you don't do it, it will invoke jQuery with the new operator for you behind the scenes.
-* jQuery plugins are functions/methods stored on the prototype property of the jQuery constructor function. _fn_ is just an alias for jQuery's prototype property
+Here we have defined a Person "class" or Person reference type. Every function in JavaScript has a property called _prototype_. This property is useful when you are using a function as a constructor. We are attaching 2 methods to Person.prototype, hi and sleep. Whenever a Person instance is created, the object constructed will inherit any properties or methods defined on Person.prototype.
+
+Because anything on the prototype is shared across all object instances of that reference type, typically you see only methods being placed on the prototype and properties stored on the constructed object itself. Methods are shared behaviors so each object doesn't need its own unique method. However, each object does need to have its own unique set of properties. Properties defined on the an object itself and not the prototype are referred to as "own properties".
+
+### Property lookups
+
+So what happens if we define a property with the same name on an object and on the prototype? For example:
+
+```js
+var Person = function(name) {
+	this.name = name;	
+	this.walk = function() {
+		console.log('moon walking');
+	};
+};
+
+Person.prototype.walk = function() {
+	console.log('normal walking');
+};
+
+var mj = new Person('Michael Jackson');
+mj.walk();
+```
+
+So what will get logged to the console whe mj.walk() is called? 
+
+The way objects work is that JavaScript will try and lookup a property on the object itself (an "own property"). If it exists, that property is used. If not, it will look at the prototype of the function that created the object.
+
+So in the example above, walk() is found on the mj object itself so it will log "moon walking" to the console. If our Person function looked like this:
+
+```js
+var Person = function(name) {
+	this.name = name;	
+};
+```
+
+then "normal walking" would be logged to the console.
+
+### Native Constructor Functions & their Shorthand (literal) Counterparts
+
+JavaScript has several built in functions used as constructors. They are: String, Number, Boolean, Array, Function, Object, RegExp, and Date.
+
+```js
+var str = new String('some string');
+// OR
+var str = 'some string'; // literal sytax
+```
+
+```js
+var age = new Number(26);
+// OR
+var age = 26; // literal sytax
+```
+
+```js
+var person = new Object();
+// OR
+var person = {}; // literal sytax
+```
+
+Even though you can techincally create numbers, strings etc using the native constructors, it is almost always simpler and more straighforward to use the literal syntax.
+
+### Extending Native Constructors
+
+Native constructors can be extended. This is often considered a bad practice because if you for example create a custom String method and browsers in the future implement that method, then there can be lots of confusion among a team of developers and your code may not always work as expected. Despite that, it is still a good exercise and worthwhile to learn for understanding prototypes.
+
+```js
+String.prototype.dashify = function() {
+	return this.replace(/\s/g, '-');
+};
+```
+
 
 
