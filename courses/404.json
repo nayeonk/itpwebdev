@@ -182,6 +182,42 @@
 			"active": 1
 		},
 		{
+			"date": "9/23",
+			"units": [
+				{
+					"subject": "OOJS 3 - Inheritance vs Mixins",
+					"link": ""
+				},
+				{
+					"subject": "Building jQuery from scratch",
+					"link": ""
+				},
+				{
+					"subject": "Quiz 1 Study Guide",
+					"link": ""
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "9/30",
+			"units": [
+				{
+					"subject": "Quiz 1",
+					"link": ""
+				},
+				{
+					"subject": "Google Maps JavaScript API",
+					"link": ""
+				},
+				{
+					"subject": "Geolocation API",
+					"link": ""
+				}
+			],
+			"active": 1
+		},
+		{
 			"date": "9/10",
 			"units": [
 				{
