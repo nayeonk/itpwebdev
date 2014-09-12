@@ -95,7 +95,9 @@ The API has to allow for this functionality, but if they do, they will return JS
 
 When the request returns, the response will look like something like this:
 
+```js
 myFunction({"name": "Coca Cola", "likes": 98463, "about": "some text here"})
+```
 
 You will need to have myFunction predfined on the page accessible in the __global__ scope, but this allows us to utilize all the JSON data that we are requesting.
 
