@@ -5,6 +5,7 @@ Object Oriented JavaScript - Part 2
 
 * Objects review
 	* properties and methods
+	* typically nouns
 * Creating multiple object instances using functions as constructors
 	* also called custom data types, custom reference types, or "classes"
 	* constructors are like templates or blueprints for creating objects

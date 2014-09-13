@@ -14,13 +14,25 @@ Quiz 1 Study Guide
 
 ### JSON, JSONP, Client-side Templating
 
-* What is JSON and when is it used?
+* What is JSON?
 * What is JSONP?
+* JSON vs JSONP
 * How does JSONP work (without jQuery)?
-* What is client-side templating and why use it?
+* Client-side templating
+	* What is it?
+	* Why use it?
+	* How does it work?
 
 ### Constructors
 
+* Creating properties and methods
+* Methods and _this_
+* Defining methods on the prototype
+* property lookups
+* Extending native constructors
 
+### What I wont ask
 
-__More will be added to this study guide__
+* API specific things (facebook, itunes, rotten tomatoes)
+* Constructors used in Google Maps API
+* Geolocation
