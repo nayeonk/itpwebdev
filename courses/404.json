@@ -31,6 +31,13 @@
 			"active": 1
 		},
 		{
+			"name": "Reviews Report Constructor",
+			"type": "assignment",
+			"due": "9/23",
+			"link": "oojs2",
+			"active": 1
+		},
+		{
 			"name": "Photo Gallery",
 			"type": "assignment",
 			"due": "9/17",
