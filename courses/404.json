@@ -25,14 +25,14 @@
 		},
 		{
 			"name": "Rotten Tomatoes Search",
-			"type": "assignment",
+			"type": "A",
 			"due": "9/16",
 			"link": "rotten-tomatoes-search",
 			"active": 1
 		},
 		{
 			"name": "Reviews Report Constructor",
-			"type": "assignment",
+			"type": "A",
 			"due": "9/23",
 			"link": "oojs2",
 			"active": 1
@@ -59,11 +59,11 @@
 			"active": 0
 		},
 		{
-			"name": "Position Mapper",
-			"type": "assignment",
-			"due": "10/8",
+			"name": "Position Locator",
+			"type": "A",
+			"due": "9/30",
 			"link": "position-mapper",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "iTunes Search",
@@ -193,11 +193,11 @@
 			"units": [
 				{
 					"subject": "Google Maps JavaScript API",
-					"link": ""
+					"link": "google-maps"
 				},
 				{
 					"subject": "Geolocation API",
-					"link": ""
+					"link": "geolocation"
 				},
 				{
 					"subject": "Quiz 1 Study Guide",
@@ -230,26 +230,6 @@
 				{
 					"subject": "jQuery continued: selector caching, event delegation, & IIFE's",
 					"link": "jquery2"
-				}
-			],
-			"active": 0
-		},
-		{
-			"date": "9/17",
-			"units": [
-				{
-					"subject": "OOJS 1 - object literals, module pattern, namespacing",
-					"link": "oojs1"
-				}
-			],
-			"active": 0
-		},
-		{
-			"date": "10/1",
-			"units": [
-				{
-					"subject": "Google Maps JavaScript API, Geolocation",
-					"link": "google-maps"
 				}
 			],
 			"active": 0
