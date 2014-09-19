@@ -76,8 +76,34 @@ infowindow.open(map);
 
 https://developers.google.com/maps/documentation/javascript/reference#Geocoder
 
-* geocode(obj, callbackFunction)
-* obj.address can be an address and callbackFunction is a function that gets passed a parameter containing an object with the latitude/longitude
+#### Geocoding
+
+Taking an address and converting it into coordinates.
+
+```js
+var geocoder = new google.maps.Geocoder();
+
+geocoder.geocode({
+	address: '3650 McClintock Ave., Los Angeles, CA 90089'
+}, function(results) {
+	var latlng = results[0].geometry.location; // a LatLng object
+	console.log(latlng.lat(), latlng.lng())
+});
+```
+
+#### Reverse Geocoding
+
+Taking coordinates and converting it into an address.
+
+```js
+var geocoder = new google.maps.Geocoder();
+
+geocoder.geocode({ 
+	location: new google.maps.LatLng(-34.397, 150.644)
+}, function(results) {
+	console.log(results);
+});
+```
 
 ### Events
 
