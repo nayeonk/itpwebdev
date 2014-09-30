@@ -66,6 +66,13 @@
 			"active": 1
 		},
 		{
+			"name": "Building jQuery",
+			"type": "A",
+			"due": "10/7",
+			"link": "building-jquery",
+			"active": 1
+		},
+		{
 			"name": "iTunes Search",
 			"type": "assignment",
 			"due": "9/16",
@@ -214,49 +221,41 @@
 					"link": ""
 				},
 				{
-					"subject": "OOJS 3 - Inheritance vs Mixins",
-					"link": ""
-				},
-				{
 					"subject": "Building jQuery from scratch",
+					"link": "jquery-from-scratch"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "10/7",
+			"units": [
+				{
+					"subject": "Intro to PHP and server-side proxies",
 					"link": ""
 				}
 			],
 			"active": 1
 		},
 		{
-			"date": "9/10",
+			"date": "10/14",
 			"units": [
 				{
-					"subject": "jQuery continued: selector caching, event delegation, & IIFE's",
-					"link": "jquery2"
+					"subject": "AJAX and Promises",
+					"link": ""
 				}
 			],
-			"active": 0
+			"active": 1
 		},
 		{
-			"date": "10/8",
+			"date": "10/21",
 			"units": [
 				{
-					"subject": "JSONP, XML/JSON, Facebook Graph API, Client-side templating",
-					"link": "jsonp_templating"
+					"subject": "Testing overview, intro to unit testing and TDD",
+					"link": ""
 				}
 			],
-			"active": 0
-		},
-		{
-			"date": "10/15",
-			"units": [
-				{
-					"subject": "REST design principles",
-					"link": "rest-design-principles"
-				},
-				{
-					"subject": "RESTful web services in PHP",
-					"link": "rest-web-services"
-				}
-			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "10/22",
@@ -277,7 +276,7 @@
 			"active": 0
 		},
 		{
-			"date": "10/28",
+			"date": "10/14",
 			"units": [
 				{
 					"subject": "AJAX, Promises",
@@ -343,16 +342,6 @@
 				},
 				{
 					"subject": "Quiz 2",
-					"link": ""
-				}
-			],
-			"active": 0
-		},
-		{
-			"date": "11/26",
-			"units": [
-				{
-					"subject": "No class, screencast",
 					"link": ""
 				}
 			],
