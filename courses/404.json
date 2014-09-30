@@ -221,6 +221,10 @@
 					"link": ""
 				},
 				{
+					"subject": "Class demo starter files",
+					"link": "https://github.com/ITP-Webdev/jquery-from-scratch"
+				},
+				{
 					"subject": "Building jQuery from scratch",
 					"link": "jquery-from-scratch"
 				}
