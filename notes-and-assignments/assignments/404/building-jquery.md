@@ -3,7 +3,7 @@ Building jQuery
 
 Use the following starter code: https://bitbucket.org/skaterdav85/building-jquery/src
 
-To test each scenario, I have set up an automated test suite with several unit tests for what is required for this assignment. We will get to unit testing later in the semester, but for this assignment, just open up SpecRunner.html in a browser. You should see all red. As you start implementing your homework, you will see the tests pass and turn green. By the end of the assignment, you should see "Passing 11 specs" and ALL green.
+To test each scenario, I have set up an automated test suite with several unit tests for what is required for this assignment. We will get to unit testing later in the semester, but for this assignment, just open up SpecRunner.html in a browser. You should see all red. As you start implementing your homework in _src/my-jquery.js_, you will see the tests pass and turn green (you have to refresh SpecRunner.html). By the end of the assignment, you should see "Passing 11 specs" and ALL green.
 
 ### 1. .html() instance method
 
