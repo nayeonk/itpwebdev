@@ -87,11 +87,18 @@
 			"active": 0
 		},
 		{
-			"name": "Midterm Project (posted Sunday)",
-			"type": "assignment",
-			"due": "10/20 - 10/22 6pm",
+			"name": "APIs with PHP",
+			"type": "optional",
+			"due": "10/14",
+			"link": "apis-with-php",
+			"active": 1
+		},
+		{
+			"name": "Midterm Project",
+			"type": "P",
+			"due": "TBA",
 			"link": "midterm",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "Twitter Endpoints",
@@ -236,7 +243,7 @@
 			"units": [
 				{
 					"subject": "Intro to PHP and server-side proxies",
-					"link": ""
+					"link": "phpintro"
 				}
 			],
 			"active": 1

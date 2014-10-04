@@ -5,43 +5,44 @@ My following notes are targetting PHP version 5.4 or higher.
 
 ### Overview
 
-* Installation
-* HTTP, web servers, and application servers
-* php language basics
+* Installation of PHP
+* HTTP, web servers, application servers, headers, and status codes
 * Review of JSON, JSONP
 * Server-side proxy
-* SOME API
 
-* Review of HTTP and how server-side technologies work
-* Installation
-* variables
-* echo
-* concatenation
-* double quoted strings vs single quoted strings
-* Arrays
-	* indexed
-	* associative
-* [foreach loop](http://php.net/manual/en/control-structures.foreach.php)
-* Request Data
-	* $_POST
-	* $_GET
-* if statements
-* includes & requires
+### Class Demo
 
+* Instagram REST API overview
+* What is REST?
+* HTTP requests from PHP
+	* variables / semicolons / concatenation
+	* file_get_contents()
+* Rendering
+	* client-side rendering
+	* server-side rendering
+		* php data structures
+		* json_decode()
+		* foreach loops
+		* objects and classes
+* previous example with form submission
 
-PHP is a server-side language.
+### What is PHP?
 
-#### Mac Installation
+PHP is an open source, server-side language suited for web development.
+
+http://php.net/manual/en/intro-whatis.php
+
+### Mac Installation
 
 On MAC, install MAMP (Mac Apache MySQL PHP). To get running, place all of your php scripts in the __htdocs__ folder and start up MAMP.
 
-#### Windows Installation
+### Windows Installation
 
 Install either WAMP (Windows Apache MySQL PHP) or XAMP (Apache MySQL PHP). The X in XAMP stands for cross platform because it could be installed on multiple platforms. 
 
 To get running, place all of your php scripts in the __htdocs__ folder and start up XAMPP/WAMP.
 
-#### PHP from the command line
+### PHP from the command line
 
 Alternatively, if you have a mac with PHP 5.4 or greater installed (PHP comes preinstalled on macs), you can use the built in version of PHP:
 
@@ -91,13 +92,13 @@ $hello = "Hi, my name is $name";
 
 ### Echo
 
-The echo command is used to output text from the server onto the page.
+The echo command is used to output/write data to the web page.
 
 ```php
 echo 'hello!';
 ```
 
-### Arrays
+### Indexed Arrays
 
 ```php
 $restaurants = ['Urth', 'Benihanas', 'Sushi Dan'];
@@ -117,13 +118,13 @@ $settings = [
 
 ### Request Data
 
-Intercept POST data using the $_POST superglobal where the key corresponds to the 'name' attribute on a form field.
+Intercept POST data using the $_POST superglobal arrays where the key corresponds to the 'name' attribute on a form field.
 
 ```php
 $email = $_POST['email'];
 ```
 
-Query string data can be intercepted using the $_GET['page'] superglobal;
+Query string data can be intercepted using the $_GET['page'] superglobal
 
 __ex: http://my-site.com?page=2__
 
