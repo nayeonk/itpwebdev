@@ -12,7 +12,7 @@ My following notes are targetting PHP version 5.4 or higher.
 
 ### Class Demo
 
-* Instagram REST API overview
+* Instagram REST API overview: http://instagram.com/developer/endpoints/
 * What is REST?
 * HTTP requests from PHP
 	* variables / semicolons / concatenation

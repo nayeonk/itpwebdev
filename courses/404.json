@@ -269,22 +269,64 @@
 			"active": 1
 		},
 		{
-			"date": "10/22",
+			"date": "10/28",
 			"units": [
 				{
-					"subject": "REST part 2, Authenticated APIs, Twitter API, API Caching",
-					"link": "rest2_api-caching_twitter"
-				},
-				{
-					"subject": "Cloud 9 Project - Twitter Library",
-					"link": "http://c9.io/itpweb/twitter-lib"
-				},
-				{
-					"subject": "Cloud 9 Project - Instagram API with Caching",
-					"link": "http://c9.io/itpweb/instagram-demos"
+					"subject": "Backbone.js ­- Models, Views, & Collections",
+					"link": ""
 				}
 			],
-			"active": 0
+			"active": 1
+		},
+		{
+			"date": "11/4",
+			"units": [
+				{
+					"subject": "Backbone.js ­- ­Routing, application organization, & the observer pattern",
+					"link": ""
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "11/11",
+			"units": [
+				{
+					"subject": "Unit testing continued, Writing testable code, Single Responsiblity Principle",
+					"link": ""
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "11/18",
+			"units": [
+				{
+					"subject": "Angular.js part 1",
+					"link": ""
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "11/25",
+			"units": [
+				{
+					"subject": "Angular.js part 2",
+					"link": ""
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "12/2",
+			"units": [
+				{
+					"subject": "Presentations / Final Project Due",
+					"link": ""
+				}
+			],
+			"active": 1
 		},
 		{
 			"date": "10/14",
