@@ -8,7 +8,7 @@ Try taking one of the APIs below and rendering using the 2 following techniques:
 
 You will have 2 different pages that look the same from the user's standpoint, but they were rendered differently.
 
-https://bitbucket.org/skaterdav85/php-apis/src/98d2063bac6d6fe2e8d1dce7d101114057c64b26?at=master
+https://bitbucket.org/skaterdav85/php-apis-demo/src/a287e8b43679984c194fcdab6d7fc7f9a8694d22/?at=in-class
 
 * Rotten Tomatoes (you know the endpoint. remember to remove callback=*** from the URL)
 * iTunes Search (you know the endpoint. remember to remove callback=*** from the URL)
