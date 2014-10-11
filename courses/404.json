@@ -80,13 +80,6 @@
 			"active": 0
 		},
 		{
-			"name": "Project Proposal & Requirements",
-			"type": "assignment",
-			"due": "10/22",
-			"link": "project-proposal-requirements",
-			"active": 0
-		},
-		{
 			"name": "APIs with PHP",
 			"type": "optional",
 			"due": "10/14",
@@ -101,18 +94,18 @@
 			"active": 1
 		},
 		{
-			"name": "Twitter Endpoints",
-			"type": "lab",
-			"due": "10/29",
-			"link": "twitter-endpoints",
-			"active": 0
+			"name": "AJAX w/ PHP and JSON",
+			"type": "A",
+			"due": "10/21",
+			"link": "ajax",
+			"active": 1
 		},
 		{
-			"name": "AJAX w/ PHP and JSON",
-			"type": "assignment",
-			"due": "11/5",
-			"link": "ajax",
-			"active": 0
+			"name": "Project Proposal",
+			"type": "A",
+			"due": "10/21",
+			"link": "project-proposal-requirements",
+			"active": 1
 		},
 		{
 			"name": "Parse todo list",
@@ -253,7 +246,15 @@
 			"units": [
 				{
 					"subject": "AJAX and Promises",
-					"link": ""
+					"link": "ajax"
+				},
+				{
+					"subject": "Starter demo files",
+					"link": "https://github.com/ITP-Webdev/404-ajax-2014/tree/master"
+				},
+				{
+					"subject": "Completed demo",
+					"link": "https://github.com/ITP-Webdev/404-ajax-2014/tree/final"
 				}
 			],
 			"active": 1
@@ -263,6 +264,10 @@
 			"units": [
 				{
 					"subject": "Testing overview, intro to unit testing and TDD",
+					"link": ""
+				},
+				{
+					"subject": "Backends as a Service - Parse (LAB)",
 					"link": ""
 				}
 			],
@@ -327,32 +332,6 @@
 				}
 			],
 			"active": 1
-		},
-		{
-			"date": "10/14",
-			"units": [
-				{
-					"subject": "AJAX, Promises",
-					"link": "ajax"
-				},
-				{
-					"subject": "Example: AJAX w/ plain JS",
-					"link": "http://itpwebdev.usc.edu/demos/404/ajax-plain-js/"
-				},
-				{
-					"subject": "Example: AJAX w/ jQuery",
-					"link": "http://itpwebdev.usc.edu/demos/404/ajax-jquery/"
-				},
-				{
-					"subject": "Example: AJAX w/ jQuery Promises",
-					"link": "http://itpwebdev.usc.edu/demos/404/ajax-jquery-promises/"
-				},
-				{
-					"subject": "Example: AJAX w/ jQuery & JSON",
-					"link": "http://itpwebdev.usc.edu/demos/404/ajax-with-json/"
-				}
-			],
-			"active": 0
 		},
 		{
 			"date": "11/5",
