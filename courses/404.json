@@ -108,6 +108,13 @@
 			"active": 1
 		},
 		{
+			"name": "Unit Testing ReviewsReport",
+			"type": "A",
+			"due": "10/28",
+			"link": "unit-testing",
+			"active": 1
+		},
+		{
 			"name": "Parse todo list",
 			"type": "assignment",
 			"due": "11/12",
@@ -267,7 +274,11 @@
 					"link": ""
 				},
 				{
-					"subject": "Backends as a Service - Parse (LAB)",
+					"subject": "Jasmine installation",
+					"link": "jasmine-install"
+				},
+				{
+					"subject": "Backends as a Service with Parse (Optional Lab)",
 					"link": ""
 				}
 			],
@@ -317,7 +328,7 @@
 			"date": "11/25",
 			"units": [
 				{
-					"subject": "Angular.js part 2",
+					"subject": "No class - Recorded lecture",
 					"link": ""
 				}
 			],
