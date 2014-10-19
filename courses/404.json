@@ -270,8 +270,8 @@
 			"date": "10/21",
 			"units": [
 				{
-					"subject": "Testing overview, intro to unit testing and TDD",
-					"link": ""
+					"subject": "Intro to testing and TDD (Slides)",
+					"link": "https://www.dropbox.com/s/pt6txr7zcvtqgph/unit-testing-js.pdf?dl=0"
 				},
 				{
 					"subject": "Jasmine installation",
@@ -279,7 +279,7 @@
 				},
 				{
 					"subject": "Backends as a Service with Parse (Optional Lab)",
-					"link": ""
+					"link": "https://github.com/ITP-Webdev/parse-demo"
 				}
 			],
 			"active": 1
