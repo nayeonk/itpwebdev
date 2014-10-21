@@ -1,12 +1,12 @@
 Unit Testing
 ============
 
-For this assignment, we are going to revisit the ReviewsReport constructor assignment and write unit tests for it using Jasmine. You can either use the HTML page spec runner that Jasmine provides or Karma.
+For this assignment, we are going to revisit the ReviewsReport constructor assignment and write unit tests for it using the Jasmine 1.3 testing framework. You can either use the HTML page spec runner that Jasmine provides or Karma.
 
 Write tests for the following methods:
 
-* report.getAverageRating();
-* report.getAverageCost();
+* report.getAverageRating()
+* report.getAverageCost()
 * report.convertCostToDollarSign()
 * report.summarize()
 
@@ -26,6 +26,14 @@ myArray.forEach(function(num) {
 // 7
 ```
 
-Your tests should not require any changes in order to pass. You are simply changing the implementation of _getAverageRating()_ and _getAverageCost()_ but the API of these methods are still the same.
+Your tests should not require any changes in order to pass. You are simply changing the implementation of _getAverageRating()_ and _getAverageCost()_ but the return values of these methods are still the same.
+
+### findWithLowestRating(number)
+
+Lastly, create a method called _findWithLowestRating(number)_ on the ReviewsReport prototype. When this method is called, it should return a new array of all objects where the rating is greater than or equal to the _number_ parameter.
+
+```js
+report.findWithLowestRating(3); // matches all reviews with a rating of 3 or more
+```
 
 Here is the solution to the previous assignment if you'd like to start with this instead of your own: https://bitbucket.org/skaterdav85/reviews-report-constructor/src/8c1aaee74f5585c5637bbbfb9f9503a337622a80/ReviewsReport.js?at=master
