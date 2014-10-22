@@ -290,6 +290,10 @@
 				{
 					"subject": "Backbone.js ­- Models, Views, & Collections",
 					"link": ""
+				},
+				{
+					"subject": "Quiz 2 Study Guide",
+					"link": "quiz2-study-guide"
 				}
 			],
 			"active": 1
@@ -297,6 +301,10 @@
 		{
 			"date": "11/4",
 			"units": [
+				{
+					"subject": "Quiz 2",
+					"link": ""
+				},
 				{
 					"subject": "Backbone.js ­- ­Routing, application organization, & the observer pattern",
 					"link": ""
@@ -308,7 +316,7 @@
 			"date": "11/11",
 			"units": [
 				{
-					"subject": "Unit testing continued, Writing testable code, Single Responsiblity Principle",
+					"subject": "Angular.js part 1",
 					"link": ""
 				}
 			],
@@ -318,7 +326,7 @@
 			"date": "11/18",
 			"units": [
 				{
-					"subject": "Angular.js part 1",
+					"subject": "Angular.js part 2",
 					"link": ""
 				}
 			],
@@ -328,7 +336,7 @@
 			"date": "11/25",
 			"units": [
 				{
-					"subject": "No class - Recorded lecture",
+					"subject": "No class - Recorded lecture on Unit Testing part 2",
 					"link": ""
 				}
 			],
