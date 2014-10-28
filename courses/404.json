@@ -115,11 +115,11 @@
 			"active": 1
 		},
 		{
-			"name": "Parse todo list",
-			"type": "assignment",
-			"due": "11/12",
-			"link": "data-storage-apis",
-			"active": 0
+			"name": "Rotten Tomatoes Search w/ Backbone",
+			"type": "A",
+			"due": "11/4",
+			"link": "backbone1",
+			"active": 1
 		},
 		{
 			"name": "Final Project Requirements",
@@ -289,7 +289,11 @@
 			"units": [
 				{
 					"subject": "Backbone.js ­- Models, Views, & Collections",
-					"link": ""
+					"link": "backbone1"
+				},
+				{
+					"subject": "Demo files",
+					"link": "https://github.com/ITP-Webdev/backbone1-2014"
 				},
 				{
 					"subject": "Quiz 2 Study Guide",
@@ -306,7 +310,7 @@
 					"link": ""
 				},
 				{
-					"subject": "Backbone.js ­- ­Routing, application organization, & the observer pattern",
+					"subject": "Backbone.js ­continued",
 					"link": ""
 				}
 			],
