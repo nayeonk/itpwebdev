@@ -25,12 +25,22 @@ Backbone.js (continued)
 * model and collection events
 * Views listening to collection events (like sorting) and rerendering
 
+### Application Structure
+
+* breaking by type for small - medium sized apps
+
+
+### Rerendering when a collection is sorted
+
 ```js
 var BooksView = Backbone.View.extend({
-
+  initialize: function() {
+    this.listenTo(this.collection, 'sort', function() {
+      this.render();
+    });
+  }
 });
 ```
-
 
 ### Catalog of Built-in Events
 
