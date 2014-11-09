@@ -65,6 +65,11 @@ angular
 	});
 ```
 
+### Other Resources
+
+* [Angular Fundamentals in 60-ish Minutes](https://www.youtube.com/watch?v=i9MHigUZKEM)
+* [Shaping up with Angular (CodeSchool)](https://www.codeschool.com/courses/shaping-up-with-angular-js)
+* [AngularJS Style Guide](https://github.com/johnpapa/angularjs-styleguide)
 
 
 
