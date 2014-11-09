@@ -129,11 +129,11 @@
 			"active": 0
 		},
 		{
-			"name": "Angular search application",
-			"type": "assignment",
-			"due": "11/19",
+			"name": "Angular",
+			"type": "A",
+			"due": "11/18",
 			"link": "angular1",
-			"active": 0
+			"active": 1
 		}
 	],
 
@@ -321,7 +321,11 @@
 			"units": [
 				{
 					"subject": "Angular.js part 1",
-					"link": ""
+					"link": "angular-part-1"
+				},
+				{
+					"subject": "Demo starter files",
+					"link": "https://github.com/ITP-Webdev/angular1-2014" 
 				}
 			],
 			"active": 1
