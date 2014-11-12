@@ -122,17 +122,17 @@
 			"active": 1
 		},
 		{
-			"name": "Final Project Requirements",
-			"type": "project",
-			"due": "TBA",
-			"link": "project-requirements",
-			"active": 0
-		},
-		{
 			"name": "Angular",
 			"type": "A",
 			"due": "11/18",
 			"link": "angular1",
+			"active": 1
+		},
+		{
+			"name": "Final Project Requirements",
+			"type": "P",
+			"due": "12/2",
+			"link": "project-requirements",
 			"active": 1
 		}
 	],
