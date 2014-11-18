@@ -336,6 +336,10 @@
 				{
 					"subject": "Angular.js part 2",
 					"link": "angular-part-2"
+				},
+				{
+					"subject": "starter files",
+					"link": "https://bitbucket.org/skaterdav85/angular2-2014/get/starter.zip"
 				}
 			],
 			"active": 1
