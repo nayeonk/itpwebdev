@@ -12,7 +12,7 @@
 		{
 			"name": "Environment setup",
 			"type": "NC",
-			"due": "1/21",
+			"due": "1/20",
 			"link": "environment-setup",
 			"active": 1
 		},
@@ -83,26 +83,22 @@
 
 	"weeks": [
 		{
-			"date": "1/14",
+			"date": "1/13",
 			"units": [
 				{
-					"subject": "Course Introduction",
+					"subject": "Course Introduction, Environment setup",
 					"link": ""
-				},
-				{
-					"subject": "Virtual Development Environments w/ Virtual Box and Vagrant",
-					"link": "dev-environments"
 				},
 				{
 					"subject": "Command Line (CLI) Basics",
 					"link": "command-line-basics"
 				},
         {
-          "subject": "Virtual Dev Environment Slides",
-          "link": "https://slid.es/davidtang/virtual-dev-environments"
+          "subject": "Object Oriented Programming Workshop (optional)",
+          "link": "oop-workshop-1"
         }
 			],
-			"active": 0
+			"active": 1
 		},
     {
       "date": "1/21",
