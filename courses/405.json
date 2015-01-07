@@ -2,11 +2,11 @@
 	"course_name": "Professional Applications and Frameworks in Web Development",
 	"color": "teal",
 	"instructor": "David Tang",
-	"syllabus": "http://web-app.usc.edu/soc/syllabus/20141/32051.pdf",
-	"time": "Tuesdays 5-7:50pm",
-	"office_hours": "OHE 530F: Mon 12:30 - 2pm, Wed 5 - 7:30pm",
+	"syllabus": "http://web-app.usc.edu/soc/syllabus/20151/32074.pdf",
+	"time": "Tuesdays 6-8:50pm in SGM 601",
+	"office_hours": "TBA",
 	"ta": [
-		{ "name": "Herman Tran (Grader)", "email": "herman.c.tran@gmail.com" }
+		{ "name": "Priyanka Sathyanarayan Vaishnav", "email": "priyankv@usc.edu" }
 	],
 	"homework": [
 		{
@@ -21,63 +21,63 @@
       "type": "A",
       "due": "1/28",
       "link": "pdo",
-      "active": 1
+      "active": 0
     },
     {
       "name": "Insert Pages using Classes",
       "type": "A",
       "due": "2/4",
       "link": "oop",
-      "active": 1
+      "active": 0
     },
     {
       "name": "Authentication",
       "type": "A",
       "due": "2/22",
       "link": "authentication",
-      "active": 1
+      "active": 0
     },
     {
       "name": "DVD Search Page (Laravel)",
       "type": "A",
       "due": "2/22",
       "link": "mvc1",
-      "active": 1
+      "active": 0
     },
     {
       "name": "DVD Pages with Eloquent (Laravel)",
       "type": "A",
       "due": "2/25",
       "link": "orm",
-      "active": 1
+      "active": 0
     },
     {
       "name": "Where do we put this?",
       "type": "A",
       "due": "3/4",
       "link": "where-do-we-put-this",
-      "active": 1
+      "active": 0
     },
     {
       "name": "Final Project",
       "type": "P",
       "due": "4/29 (last day of class)",
       "link": "final-project",
-      "active": 1
+      "active": 0
     },
     {
       "name": "Unit Testing",
       "type": "L",
       "due": "3/25",
       "link": "unit-testing",
-      "active": 1
+      "active": 0
     },
     {
       "name": "Project Starter 1",
       "type": "L",
       "due": "4/8",
       "link": "project-starter1",
-      "active": 1
+      "active": 0
     }
 	],
 
@@ -102,7 +102,7 @@
           "link": "https://slid.es/davidtang/virtual-dev-environments"
         }
 			],
-			"active": 1
+			"active": 0
 		},
     {
       "date": "1/21",
@@ -132,7 +132,7 @@
           "link": "http://slid.es/davidtang/pdo"
         }
       ],
-      "active": 1
+      "active": 0
     },
     {
       "date": "1/28",
@@ -150,7 +150,7 @@
           "link": "http://net.tutsplus.com/tutorials/php/object-oriented-php-for-beginners/"
         }
       ],
-      "active": 1
+      "active": 0
     },
     {
       "date": "2/4",
@@ -176,7 +176,7 @@
           "link": "http://www.sitepoint.com/battle-autoloaders-psr-0-vs-psr-4/"
         }
       ],
-      "active": 1
+      "active": 0
     },
     {
       "date": "2/11",
@@ -190,7 +190,7 @@
           "link": "mvc1"
         }
       ],
-      "active": 1
+      "active": 0
     },
     {
       "date": "2/18",
@@ -204,7 +204,7 @@
           "link": "laravel-misc"
         }
       ],
-      "active": 1
+      "active": 0
     },
     {
       "date": "2/25",
@@ -222,7 +222,7 @@
           "link": "services"
         }
       ],
-      "active": 1
+      "active": 0
     },
     {
       "date": "3/4",
@@ -240,7 +240,7 @@
           "link": "http://phpunit.de/"
         }
       ],
-      "active": 1
+      "active": 0
     },
     {
       "date": "3/11",
@@ -250,7 +250,7 @@
           "link": "midterm"
         }
       ],
-      "active": 1
+      "active": 0
     },
     {
       "date": "3/18",
@@ -260,7 +260,7 @@
           "link": ""
         }
       ],
-      "active": 1
+      "active": 0
     },
     {
       "date": "3/25",
@@ -270,7 +270,7 @@
           "link": "https://www.dropbox.com/s/h2j3e2692aq40y3/unit-testing-mocking.pdf"
         }
       ],
-      "active": 1
+      "active": 0
     },
     {
       "date": "4/1",
@@ -288,7 +288,7 @@
           "link": "web-socket-server"
         }
       ],
-      "active": 1
+      "active": 0
     },
     {
       "date": "4/8",
@@ -298,7 +298,7 @@
           "link": ""
         }
       ],
-      "active": 1
+      "active": 0
     },
     {
       "date": "4/15",
@@ -312,7 +312,7 @@
           "link": ""
         }
       ],
-      "active": 1
+      "active": 0
     },
     {
       "date": "4/22",
@@ -326,7 +326,7 @@
           "link": "https://github.com/ITP-Webdev/node-demo1"
         }
       ],
-      "active": 1
+      "active": 0
     },
     {
       "date": "4/29",
@@ -336,7 +336,7 @@
           "link": ""
         }
       ],
-      "active": 1
+      "active": 0
     }
 	]
 }
