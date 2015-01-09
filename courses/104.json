@@ -2,12 +2,12 @@
 	"course_name": "Web Publishing",
 	"color": "green",
 	"instructor": "Nayeon Kim",
-	"syllabus": "http://web-app.usc.edu/soc/syllabus/20141/31806.pdf",
+	"syllabus": "",
 	"time": "Mondays 5-7:50pm in KAP 160",
 	"office_hours": "TBA",
 	"ta": [
-		{ "name": "Sara Clayton (Grader)", "email": "saraclay@usc.edu" },
-		{ "name": "Patricia Capiral (Grader)", "email": "capiral@usc.edu" }
+		{ "name": "", "email": "" },
+		{ "name": "", "email": "" }
 	],
 	"homework": [
 		{
