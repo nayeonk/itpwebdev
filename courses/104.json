@@ -22,56 +22,56 @@
 			"type": "A",
 			"due": "2/10",
 			"link": "resume",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Film Article",
 			"type": "A",
 			"due": "2/24",
 			"link": "film-article",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Calendar",
 			"type": "A",
 			"due": "3/3",
 			"link": "calendar",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Survey",
 			"type": "A",
 			"due": "3/10",
 			"link": "survey",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Practice practical exam",
 			"type": "L",
 			"due": "3/10",
 			"link": "practice-practical",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Major Project Proposal",
 			"type": "A",
 			"due": "3/24",
 			"link": "project-proposal",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Major project frontpage & graphics",
 			"type": "A",
 			"due": "4/7",
 			"link": "project-homepage",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Dreamweaver News Article",
 			"type": "L",
 			"due": "4/7",
 			"link": "dreamweaver-news-article",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Web Technology Article",
@@ -85,28 +85,28 @@
 			"type": "P",
 			"due": "4/28 11:59pm",
 			"link": "project-requirements",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Graphic redesign",
 			"type": "L",
 			"due": "3/31",
 			"link": "graphic-redesign",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Behaviors",
 			"type": "L",
 			"due": "4/14",
 			"link": "behaviors",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Web Technology Deconstruction",
 			"type": "A",
 			"due": "4/14",
 			"link": "web-technology-deconstruction",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "jQuery cycle 2 plugin",
