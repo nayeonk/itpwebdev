@@ -136,7 +136,7 @@
 					"link": ""
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "1/26",
@@ -144,7 +144,7 @@
 				{ "subject": "Basic HTML", "link": "basic-html" },
 				{ "subject": "FTP and uploading files to a server", "link": "ftp" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "2/2",
@@ -153,7 +153,7 @@
 				{ "subject": "Working with images", "link": "images" },
 				{ "subject": "Intro to styles", "link": "styles-intro" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "2/9",
@@ -163,7 +163,7 @@
 					"link": "divs-layouts-boxmodel"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "2/16",
@@ -173,7 +173,7 @@
 					"link": "divs-continued-stylesheets"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "3/2",
@@ -181,21 +181,21 @@
 				{ "subject": "HTML Forms & USC Form Scripts", "link": "html-forms" },
 				{ "subject": "Exam Study Guide", "link": "study-guide" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "3/9",
 			"units": [
 				{ "subject": "HTML & CSS Exam", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "3/16",
 			"units": [
 				{ "subject": "Spring Break", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "3/23",
@@ -205,7 +205,7 @@
 					"link": "https://docs.google.com/presentation/d/1IzEjcztBU_8eu9G_u5E-UOlaz_luUJsPNIonQrQwBro/edit#slide=id.p"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "3/30",
@@ -216,7 +216,7 @@
 					"link": "intermediate-css-selectors"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "4/6",
@@ -228,14 +228,14 @@
 					"link": "dreamweaver-behaviors"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "4/13",
 			"units": [
 				{ "subject": "Guest Lecture on Wordpress (Michael Shen)", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "4/20",
@@ -249,7 +249,7 @@
 					"link": "https://github.com/ITP-Webdev/css-dropdown-navigation"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "4/27",
@@ -263,7 +263,7 @@
 					"link": "hosting"
 				}
 			],
-			"active": 1
+			"active": 0
 		}
 	]
 }
