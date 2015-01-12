@@ -2,27 +2,27 @@
 	"course_name": "Web Publishing",
 	"color": "green",
 	"instructor": "Nayeon Kim",
-	"syllabus": "",
+	"syllabus": "http://web-app.usc.edu/soc/syllabus/20151/31806.pdf",
 	"time": "Mondays 5-7:50pm in KAP 160",
 	"office_hours": "TBA",
 	"ta": [
-		{ "name": "", "email": "" },
-		{ "name": "", "email": "" }
+		{ "name": "Mohit Gupta (Grader)", "email": "mohitg@usc.edu" },
+		{ "name": "TBA", "email": "TBA" }
 	],
 	"homework": [
 		{
 			"name": "First web page",
 			"type": "L",
-			"due": "2/3",
+			"due": "2/2",
 			"link": "first-webpage",
 			"active": 1
 		},
 		{
 			"name": "Resume",
 			"type": "A",
-			"due": "2/10",
+			"due": "2/2",
 			"link": "resume",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "Film Article",
@@ -123,7 +123,7 @@
 			"units": [
 				{
 					"subject": "Course intro, Web overview, HTML intro",
-					"link": "http://slid.es/davidtang/itp-104"
+					"link": "intro"
 				}
 			],
 			"active": 1
@@ -136,7 +136,7 @@
 					"link": ""
 				}
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "1/26",
