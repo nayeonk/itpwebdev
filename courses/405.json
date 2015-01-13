@@ -86,9 +86,13 @@
 			"date": "1/13",
 			"units": [
 				{
-					"subject": "Course Introduction, Environment setup",
-					"link": ""
+					"subject": "Course Introduction",
+					"link": "introduction"
 				},
+        {
+          "subject": "Environment setup",
+          "link": ""
+        },
 				{
 					"subject": "Command Line (CLI) Basics",
 					"link": "command-line-basics"
