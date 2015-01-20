@@ -37,3 +37,7 @@ INNER JOIN artists ON songs.artist_id = artists.id
 ```
 
 You can join as many tables as you like and you can use both left joins and inner joins on different tables depending on your query requirements.
+
+### Resources
+
+* [A Visual Explanation of SQL Joins](http://blog.codinghorror.com/a-visual-explanation-of-sql-joins/)

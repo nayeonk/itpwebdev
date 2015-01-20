@@ -19,9 +19,9 @@
     {
       "name": "DVD search using PDO",
       "type": "A",
-      "due": "1/28",
+      "due": "1/27",
       "link": "pdo",
-      "active": 0
+      "active": 1
     },
     {
       "name": "Insert Pages using Classes",
@@ -83,7 +83,7 @@
 
 	"weeks": [
 		{
-			"date": "1/13",
+			"date": "1/12",
 			"units": [
 				{
 					"subject": "Course Introduction",
@@ -98,41 +98,41 @@
 					"link": "command-line-basics"
 				},
         {
-          "subject": "Object Oriented Programming Workshop (optional)",
+          "subject": "LAB: Object Oriented Programming Workshop 1 (optional)",
           "link": "oop-workshop-1"
         }
 			],
 			"active": 1
 		},
     {
-      "date": "1/21",
+      "date": "1/20",
       "units": [
         {
           "subject": "HTTP life cycle",
           "link": ""
         },
         {
-          "subject": "SQL joins",
+          "subject": "SQL joins - inner joins, left joins, cartesian products",
           "link": "sql-joins"
         },
         {
-          "subject": "Object Oriented Programming Part 1: Working with PDO",
-          "link": "oop-1"
+          "subject": "PHP Data Objects (PDO)",
+          "link": "pdo"
         },
         {
-          "subject": "DB driven pages with PDO",
+          "subject": "Class demo",
+          "link": "https://bitbucket.org/skaterdav85/itp405-lecture2-2015"
+        },
+        {
+          "subject": "LAB: Version Control w/ Git & Github",
           "link": ""
         },
         {
-          "subject": "Version Control w/ Git & Github",
-          "link": ""
-        },
-        {
-          "subject": "Slides",
-          "link": "http://slid.es/davidtang/pdo"
+          "subject": "LAB: Object Oriented Programming Workshop 2 (optional)",
+          "link": "oop-workshop-2"
         }
       ],
-      "active": 0
+      "active": 1
     },
     {
       "date": "1/28",

@@ -1,4 +1,4 @@
-PHP Data Objects
+DVD Search with PDO
 ================
 
 Create search and results pages using the dvd database and PDO. Name your search page __search.php__ and your results page __results.php__.
@@ -17,31 +17,22 @@ Your results page should display what the user searched, like this:
 Display the following fields on the results page in divs or an HTML table
 
 * title
-* rating
 * genre
 * format
+* rating
 
-When joining tables in your query, use the INNER JOIN syntax. You should have 3 joins.
+When joining tables in your query, use the INNER JOIN syntax. Also, be sure to use the LIKE operator so that if I type in "Die" in the search form, all movies that contain "Die" in the title will show up (like Die Hard). If no results are returned from the query, display a message to the user saying Nothing was found with a link back to the search page.
 
-Also, when searching for a DVD title, be sure to use the LIKE operator so that if I type in "Die" in the search form, all movies that contain "Die" in the title will show up (like Die Hard).
+If a user navigates to results.php directly without any query string data, redirect back to the search page.
 
-If no results are returned from the query, display a message to the user saying Nothing was found with a link back to the search page.
+### Rating Page
 
-### Database Connection
-
-```php
-$host = 'itp460.usc.edu';
-$dbname = 'dvd';
-$user = 'student';
-$pass = 'ttrojan';
-```
+Next, make each rating on the results page a link to __ratings.php__. This page should show all dvds for the particular rating clicked.
 
 ### Styling
 
-Lastly, style your pages a little bit so that they are organized and somewhat presentable.
+Lastly, style your pages a little bit so that they are organized and somewhat presentable. Feel free to use something like [Bootstrap](http://getbootstrap.com/).
 
-### To submit
+### Submission
 
-Create a repository on Github called 'pdo-dvd' and push your code up to it. Email the repository URL to itpwebdev@gmail.com for submission.
-
-If you forget the instructions to push your code to Github, remember that if you create a new repository on Github, they will give you the commands to enter in.
+Create a repository on Github or Bitbucket called __itp405-spring2015-pdo-dvd__ all lowercase and push your code up to it. Email dtang@usc.edu the URL to your profile so that I can list it on the class site.

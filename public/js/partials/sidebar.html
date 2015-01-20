@@ -9,11 +9,6 @@
 	</li>
 </ol>
 
-<!-- <h3 class="block-title">Resources</h3>
-<ul>
-    <li><a href="http://webdev.usc.edu/vlab/" target="_blank">VLab instructions</a></li>
-</ul> -->
-
 <h3 class="block-title">Students</h3>
 <div class="student-filter-container">
 	<input type="search" ng-model="search" placeholder="Search students" ng-show="students.length">
@@ -24,12 +19,12 @@
 			<img ng-src="./students/{{courseNum}}/{{student.img}}" alt="{{student.name}}" width="50">
 			<span>{{student.name}}</span>
 		</a>
+		<a ng-switch-when="405" href="{{student.repo}}" target="_blank">
+			<img ng-src="./students/{{courseNum}}/{{student.img}}" alt="{{student.name}}" width="50">
+			<span>{{student.name}}</span>
+		</a>
 		<span ng-switch-default>
 			<a ng-if="student.username" href="http://scf.usc.edu/~{{student.username}}/itp{{courseNumNumeric}}/classpage.html" target="_blank">
-				<img ng-src="./students/{{courseNum}}/{{student.img}}" alt="{{student.name}}" width="50">
-				<span>{{student.name}}</span>
-			</a>
-			<a ng-if="student.url" href="http://kaelanichols.com/404/" target="_blank">
 				<img ng-src="./students/{{courseNum}}/{{student.img}}" alt="{{student.name}}" width="50">
 				<span>{{student.name}}</span>
 			</a>

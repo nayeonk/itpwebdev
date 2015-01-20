@@ -1,0 +1,177 @@
+[
+   {
+      "name":"Aitbayeva, Meruyert",
+      "img":"image.jsp",
+      "username":"aitbayev",
+      "classLevel":"U4"
+   },
+   {
+      "name":"Bock, Michael, R.",
+      "img":"image(1).jsp",
+      "username":"michaerb",
+      "classLevel":"U4",
+      "repo": "https://github.com/michaelrbock"
+   },
+   {
+      "name":"Brand, Clayton, J.",
+      "img":"image(2).jsp",
+      "username":"cbrand",
+      "classLevel":"U4"
+   },
+   {
+      "name":"Campanella-Dysart, Karl",
+      "img":"image(3).jsp",
+      "username":"kcampane",
+      "classLevel":"U4"
+   },
+   {
+      "name":"Chen, Daniel",
+      "img":"image(4).jsp",
+      "username":"dongyanc",
+      "classLevel":"U4"
+   },
+   {
+      "name":"Chin, Albert, Wei Kang",
+      "img":"image(5).jsp",
+      "username":"chinaw",
+      "classLevel":"U4"
+   },
+   {
+      "name":"Ciesielka, Michael, Anthony",
+      "img":"image(6).jsp",
+      "username":"ciesielk",
+      "classLevel":"U4"
+   },
+   {
+      "name":"Han, Andrew",
+      "img":"image(7).jsp",
+      "username":"hanandre",
+      "classLevel":"U4"
+   },
+   {
+      "name":"Johnson, Erika, Marie",
+      "img":"image(8).jsp",
+      "username":"erikajoh",
+      "classLevel":"U4"
+   },
+   {
+      "name":"Kehoe, Paige, Noel",
+      "img":"image(9).jsp",
+      "username":"pkehoe",
+      "classLevel":"U4"
+   },
+   {
+      "name":"Krant, Mark, Ryan",
+      "img":"image(10).jsp",
+      "username":"mkrant",
+      "classLevel":"U3"
+   },
+   {
+      "name":"Lau, Jonathan",
+      "img":"image(11).jsp",
+      "username":"laujonat",
+      "classLevel":"U4"
+   },
+   {
+      "name":"Ledoux, Parker, Alan",
+      "img":"image(12).jsp",
+      "username":"paledoux",
+      "classLevel":"U2"
+   },
+   {
+      "name":"Lee, Teryun",
+      "img":"image(13).jsp",
+      "username":"teryunle",
+      "classLevel":"U3"
+   },
+   {
+      "name":"Lu, Dizhen",
+      "img":"image(14).jsp",
+      "username":"dizhenlu",
+      "classLevel":"G"
+   },
+   {
+      "name":"Meyers, Michal, Netanya",
+      "img":"image(15).jsp",
+      "username":"mnmeyers",
+      "classLevel":"U4"
+   },
+   {
+      "name":"Mileham, Shane, Ryan",
+      "img":"image(16).jsp",
+      "username":"smileham",
+      "classLevel":"U3"
+   },
+   {
+      "name":"Ohriner, Kelly, Melissa",
+      "img":"image(17).jsp",
+      "username":"kohriner",
+      "classLevel":"U4"
+   },
+   {
+      "name":"Reginaldo, Johanne",
+      "img":"image(18).jsp",
+      "username":"jreginal",
+      "classLevel":"G"
+   },
+   {
+      "name":"Rose, Kelsey, Frances",
+      "img":"image(19).jsp",
+      "username":"kelseyro",
+      "classLevel":"U4"
+   },
+   {
+      "name":"Shah, Kunal, Viren",
+      "img":"image(20).jsp",
+      "username":"kunalvsh",
+      "classLevel":"U4"
+   },
+   {
+      "name":"Shen, Anpin",
+      "img":"image(21).jsp",
+      "username":"anpinshe",
+      "classLevel":"U4"
+   },
+   {
+      "name":"Shiffer, Luke",
+      "img":"image(22).jsp",
+      "username":"shiffer",
+      "classLevel":"U4"
+   },
+   {
+      "name":"Silva, Daniel, Ignacio",
+      "img":"image(23).jsp",
+      "username":"danielis",
+      "classLevel":"U4"
+   },
+   {
+      "name":"Sivakumar, Ganesh, Karthik",
+      "img":"image(24).jsp",
+      "username":"gsivakum",
+      "classLevel":"U4"
+   },
+   {
+      "name":"Strottmann, Erik, Steven",
+      "img":"image(25).jsp",
+      "username":"strottma",
+      "classLevel":"U3"
+   },
+   {
+      "name":"Wong, Jessie",
+      "img":"image(26).jsp",
+      "username":"jessiew",
+      "classLevel":"U4"
+   },
+   {
+      "name":"Yang, Maggi",
+      "img":"image(27).jsp",
+      "username":"maggiyan",
+      "classLevel":"U4"
+   },
+   {
+      "name":"Zhang, David, Tong",
+      "img":"image(28).jsp",
+      "username":"zhangdt",
+      "classLevel":"U4"
+   }
+]

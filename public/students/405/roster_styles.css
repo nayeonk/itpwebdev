@@ -1,0 +1,95 @@
+/* CSS Document */
+
+body, p, td, th, ul, ol, div, li, dt, dd { 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+
+body {
+	margin: 0px; position: relative;
+}
+
+a { 
+	text-decoration:underline; 
+	color:#990000;
+	xfont-weight:bold; 
+}
+
+xtable {
+	border-collapse: collapse;
+	border: 0px solid #ffffff; 
+}
+
+th {
+	border: 0px solid #ffffff; padding: .2em; 
+}
+
+td {
+	border: 0px solid #ffffff; padding: .5em; 
+}
+
+.clear {
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-top-width: 0px;
+	border-left-width: 0px;
+}
+
+.outline {
+	border: 1px solid #000000; 
+}
+
+.outline2 {
+	border: 1px solid #a5acb2; background-color: #FFFDBF;
+}
+
+.none {
+	border: 0px;
+	padding: 0px;
+}
+
+.large {
+	font-size:18px;
+}	
+
+.medium {
+	font-size:16px;
+}	
+
+div#nav {
+	font: bold 11px arial;
+	text-align: right;
+	position:absolute; top:82px; right:3px;	
+} 
+
+div#welcome {
+	font: bold 11px arial;
+	text-align: left;
+	position:absolute; top:82px; left:8px;	
+} 
+
+div#top {
+	position:relative; top:35px;
+} 
+
+.new {
+	border-collapse: collapse;
+	border: 1px solid #cccccc; 
+}
+
+.break {
+	page-break-after: always;
+}
+
+.tiny {
+	font: bold 10px arial;
+}
+
+div#uploadForm { 
+	display: none;
+}
+
+.wrapper {
+	margin-left: 10%;
+	margin-right: 10%
+}
