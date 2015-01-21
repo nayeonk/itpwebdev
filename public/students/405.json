@@ -28,7 +28,8 @@
       "name":"Chen, Daniel",
       "img":"image(4).jsp",
       "username":"dongyanc",
-      "classLevel":"U4"
+      "classLevel":"U4",
+      "repo": "https://github.com/dyc5828"
    },
    {
       "name":"Chin, Albert, Wei Kang",
@@ -94,7 +95,8 @@
       "name":"Meyers, Michal, Netanya",
       "img":"image(15).jsp",
       "username":"mnmeyers",
-      "classLevel":"U4"
+      "classLevel":"U4",
+      "repo": "https://github.com/mnmeyers"
    },
    {
       "name":"Mileham, Shane, Ryan",
