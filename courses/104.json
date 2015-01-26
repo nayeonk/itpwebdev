@@ -6,8 +6,10 @@
 	"time": "Mondays 5-7:50pm in KAP 160",
 	"office_hours": "TBA",
 	"ta": [
-		{ "name": "Mohit Gupta (Grader)", "email": "mohitg@usc.edu" },
-		{ "name": "TBA", "email": "TBA" }
+		{ "name": "Henry Hao - Grader ONLY", "email": "zhan849@usc.edu" },
+		{ "name": "Caleb You", "email": "sideokyo@usc.edu" },
+		{ "name": "Mohit Gupta", "email": "mohitg@usc.edu"},
+		{ "name": "Conner Frey", "email": "connerfr@usc.edu"}
 	],
 	"homework": [
 		{
@@ -144,7 +146,7 @@
 				{ "subject": "Basic HTML", "link": "basic-html" },
 				{ "subject": "FTP and uploading files to a server", "link": "ftp" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "2/2",
@@ -153,7 +155,7 @@
 				{ "subject": "Working with images", "link": "images" },
 				{ "subject": "Intro to styles", "link": "styles-intro" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "2/9",
