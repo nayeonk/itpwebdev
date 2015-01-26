@@ -3,25 +3,29 @@ Basic HTML
 
 ### Lecture Overview
 
-*   What is a web page made of? HTML, HTML Tags/Elements/objects
-*   Text Editors (Notepad, Komodo Edit)
-*   Block elements: h1, h2 ... h6, p
-*   Inline elements: em, strong, anchors;
-*   Dont forget to close your tags!
+*   Download Filezilla (Clients) [here](https://filezilla-project.org/) 
+*   Text Editors (Notepad (PC), TextEdit(Mac), Komodo Edit, etc)
+*   Concept of **Tags**
+  *   Skeleton of HTML
+  *   Block elements: h1, h2 ... h6, p
+  *   Inline elements: em, strong, anchors;
+  *   Dont forget to close your tags!
+*   Unordered lists
 *   Creating links with anchor tags
-  *   HTML attributes (href, title, target attributes), 
+  *   HTML **attributes** (href, title, target attributes), 
   *   Absolute paths and relative paths for anchor href
-*   Unordered and Ordered Lists
-*   Properly nesting HTML elements
-*   HTML document structure
+*   Creating images with img tags
+  *   more on **attributes**
 *   Self closing tags: break tag, horizontal rule
-*   style="background-color: YOUR COLOR HERE";
+*   Intro to **Styles**
+  *   Strucutre
+  *   Properties
 *   FTP, USC Server Space
 *   Lab: First Web Page
 
 ### Basic HTML
 
-*   HTML and CSS are the languages we use to create web pages. Today we will cover HTML and next class we will start CSS.
+*   HTML and CSS are the languages we use to create web pages. Today we will cover the very basics of HTML and CSS.
 *   Web servers store and serve web pages.  Browsers retrieve pages and render
       their content based on the HTML and CSS.
 *   HTML is an abbreviation for **HyperText Markup Language** and is used to
@@ -93,8 +97,8 @@ Basic HTML
 *   You can use relative paths or URLs in your anchor element's _href_ attribute to link to other web pages.  For other pages in your site,
       it's best to use relative paths, and use URLs for external links.
 *   **Absolute paths** are those that include the entire pathname (URL).
-*   Use the _id_ attribute to create a destination anchor in a page. Use
-      # followed by a destination anchor id to link to that location in a page.
+*   Use the _id_ attribute to create a destination anchor in a page. Use a hash (#)
+      followed by a destination anchor id to link to that location in a page.
 *   To help accessibility, use the _title_ attribute to provide a description
       of the link in anchor elements. This will create a hover effect that displays the title.
 *   Use the _target_ attribute to define where to open a linked document.
@@ -197,4 +201,25 @@ You may put lists inside other lists.
 	</li>
 	<li>Soda</li>
 </ul>
+```
+
+#### Images
+
+The img tag is an inline, self-closing element that displays an image file on a web page. It's core properties/attributes are:
+
+* src: the filename or path + filename for the image (such as src="mypic.gif"). This can be a relative path or an absolute path.
+* alt: the "alternate" text for the image. This is displayed in some browsers if the image fails to render on the page
+* width: how wide (in pixels) the image should be displayed 
+* height: how tall (in pixels) the image should be displayed 
+
+So a typical image element might be:
+
+```html
+<img src="dent.jpg" alt="Picture of Mr. Dent" width="75" height="75" />
+```
+
+or alternatively, you can specify the width and height as style properties:
+
+```html
+<img src="dent.jpg" alt="Picture of Mr. Dent" style="width: 75px; height: 75px;" />
 ```

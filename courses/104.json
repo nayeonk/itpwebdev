@@ -4,9 +4,12 @@
 	"instructor": "Nayeon Kim",
 	"syllabus": "http://web-app.usc.edu/soc/syllabus/20151/31806.pdf",
 	"time": "Mondays 5-7:50pm in KAP 160",
-	"office_hours": "TBA",
+	"office_hours": "Mondays 8-9pm",
+	"grader": [
+		{"name" : "Henry"}
+	],
 	"ta": [
-		{ "name": "Henry Hao - Grader ONLY", "email": "zhan849@usc.edu" },
+		{ "name": "Henry Hao [Grader ONLY]", "email": "zhan849@usc.edu" },
 		{ "name": "Caleb You", "email": "sideokyo@usc.edu" },
 		{ "name": "Mohit Gupta", "email": "mohitg@usc.edu"},
 		{ "name": "Conner Frey", "email": "connerfr@usc.edu"}
@@ -15,14 +18,14 @@
 		{
 			"name": "First web page",
 			"type": "L",
-			"due": "2/2",
+			"due": "1/26",
 			"link": "first-webpage",
 			"active": 1
 		},
 		{
 			"name": "Resume",
 			"type": "A",
-			"due": "2/2",
+			"due": "2/2 @11:59PM",
 			"link": "resume",
 			"active": 1
 		},
@@ -121,15 +124,26 @@
 
 	"weeks": [
 		{
-			"date": "1/12",
+			"date": "2/2",
 			"units": [
-				{
-					"subject": "Course intro, Web overview, HTML intro",
-					"link": "intro"
-				}
+				{ "subject": "Basic HTML review and good code", "link": "html-review-good-code" },
+				{ "subject": "Working with images", "link": "images" }
+			],
+			"active": 0
+		},
+
+		{
+			"date": "1/26",
+			"units": [
+				{ "subject": "Basic HTML", "link": "basic-html" },
+				{ "subject": "Intro to styles", "link": "styles-intro" },
+				{ "subject": "FTP and uploading files to a server", "link": "ftp" },
+				{ "subject": "Resource: Basic HTML tags & CSS properties", "link": "basic-html-tags-and-css-properties" }
+
 			],
 			"active": 1
 		},
+
 		{
 			"date": "1/19",
 			"units": [
@@ -140,23 +154,18 @@
 			],
 			"active": 1
 		},
+
 		{
-			"date": "1/26",
+			"date": "1/12",
 			"units": [
-				{ "subject": "Basic HTML", "link": "basic-html" },
-				{ "subject": "FTP and uploading files to a server", "link": "ftp" }
+				{
+					"subject": "Course intro, Web overview, HTML intro",
+					"link": "intro"
+				}
 			],
 			"active": 1
 		},
-		{
-			"date": "2/2",
-			"units": [
-				{ "subject": "Basic HTML review and good code", "link": "html-review-good-code" },
-				{ "subject": "Working with images", "link": "images" },
-				{ "subject": "Intro to styles", "link": "styles-intro" }
-			],
-			"active": 1
-		},
+		
 		{
 			"date": "2/9",
 			"units": [

@@ -1,10 +1,9 @@
 Uploading to the USC Server using FTP
 =====================================
 
-* Mac - open up Fetch
-* PC - open FileZilla
+* Open up FileZilla (or Fetch or other FTP clients)
 
-Fetch and FileZilla are FTP (File Transfer Protocol) programs that allow you to transfer your web pages from your computer to another server.
+FileZilla is a FTP (File Transfer Protocol) program that allow you to transfer your web pages from your computer to another server.
 
 All USC students have space on the USC server. Launch the FTP program
 and type in the following information:
@@ -15,4 +14,4 @@ and type in the following information:
 -   For Fetch, choose SFTP (Secure FTP) from the dropdown menu.
 -   On FileZilla, type in 22 for the port number.
 
-Both Filezilla (PC) and Fetch (Mac) are available for free download from the [USC software site](http://www.usc.edu/its/software/)
+Filezilla is available for free download from [here](https://filezilla-project.org/) or the [USC software site](http://www.usc.edu/its/software/)
