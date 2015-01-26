@@ -23,7 +23,8 @@
       "name":"Campanella-Dysart, Karl",
       "img":"image(3).jsp",
       "username":"kcampane",
-      "classLevel":"U4"
+      "classLevel":"U4",
+      "repo": "https://bitbucket.org/karlCampanellaDysart"
    },
    {
       "name":"Chen, Daniel",
@@ -48,7 +49,8 @@
       "name":"Han, Andrew",
       "img":"image(7).jsp",
       "username":"hanandre",
-      "classLevel":"U4"
+      "classLevel":"U4",
+      "repo": "https://github.com/Handroo"
    },
    {
       "name":"Johnson, Erika, Marie",
@@ -90,7 +92,8 @@
       "name":"Lu, Dizhen",
       "img":"image(14).jsp",
       "username":"dizhenlu",
-      "classLevel":"G"
+      "classLevel":"G",
+      "repo": "https://github.com/LonginusDi"
    },
    {
       "name":"Meyers, Michal, Netanya",
@@ -145,7 +148,8 @@
       "name":"Silva, Daniel, Ignacio",
       "img":"image(23).jsp",
       "username":"danielis",
-      "classLevel":"U4"
+      "classLevel":"U4",
+      "repo": "https://github.com/Danielis"
    },
    {
       "name":"Sivakumar, Ganesh, Karthik",
@@ -157,7 +161,8 @@
       "name":"Strottmann, Erik, Steven",
       "img":"image(25).jsp",
       "username":"strottma",
-      "classLevel":"U3"
+      "classLevel":"U3",
+      "repo": "https://github.com/erikstrottmann"
    },
    {
       "name":"Wong, Jessie",
