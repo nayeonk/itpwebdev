@@ -3,7 +3,8 @@
       "name":"Aitbayeva, Meruyert",
       "img":"image.jsp",
       "username":"aitbayev",
-      "classLevel":"U4"
+      "classLevel":"U4",
+      "repo": "https://github.com/aitbayev"
    },
    {
       "name":"Bock, Michael, R.",
@@ -43,7 +44,8 @@
       "name":"Ciesielka, Michael, Anthony",
       "img":"image(6).jsp",
       "username":"ciesielk",
-      "classLevel":"U4"
+      "classLevel":"U4",
+      "repo": "https://bitbucket.org/maciesielka"
    },
    {
       "name": "Dorsey, Alexa",
@@ -130,7 +132,8 @@
       "name":"Rose, Kelsey, Frances",
       "img":"image(19).jsp",
       "username":"kelseyro",
-      "classLevel":"U4"
+      "classLevel":"U4",
+      "repo": "https://github.com/kelseyfrose"
    },
    {
       "name":"Shah, Kunal, Viren",
@@ -149,7 +152,8 @@
       "name":"Shiffer, Luke",
       "img":"image(22).jsp",
       "username":"shiffer",
-      "classLevel":"U4"
+      "classLevel":"U4",
+      "repo": "https://bitbucket.org/Luk3"
    },
    {
       "name":"Silva, Daniel, Ignacio",
@@ -182,7 +186,8 @@
       "name":"Yang, Maggi",
       "img":"image(27).jsp",
       "username":"maggiyan",
-      "classLevel":"U4"
+      "classLevel":"U4",
+      "repo": "https://github.com/maggiyang"
    },
    {
       "name":"Zhang, David, Tong",
