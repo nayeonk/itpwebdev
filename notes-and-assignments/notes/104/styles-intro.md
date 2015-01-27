@@ -52,3 +52,12 @@ Some basic tips about assigning style properties:
 There are a LOT of style properties you can play with. Some effect text, some will only effect images, and some will effect objects we have not gotten to yet. Try playing around with setting some of them through span tag.
 
 Here is a pretty exhaustive list of CSS properties: [Mozilla CSS Reference](https://developer.mozilla.org/en-US/docs/CSS/CSS_Reference).
+
+
+###Files from 1/26 Lecture
+
+These are the HTML files I created with you during lecture. Feel free to reference them for your labs/assignments. To view the code, click the file to open, right click on the page, click View Source. 
+
+* [demo.html](/demos/104/W3/demo.html)
+* [classpage.html](/demos/104/W3/classpage.html)
+
