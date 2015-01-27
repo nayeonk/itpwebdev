@@ -3,7 +3,8 @@
       "name":"Aitbayeva, Meruyert",
       "img":"image.jsp",
       "username":"aitbayev",
-      "classLevel":"U4"
+      "classLevel":"U4",
+      "repo": "https://github.com/aitbayev"
    },
    {
       "name":"Bock, Michael, R.",
@@ -43,7 +44,13 @@
       "name":"Ciesielka, Michael, Anthony",
       "img":"image(6).jsp",
       "username":"ciesielk",
-      "classLevel":"U4"
+      "classLevel":"U4",
+      "repo": "https://bitbucket.org/maciesielka"
+   },
+   {
+      "name": "Dorsey, Alexa",
+      "img": "dorsey.jpeg",
+      "repo": "https://github.com/alexadorsey"
    },
    {
       "name":"Han, Andrew",
@@ -68,7 +75,8 @@
       "name":"Krant, Mark, Ryan",
       "img":"image(10).jsp",
       "username":"mkrant",
-      "classLevel":"U3"
+      "classLevel":"U3",
+      "repo": "https://github.com/MarkKrant"
    },
    {
       "name":"Lau, Jonathan",
@@ -124,13 +132,15 @@
       "name":"Rose, Kelsey, Frances",
       "img":"image(19).jsp",
       "username":"kelseyro",
-      "classLevel":"U4"
+      "classLevel":"U4",
+      "repo": "https://github.com/kelseyfrose"
    },
    {
       "name":"Shah, Kunal, Viren",
       "img":"image(20).jsp",
       "username":"kunalvsh",
-      "classLevel":"U4"
+      "classLevel":"U4",
+      "repo": "https://github.com/kunalvsh"
    },
    {
       "name":"Shen, Anpin",
@@ -142,7 +152,8 @@
       "name":"Shiffer, Luke",
       "img":"image(22).jsp",
       "username":"shiffer",
-      "classLevel":"U4"
+      "classLevel":"U4",
+      "repo": "https://bitbucket.org/Luk3"
    },
    {
       "name":"Silva, Daniel, Ignacio",
@@ -168,13 +179,15 @@
       "name":"Wong, Jessie",
       "img":"image(26).jsp",
       "username":"jessiew",
-      "classLevel":"U4"
+      "classLevel":"U4",
+      "repo": "https://github.com/howdyjessie"
    },
    {
       "name":"Yang, Maggi",
       "img":"image(27).jsp",
       "username":"maggiyan",
-      "classLevel":"U4"
+      "classLevel":"U4",
+      "repo": "https://github.com/maggiyang"
    },
    {
       "name":"Zhang, David, Tong",
