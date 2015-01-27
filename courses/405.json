@@ -24,11 +24,11 @@
       "active": 1
     },
     {
-      "name": "Insert Pages using Classes",
+      "name": "Song Insert Page",
       "type": "A",
-      "due": "2/4",
+      "due": "2/3",
       "link": "oop",
-      "active": 0
+      "active": 1
     },
     {
       "name": "Authentication",
@@ -135,22 +135,22 @@
       "active": 1
     },
     {
-      "date": "1/28",
+      "date": "1/27",
       "units": [
         {
-          "subject": "Object Oriented Programming Part 2: Custom classes",
-          "link": "https://www.dropbox.com/s/6xiuzmi9qh765fu/oop.pdf"
+          "subject": "Object Oriented Programming in PHP Overview",
+          "link": "php-oop"
         },
         {
-          "subject": "PHP OOS Ch 1 (optional)",
-          "link": ""
+          "subject": "Reading: PHP OOS Ch 1, 2",
+          "link": "php-oos"
         },
         {
-          "subject": "Object Oriented PHP blog article",
-          "link": "http://net.tutsplus.com/tutorials/php/object-oriented-php-for-beginners/"
+          "subject": "Class demo",
+          "link": "https://bitbucket.org/skaterdav85/itp405-lecture3-2015"
         }
       ],
-      "active": 0
+      "active": 1
     },
     {
       "date": "2/4",

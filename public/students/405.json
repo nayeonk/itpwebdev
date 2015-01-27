@@ -46,6 +46,11 @@
       "classLevel":"U4"
    },
    {
+      "name": "Dorsey, Alexa",
+      "img": "dorsey.jpeg",
+      "repo": "https://github.com/alexadorsey"
+   },
+   {
       "name":"Han, Andrew",
       "img":"image(7).jsp",
       "username":"hanandre",
@@ -130,7 +135,8 @@
       "name":"Shah, Kunal, Viren",
       "img":"image(20).jsp",
       "username":"kunalvsh",
-      "classLevel":"U4"
+      "classLevel":"U4",
+      "repo": "https://github.com/kunalvsh"
    },
    {
       "name":"Shen, Anpin",
@@ -168,7 +174,8 @@
       "name":"Wong, Jessie",
       "img":"image(26).jsp",
       "username":"jessiew",
-      "classLevel":"U4"
+      "classLevel":"U4",
+      "repo": "https://bitbucket.org/howdyjessie"
    },
    {
       "name":"Yang, Maggi",
