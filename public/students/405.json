@@ -73,7 +73,8 @@
       "name":"Krant, Mark, Ryan",
       "img":"image(10).jsp",
       "username":"mkrant",
-      "classLevel":"U3"
+      "classLevel":"U3",
+      "repo": "https://github.com/MarkKrant"
    },
    {
       "name":"Lau, Jonathan",
