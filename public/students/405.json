@@ -25,7 +25,7 @@
       "img":"image(3).jsp",
       "username":"kcampane",
       "classLevel":"U4",
-      "repo": "https://bitbucket.org/karlCampanellaDysart"
+      "repo": "https://github.com/KarlCampanellaDysart"
    },
    {
       "name":"Chen, Daniel",
@@ -38,7 +38,8 @@
       "name":"Chin, Albert, Wei Kang",
       "img":"image(5).jsp",
       "username":"chinaw",
-      "classLevel":"U4"
+      "classLevel":"U4",
+      "repo": "https://github.com/albertwkchin"
    },
    {
       "name":"Ciesielka, Michael, Anthony",
@@ -63,13 +64,15 @@
       "name":"Johnson, Erika, Marie",
       "img":"image(8).jsp",
       "username":"erikajoh",
-      "classLevel":"U4"
+      "classLevel":"U4",
+      "repo": "https://github.com/erikamj"
    },
    {
       "name":"Kehoe, Paige, Noel",
       "img":"image(9).jsp",
       "username":"pkehoe",
-      "classLevel":"U4"
+      "classLevel":"U4",
+      "repo": "https://github.com/paigekehoe"
    },
    {
       "name":"Krant, Mark, Ryan",
@@ -79,22 +82,29 @@
       "repo": "https://github.com/MarkKrant"
    },
    {
+      "name": "Kumar, Kushaan",
+      "repo": "https://github.com/kushaank"
+   },
+   {
       "name":"Lau, Jonathan",
       "img":"image(11).jsp",
       "username":"laujonat",
-      "classLevel":"U4"
+      "classLevel":"U4",
+      "repo": "https://github.com/laujonat"
    },
    {
       "name":"Ledoux, Parker, Alan",
       "img":"image(12).jsp",
       "username":"paledoux",
-      "classLevel":"U2"
+      "classLevel":"U2",
+      "repo": "https://bitbucket.org/parkerledoux/"
    },
    {
       "name":"Lee, Teryun",
       "img":"image(13).jsp",
       "username":"teryunle",
-      "classLevel":"U3"
+      "classLevel":"U3",
+      "repo": "https://github.com/teryun93/"
    },
    {
       "name":"Lu, Dizhen",
@@ -114,7 +124,8 @@
       "name":"Mileham, Shane, Ryan",
       "img":"image(16).jsp",
       "username":"smileham",
-      "classLevel":"U3"
+      "classLevel":"U3",
+      "repo": "https://github.com/shanemileham"
    },
    {
       "name":"Ohriner, Kelly, Melissa",
@@ -146,7 +157,8 @@
       "name":"Shen, Anpin",
       "img":"image(21).jsp",
       "username":"anpinshe",
-      "classLevel":"U4"
+      "classLevel":"U4",
+      "repo": "https://github.com/anpinshe"
    },
    {
       "name":"Shiffer, Luke",
@@ -166,7 +178,8 @@
       "name":"Sivakumar, Ganesh, Karthik",
       "img":"image(24).jsp",
       "username":"gsivakum",
-      "classLevel":"U4"
+      "classLevel":"U4",
+      "repo": "https://github.com/ganeshs93"
    },
    {
       "name":"Strottmann, Erik, Steven",
@@ -193,6 +206,7 @@
       "name":"Zhang, David, Tong",
       "img":"image(28).jsp",
       "username":"zhangdt",
-      "classLevel":"U4"
+      "classLevel":"U4",
+      "repo": "https://github.com/dablosmo"
    }
 ]
