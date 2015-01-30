@@ -8,13 +8,13 @@
 		<span>{{course.time}},</span>
 		<a href="{{course.syllabus}}" target="_blank">Syllabus</a>
 	</p>
-	<p>
+	<p ng-if="course.ta.length > 0">
 		<strong>Teaching Assistants:</strong>
 		<span class="tas">
 			<a ng-repeat="ta in course.ta" href="mailto: {{ta.email}}">{{ta.name}} ({{ta.email}})</a>
 		</span>
 	</p>
-	<p>
+	<p ng-if="course.office_hours">
 		<strong>Office Hours:</strong>
 		<span>{{course.office_hours}}</span>
 	</p>

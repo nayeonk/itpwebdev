@@ -4,10 +4,7 @@
 	"instructor": "David Tang",
 	"syllabus": "http://web-app.usc.edu/soc/syllabus/20151/32074.pdf",
 	"time": "Tuesdays 6-8:50pm in SGM 601",
-	"office_hours": "TBA",
-	"ta": [
-		{ "name": "Priyanka Sathyanarayan Vaishnav", "email": "priyankv@usc.edu" }
-	],
+	"ta": [],
 	"homework": [
 		{
 			"name": "Environment setup",
