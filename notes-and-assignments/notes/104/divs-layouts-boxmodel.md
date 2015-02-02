@@ -2,6 +2,7 @@ Divs &amp; Layouts, Floats, &amp; The Box Model
 ===============================================
 
 ### Overview
+* Recreating this article: http://www.nytimes.com/2015/02/02/sports/football/patriots-win-super-bowl-xlix-defeating-seahawks.html
 * styles review
 * floats (floating an image right and left w/ a paragraph that wraps around it)
 	* margin property
