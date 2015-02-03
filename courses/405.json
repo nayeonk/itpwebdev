@@ -21,18 +21,18 @@
       "active": 1
     },
     {
-      "name": "Song Insert Page",
+      "name": "Song Insert Page - Part 1",
       "type": "A",
       "due": "2/3",
       "link": "oop",
       "active": 1
     },
     {
-      "name": "Authentication",
+      "name": "Song Insert Page - Part 2",
       "type": "A",
-      "due": "2/22",
-      "link": "authentication",
-      "active": 0
+      "due": "2/10",
+      "link": "song-insert-part2",
+      "active": 1
     },
     {
       "name": "DVD Search Page (Laravel)",
@@ -150,10 +150,10 @@
       "active": 1
     },
     {
-      "date": "2/4",
+      "date": "2/3",
       "units": [
         {
-          "subject": "Namespacing, autoloading, & dependency management",
+          "subject": "Namespacing, autoloading, Composer, and Flash Messages",
           "link": "autoloading-and-namespacing"
         },
         {
@@ -161,19 +161,11 @@
           "link": "installing-composer"
         },
         {
-          "subject": "Reading - PSR Huh?",
-          "link": "http://net.tutsplus.com/tutorials/php/psr-huh/"
-        },
-        {
-          "subject": "Reading - Easy package management with Composer",
-          "link": "http://net.tutsplus.com/tutorials/php/easy-package-management-with-composer/"
-        },
-        {
-          "subject": "Reading - PSR0 vs PSR4",
-          "link": "http://www.sitepoint.com/battle-autoloaders-psr-0-vs-psr-4/"
+          "subject": "Class demo",
+          "link": "https://bitbucket.org/skaterdav85/itp405-lecture4-2015/src"
         }
       ],
-      "active": 0
+      "active": 1
     },
     {
       "date": "2/11",
