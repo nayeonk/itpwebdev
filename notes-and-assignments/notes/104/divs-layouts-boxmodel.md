@@ -114,3 +114,8 @@ Now it's time to plan out the main interiror of the layout space. Do you want an
 3.  Will the page have an overall navigation (generally yes). Will it be Left, Right or Top aligned? Is it a fully separated column or will it "float" within other content?
 4.  Outside of the navigation, will the main page have multiple columns or one main column?
 5.  What kind of background colors and images will weave throughout the page?
+
+
+### Files from lecture:
+These are the HTML files I created with you during lecture. Feel free to reference them for your labs/assignments. To view the code, click the file to open, right click on the page, click View Source. You can also right click, save as.. to save the page on your computer.
+* [article.html](/demos/104/W3/article.html)
