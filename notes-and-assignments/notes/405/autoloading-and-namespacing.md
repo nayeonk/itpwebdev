@@ -113,6 +113,7 @@ if (isset($_POST['submit'])) {
 
 ### Resources
 
+* [Namespaces Explained](http://daylerees.com/php-namespaces-explained)
 * [PHP Namespacing](http://code.tutsplus.com/tutorials/namespacing-in-php--net-27203)
 * [Easy Package Management with Composer](http://code.tutsplus.com/tutorials/easy-package-management-with-composer--net-25530)
 * [What is composer.lock?](https://blog.engineyard.com/2014/composer-its-all-about-the-lock-file)
