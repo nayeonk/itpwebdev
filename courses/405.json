@@ -79,28 +79,60 @@
 	],
 
 	"weeks": [
-		{
-			"date": "1/12",
-			"units": [
-				{
-					"subject": "Course Introduction",
-					"link": "introduction"
-				},
+    {
+      "date": "2/10",
+      "units": [
         {
-          "subject": "Environment setup",
+          "subject": "What is MVC?",
           "link": ""
         },
-				{
-					"subject": "Command Line (CLI) Basics",
-					"link": "command-line-basics"
-				},
         {
-          "subject": "LAB: Object Oriented Programming Workshop 1 (optional)",
-          "link": "oop-workshop-1"
+          "subject": "Controllers, Views, and the Query Builder in Laravel 5",
+          "link": ""
+        },
+        {
+          "subject": "Class demo",
+          "link": ""
         }
-			],
-			"active": 1
-		},
+      ],
+      "active": 1
+    },
+    {
+      "date": "2/3",
+      "units": [
+        {
+          "subject": "Namespacing, autoloading, Composer, and Flash Messages",
+          "link": "autoloading-and-namespacing"
+        },
+        {
+          "subject": "Installing Composer",
+          "link": "installing-composer"
+        },
+        {
+          "subject": "Class demo",
+          "link": "https://bitbucket.org/skaterdav85/itp405-lecture4-2015/src"
+        }
+      ],
+      "active": 1
+    },
+    {
+      "date": "1/27",
+      "units": [
+        {
+          "subject": "Object Oriented Programming in PHP Overview",
+          "link": "php-oop"
+        },
+        {
+          "subject": "Reading: PHP OOS Ch 1, 2",
+          "link": "php-oos"
+        },
+        {
+          "subject": "Class demo",
+          "link": "https://bitbucket.org/skaterdav85/itp405-lecture3-2015"
+        }
+      ],
+      "active": 1
+    },
     {
       "date": "1/20",
       "units": [
@@ -131,56 +163,28 @@
       ],
       "active": 1
     },
-    {
-      "date": "1/27",
-      "units": [
+		{
+			"date": "1/12",
+			"units": [
+				{
+					"subject": "Course Introduction",
+					"link": "introduction"
+				},
         {
-          "subject": "Object Oriented Programming in PHP Overview",
-          "link": "php-oop"
+          "subject": "Environment setup",
+          "link": ""
         },
+				{
+					"subject": "Command Line (CLI) Basics",
+					"link": "command-line-basics"
+				},
         {
-          "subject": "Reading: PHP OOS Ch 1, 2",
-          "link": "php-oos"
-        },
-        {
-          "subject": "Class demo",
-          "link": "https://bitbucket.org/skaterdav85/itp405-lecture3-2015"
+          "subject": "LAB: Object Oriented Programming Workshop 1 (optional)",
+          "link": "oop-workshop-1"
         }
-      ],
-      "active": 1
-    },
-    {
-      "date": "2/3",
-      "units": [
-        {
-          "subject": "Namespacing, autoloading, Composer, and Flash Messages",
-          "link": "autoloading-and-namespacing"
-        },
-        {
-          "subject": "Installing Composer",
-          "link": "installing-composer"
-        },
-        {
-          "subject": "Class demo",
-          "link": "https://bitbucket.org/skaterdav85/itp405-lecture4-2015/src"
-        }
-      ],
-      "active": 1
-    },
-    {
-      "date": "2/11",
-      "units": [
-        {
-          "subject": "MVC Theory (slides)",
-          "link": "https://www.dropbox.com/s/ekumojddtyhiuqz/mvc.pdf"
-        },
-        {
-          "subject": "Class overview and Installation",
-          "link": "mvc1"
-        }
-      ],
-      "active": 0
-    },
+			],
+			"active": 1
+		},
     {
       "date": "2/18",
       "units": [
