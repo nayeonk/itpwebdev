@@ -1,16 +1,16 @@
 Divs continued & Stylesheets
 ============================
 
-Save the following files for lecture:
-* [Centering example](http://itpwebdev.heroku.com/notes-examples/104/div_centered.html)
-* [Floats starter](http://itpwebdev.heroku.com/notes-examples/104/page-no-clears.html)
+Save the following files for lecture (right click on page, click Save As...):
+* [Centering example](notes-examples/104/div_centered.html)
+* [Floats starter](notes-examples/104/page-no-clears.html)
+* [Instagram Photo Grid](notes-examples/104/gallery_start.html)
 
-### Overview
+### Lecture Overview
 
-* divs and floats review
-* centering divs w/ margin
-* floating issues (examples)
-* box model review
+* Review centering
+* Floating issues (examples) and how to clear floats
+* Building "grid"-like layouts
 * Stylesheets
 	* stylesheets vs inline styles?
 	* style tag in the head
@@ -18,13 +18,14 @@ Save the following files for lecture:
 	* Class selectors
 	* Tag selectors
 	* style precedence
+* Instagram Photo Grid demo
 
 
-### Centering
+### Review Centering
 
 * To center a BOX -- use a style instruction of "margin: auto" in conjunction with a DEFINED width to make a div/container be "centered" within its area.
 * To center an image or text, add a style instruction of "text-align: center" to its container (or wrap a container/box around it first). That will make the contents (text and images) lay out down the center of the box.
-* See this [centering example](http://itpwebdev.usc.edu/notes-examples/104/div_centered.html): one box is normal (left) positioned on the page, whereas the second one is "centered". And notice that inside of the first box its text is centered down the middle.
+* See this [centering example](notes-examples/104/div_centered.html): one box is normal (left) positioned on the page, whereas the second one is "centered". And notice that inside of the first box its text is centered down the middle.
 
  
 ### Clearing floats
@@ -32,7 +33,7 @@ Save the following files for lecture:
 * If you are having problems with floating elements overlapping or overrunning elements, stop and think if you need a clear:both to divide up "sections" of your page.
 * Clear "resets" float settings, which basically means items after a "clear:both" will wait until all current floating elements have finished/closed before the new divs appear/are laid out.
 * The simplest way to do a clear is with a tag such as 
-* See [this example with clears](http://itpwebdev.usc.edu/notes-examples/104/div-clear.html) and [this page with no clears](http://itpwebdev.usc.edu/notes-examples/104/page-no-clears.html). In the top section the pink box is is overlapping from section1 to section2. But the yellow box lower runs over the end of product 3 but does NOT go into product4, and the white box inside product 4 extends the product4 section until it is completed.
+* See [this example with clears](notes-examples/104/div-clear.html) and [this page with no clears](notes-examples/104/page-no-clears.html). In the top section the pink box is is overlapping from section1 to section2. But the yellow box lower runs over the end of product 3 but does NOT go into product4, and the white box inside product 4 extends the product4 section until it is completed.
 
  
 ### Building "grid"-like layouts
@@ -66,26 +67,54 @@ Save the following files for lecture:
 Sample stylesheet (which would be inside a style block in the head):
 
 ```css
-/* 
- Applied to any element with an id attribute equal to outercontainer. 
- Remember, id attributes should be unique on every page.
-*/
-#outercontainer { 
-	margin:auto; 
-	width:90%; 
-}
+<html>
+	<head>
+		<style>
+			/* 
+			 Applied to any element with an id attribute equal to outercontainer. 
+			 Remember, id attributes should be unique on every page.
+			*/
+			#outercontainer { 
+				margin:auto; 
+				width:90%; 
+			}
 
-/* these styles will be applyed to any HTML element with a class attribute of bluebox */
-.bluebox { 
-	width: 200px; 
-	float: right; 
-	background-color: blue; 
-	border: solid 2px black;
-}
+			/* these styles will be applyed to any HTML element with a class attribute of bluebox */
+			.bluebox { 
+				width: 200px; 
+				float: right; 
+				background-color: blue; 
+				border: solid 2px black;
+			}
 
-/* These styles will be applied to all anchors */
-a { 
-	text-decoration: none; 
-	color: purple;
-}
+			/* These styles will be applied to all anchors */
+			a { 
+				text-decoration: none; 
+				color: purple;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="outercontainer">
+			This is the outercontainer. It will have a width of 90% and margin auto.
+
+			<div class="bluebox">
+				This is div with a class of bluebox. It has a width of 200 px, float right, border, and blue background color.
+			</div>
+
+			<div class="bluebox">
+				This is another div with a class of bluebox. This will look exactly same as the div above because it has the same class.
+			</div>
+		</div>
+	</body>
+</html>
 ```
+
+
+###Instagram Photo Grid Demo
+To learn more about the grid layouts we are going to re-create an instagram page during today's lecture:
+
+<img width="45%" src="/images/instagram_screenshot.png"/> 
+
+The finished demo file will be uploaded to this [link]() when lecture is finished. 

@@ -124,6 +124,17 @@
 
 	"weeks": [
 		{
+			"date": "2/9",
+			"units": [
+				{
+					"subject": "Intro to Stylesheets, div layouts continued",
+					"link": "divs-continued-stylesheets"
+				}
+			],
+			"active": 1
+		},
+
+		{
 			"date": "2/2",
 			"units": [
 				{ "subject": "Divs & layouts, floats, and the box model", "link": "divs-layouts-boxmodel" }
@@ -165,16 +176,6 @@
 			"active": 1
 		},
 		
-		{
-			"date": "2/9",
-			"units": [
-				{
-					"subject": "Divs & layouts, floats, and the box model",
-					"link": "divs-layouts-boxmodel"
-				}
-			],
-			"active": 0
-		},
 		{
 			"date": "2/16",
 			"units": [
