@@ -39,9 +39,9 @@
 		{
 			"name": "Calendar",
 			"type": "A",
-			"due": "3/3",
+			"due": "2/16 @5PM ",
 			"link": "calendar",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "Survey",
