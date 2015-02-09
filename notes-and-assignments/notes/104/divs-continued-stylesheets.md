@@ -4,7 +4,7 @@ Divs continued & Stylesheets
 Save the following files for lecture (right click on page, click Save As...):
 * [Centering example](notes-examples/104/div_centered.html)
 * [Floats starter](notes-examples/104/page-no-clears.html)
-* [Instagram Photo Grid](notes-examples/104/gallery_start.html)
+* [Instagram Photo Grid starter](demos/104/W5/gallery_start.html)
 
 ### Lecture Overview
 
