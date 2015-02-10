@@ -41,6 +41,11 @@ Save the following files for lecture (right click on page, click Save As...):
 * If you want to lay out lots of boxes evenly spaced out like a grid, you need to calculate their sizes AND their margins/paddings, then set an outer box that is that total.
 * So imagine you want a X by Y set of boxes like the picture to the right. If each box is 50 pixels, with 5 pixel margins and 5 pixels padding, that means each box is really 70 pixels (50 width + 5 left margin + 5 right margin + 5 left padding + 5 right padding), so four boxes x 70 pixels = all four boxes would take up 280 pixels across.. and if you set up a 4x4 grid that would be 280 x 280 pixels.... So a container for all 16 boxes (if the container ITSELf has zero padding and zero margins) would need to be 280 x 280.
 * But if you just put all those divs together, they would not stack. So each "row" of boxes need to all have the same float (like float:left), AND you need to "reset" the floats after each row.
+
+This is the drawing from today's class to help you visualize the grid layout:
+
+<img width="500px;" src="demos/104/W5/grid.jpg">
+
  
 
 ### Internal Stylesheets
@@ -117,4 +122,6 @@ To learn more about the grid layouts we are going to re-create an instagram page
 
 <img width="45%" src="/images/instagram_screenshot.png"/> 
 
-The finished demo file will be uploaded to this [link]() when lecture is finished. 
+The finished demo file will be uploaded to this [link](demos/104/W5/gallery_end.html) when lecture is finished. 
+
+To get the calendar starter click [here](demos/104/W5/calendar.html)

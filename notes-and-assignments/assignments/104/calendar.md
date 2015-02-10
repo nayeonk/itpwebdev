@@ -6,7 +6,7 @@ Using divs, create a web page that is a graphic calendar of your birth month.
 **REQUIREMENTS:**
 
 * The overall calendar should have a set width, and there should be a unique background color for the whole calendar
-* Across the top of the calendar you should have a graphic in the background, with the name of the month and the year __on top of it__. This can be done through a background image in css and text in the cell. The text can be on "top" of the graphic, or to the side. Alternatively, if you prefer, you can create a graphic that has the month+year on top of an image. __Note: We will be starting graphic creation in two weeks. So a self-created image is optional__.
+* Across the top of the calendar you should have a graphic in the background, with the name of the month and the year __on top of it__. This can be done through a background image in css and text in the cell. The text can be on "top" of the graphic, or to the side. You can also simply have a graphic on top of the month. Alternatively, if you prefer, you can create a graphic that has the month+year on top of an image. __Note: We will be starting graphic creation in two weeks. So a self-created image is optional__.
 	* This div must have a unique background color
 * In the body of the calendar, which should have seven columns (for each day of the week). There should be one "header" row that lists the days of the month (at the top of each column).
 * Each 'day' of the calendar should have the number representing that day.
