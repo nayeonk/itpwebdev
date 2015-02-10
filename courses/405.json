@@ -39,7 +39,7 @@
       "type": "A",
       "due": "2/22",
       "link": "mvc1",
-      "active": 0
+      "active": 1
     },
     {
       "name": "DVD Pages with Eloquent (Laravel)",
@@ -87,12 +87,12 @@
           "link": ""
         },
         {
-          "subject": "Controllers, Views, and the Query Builder in Laravel 5",
-          "link": ""
+          "subject": "Controllers, Views, and Models with the Query Builder in Laravel 5",
+          "link": "http://laravel.com/docs/5.0"
         },
         {
           "subject": "Class demo",
-          "link": ""
+          "link": "https://bitbucket.org/skaterdav85/itp405-lecture5-2015/src"
         }
       ],
       "active": 1
