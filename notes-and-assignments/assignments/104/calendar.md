@@ -15,7 +15,7 @@ Using divs, create a web page that is a graphic calendar of your birth month.
 	* feature a unique background color
 	* have a small graphic in the cell for that day
 * All of the days of the month should uniform sizes and should be relatively square.
-* Styles: The CSS properties of main calendar box can be coded inline (directly its div tag), BUT the standard properties for the "day" boxes must be defined by creating a "class" named ".daystyle". The ".daystyle" must have all the style properties to set up all the days of the calendar. For example, it should have the width, height, text-align, and etc.
+* Styles: The CSS properties of main calendar box can be coded inline (directly its div tag), BUT the standard properties for the "day" boxes must be defined by creating a "class". It can be named ".day" or ".daystyle," etc. Naming is up to you but it is recommended to use a name that clearly defines what this class is. 
 
 ### Some past examples:
 
