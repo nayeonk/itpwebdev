@@ -80,17 +80,27 @@
 
 	"weeks": [
     {
-      "date": "3/11",
+      "date": "3/17",
       "units": [
         {
-          "subject": "Midterm - Last updated 3/4 2:13am",
-          "link": "midterm"
+          "subject": "Spring Break",
+          "link": ""
         }
       ],
       "active": 0
     },
     {
-      "date": "3/4",
+      "date": "3/10",
+      "units": [
+        {
+          "subject": "Midterm",
+          "link": ""
+        }
+      ],
+      "active": 0
+    },
+    {
+      "date": "3/3",
       "units": [
         {
           "subject": "Testing Overview and PHPUnit introduction (slides)",
@@ -111,7 +121,7 @@
       "date": "2/24",
       "units": [
         {
-          "subject": "Object Relational Mapping - Part 2",
+          "subject": "Object Relational Mapping",
           "link": ""
         }
       ],
@@ -129,11 +139,11 @@
           "link": ""
         },
         {
-          "subject": "Blade Templating",
+          "subject": "PHP Traits",
           "link": ""
         },
         {
-          "subject": "Object Relational Mapping - Part 1",
+          "subject": "Blade Templating",
           "link": ""
         }
       ],
@@ -245,16 +255,6 @@
 			],
 			"active": 1
 		},
-    {
-      "date": "3/18",
-      "units": [
-        {
-          "subject": "Spring Break",
-          "link": ""
-        }
-      ],
-      "active": 0
-    },
     {
       "date": "3/25",
       "units": [
