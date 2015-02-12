@@ -108,15 +108,11 @@
       "active": 0
     },
     {
-      "date": "2/18",
+      "date": "2/24",
       "units": [
         {
-          "subject": "Object Relational Mapping (ORM)",
-          "link": "https://www.dropbox.com/s/hd05p9xwtzmicls/orm.pdf"
-        },
-        {
-          "subject": "Redirects, url helpers, & flash messages in Laravel",
-          "link": "laravel-misc"
+          "subject": "Object Relational Mapping - Part 2",
+          "link": ""
         }
       ],
       "active": 0
