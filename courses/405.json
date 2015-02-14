@@ -80,6 +80,76 @@
 
 	"weeks": [
     {
+      "date": "3/17",
+      "units": [
+        {
+          "subject": "Spring Break",
+          "link": ""
+        }
+      ],
+      "active": 0
+    },
+    {
+      "date": "3/10",
+      "units": [
+        {
+          "subject": "Midterm",
+          "link": ""
+        }
+      ],
+      "active": 0
+    },
+    {
+      "date": "3/3",
+      "units": [
+        {
+          "subject": "Testing Overview and PHPUnit introduction (slides)",
+          "link": "https://www.dropbox.com/s/3kj0g982u5xkatv/unit-testing.pdf"
+        },
+        {
+          "subject": "Demo overview",
+          "link": "testing-demo-overview"
+        },
+        {
+          "subject": "Resource: PHPUnit Documentation",
+          "link": "http://phpunit.de/"
+        }
+      ],
+      "active": 0
+    },
+    {
+      "date": "2/24",
+      "units": [
+        {
+          "subject": "Object Relational Mapping",
+          "link": ""
+        }
+      ],
+      "active": 0
+    },
+    {
+      "date": "2/17",
+      "units": [
+        {
+          "subject": "Data Validation",
+          "link": ""
+        },
+        {
+          "subject": "Flash Messages",
+          "link": ""
+        },
+        {
+          "subject": "PHP Traits",
+          "link": ""
+        },
+        {
+          "subject": "Blade Templating",
+          "link": ""
+        }
+      ],
+      "active": 1
+    },
+    {
       "date": "2/10",
       "units": [
         {
@@ -185,76 +255,6 @@
 			],
 			"active": 1
 		},
-    {
-      "date": "2/18",
-      "units": [
-        {
-          "subject": "Object Relational Mapping (ORM)",
-          "link": "https://www.dropbox.com/s/hd05p9xwtzmicls/orm.pdf"
-        },
-        {
-          "subject": "Redirects, url helpers, & flash messages in Laravel",
-          "link": "laravel-misc"
-        }
-      ],
-      "active": 0
-    },
-    {
-      "date": "2/25",
-      "units": [
-        {
-          "subject": "Assignment Tips: Eager loading related models with constraints",
-          "link": "https://github.com/skaterdav85/499-laravel-examples2/blob/related-model-constraints/laravel/app/routes.php"
-        },
-        {
-          "subject": "Where do we put things? - Data Validation",
-          "link": "data-validation"
-        },
-        {
-          "subject": "Where do we put things? - Services",
-          "link": "services"
-        }
-      ],
-      "active": 0
-    },
-    {
-      "date": "3/4",
-      "units": [
-        {
-          "subject": "Testing Overview and PHPUnit introduction (slides)",
-          "link": "https://www.dropbox.com/s/3kj0g982u5xkatv/unit-testing.pdf"
-        },
-        {
-          "subject": "Demo overview",
-          "link": "testing-demo-overview"
-        },
-        {
-          "subject": "Resource: PHPUnit Documentation",
-          "link": "http://phpunit.de/"
-        }
-      ],
-      "active": 0
-    },
-    {
-      "date": "3/11",
-      "units": [
-        {
-          "subject": "Midterm - Last updated 3/4 2:13am",
-          "link": "midterm"
-        }
-      ],
-      "active": 0
-    },
-    {
-      "date": "3/18",
-      "units": [
-        {
-          "subject": "Spring Break",
-          "link": ""
-        }
-      ],
-      "active": 0
-    },
     {
       "date": "3/25",
       "units": [
