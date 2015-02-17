@@ -138,15 +138,11 @@
       "date": "2/17",
       "units": [
         {
-          "subject": "Data Validation with Validator::make() and error messages",
-          "link": "http://laravel.com/docs/5.0/validation"
+          "subject": "Working with forms",
+          "link": "working-with-forms"
         },
         {
-          "subject": "Flash messaging old input",
-          "link": "http://laravel.com/docs/5.0/requests"
-        },
-        {
-          "subject": "Blade Templating",
+          "subject": "Blade templating and layouts",
           "link": "http://laravel.com/docs/5.0/templates"
         },
         {
