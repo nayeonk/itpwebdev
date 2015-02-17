@@ -124,6 +124,16 @@
 
 	"weeks": [
 		{
+			"date": "2/16",
+			"units": [
+				{
+					"subject": "University Holiday",
+					"link": ""
+				}
+			],
+			"active": 0
+		},
+		{
 			"date": "2/9",
 			"units": [
 				{
@@ -174,17 +184,6 @@
 				}
 			],
 			"active": 1
-		},
-		
-		{
-			"date": "2/16",
-			"units": [
-				{
-					"subject": "Intro to Stylesheets, div layouts continued",
-					"link": "divs-continued-stylesheets"
-				}
-			],
-			"active": 0
 		},
 		{
 			"date": "3/2",
