@@ -42,6 +42,13 @@
       "active": 1
     },
     {
+      "name": "DVD Review Page (Laravel)",
+      "type": "A",
+      "due": "2/24",
+      "link": "mvc2",
+      "active": 1
+    },
+    {
       "name": "DVD Pages with Eloquent (Laravel)",
       "type": "A",
       "due": "2/25",
@@ -131,20 +138,16 @@
       "date": "2/17",
       "units": [
         {
-          "subject": "Data Validation",
-          "link": ""
+          "subject": "Data Validation with Validator::make() and error messages",
+          "link": "http://laravel.com/docs/5.0/validation"
         },
         {
-          "subject": "Flash Messages",
-          "link": ""
-        },
-        {
-          "subject": "PHP Traits",
-          "link": ""
+          "subject": "Flash messaging old input",
+          "link": "http://laravel.com/docs/5.0/requests"
         },
         {
           "subject": "Blade Templating",
-          "link": ""
+          "link": "http://laravel.com/docs/5.0/templates"
         }
       ],
       "active": 1
