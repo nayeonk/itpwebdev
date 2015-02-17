@@ -148,6 +148,10 @@
         {
           "subject": "Blade Templating",
           "link": "http://laravel.com/docs/5.0/templates"
+        },
+        {
+          "subject": "Starter HTML",
+          "link": "https://gist.github.com/skaterdav85/acdc52722fc8603f960b"
         }
       ],
       "active": 1
