@@ -132,7 +132,7 @@
           "link": ""
         }
       ],
-      "active": 0
+      "active": 1
     },
     {
       "date": "2/17",
@@ -148,6 +148,10 @@
         {
           "subject": "Starter HTML",
           "link": "https://gist.github.com/skaterdav85/acdc52722fc8603f960b"
+        },
+        {
+          "subject": "Class example",
+          "link": "https://bitbucket.org/skaterdav85/itp405-laravel-2015/src/f918f8d12fb2d43ba1da3611d79a4464eda481c4/?at=2-17-2015"
         }
       ],
       "active": 1
