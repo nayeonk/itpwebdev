@@ -14,7 +14,6 @@ Next, somewhere on this page, present a form that allows the user to add a revie
 * rating, select menu, numeric value from 1-10
 * title, text input
 * description, textarea
-* dvd, select menu where the id is the value for each option and the dvd title is the display text
 
 ### Validation
 
