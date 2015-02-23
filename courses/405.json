@@ -129,6 +129,10 @@
       "units": [
         {
           "subject": "Object Relational Mapping",
+          "pdf": "/slides/orm.pdf"
+        },
+        {
+          "subject": "Class Demo",
           "link": ""
         }
       ],
@@ -161,7 +165,7 @@
       "units": [
         {
           "subject": "What is MVC?",
-          "link": ""
+          "pdf": "/slides/mvc.pdf"
         },
         {
           "subject": "Controllers, Views, and Models with the Query Builder in Laravel 5",

@@ -24,7 +24,11 @@ angular.module('itpwebdev').directive('lectureLink', function() {
 					$scope.unit.subject,
 					'</a>'
 				].join('');
-			} else {
+			} 
+			else if ($scope.unit.pdf) {
+				html = '<a href="'+ $scope.unit.pdf +'">' + $scope.unit.subject + '</a>';
+			}
+			else {
 				html = $scope.unit.subject;
 			}
 
