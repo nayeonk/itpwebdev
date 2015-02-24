@@ -11,8 +11,7 @@
 	"ta": [
 		{ "name": "Harry Hao [Grader ONLY]", "email": "zhan849@usc.edu" },
 		{ "name": "Caleb You", "email": "sideokyo@usc.edu" },
-		{ "name": "Mohit Gupta", "email": "mohitg@usc.edu"},
-		{ "name": "Conner Frey", "email": "connerfr@usc.edu"}
+		{ "name": "Mohit Gupta", "email": "mohitg@usc.edu"}
 	],
 	"homework": [
 		{
@@ -46,9 +45,9 @@
 		{
 			"name": "Survey",
 			"type": "A",
-			"due": "3/10",
+			"due": "3/2 @5PM",
 			"link": "survey",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "Practice practical exam",
@@ -124,14 +123,18 @@
 
 	"weeks": [
 		{
+			"date": "2/23",
+			"units": [
+				{ "subject": "HTML Forms & USC Form Scripts", "link": "html-forms" }
+			],
+			"active": 1
+		},
+		{
 			"date": "2/16",
 			"units": [
-				{
-					"subject": "University Holiday",
-					"link": ""
-				}
+				{ "subject": "University holiday", "link": "" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "2/9",

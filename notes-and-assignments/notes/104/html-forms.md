@@ -6,7 +6,6 @@ HTML Forms and USC Form Scripts
 * HTML forms
 * Laying out forms with div tags/floats
 * USC form scripts
-* Exam review
 
 ### Forms
 
@@ -130,3 +129,7 @@ The textarea tag creates a large (multiline) text area for a user to type senten
 * FH_Display_Order: Order that fields will list in (comma separated). Default is alphabetical listings of fields.
 * FH_RequireValidEmail: Checks for xxx@xxx syntax in email field
 * FH_RequireUSCEmail: Basically checks for xxx@usc.edu
+
+###Lecture files from today
+* [Barebones Form](/demos/104/W7/form.html)
+* [Styled Form](/demos/104/W7/contactform.html)
