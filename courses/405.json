@@ -51,9 +51,15 @@
     {
       "name": "DVD Pages with Eloquent (Laravel)",
       "type": "A",
-      "due": "2/25",
+      "due": "3/3",
       "link": "orm",
-      "active": 0
+      "active": 1
+    },
+    {
+      "name": "Midterm",
+      "type": "M",
+      "link": "midterm",
+      "active": 1
     },
     {
       "name": "Where do we put this?",
@@ -87,6 +93,66 @@
 
 	"weeks": [
     {
+      "date": "4/28",
+      "units": [
+        {
+          "subject": "Presentations",
+          "link": ""
+        }
+      ],
+      "active": 0
+    },
+    {
+      "date": "4/21",
+      "units": [
+        {
+          "subject": "TBD",
+          "link": ""
+        }
+      ],
+      "active": 0
+    },
+    {
+      "date": "4/14",
+      "units": [
+        {
+          "subject": "Testing",
+          "link": ""
+        }
+      ],
+      "active": 0
+    },
+    {
+      "date": "4/7",
+      "units": [
+        {
+          "subject": "Node.js part 2 - Flow Control",
+          "link": ""
+        }
+      ],
+      "active": 0
+    },
+    {
+      "date": "3/31",
+      "units": [
+        {
+          "subject": "Introduction to server-side JavaScript with Node.js",
+          "link": ""
+        }
+      ],
+      "active": 0
+    },
+    {
+      "date": "3/24",
+      "units": [
+        {
+          "subject": "Authentication",
+          "link": ""
+        }
+      ],
+      "active": 0
+    },
+    {
       "date": "3/17",
       "units": [
         {
@@ -110,16 +176,8 @@
       "date": "3/3",
       "units": [
         {
-          "subject": "Testing Overview and PHPUnit introduction (slides)",
-          "link": "https://www.dropbox.com/s/3kj0g982u5xkatv/unit-testing.pdf"
-        },
-        {
-          "subject": "Demo overview",
-          "link": "testing-demo-overview"
-        },
-        {
-          "subject": "Resource: PHPUnit Documentation",
-          "link": "http://phpunit.de/"
+          "subject": "REST, Web APIs, and Caching",
+          "link": ""
         }
       ],
       "active": 0

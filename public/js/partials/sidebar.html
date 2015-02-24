@@ -5,7 +5,7 @@
 <ol>
 	<li ng-repeat="hw in course.homework | filter:{ active: '1' }">
 		<a href="#/{{ courseNum }}/assignments/{{ hw.link }}">{{ hw.name }} ({{hw.type}})</a> 
-		<span>due {{ hw.due }}</span>
+		<span ng-if="hw.due">due {{ hw.due }}</span>
 	</li>
 </ol>
 
