@@ -180,7 +180,7 @@
           "link": ""
         }
       ],
-      "active": 0
+      "active": 1
     },
     {
       "date": "2/24",
@@ -191,7 +191,7 @@
         },
         {
           "subject": "Class Demo",
-          "link": ""
+          "link": "https://bitbucket.org/skaterdav85/itp405-laravel-2015/src/0dc4c3b02cdd6520c691219f88cdc48a661a5577/?at=2-24-2015"
         }
       ],
       "active": 1
