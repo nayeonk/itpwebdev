@@ -56,6 +56,13 @@
       "active": 1
     },
     {
+      "name": "APIs",
+      "type": "A",
+      "due": "3/10",
+      "link": "api",
+      "active": 1
+    },
+    {
       "name": "Midterm",
       "type": "M",
       "link": "midterm",
@@ -177,6 +184,10 @@
       "units": [
         {
           "subject": "REST, Web APIs, and Caching",
+          "link": ""
+        },
+        {
+          "subject": "Class demo",
           "link": ""
         }
       ],
