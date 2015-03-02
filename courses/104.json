@@ -52,23 +52,30 @@
 		{
 			"name": "Practice practical exam",
 			"type": "L",
-			"due": "3/10",
+			"due": "3/9 @5PM",
 			"link": "practice-practical",
-			"active": 0
+			"active": 1
+		},
+		{
+			"name": "Graphic redesign",
+			"type": "L",
+			"due": "3/23 @5PM",
+			"link": "graphic-redesign",
+			"active": 1
 		},
 		{
 			"name": "Major Project Proposal",
 			"type": "A",
-			"due": "3/24",
+			"due": "3/23 @5PM",
 			"link": "project-proposal",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "Major project frontpage & graphics",
 			"type": "A",
 			"due": "4/7",
 			"link": "project-homepage",
-			"active": 0
+		"active": 0
 		},
 		{
 			"name": "Dreamweaver News Article",
@@ -89,13 +96,6 @@
 			"type": "P",
 			"due": "4/28 11:59pm",
 			"link": "project-requirements",
-			"active": 0
-		},
-		{
-			"name": "Graphic redesign",
-			"type": "L",
-			"due": "3/31",
-			"link": "graphic-redesign",
 			"active": 0
 		},
 		{
@@ -122,6 +122,13 @@
 	],
 
 	"weeks": [
+		{
+			"date": "3/2",
+			"units": [
+				{ "subject": "Exam Study Guide", "link": "study-guide" }
+			],
+			"active": 1
+		},
 		{
 			"date": "2/23",
 			"units": [
@@ -187,14 +194,6 @@
 				}
 			],
 			"active": 1
-		},
-		{
-			"date": "3/2",
-			"units": [
-				{ "subject": "HTML Forms & USC Form Scripts", "link": "html-forms" },
-				{ "subject": "Exam Study Guide", "link": "study-guide" }
-			],
-			"active": 0
 		},
 		{
 			"date": "3/9",
