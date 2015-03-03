@@ -177,18 +177,18 @@
           "link": ""
         }
       ],
-      "active": 0
+      "active": 1
     },
     {
       "date": "3/3",
       "units": [
         {
           "subject": "REST, Web APIs, and Caching",
-          "link": ""
+          "link": "rest"
         },
         {
           "subject": "Class demo",
-          "link": ""
+          "link": "https://bitbucket.org/skaterdav85/itp405-laravel-2015/src/0c7a1591d6c5130cedaa511a0f34984ec42a36de/?at=3-3-2015"
         }
       ],
       "active": 1
