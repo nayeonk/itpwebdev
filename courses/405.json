@@ -78,9 +78,9 @@
     {
       "name": "Final Project",
       "type": "P",
-      "due": "4/29 (last day of class)",
+      "due": "4/28 (last day of class)",
       "link": "final-project",
-      "active": 0
+      "active": 1
     },
     {
       "name": "Unit Testing",
@@ -137,7 +137,7 @@
           "link": ""
         }
       ],
-      "active": 0
+      "active": 1
     },
     {
       "date": "3/31",
@@ -147,7 +147,7 @@
           "link": ""
         }
       ],
-      "active": 0
+      "active": 1
     },
     {
       "date": "3/24",
@@ -157,7 +157,7 @@
           "link": ""
         }
       ],
-      "active": 0
+      "active": 1
     },
     {
       "date": "3/17",
