@@ -1,3 +1,11 @@
+Dreamweaver Behaviors
+====================
+
+**<span style="color:red">Download the following files for this lecture</span>**
+* [flip.gif](images/flip.gif) <img src="images/flip.gif"/>
+* [flop.gif](images/flop.gif) <img src="images/flop.gif"/>
+* [fgdhtml.zip](downloads/fgdhtml.zip) (Note: this is a zip file so after you download the file to your computer, you will have to uncompress it)
+
 ### Dynamic HTML
 
 * Dynamic HTML or <em>DHTML</em> is basically combining HTML, CSS and Javascript 

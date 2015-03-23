@@ -1,6 +1,10 @@
 Dreamweaver Introduction
 ===========================
 
+You can access Dreamweaver straight from your computer by following these instructions: http://webdev.usc.edu/mydesktop.pdf Else you will have to use the classroom computers for this lecture. You can also download a 30 day trial from Adobe's website.
+
+### Creating/Opening a file in Dreamweaver
+
 *	Open an existing page (including ones you created in Notepad/Simpletext).
 *	Create a new html blank document through Blank Page &gt; HTML &gt; None
 *	Create a new html document starting from Blank Page &gt; HTML &gt; and pick a layout style. This will create a new page with divs and all the underlying stylesheet and css instructions to create that layout, and will pre-populate the different areas with starter content.
