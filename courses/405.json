@@ -154,7 +154,19 @@
       "units": [
         {
           "subject": "Authentication",
-          "link": ""
+          "link": "http://laravel.com/docs/5.0/authentication"
+        },
+        {
+          "subject": "Middleware",
+          "link": "http://laravel.com/docs/5.0/middleware"
+        },
+        {
+          "subject": "redirect API in Laravel",
+          "link": "http://laravel.com/api/5.0/Illuminate/Routing/Redirector.html"
+        },
+        {
+          "subject": "Class demo",
+          "link": "https://bitbucket.org/skaterdav85/itp405-laravel-2015/src/fc4feff78fd1186389134920a0336a53b7f1136a/?at=3-24-2015"
         }
       ],
       "active": 1
