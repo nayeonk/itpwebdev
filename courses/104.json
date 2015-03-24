@@ -101,9 +101,9 @@
 		{
 			"name": "Final Project Requirements",
 			"type": "P",
-			"due": "4/28 11:59pm",
+			"due": "5/1 11:59pm",
 			"link": "project-requirements",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "Web Technology Deconstruction",
@@ -143,6 +143,10 @@
 				{
 					"subject": "Dreamweaver Behaviors and Effects",
 					"link": "dreamweaver-behaviors"
+				}, 
+				{
+					"subject": "Final Project Requirements announcement",
+					"link" : ""
 				}
 			],
 			"active": 1
