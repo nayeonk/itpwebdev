@@ -153,6 +153,10 @@
       "date": "3/24",
       "units": [
         {
+          "subject": "Midterm results",
+          "link": ""
+        },
+        {
           "subject": "Authentication",
           "link": "http://laravel.com/docs/5.0/authentication"
         },
@@ -167,7 +171,11 @@
         {
           "subject": "Class demo",
           "link": "https://bitbucket.org/skaterdav85/itp405-laravel-2015/src/fc4feff78fd1186389134920a0336a53b7f1136a/?at=3-24-2015"
-        }
+        },
+        {
+          "subject": "LAB: JavaScript overview (optional)",
+          "link": ""
+        },
       ],
       "active": 1
     },
