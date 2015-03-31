@@ -69,6 +69,12 @@
       "active": 1
     },
     {
+      "name": "DVD Search with Node",
+      "type": "A",
+      "link": "node1",
+      "active": 1
+    },
+    {
       "name": "Where do we put this?",
       "type": "A",
       "due": "3/4",
@@ -103,11 +109,11 @@
       "date": "4/28",
       "units": [
         {
-          "subject": "Presentations",
+          "subject": "Student Presentations",
           "link": ""
         }
       ],
-      "active": 0
+      "active": 1
     },
     {
       "date": "4/21",
@@ -117,17 +123,17 @@
           "link": ""
         }
       ],
-      "active": 0
+      "active": 1
     },
     {
       "date": "4/14",
       "units": [
         {
-          "subject": "Testing",
+          "subject": "Unit Testing",
           "link": ""
         }
       ],
-      "active": 0
+      "active": 1
     },
     {
       "date": "4/7",
@@ -144,7 +150,23 @@
       "units": [
         {
           "subject": "Introduction to server-side JavaScript with Node.js",
-          "link": ""
+          "pdf": "/slides/node1-2015.pdf"
+        },
+        {
+          "subject": "Node Package Manager (NPM)",
+          "link": "https://www.npmjs.com/"
+        },
+        {
+          "subject": "Express",
+          "link": "http://expressjs.com/"
+        },
+        {
+          "subject": "Sequelize ORM",
+          "link": "http://docs.sequelizejs.com/en/latest/"
+        },
+        {
+          "subject": "Class demo",
+          "link": "https://bitbucket.org/skaterdav85/itp405-spring2015-node1/src"
         }
       ],
       "active": 1
