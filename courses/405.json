@@ -165,6 +165,10 @@
           "link": "http://docs.sequelizejs.com/en/latest/"
         },
         {
+          "subject": "Nodemon",
+          "link": "http://nodemon.io/"
+        },  
+        {
           "subject": "Class demo",
           "link": "https://bitbucket.org/skaterdav85/itp405-spring2015-node1/src"
         }
