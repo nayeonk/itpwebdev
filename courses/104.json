@@ -134,6 +134,16 @@
 			"active": 0
 		},
 		{
+			"date": "3/30",
+			"units": [
+				{ 
+					"subject": "Guest Lecture on Industry Topics",
+					"link" : "guest-lecture-industry-topic"
+				}
+			],
+			"active": 1
+		},
+		{
 			"date": "3/23",
 			"units": [
 				{
