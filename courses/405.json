@@ -140,7 +140,11 @@
       "units": [
         {
           "subject": "Node.js part 2 - Flow Control",
-          "link": ""
+          "link": "http://thejsguy.com/javascript/node.js/2014/06/27/JavaScript-Flow-Control.html"
+        },
+        {
+          "subject": "Class demo",
+          "link": "https://github.com/ITP-Webdev/flow-control-exercises"
         }
       ],
       "active": 1
