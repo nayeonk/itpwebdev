@@ -135,7 +135,8 @@
 		},
 		{
 			"date": "4/6",
-			"units" : [ { "subject" : "Class cancelled today", "link": "class-cancelled-today" } ]
+			"units" : [ { "subject" : "Class canceled today", "link": "class-cancelled-today" } ],
+			"active": 1
 		},
 		{
 			"date": "3/30",
