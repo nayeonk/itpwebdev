@@ -80,7 +80,7 @@
 		{
 			"name": "Final Project Frontpage & Graphics",
 			"type": "A",
-			"due": "4/6 @5PM",
+			"due": "4/8 @5PM",
 			"link": "project-homepage",
 		"active": 1
 		},
@@ -132,6 +132,10 @@
 				}
 			],
 			"active": 0
+		},
+		{
+			"date": "4/6",
+			"units" : [ { "subject" : "Class cancelled today", "link": "class-cancelled-today" } ]
 		},
 		{
 			"date": "3/30",
