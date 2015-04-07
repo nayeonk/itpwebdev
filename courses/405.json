@@ -143,6 +143,14 @@
           "link": "http://thejsguy.com/javascript/node.js/2014/06/27/JavaScript-Flow-Control.html"
         },
         {
+          "subject": "Promises",
+          "link": "promises"
+        },
+        {
+          "subject": "console.time()",
+          "link": "https://developer.mozilla.org/en-US/docs/Web/API/Console/time"
+        },  
+        {
           "subject": "Class demo",
           "link": "https://github.com/ITP-Webdev/flow-control-exercises"
         }
