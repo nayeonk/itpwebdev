@@ -6,6 +6,7 @@ Create a final project on a topic of your choice using the technologies and tech
 ### Requirements
 
 * Use of the Laravel framework or Node.js (Express)
+* Adheres to the MVC pattern
 * At least 1 API call
 * Caching
 * Original MySQL database designed by you that has been populated with appropriate data for
