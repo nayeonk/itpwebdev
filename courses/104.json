@@ -82,7 +82,14 @@
 			"type": "A",
 			"due": "4/8 @5PM",
 			"link": "project-homepage",
-		"active": 1
+			"active": 1
+		},
+		{
+			"name": "CSS Navigation",
+			"type": "L",
+			"due": "4/20 @5PM",
+			"link": "css-dropdown-navigation",
+			"active": 1
 		},
 		{
 			"name": "Dreamweaver News Article",
@@ -105,6 +112,7 @@
 			"link": "project-requirements",
 			"active": 1
 		},
+
 		{
 			"name": "Web Technology Deconstruction",
 			"type": "A",
@@ -123,15 +131,13 @@
 
 	"weeks": [
 		{
-			"date": "3/30",
+			"date": "4/13",
 			"units": [
-				{ "subject": "Dreamweaver Visual Editor", "link": "dreamweaver-intro" },
-				{
-					"subject": "Intermediate CSS Selectors",
-					"link": "intermediate-css-selectors"
+				{ "subject": "External Stylesheets and CSS Selectors", 
+					"link": "CSS-revisited" 
 				}
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "4/6",

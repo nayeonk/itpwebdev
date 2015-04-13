@@ -1,3 +1,6 @@
+**DOWNLOAD the following file(s) for today's lecture:**
+* [position_start.html](/starters/104/position_start.html)
+
 <p><em><strong>External Stylesheets review and importance</strong></em></p>
 
 <p>One of the main reasons to use external stylsheets is to set up styles for use across ALL pages of a web site. You want a consistent look and feel in all your pages. The main "container", navigation, headers, etc., should all look the asme. So why set up those styles for every page when you can enter them in a central external stylesheet that all pages "load".
