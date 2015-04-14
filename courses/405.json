@@ -129,7 +129,27 @@
       "date": "4/14",
       "units": [
         {
-          "subject": "Unit Testing",
+          "subject": "Unit Testing with PHPUnit, Dependency Injection, & Mocking with Mockery",
+          "link": "unit-testing"
+        },
+        {
+          "subject": "Testing Slides",
+          "pdf": "/slides/unit-testing-php.pdf"
+        },
+        {
+          "subject": "PHPUnit",
+          "link": "https://phpunit.de/"
+        },
+        {
+          "subject": "Mockery Quick Reference",
+          "link": "http://docs.mockery.io/en/latest/reference/startup_methods.html"
+        },
+        {
+          "subject": "Laravel Facade Class Reference",
+          "link": "http://laravel.com/docs/5.0/facades#facade-class-reference"
+        },
+        {
+          "subject": "Class Demo",
           "link": ""
         }
       ],
