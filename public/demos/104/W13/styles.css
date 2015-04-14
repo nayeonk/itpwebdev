@@ -1,0 +1,33 @@
+        #navigation * {
+            margin:0;
+            padding: 0;
+        }
+        #navigation ul {
+            list-style: none;
+        }
+        #navigation li {
+            display: inline;
+            float: left;
+            position: relative;
+        }
+        #navigation li a {
+            width: 100px;
+            display: block;
+            height: 30px;
+            text-decoration: none;
+            color: white;
+            background-color:black;
+            text-align: center;
+            line-height: 30px;
+        }
+        #navigation li a:hover {
+            background-color: #b20000;
+        }
+        #navigation ul ul {
+            visibility: hidden;
+            position: absolute;
+            top: 30px;
+        }
+        #navigation ul li:hover ul {
+            visibility: visible;
+        }
