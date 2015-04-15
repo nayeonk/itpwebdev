@@ -16,7 +16,7 @@ your application. You should have at least 3 tables. I will need to set up a mys
 * Use of controllers to group related actions 
 * Flash messaging 
 * Blade layouts if you are using Laravel
-* At least 2 automated tests
+* At least 4 unit tests
 * Server-side data validation
 * Site content (graphics, narrative text, etc.) beyond the database content
 * General design that is consistent across site and sections 
