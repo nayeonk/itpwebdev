@@ -6,9 +6,12 @@
 <p>One of the main reasons to use external stylsheets is to set up styles for use across ALL pages of a web site. You want a consistent look and feel in all your pages. The main "container", navigation, headers, etc., should all look the asme. So why set up those styles for every page when you can enter them in a central external stylesheet that all pages "load".
 </p>
 
-<p>
+To link your external stylesheet, add the following code in the HTML file that uses the external stylesheet:
+
+	<link rel="stylesheet" href="NAME_OF_STYLESHEET.css" type="text/css">
+
+
 We can look through the sample CSS below, which could be in an external stylesheet that all pages of a site would share. We can think about how each instruction would set up "defaults" for all of the pages of the site:
-</p>
 
 
 <code><pre>
@@ -266,3 +269,9 @@ So to start out, create a set of nested ULs that contain links. For instance, we
 
 <p>Now.. having designed a snazzy navigation like that, I'd say there's a good chance you are going to use that nav on MULTIPLE PAGES of your site. And what a pain to have to copy and paste all that CSS into every page. Well, you don't have to. Writing out style entries in a page directly is called an Internal Stylsheet... but with an External Stylesheet we can save instructions in one central (non-html page) file... and then "point" web pages at that file to load in their style entries.
 </p>
+
+###Lecture Files from today
+* [Completed CSS Position](/demos/104/W13/CSS_Position_Demo.html)
+* [Completed CSS Navigation](/demos/104/W13/nav.html) - external stylesheet is linked inside this HTML page
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KGPNisEKhfA" frameborder="0" allowfullscreen></iframe>
