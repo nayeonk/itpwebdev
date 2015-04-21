@@ -18,3 +18,5 @@ One workaround that developers have come up with is to __poll the server__. That
 With Web Sockets, rather than __polling the server__, you can create an open, bidirectional connection between your page and the server and let the server PUSH updates to your app. This way, your page never has to keep making unnecessary requests to the server when there might not be any updates. Your app will instead be notified by the server if there are updates and the client-side portion of your application can do something with the data associated with the update. Web Sockets can replace the technique of __long polling (polling the server)__.
 
 In order to work with Web Sockets, you need a Web Socket Server. A great library that exists for this is [Ratchet](http://socketo.me/). However, this requires you having to manage a web socket server yourself. Another great service that takes care of managing a web socket server for you along with web socket libraries for both the server and the client is [Pusher](https://pusher.com/).
+
+![Pusher](https://pusher.com/images/docs/hero_howitworks.png)
