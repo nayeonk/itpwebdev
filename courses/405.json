@@ -131,8 +131,20 @@
           "link": "http://www.pubnub.com/blog/http-long-polling/"
         },
         {
+          "subject": "Storing configuration data in Laravel",
+          "link": "http://laravel.com/docs/5.0/configuration#accessing-configuration-values"
+        },
+        {
+          "subject": "Handlebars",
+          "link": "http://handlebarsjs.com/"
+        },
+        {
+          "subject": "toastr",
+          "link": "http://codeseven.github.io/toastr/"
+        },
+        {
           "subject": "Class demo",
-          "link": ""
+          "link": "https://bitbucket.org/skaterdav85/itp405-laravel-2015/src/6f7de37f12afb91b47cfb4b40de4717c28009617/?at=4-21-2015-class"
         }
       ],
       "active": 1

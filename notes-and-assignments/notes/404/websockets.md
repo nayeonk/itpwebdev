@@ -5,6 +5,12 @@ HTML5 Web Sockets
 
 Web Sockets are a type of push technology that allow for servers to push data (think of updates) to a page AFTER a page has loaded. 
 
+Great uses of web sockets are:
+
+* chat applications
+* when data is updated on the server, notify connected clients so they get the most up to date data
+* real-time news feed like the facebook wall, twitter, instagram, etc
+
 ### Traditional Applications
 
 If you think about a traditional application, once a page has already loaded, it doesnt receive updates unless it is refreshed. In order to render the most up-to-date information, the user has to manually refresh the page.
