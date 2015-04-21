@@ -1,4 +1,5 @@
-angular.module('itpwebdev')
+angular
+    .module('itpwebdev')
 	.controller('ContentController', function($scope, $routeParams, Content, $sce, Title) {
 		var file, resourceType, courseNumNumeric;
 

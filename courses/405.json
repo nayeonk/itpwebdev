@@ -119,7 +119,19 @@
       "date": "4/21",
       "units": [
         {
-          "subject": "TBD",
+          "subject": "Web Sockets",
+          "link": "websockets"
+        },
+        {
+          "subject": "Pusher server libraries",
+          "link": "https://pusher.com/docs/server_libraries"
+        },
+        {
+          "subject": "What is Long Polling?",
+          "link": "http://www.pubnub.com/blog/http-long-polling/"
+        },
+        {
+          "subject": "Class demo",
           "link": ""
         }
       ],
