@@ -3,7 +3,7 @@ Final Project Requirements
 
 ### Important Dates
 * Due Date: 5/1 by 11:59pm posted to your class page (syallbus says 6pm but there will be a 6 hour grace period)
-* Project Presentations: TBA. Everyone is required to attend, but presentation is required only for those that want extra credit.
+* Project Presentations: 5/11 5pm. Everyone is required to attend, but presentation is required only for those that want extra credit.
 
 ### Requirements
 
@@ -27,21 +27,24 @@ Final Project Requirements
 	* Your site must have a least 3 items in the navigation bar. Each navigation item must have a different style/state when the user rolls over/selects that item.
 	* Each page must have a navigation bar in order to be able to access all of the pages of your website. The navigation bar should look the same on all pages. For each page that corresponds to a navigation element, the different style/state should be used. For example, if you had an About page, then in your navigation the About navigation element should be highlighted in some way to let the user know which page within the navigation they are on.
 * Background Image
-	* Your site must contain at least one background image. The background image could be a repeated gradient for the entire site, a repeated gradient for a div to highlight something on the page, or whatever else you can think of.
+	* Your site must contain at least one background image somwhere on the site. The background image could be a repeated gradient for the entire site, a repeated gradient for a div to highlight something on the page, or whatever else you can think of.
 * List
 	* Your site must contain at least one list that is NOT your navigation.
 * Form
 	* Your site must contain at least one form. It does NOT need to use all of the form elements. It does NOT need to send anywhere
 * Behaviors
 	* You must use behaviors in at least **two pages** on your site in meaningful way. Any behaviors on the navigation bar do not count. Example behaviors include:
-		* Create an AP Div (layer) that is hidden initially and then "revealed" by behaviors in a meaningful way such as for a tooltip.
 		* In a form, use radio buttons to alter the contents in a textfield, textarea, or div. Each of the radio button could make a custom message appear inside the textfield, textarea, or div.
 		* Use behaviors to display a striped-down browser window. A common use for this is for printing the current page. You will need to create a second page. When you trigger the behavior, display the new browser window specifing the size, and it should not have any of the normal browser attributes such as toolbars.
 		* Photo gallery - you have several thumbnails surrounding a center image. Whenever each thumbnail is clicked, a larger version of that image is shown in the center.
 		* Create a photo album where you have several images shown in a 3 by 3 square and they are all greyed out. When the user hovers over each photo, it turns the hovered image to a colored version of it.    
 * Special Features 
 	* Implement <em>at least 2</em> of the following: 
-		* **TBD**
+		* load a custom font
+		* jQuery plugin
+		* add video
+		* social media widget
+		* any other embedded object (i.e. Google Maps, Sound Cloud, etc)
 
 ** Miscellaneous Requirements **
 * Remove the USC notice on your pages.

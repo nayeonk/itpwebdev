@@ -121,15 +121,42 @@
 			"active": 0
 		},
 		{
-			"name": "jQuery cycle 2 plugin",
+			"name": "jQuery plugin",
 			"type": "L",
-			"due": "11/25",
+			"due": "4/27 @5pm",
 			"link": "jquery-plugin",
-			"active": 0
+			"active": 1
 		}
 	],
 
 	"weeks": [
+		{
+			"date": "4/27",
+			"units": [
+				{
+					"subject": "Social media widgets",
+					"link": "widgets"
+				},
+				{
+					"subject": "Taking your site beyond USC, web hosting, and domains",
+					"link": "hosting"
+				}
+			],
+			"active": 0
+		},
+		{
+			"date": "4/20",
+			"units": [
+				{ "subject": "Loading Fonts", 
+					"link": "loading-fonts" 
+				},
+				{
+					"subject": "jQuery plugins",
+					"link": "jquery-plugins"
+				}
+			],
+			"active": 1
+		},
 		{
 			"date": "4/13",
 			"units": [
@@ -289,20 +316,6 @@
 				{
 					"subject": "CSS Positioning, Dropdown Navigations",
 					"link": "https://github.com/ITP-Webdev/css-dropdown-navigation"
-				}
-			],
-			"active": 0
-		},
-		{
-			"date": "4/27",
-			"units": [
-				{
-					"subject": "Social media widgets",
-					"link": "widgets"
-				},
-				{
-					"subject": "Taking your site beyond USC, web hosting, and domains",
-					"link": "hosting"
 				}
 			],
 			"active": 0
