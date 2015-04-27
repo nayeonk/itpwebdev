@@ -5,9 +5,6 @@
 	"syllabus": "http://web-app.usc.edu/soc/syllabus/20151/31806.pdf",
 	"time": "Mondays 5-7:50pm in KAP 160",
 	"office_hours": "Mondays 8-9pm",
-	"grader": [
-		{"name" : "Henry"}
-	],
 	"ta": [
 		{ "name": "Harry Hao [Grader ONLY]", "email": "zhan849@usc.edu" },
 		{ "name": "Caleb You", "email": "sideokyo@usc.edu" },
@@ -105,13 +102,6 @@
 			"link": "web-technology-article",
 			"active": 0
 		},
-		{
-			"name": "Final Project Requirements",
-			"type": "P",
-			"due": "5/1 11:59pm",
-			"link": "project-requirements",
-			"active": 1
-		},
 
 		{
 			"name": "Web Technology Deconstruction",
@@ -126,6 +116,13 @@
 			"due": "4/27 @5pm",
 			"link": "jquery-plugin",
 			"active": 1
+		},
+		{
+			"name": "FINAL PROJECT REQUIREMENTS",
+			"type": "P",
+			"due": "5/1 11:59pm",
+			"link": "project-requirements",
+			"active": 1
 		}
 	],
 
@@ -138,11 +135,16 @@
 					"link": "widgets"
 				},
 				{
+					"subject": "HTML5 Video Tag",
+					"link": "html5-video"
+				},
+
+				{
 					"subject": "Taking your site beyond USC, web hosting, and domains",
 					"link": "hosting"
 				}
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "4/20",

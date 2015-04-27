@@ -3,7 +3,10 @@ Final Project Requirements
 
 ### Important Dates
 * Due Date: 5/1 by 11:59pm posted to your class page (syallbus says 6pm but there will be a 6 hour grace period)
-* Project Presentations: 5/11 5pm. Everyone is required to attend, but presentation is required only for those that want extra credit.
+* Late Dadline: 5/8 for 92% credit. If you would like the extension, you MUST email the grader and I before the first due date (5/1) letting us know you will take the extension. 
+* Project Presentations: 5/11 5pm at KAP160. Everyone is required to attend, but presentation is required only for those that want extra credit.
+	* Presentations generally take about 5 - 8 minutes. You explain to the class your project, generally highlighting some of the elements/aspects from your project proposal. Then you tour or demo your Web site for the class.
+	* Make sure to sign up for presentation by 4/27
 
 ### Requirements
 
@@ -45,6 +48,7 @@ Final Project Requirements
 		* add video
 		* social media widget
 		* any other embedded object (i.e. Google Maps, Sound Cloud, etc)
+		* video (either iframed or using html5 video tag)
 
 ** Miscellaneous Requirements **
 * Remove the USC notice on your pages.
