@@ -9,7 +9,7 @@ Continuous Integration with Travis CI
 6. Commit and push and watch the results on the travis details page
 7. Add a Travic CI badge to your project by clicking on the badge and copying the markdown code and place it on your readme.md file.
 
-#### .travis.yml
+#### .travis.yml for PHP
 
 ```
 language: php
@@ -22,6 +22,14 @@ before_script:
   - composer install --no-interaction
 
 script: vendor/bin/phpunit
+```
+
+#### .travis.yml for Node.js
+
+```
+language: node_js
+node_js:
+  - 0.10
 ```
 
 ### Resources
