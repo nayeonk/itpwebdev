@@ -111,6 +111,14 @@
         {
           "subject": "Student Presentations",
           "link": ""
+        },
+        {
+          "subject": "Deploying to Heroku",
+          "link": "heroku"
+        },
+        {
+          "subject": "Continuous Integration with Travis CI",
+          "link": "travis"
         }
       ],
       "active": 1
