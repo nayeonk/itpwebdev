@@ -1,9 +1,10 @@
 Deploying to Heroku
 ===
 
+* Create a [Heroku account](http://heroku.com)
+
 ### Laravel
 
-* Create a [Heroku account](http://heroku.com)
 * Download the [Heroku Toolbelt](https://devcenter.heroku.com/articles/getting-started-with-php#set-up)
 * Create a file called `Procfile` in your project root with the following contents:
 
@@ -24,7 +25,6 @@ heroku config:add BUILDPACK_URL=https://github.com/heroku/heroku-buildpack-php
 
 ### Node
 
-* Create a [Heroku account](http://heroku.com)
 * Download the [Heroku Toolbelt](https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction)
 * Create a file called `Procfile` in your project root with the following contents:
 
