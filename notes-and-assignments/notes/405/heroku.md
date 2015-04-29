@@ -15,13 +15,15 @@ web: vendor/bin/heroku-php-apache2 public
 * remove `.env` from `.gitignore`
 * Head to the [Heroku dashboard](https://dashboard.heroku.com) and create an app
 
+* Follow the directions under "Create a new Git repository"
+
 Run the following:
 
 ```
 heroku config:add BUILDPACK_URL=https://github.com/heroku/heroku-buildpack-php
 ```
 
-* Follow the directions under "Create a new Git repository" and "Deploy your application"
+* Follow the directions under "Deploy your application"
 
 ### Node
 
