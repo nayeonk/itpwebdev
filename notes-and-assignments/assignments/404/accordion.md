@@ -10,11 +10,4 @@ This should be done through JavaScript, not CSS. (Hint: use the .first() or .eq(
 * _(optional)_ The label for the active content panel should have a class of 'active' applied to it, 
 which I have provided a basic style declaration in the styles.css sheet for you. 
 
-I have provided the base HTML and CSS files for you to use. Download the following, and start adding your jQuery.
-
-* [accordion.html](https://raw.github.com/ITP-Webdev/site/master/notes-and-assignments/assignments/404/accordion_starter/accordion.html)
-* [styles.css](https://raw.github.com/ITP-Webdev/site/master/notes-and-assignments/assignments/404/accordion_starter/styles.css)
-
-If you'd like to use JSBin instead of downloading the files, feel free to do. [Here is a starter JSBin](http://jsbin.com/IYAJus/1/edit).
-
-When you are finished, post the link to the final page to your classpage so the graders and I can check it.
+[Here is a starter JSBin](http://jsbin.com/IYAJus/1/edit).

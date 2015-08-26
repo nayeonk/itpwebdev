@@ -9,7 +9,7 @@
 	</li>
 </ol>
 
-<h3 class="block-title">Students</h3>
+<h3 ng-if="students.length" class="block-title">Students</h3>
 <div class="student-filter-container">
 	<input type="search" ng-model="search" placeholder="Search students" ng-show="students.length">
 </div>

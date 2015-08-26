@@ -1,7 +1,8 @@
 Course Introduction
 ===================
 
-* Introduction / about me
+* Course introduction
+* About me
 * Syllabus
 * Course Concepts
 	* JavaScript Applications
@@ -9,6 +10,7 @@ Course Introduction
   * Document Object Model 
   * JavaScript libraries vs Frameworks
   * Design patterns / good programming techniques (JS specific and more general ones)
+* What framework(s) do you want to learn?
 * Final project ideas / samples, Mashups
  * [Programmable Web](http://www.programmableweb.com/) 
 
@@ -50,13 +52,12 @@ for you to access these elements in your JavaScript. A few DOM API methods / fun
 
 ### Libraries
 
-Think of a library as a toolkit. You can build a number of things using your tools. In this course, we will dig deeper into the popular JavaScript library jQuery that abstracts away browser differences when writing
-JavaScript so that you can focus on writing your site / application. We will also explore libraries like Handlebars
+Think of a library as a toolkit. You can build a number of things using your tools. In this course, we will dig deeper into the popular JavaScript library jQuery that abstracts away browser differences when writing JavaScript so that you can focus on writing your site / application. We will also explore libraries like Handlebars
 and Underscore for client-side templating.
 
 ### Frameworks
 
-You might hear the term framework and library used interchangably, but technically they are different things. Frameworks help provide structure to what you are building whereas a library acts more like a toolbox. You can think of jQuery as a library because it provides the tools necessary to manipulate the DOM and make AJAX requests without having to worry about browser inconsistencies. It is very easy to write unstructured JavaScript / jQuery. You can create a JavaScript file and start writing code just to make things work. But what happens when this code grows to 300+ lines long? Having structure in your JavaScript is important for maintainability and scalability. We will explore several techniques and design patterns that will help provide some structure to your JavaScript. Then we will explore an actual JavaScript framework, Backbone.js.
+You might hear the term framework and library used interchangably, but technically they are different things. Frameworks help provide structure to what you are building whereas a library acts more like a toolbox. You can think of jQuery as a library because it provides the tools necessary to manipulate the DOM and make AJAX requests without having to worry about browser inconsistencies. It is very easy to write unstructured JavaScript / jQuery. You can create a JavaScript file and start writing code just to make things work. But what happens when this code grows to 300+ lines long? Having structure in your JavaScript is important for maintainability and scalability. We will explore several techniques and design patterns that will help provide some structure to your JavaScript. Then we will explore an actual JavaScript framework.
 
 ### Design Patterns
 

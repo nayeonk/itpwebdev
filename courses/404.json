@@ -2,17 +2,17 @@
 	"course_name": "Modern Technologies in Web Development",
 	"color": "orange",
 	"instructor": "David Tang",
-	"syllabus": "http://web-app.usc.edu/soc/syllabus/20143/31835.pdf",
-	"time": "Tuesdays 6-8:50pm",
-	"office_hours": "Tuesdays 5-6pm in the classroom",
+	"syllabus": "http://web-app.usc.edu/soc/syllabus/20153/31835.pdf",
+	"time": "Wednesdays 6-8:50pm",
+	"office_hours": "TBA",
 	"ta": [
-		{ "name": "Priyanka Vaishnav", "email": "priyankv@usc.edu" }
+		{ "name": "Dongyang Chen", "email": "dongyanc@usc.edu" }
 	],
 	"homework": [
 		{
 			"name": "Accordion (optional)",
-			"type": "A",
-			"due": "9/2",
+			"type": "NC",
+			"due": "NA",
 			"link": "accordion",
 			"active": 1
 		},
@@ -21,21 +21,21 @@
 			"type": "A",
 			"due": "9/9",
 			"link": "bookmark-favorites",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Rotten Tomatoes Search",
 			"type": "A",
 			"due": "9/16",
 			"link": "rotten-tomatoes-search",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Reviews Report Constructor",
 			"type": "A",
 			"due": "9/23",
 			"link": "oojs2",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Photo Gallery",
@@ -63,14 +63,14 @@
 			"type": "A",
 			"due": "9/30",
 			"link": "position-mapper",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Building jQuery",
 			"type": "A",
 			"due": "10/7",
 			"link": "building-jquery",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "iTunes Search",
@@ -84,56 +84,56 @@
 			"type": "optional",
 			"due": "10/14",
 			"link": "apis-with-php",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Midterm Project",
 			"type": "P",
 			"due": "TBA",
 			"link": "midterm",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "AJAX w/ PHP and JSON",
 			"type": "A",
 			"due": "10/21",
 			"link": "ajax",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Project Proposal",
 			"type": "A",
 			"due": "10/21",
 			"link": "project-proposal-requirements",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Unit Testing ReviewsReport",
 			"type": "A",
 			"due": "10/28",
 			"link": "unit-testing",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Rotten Tomatoes Search w/ Backbone",
 			"type": "A",
 			"due": "11/4",
 			"link": "backbone1",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Angular",
 			"type": "A",
 			"due": "11/18",
 			"link": "angular1",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Final Project Requirements",
 			"type": "P",
 			"due": "12/2",
 			"link": "project-requirements",
-			"active": 1
+			"active": 0
 		}
 	],
 
@@ -144,10 +144,6 @@
 				{
 					"subject": "Course introduction",
 					"link": "overview"
-				},
-				{
-					"subject": "JavaScript / jQuery review",
-					"link": "https://github.com/ITP-Webdev/javascript-review"
 				}
 			],
 			"active": 1
@@ -172,7 +168,7 @@
 					"link": "http://ec2-54-200-181-70.us-west-2.compute.amazonaws.com/"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "9/9",
@@ -190,7 +186,7 @@
 					"link": "https://github.com/ITP-Webdev/jsonp/blob/master/README.md"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "9/16",
@@ -200,7 +196,7 @@
 					"link": "oojs2"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "9/23",
@@ -218,7 +214,7 @@
 					"link": "quiz1-study-guide"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "9/30",
@@ -236,7 +232,7 @@
 					"link": "jquery-from-scratch"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "10/7",
@@ -246,7 +242,7 @@
 					"link": "phpintro"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "10/14",
@@ -264,7 +260,7 @@
 					"link": "https://github.com/ITP-Webdev/404-ajax-2014/tree/final"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "10/21",
@@ -282,7 +278,7 @@
 					"link": "https://github.com/ITP-Webdev/parse-demo"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "10/28",
@@ -300,7 +296,7 @@
 					"link": "quiz2-study-guide"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "11/4",
@@ -314,7 +310,7 @@
 					"link": "backbone2"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "11/11",
@@ -328,7 +324,7 @@
 					"link": "https://github.com/ITP-Webdev/angular1-2014" 
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "11/18",
@@ -342,7 +338,7 @@
 					"link": "https://bitbucket.org/skaterdav85/angular2-2014/get/starter.zip"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "11/25",
@@ -352,7 +348,7 @@
 					"link": ""
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "12/2",
@@ -362,7 +358,7 @@
 					"link": ""
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "11/5",
