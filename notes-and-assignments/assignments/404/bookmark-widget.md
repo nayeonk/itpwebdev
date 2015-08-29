@@ -50,6 +50,10 @@ var bookmarkWidget = {
 };
 ```
 
+### Optional
+
+Namespace your bookmarkWidget object under `App`.
+
 ### Submission
 
 Submit your assignment to the TA (dongyanc@usc.edu) and myself (dtang@usc.edu) as a zip file.
