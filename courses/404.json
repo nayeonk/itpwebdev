@@ -17,11 +17,11 @@
 			"active": 1
 		},
 		{
-			"name": "Bookmark favorites list",
+			"name": "Bookmark Widget",
 			"type": "A",
 			"due": "9/9",
-			"link": "bookmark-favorites",
-			"active": 0
+			"link": "bookmark-widget",
+			"active": 1
 		},
 		{
 			"name": "Rotten Tomatoes Search",
