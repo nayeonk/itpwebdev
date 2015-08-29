@@ -167,6 +167,10 @@
 				{
 					"subject": "jQuery and 'this'",
 					"link": "jquery-and-this"
+				},
+				{
+					"subject": "Slides",
+					"link": "http://slides.com/davidtang/oojs1"
 				}
 			],
 			"active": 1
