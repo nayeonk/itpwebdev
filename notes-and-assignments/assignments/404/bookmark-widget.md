@@ -28,7 +28,7 @@ Everything that the `render` method needs is passed as arguments. This makes the
 
 ### 3. Refactor
 
-Next, refactor your render method so that the HTML creation for each bookmark is extracted out into its own method. Here is a template:
+Next, refactor your render method so that the HTML creation for each bookmark is extracted out into its own method `createBookmarkHtml`. When `createBookmarkHtml` is called, be sure to use `this`, not `bookmarkWidget`. Here is a template:
 
 ```js
 var bookmarkWidget = {
