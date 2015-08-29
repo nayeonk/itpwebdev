@@ -193,37 +193,6 @@ var apiKey = '90399492';
 var ajaxRoute = 'some-ajax-route';
 ```
 
-### Objects for Application Namespacing
-
-* Object literals are great for namespacing your application. 
-* You can organize units of code using nested object literals, similar to a directory structure.
-* you can also create self-contained units that represent different widgets on the page or _modules_.
-
-```js
-var APP = {
-  Utils: {}
-};
-
-APP.Utils.log = function() { /* implementation */ };
-APP.Utils.isNumber = function() { /* implementation */ };
-
-APP.Twitter = {
-  lastFetched: '2013-09-25 08:15:32',
-  fetchTweets: function() {},
-  sortTweets: function(tweets) {
-    /* implementation */
-    return sortedTweets;
-  };
-};
-
-APP.Player = {
-  playlist: [ /* list of songs here */ ],
-  play: function(song) { /* implementation */ },
-  pause: function(song) { /* implementation */ },
-  stop: function(song) { /* implementation */ }
-};
-```
-
 ### Objects as Function Arguments
 
 * Object literals are great for passing into functions as an argument when a function takes multiple parameters. 

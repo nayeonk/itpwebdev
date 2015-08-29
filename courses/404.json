@@ -158,15 +158,15 @@
 				},
 				{
 					"subject": "Rules for 'this'",
-					"link": ""
+					"link": "rules-for-this"
 				},
 				{
 					"subject": "Namespacing",
-					"link": ""
+					"link": "namespacing"
 				},
 				{
 					"subject": "jQuery and 'this'",
-					"link": ""
+					"link": "jquery-and-this"
 				}
 			],
 			"active": 1
