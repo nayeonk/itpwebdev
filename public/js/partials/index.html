@@ -8,6 +8,7 @@
 				<p style="font-style: italic; font-size: 11px; text-align: right;">
 					Week {{course.weeks.length - $index}} - {{week.date}}
 				</p>
+				<h4 ng-if="week.title">{{week.title}}</h4>
 				<div ng-repeat="unit in week.units">
 					<lecture-link></lecture-link>
 				</div>

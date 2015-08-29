@@ -150,25 +150,26 @@
 		},
 		{
 			"date": "9/2",
+			"title": "Object Oriented JavaScript - Part 1",
 			"units": [
 				{
-					"subject": "Object Oriented JavaScript Pt. 1",
+					"subject": "Object Literals",
 					"link": "oojs1"
 				},
 				{
-					"subject": "Class Demo - Groceries with Objects",
-					"link": "https://github.com/ITP-Webdev/groceries-search-with-objects"
+					"subject": "Rules for 'this'",
+					"link": ""
 				},
 				{
-					"subject": "Sample project w/ Angular by Herman Tran: Race Surfer",
-					"link": "http://ng-racesurfer.aws.af.cm/#/"
+					"subject": "Namespacing",
+					"link": ""
 				},
 				{
-					"subject": "Sample project w/ Backbone by Herman Tran: Race Surfer",
-					"link": "http://ec2-54-200-181-70.us-west-2.compute.amazonaws.com/"
+					"subject": "jQuery and 'this'",
+					"link": ""
 				}
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "9/9",

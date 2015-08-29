@@ -1,6 +1,6 @@
 Object Oriented JavaScript - Part 1
 ===================================
-
+<!--
 ### Overview
 
 * Review of data types: strings, numbers, booleans, arrays, objects, undefined, null
@@ -40,10 +40,11 @@ Object Oriented JavaScript - Part 1
   * nested functions and _this_
   * jQuery event binding inside methods
   * this, self, that
+-->
 
 ### What are objects?
 
-Objects are containers for a collection of related properties (variables) and methods (functions). Examples of objects include:
+Objects are containers for a collection of related variables (properties) and functions (methods). Examples of objects include:
 
 Native objects include:
 
@@ -65,12 +66,12 @@ The window object contains methods like:
 * alert() or window.alert()
 * parseFloat() or window.parseFloat()
 * parseInt() or window.parseInt()
-* Math
-* document
+
+Objects can contain properties that are other objects. For example the _window_ object contains a property _document_. So _window.document_ is the same as just _document_. When you try and access a global variable, _window_ is implied so specifying it is optional.
 
 ### Object Literals
 
-To create an object, use the {} braces and create key-value pairs separated by commas.
+To create an object, use the { } braces and create key-value pairs separated by commas.
 
 ```js
 var cat = {
@@ -103,7 +104,7 @@ cat.name // Fiona
 cat.age // 1.5
 ```
 
-We can also change values to object properties:
+We can also set or change properties on an object:
 
 ```js
 cat.name = 'Chestnut';
