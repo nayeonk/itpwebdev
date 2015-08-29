@@ -52,7 +52,7 @@ var bookmarkWidget = {
 
 ### Submission
 
-Submit your assignment to the TA (dongyanc@usc.edu) and myself (dtang@usc.edu).
+Submit your assignment to the TA (dongyanc@usc.edu) and myself (dtang@usc.edu) as a zip file.
 
 <!--
 
