@@ -1,0 +1,326 @@
+{
+	"course_name": "Web Publishing",
+	"color": "green",
+	"instructor": "Nayeon Kim",
+	"syllabus": "http://web-app.usc.edu/soc/syllabus/20151/31806.pdf",
+	"time": "Mondays 5-7:50pm in KAP 160",
+	"office_hours": "Mondays 8-9pm",
+	"ta": [
+		{ "name": "Harry Hao [Grader ONLY]", "email": "zhan849@usc.edu" },
+		{ "name": "Caleb You", "email": "sideokyo@usc.edu" },
+		{ "name": "Mohit Gupta", "email": "mohitg@usc.edu"}
+	],
+	"homework": [
+		{
+			"name": "First web page",
+			"type": "L",
+			"due": "1/26",
+			"link": "first-webpage",
+			"active": 1
+		},
+		{
+			"name": "Resume",
+			"type": "A",
+			"due": "2/2 @11:59PM",
+			"link": "resume",
+			"active": 1
+		},
+		{
+			"name": "Film Article",
+			"type": "A",
+			"due": "2/9 @5PM",
+			"link": "film-article",
+			"active": 1
+		},
+		{
+			"name": "Calendar",
+			"type": "A",
+			"due": "2/18 @5PM ",
+			"link": "calendar",
+			"active": 1
+		},
+		{
+			"name": "Survey",
+			"type": "A",
+			"due": "3/2 @5PM",
+			"link": "survey",
+			"active": 1
+		},
+		{
+			"name": "Practice practical exam",
+			"type": "L",
+			"due": "3/9 @5PM",
+			"link": "practice-practical",
+			"active": 1
+		},
+		{
+			"name": "Graphic redesign",
+			"type": "L",
+			"due": "3/23 @5PM",
+			"link": "graphic-redesign",
+			"active": 1
+		},
+		{
+			"name": "Major Project Proposal",
+			"type": "A",
+			"due": "3/23 @5PM",
+			"link": "project-proposal",
+			"active": 1
+		},
+		{
+			"name": "Behaviors",
+			"type": "L",
+			"due": "3/30 @5PM",
+			"link": "behaviors",
+			"active": 1
+		},
+		{
+			"name": "Final Project Frontpage & Graphics",
+			"type": "A",
+			"due": "4/8 @5PM",
+			"link": "project-homepage",
+			"active": 1
+		},
+		{
+			"name": "CSS Navigation",
+			"type": "L",
+			"due": "4/20 @5PM",
+			"link": "css-dropdown-navigation",
+			"active": 1
+		},
+		{
+			"name": "Dreamweaver News Article",
+			"type": "L",
+			"due": "4/7",
+			"link": "dreamweaver-news-article",
+			"active": 0
+		},
+		{
+			"name": "Web Technology Article",
+			"type": "A",
+			"due": "11/11",
+			"link": "web-technology-article",
+			"active": 0
+		},
+
+		{
+			"name": "Web Technology Deconstruction",
+			"type": "A",
+			"due": "4/14",
+			"link": "web-technology-deconstruction",
+			"active": 0
+		},
+		{
+			"name": "jQuery plugin",
+			"type": "L",
+			"due": "4/27 @5pm",
+			"link": "jquery-plugin",
+			"active": 1
+		},
+		{
+			"name": "FINAL PROJECT REQUIREMENTS",
+			"type": "P",
+			"due": "5/1 11:59pm",
+			"link": "project-requirements",
+			"active": 1
+		}
+	],
+
+	"weeks": [
+		{
+			"date": "4/27",
+			"units": [
+				{
+					"subject": "Social media widgets",
+					"link": "widgets"
+				},
+				{
+					"subject": "HTML5 Video Tag",
+					"link": "2015sp/html5-video"
+				},
+
+				{
+					"subject": "Taking your site beyond USC, web hosting, and domains",
+					"link": "2015sp/hosting"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "4/20",
+			"units": [
+				{ "subject": "Loading Fonts", 
+					"link": "loading-fonts" 
+				},
+				{
+					"subject": "jQuery plugins",
+					"link": "jquery-plugins"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "4/13",
+			"units": [
+				{ "subject": "External Stylesheets and CSS Selectors", 
+					"link": "CSS-revisited" 
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "4/6",
+			"units" : [ { "subject" : "Class canceled today", "link": "class-cancelled-today" } ],
+			"active": 1
+		},
+		{
+			"date": "3/30",
+			"units": [
+				{ 
+					"subject": "Guest Lecture on Industry Topics",
+					"link" : "guest-lecture-industry-topic"
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "3/23",
+			"units": [
+				{
+					"subject": "Dreamweaver Visual Editor",
+					"link": "dreamweaver-intro"
+				},
+				{
+					"subject": "Dreamweaver Behaviors and Effects",
+					"link": "dreamweaver-behaviors"
+				}, 
+				{
+					"subject": "Final Project Requirements announcement",
+					"link" : ""
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "3/16",
+			"units": [
+				{ "subject": "Spring Break", "link": "" }
+			],
+			"active": 0
+		},
+		{
+			"date": "3/9",
+			"units": [
+				{ "subject": "Midterm", "link": "" }
+			],
+			"active": 1
+		},
+		{
+			"date": "3/2",
+			"units": [
+				{ "subject": "Exam Study Guide", "link": "study-guide" }
+			],
+			"active": 1
+		},
+		{
+			"date": "2/23",
+			"units": [
+				{ "subject": "HTML Forms & USC Form Scripts", "link": "html-forms" }
+			],
+			"active": 1
+		},
+		{
+			"date": "2/16",
+			"units": [
+				{ "subject": "University holiday", "link": "" }
+			],
+			"active": 1
+		},
+		{
+			"date": "2/9",
+			"units": [
+				{
+					"subject": "Intro to Stylesheets, div layouts continued",
+					"link": "divs-continued-stylesheets"
+				}
+			],
+			"active": 1
+		},
+
+		{
+			"date": "2/2",
+			"units": [
+				{ "subject": "Divs & layouts, floats, and the box model", "link": "divs-layouts-boxmodel" }
+			],
+			"active": 1
+		},
+
+		{
+			"date": "1/26",
+			"units": [
+				{ "subject": "Basic HTML", "link": "basic-html" },
+				{ "subject": "Intro to styles", "link": "styles-intro" },
+				{ "subject": "FTP and uploading files to a server", "link": "ftp" },
+				{ "subject": "Resource: Basic HTML tags & CSS properties", "link": "basic-html-tags-and-css-properties" }
+
+			],
+			"active": 1
+		},
+
+		{
+			"date": "1/19",
+			"units": [
+				{
+					"subject": "University holiday",
+					"link": ""
+				}
+			],
+			"active": 1
+		},
+
+		{
+			"date": "1/12",
+			"units": [
+				{
+					"subject": "Course intro, Web overview, HTML intro",
+					"link": "intro"
+				}
+			],
+			"active": 1
+		},
+		
+		{
+			"date": "4/6",
+			"units": [
+				{ "subject": "Web Technology Overview", "link": "web-technologies" },
+				{ "subject": "ITP web programs", "link": "http://itp.usc.edu/minors/Web-Technologies-and-Applications/" },
+				{
+					"subject": "Dreamweaver Behaviors and Effects",
+					"link": "dreamweaver-behaviors"
+				}
+			],
+			"active": 0
+		},
+		{
+			"date": "4/13",
+			"units": [
+				{ "subject": "Guest Lecture on Wordpress (Michael Shen)", "link": "" }
+			],
+			"active": 0
+		},
+		{
+			"date": "4/20",
+			"units": [
+				{
+					"subject": "jQuery plugins",
+					"link": "jquery-plugins"
+				},
+				{
+					"subject": "CSS Positioning, Dropdown Navigations",
+					"link": "https://github.com/ITP-Webdev/css-dropdown-navigation"
+				}
+			],
+			"active": 0
+		}
+	]
+}
