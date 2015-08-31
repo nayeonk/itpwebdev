@@ -14,7 +14,7 @@
 		{
 			"name": "L1: First web page",
 			"type": "L",
-			"due": "8/31",
+			"due": "8/31 @9PM",
 			"link": "first-webpage",
 			"active": 1
 		},
