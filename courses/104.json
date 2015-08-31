@@ -2,26 +2,26 @@
 	"course_name": "Web Publishing",
 	"color": "green",
 	"instructor": "Nayeon Kim",
-	"syllabus": "http://web-app.usc.edu/soc/syllabus/20151/31806.pdf",
-	"time": "Mondays 5-7:50pm in KAP 160",
-	"office_hours": "Mondays 8-9pm",
+	"syllabus": "http://web-app.usc.edu/soc/syllabus/20153/31806.pdf",
+	"time": "Mondays 6-8:50pm in KAP 160",
+	"office_hours": "Mondays 5-5:50pm in OHE530A",
 	"ta": [
-		{ "name": "Harry Hao [Grader ONLY]", "email": "zhan849@usc.edu" },
+		{ "name": "Anushila Dey", "email": "anushild@usc.edu" },
 		{ "name": "Caleb You", "email": "sideokyo@usc.edu" },
-		{ "name": "Mohit Gupta", "email": "mohitg@usc.edu"}
+		{ "name": "Kieran Reynolds", "email": "kieranre@usc.edu"}
 	],
 	"homework": [
 		{
-			"name": "First web page",
+			"name": "L1: First web page",
 			"type": "L",
-			"due": "1/26",
+			"due": "8/31",
 			"link": "first-webpage",
 			"active": 1
 		},
 		{
-			"name": "Resume",
+			"name": "A1: Resume",
 			"type": "A",
-			"due": "2/2 @11:59PM",
+			"due": "9/14 @6PM",
 			"link": "resume",
 			"active": 1
 		},
@@ -30,63 +30,63 @@
 			"type": "A",
 			"due": "2/9 @5PM",
 			"link": "film-article",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Calendar",
 			"type": "A",
 			"due": "2/18 @5PM ",
 			"link": "calendar",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Survey",
 			"type": "A",
 			"due": "3/2 @5PM",
 			"link": "survey",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Practice practical exam",
 			"type": "L",
 			"due": "3/9 @5PM",
 			"link": "practice-practical",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Graphic redesign",
 			"type": "L",
 			"due": "3/23 @5PM",
 			"link": "graphic-redesign",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Major Project Proposal",
 			"type": "A",
 			"due": "3/23 @5PM",
 			"link": "project-proposal",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Behaviors",
 			"type": "L",
 			"due": "3/30 @5PM",
 			"link": "behaviors",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Final Project Frontpage & Graphics",
 			"type": "A",
 			"due": "4/8 @5PM",
 			"link": "project-homepage",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "CSS Navigation",
 			"type": "L",
 			"due": "4/20 @5PM",
 			"link": "css-dropdown-navigation",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Dreamweaver News Article",
@@ -115,14 +115,14 @@
 			"type": "L",
 			"due": "4/27 @5pm",
 			"link": "jquery-plugin",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "FINAL PROJECT REQUIREMENTS",
 			"type": "P",
 			"due": "5/1 11:59pm",
 			"link": "project-requirements",
-			"active": 1
+			"active": 0
 		}
 	],
 
@@ -144,7 +144,7 @@
 					"link": "hosting"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "4/20",
@@ -157,7 +157,7 @@
 					"link": "jquery-plugins"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "4/13",
@@ -166,12 +166,12 @@
 					"link": "CSS-revisited" 
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "4/6",
 			"units" : [ { "subject" : "Class canceled today", "link": "class-cancelled-today" } ],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "3/30",
@@ -181,7 +181,7 @@
 					"link" : "guest-lecture-industry-topic"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "3/23",
@@ -199,7 +199,7 @@
 					"link" : ""
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "3/16",
@@ -213,28 +213,28 @@
 			"units": [
 				{ "subject": "Midterm", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "3/2",
 			"units": [
 				{ "subject": "Exam Study Guide", "link": "study-guide" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "2/23",
 			"units": [
 				{ "subject": "HTML Forms & USC Form Scripts", "link": "html-forms" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "2/16",
 			"units": [
 				{ "subject": "University holiday", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "2/9",
@@ -244,7 +244,7 @@
 					"link": "divs-continued-stylesheets"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 
 		{
@@ -252,11 +252,20 @@
 			"units": [
 				{ "subject": "Divs & layouts, floats, and the box model", "link": "divs-layouts-boxmodel" }
 			],
-			"active": 1
+			"active": 0
 		},
-
 		{
-			"date": "1/26",
+			"date": "1/19",
+			"units": [
+				{
+					"subject": "University holiday",
+					"link": ""
+				}
+			],
+			"active": 0
+		},
+		{
+			"date": "8/31",
 			"units": [
 				{ "subject": "Basic HTML", "link": "basic-html" },
 				{ "subject": "Intro to styles", "link": "styles-intro" },
@@ -266,20 +275,8 @@
 			],
 			"active": 1
 		},
-
 		{
-			"date": "1/19",
-			"units": [
-				{
-					"subject": "University holiday",
-					"link": ""
-				}
-			],
-			"active": 1
-		},
-
-		{
-			"date": "1/12",
+			"date": "8/24",
 			"units": [
 				{
 					"subject": "Course intro, Web overview, HTML intro",

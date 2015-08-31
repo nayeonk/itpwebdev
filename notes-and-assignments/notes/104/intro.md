@@ -4,7 +4,7 @@ Course Overview & Intro to the web
 Slides can be downloaded [here](/slides/104/itp104_lecture_w01.pdf). **Note:** This is probably the only lecture slides are ever used. 
 
 **Syllabus:**
-* can be found [here](http://web-app.usc.edu/soc/syllabus/20151/31806.pdf)
+* can be found [here](http://web-app.usc.edu/soc/syllabus/20153/31806.pdf)
 
 ###Class Administrative Details
 * All lecture notes and assignments will be posted weekly on this class website. Blackboard is only used for posting grades.
