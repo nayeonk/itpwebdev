@@ -28,7 +28,7 @@
 			"type": "A",
 			"due": "9/16",
 			"link": "rotten-tomatoes-search",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "Reviews Report Constructor",
@@ -139,11 +139,35 @@
 
 	"weeks": [
 		{
-			"date": "8/26",
+			"date": "9/9",
 			"units": [
 				{
-					"subject": "Course introduction",
-					"link": "overview"
+					"subject": "Overview of communicating with a server, JSON, & JSONP APIs",
+					"link": "jsonp"
+				},
+				{
+					"subject": "Asynchronous Programming",
+					"link": ""
+				},
+				{
+					"subject": "Client-side templating with Handlebars.js",
+					"link": "http://handlebarsjs.com/"
+				},
+				{
+					"subject": "Event Delegation",
+					"link": ""
+				},
+				{
+					"subject": "Slides",
+					"link": "https://slides.com/davidtang/404-2015-week3"
+				},
+				{
+					"subject": "Demo",
+					"link": "https://bitbucket.org/skaterdav85/week3/src"
+				},
+				{
+					"subject": "Documentation for other JSONP endpoints",
+					"link": "https://bitbucket.org/skaterdav85/jsonp-endpoints"
 				}
 			],
 			"active": 1
@@ -180,22 +204,14 @@
 			"active": 1
 		},
 		{
-			"date": "9/9",
+			"date": "8/26",
 			"units": [
 				{
-					"subject": "Overview of communicating with a server, JSON, & JSONP APIs",
-					"link": "jsonp"
-				},
-				{
-					"subject": "Client-side templating",
-					"link": ""
-				},
-				{
-					"subject": "Other JSONP endpoints",
-					"link": "https://github.com/ITP-Webdev/jsonp/blob/master/README.md"
+					"subject": "Course introduction",
+					"link": "overview"
 				}
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "9/16",

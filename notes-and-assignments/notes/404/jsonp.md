@@ -1,16 +1,7 @@
 JSON & JSONP
 ============
 
-### Overview
-
-* Review of objects
-* What is an API?
-* What is JSON? - JavaScript Object Notation
-* Communication with a server
-	* What is AJAX
-		* AJAX limitations - same origin policy, CORS
-	* JSONP
-* Facebook API and iTunes API Demos
+__The code in this post no longer works because Facebook changed their API but the content is still relevant.__
 
 ### What is JSON?
 

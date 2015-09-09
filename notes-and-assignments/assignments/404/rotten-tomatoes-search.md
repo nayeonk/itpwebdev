@@ -13,8 +13,10 @@ Create a form where the user can type in a movie into a text input. Listen for t
 
 ### 2. Results
 
-* Display the results on the page using the Handlebars client-side templating library
-* At minimum you should have a template for each movie and display the following properties:
+Display the results on the page.
+
+* Create a Handlebars template for a single movie. This template should be compiled only once during the lifecycle of the page. (Don't compile the template in a loop.) 
+* The movie template should display the following properties:
 	* poster image
 	* title
 	* audience rating
@@ -23,9 +25,9 @@ Create a form where the user can type in a movie into a text input. Listen for t
 		* hint: look at Handlebars "each" helper
 	* synopsis (if there isnt one, display the text "Synopsis unavailable.")
 		* hint: look at Handlebars if/else helpers
-* Display a loading indicator while the jsonp request is being made
+* Display a loading indicator while the jsonp request is being made http://www.ajaxload.info/
 
-### App organization
+### 3. Code Organization
 
 Try breaking up your code into objects with related responsiblities. Here is one way you could do it:
 
@@ -36,7 +38,8 @@ Try breaking up your code into objects with related responsiblities. Here is one
 * rottenTomatoes
 	* search(term) - responsible for making the jsonp request
 	
-There are many ways you could break up your code into related objects. At minimum, create 1 custom object with at least 1 method and 1 property.
+There are many ways you could break up your code into related objects. At minimum, create 1 custom object with at least 2 methods, OR 2 custom objects with 1 method each.
 
+### Submission
 
-Post a link of the assignment to your classpage for submission.
+Submit your assignment to the TA and myself (dtang@usc.edu) as a zip file.
