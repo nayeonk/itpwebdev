@@ -1,7 +1,7 @@
 Rotten Tomatoes Search
 ======================
 
-Create a JavaScript application that allows a user to search for a movie from the Rotten Tomatoes JSONP API.
+Create a JavaScript application that allows a user to search for a movie from the Rotten Tomatoes JSONP API. First, signup for an API key from Rotten Tomatoes: http://developer.rottentomatoes.com/member/register
 
 ```
 http://api.rottentomatoes.com/api/public/v1.0/movies.json?q=test&page_limit=40&page=1&apikey=YOUR-KEY-HERE&callback=renderMovies
