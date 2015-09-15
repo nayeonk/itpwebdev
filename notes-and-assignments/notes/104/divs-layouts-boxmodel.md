@@ -119,4 +119,4 @@ Now it's time to plan out the main interiror of the layout space. Do you want an
 
 ### Files from lecture:
 These are the HTML files I created with you during lecture. Feel free to reference them for your labs/assignments. To view the code, click the file to open, right click on the page, click View Source. You can also right click, save as.. to save the page on your computer.
-* 
+* [article.html](/demos/104/W4/article.html)
