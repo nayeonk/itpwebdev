@@ -35,7 +35,7 @@
 			"type": "A",
 			"due": "9/23",
 			"link": "oojs2",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "Photo Gallery",
@@ -139,6 +139,17 @@
 
 	"weeks": [
 		{
+			"date": "9/16",
+			"title": "Object Oriented JavaScript - Part 2",
+			"units": [
+				{
+					"subject": "OOJS 2 - Constructor functions and Prototypes",
+					"link": "oojs2"
+				}
+			],
+			"active": 1
+		},
+		{
 			"date": "9/9",
 			"units": [
 				{
@@ -212,16 +223,6 @@
 				}
 			],
 			"active": 1
-		},
-		{
-			"date": "9/16",
-			"units": [
-				{
-					"subject": "OOJS 2 - Constructors and Prototypes",
-					"link": "oojs2"
-				}
-			],
-			"active": 0
 		},
 		{
 			"date": "9/23",

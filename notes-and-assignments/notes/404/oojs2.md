@@ -25,7 +25,7 @@ Object Oriented JavaScript - Part 2
 	* "Everything in JS is an object"
 	* Extending native constructors   
 
-### Functions as Constructors
+### Constructor Functions
 
 Functions used as constructors are sometimes referred to as:
 
