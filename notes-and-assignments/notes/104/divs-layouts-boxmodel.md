@@ -3,8 +3,8 @@ Divs &amp; Layouts, Floats, &amp; The Box Model
 
 ### Overview
 * Recreating this article: http://www.nytimes.com/2015/09/10/technology/apple-tv-iphone-6s.html
-* Download these two images: [image01](/images/apple_article_img01.png) | [image02](images/apple_article_img02.png)
-* styles review
+* Download these two images: [image01](/images/apple_article_img01.png) | [image02](images/apple_article_img02.png) for the demo
+* style review
 * floats (floating an image right and left w/ a paragraph that wraps around it)
 	* margin property
 * clearing floats
@@ -118,5 +118,8 @@ Now it's time to plan out the main interiror of the layout space. Do you want an
 
 
 ### Files from lecture:
-These are the HTML files I created with you during lecture. Feel free to reference them for your labs/assignments. To view the code, click the file to open, right click on the page, click View Source. You can also right click, save as.. to save the page on your computer.
+Below is the HTML file I created with you during lecture. Feel free to reference them for your labs/assignments. To view the code, click the file to open, right click on the page, click View Source. You can also right click, Save As... to save the page on your computer.
 * [article.html](/demos/104/W4/article.html)
+
+Here is the layout I drew on the whiteboard of the New York Times article we created together:
+![Article Layout](/demos/104/W4/article_layout.jpg)
