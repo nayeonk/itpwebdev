@@ -235,6 +235,10 @@
 				{
 					"subject": "Intro to Stylesheets, div layouts continued",
 					"link": "divs-continued-stylesheets"
+				},
+				{
+					"subject" : "Resource: Remove USC notice from your site",
+					"link" : "remove-usc-notice"
 				}
 			],
 			"active": 1
