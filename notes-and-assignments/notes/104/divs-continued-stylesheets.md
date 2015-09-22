@@ -34,7 +34,7 @@ Save the following files for lecture (right click on page, click Save As...):
 
 This is the drawing from today's class to help you visualize the grid layout:
 
-<img width="500px;" src="demos/104/W5/grid.jpg">
+<img width="500px;" src="demos/104/W5/drawing.jpg">
 
  
 
@@ -112,6 +112,8 @@ To learn more about the grid layouts we are going to re-create an instagram page
 
 <img width="45%" src="/demos/104/W5/instagram_screenshot_v2.png"/> 
 
-The finished demo file will be uploaded to this [link](demos/104/W5/gallery_v2_end.html) when lecture is finished. 
+The finished demo file will be uploaded to this [link](demos/104/W5/Photo_Gallery_end.html) when the lecture is finished. 
+
+The calendar starter file will be uploaded to this [link](demos/104/W5/calendar_v2.html) when the lecture is finished.
 
 <!-- To get the calendar starter click [here](demos/104/W5/calendar.html) -->

@@ -7,23 +7,65 @@
 			border: 1px solid red;
 		}*/
 
+		/* 1. First demo of the power of using class*/
 		.dogimage {
 			width: 200px;
 			height: 200px;
 		}
+
+		/* 2. We can select tags as well*/
 		body {
 			background-color: #d8d8d8;
 		}
+
+		/* 3. we want the images to stack horizontally. What do we have to use? */
 		.imgbox {
 			width: 200px;
 			float: left;
+
+			/* 4. Have to clear floats */
+
+			/* 5. Add margins. Explain the concept of margins */
 			margin: 15px;
+
+			/* 9. Add this border and see that the widths get all messed up  */
 			border: 1px solid black;
 		}
+
+		/* 6. style the container that wraps the div*/ 
 		#outercontainer {
 			background-color: #fafafa;
-			width: 696px;
+
+			/* 7. Calculate what the outercontainer should be. We want to center this width */ 
+			width: 696px; /* Before border, width should be 600 + 15+ 30 + 30 + 15px = 690px */
+
+			/* 8. How do we center the divs again? */
 			margin: 0 auto;
+		}
+
+		/* 11. Basic header style */
+		#header {
+			background-color: white;
+			font-family: Arial;
+
+			/* 15. Add some padding */
+			padding-left: 40px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+
+			/* Alternate: padding: 20px 0px 20px 40px*/
+		}
+
+		/* 12. Add profile picture styles */
+		.profilepic {
+			width:100px;
+			float:left; 
+			margin-right:20px;	
+		}
+
+		/* 13. Add float to the profile */
+		.profile {
+			float: left;
 		}
 
 	</style>
@@ -32,6 +74,22 @@
 <body>
 
 	<div id="outercontainer">
+
+		<!-- 10. Add header HTML -->
+		<div id="header">
+			<img class="profilepic" src="http://itpwebdev.herokuapp.com/images/dogimg01.jpg"/>
+
+			<div class="profile">
+				<h2>instadog</h2>
+				Pics of dogs. so cute.
+			</div>
+
+			<!-- 14. Have to clear floats after every row  -->
+			<div style="clear:both"></div>
+
+			
+		</div>
+
 		<div class="imgbox">
 			<img class="dogimage" src="http://itpwebdev.herokuapp.com/images/dogimg01.jpg" />
 		</div>
@@ -42,6 +100,7 @@
 			<img class="dogimage" src="http://itpwebdev.herokuapp.com/images/dogimg03.jpg" />
 		</div>
 
+		<!-- 4. Have to clear floats after every row  -->
 		<div style="clear:both;"></div>
 
 		<div class="imgbox">
@@ -54,6 +113,7 @@
 			<img class="dogimage" src="http://itpwebdev.herokuapp.com/images/dogimg06.jpg" />
 		</div>
 
+		<!-- 4. Have to clear floats after every row  -->
 		<div style="clear:both;"></div>
 
 		<div class="imgbox">
@@ -66,6 +126,7 @@
 			<img class="dogimage" src="http://itpwebdev.herokuapp.com/images/dogimg09.jpg" />
 		</div>
 
+		<!-- 4. Have to clear floats after every row  -->
 		<div style="clear:both;"></div>
 
 	</div>
