@@ -2,14 +2,12 @@ Divs continued & Stylesheets
 ============================
 
 Save the following files for lecture (right click on page, click Save As...):
-* [Centering example](notes-examples/104/div_centered.html)
-* [Floats starter](notes-examples/104/page-no-clears.html)
+* [Centering example](notes-examples/104/div_centered_start.html)
 * [Instagram Photo Grid starter](demos/104/W5/gallery_start.html)
 
 ### Lecture Overview
 
 * Review centering
-* Floating issues (examples) and how to clear floats
 * Building "grid"-like layouts
 * Stylesheets
 	* stylesheets vs inline styles?
@@ -28,14 +26,6 @@ Save the following files for lecture (right click on page, click Save As...):
 * See this [centering example](notes-examples/104/div_centered.html): one box is normal (left) positioned on the page, whereas the second one is "centered". And notice that inside of the first box its text is centered down the middle.
 
  
-### Clearing floats
-
-* If you are having problems with floating elements overlapping or overrunning elements, stop and think if you need a clear:both to divide up "sections" of your page.
-* Clear "resets" float settings, which basically means items after a "clear:both" will wait until all current floating elements have finished/closed before the new divs appear/are laid out.
-* The simplest way to do a clear is with a tag such as 
-* See [this example with clears](notes-examples/104/div-clear.html) and [this page with no clears](notes-examples/104/page-no-clears.html). In the top section the pink box is is overlapping from section1 to section2. But the yellow box lower runs over the end of product 3 but does NOT go into product4, and the white box inside product 4 extends the product4 section until it is completed.
-
- 
 ### Building "grid"-like layouts
 
 * If you want to lay out lots of boxes evenly spaced out like a grid, you need to calculate their sizes AND their margins/paddings, then set an outer box that is that total.
@@ -44,7 +34,7 @@ Save the following files for lecture (right click on page, click Save As...):
 
 This is the drawing from today's class to help you visualize the grid layout:
 
-<img width="500px;" src="demos/104/W5/grid.jpg">
+<img width="500px;" src="demos/104/W5/drawing.jpg">
 
  
 
@@ -120,8 +110,10 @@ Sample stylesheet (which would be inside a style block in the head):
 ###Instagram Photo Grid Demo
 To learn more about the grid layouts we are going to re-create an instagram page during today's lecture:
 
-<img width="45%" src="/images/instagram_screenshot.png"/> 
+<img width="45%" src="/demos/104/W5/instagram_screenshot_v2.png"/> 
 
-The finished demo file will be uploaded to this [link](demos/104/W5/gallery_end.html) when lecture is finished. 
+The finished demo file will be uploaded to this [link](demos/104/W5/Photo_Gallery_end.html) when the lecture is finished. 
 
-To get the calendar starter click [here](demos/104/W5/calendar.html)
+The calendar starter file will be uploaded to this [link](demos/104/W5/calendar_v2.html) when the lecture is finished.
+
+<!-- To get the calendar starter click [here](demos/104/W5/calendar.html) -->
