@@ -5,8 +5,9 @@ Using divs, create a web page that is a graphic calendar of your birth month.
 
 **REQUIREMENTS:**
 
-* The overall calendar should have a set width, and there should be a unique background color for the whole calendar
-* Across the top of the calendar you should have a graphic in the background, with the name of the month and the year either on top of the graphic or right below it. Use the CSS property background-image to place the month and the year on "top" of the image.
+* The overall calendar should have a set width, and there should be a unique background color for the whole calendar.
+* The overall calendar must be **at the center of your browser**.
+* Across the top of the calendar you should have a graphic in the background, with the name of the month and the year either on top of the graphic or right below it. To place the name of the month on top of the image, use the CSS property background-image to place the month and the year on "top" of the image.
 * The "body" of the calendar should have seven columns (for each day of the week). There should be one "header" row that lists the days of the week.
 * Each "day" of the calendar should have the number representing that day.
 * You need to select *THREE* special event or holiday days in your calendar. Your birthday should be one, plus two others. Each of these days MUST:
