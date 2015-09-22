@@ -4,6 +4,7 @@ Quiz 1 Study Guide
 * Written
 * 25 minutes long
 * Multiple choice, fill in the blank, short answer, True/False
+* Lecture will start after the quiz so class will be a little longer than usual
 
 ### Objects
 
@@ -29,10 +30,11 @@ Quiz 1 Study Guide
 * Methods and _this_
 * Defining methods on the prototype
 * property lookups
-* Extending native constructors
+* ~~Extending native constructors~~
 
 ### What I wont ask
 
-* API specific things (facebook, itunes, rotten tomatoes)
+* Specific APIs
 * Constructors used in Google Maps API
 * Geolocation
+* Handlebars specifics

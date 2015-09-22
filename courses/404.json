@@ -63,7 +63,7 @@
 			"type": "A",
 			"due": "9/30",
 			"link": "position-mapper",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "Building jQuery",
@@ -138,6 +138,24 @@
 	],
 
 	"weeks": [
+		{
+			"date": "9/23",
+			"units": [
+				{
+					"subject": "Google Maps JavaScript API",
+					"link": "google-maps"
+				},
+				{
+					"subject": "Geolocation API",
+					"link": "geolocation"
+				},
+				{
+					"subject": "Quiz 1 Study Guide",
+					"link": "quiz1-study-guide"
+				}
+			],
+			"active": 1
+		},
 		{
 			"date": "9/16",
 			"title": "Object Oriented JavaScript - Part 2",
@@ -227,24 +245,6 @@
 				}
 			],
 			"active": 1
-		},
-		{
-			"date": "9/23",
-			"units": [
-				{
-					"subject": "Google Maps JavaScript API",
-					"link": "google-maps"
-				},
-				{
-					"subject": "Geolocation API",
-					"link": "geolocation"
-				},
-				{
-					"subject": "Quiz 1 Study Guide",
-					"link": "quiz1-study-guide"
-				}
-			],
-			"active": 0
 		},
 		{
 			"date": "9/30",
