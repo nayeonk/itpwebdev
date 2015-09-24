@@ -152,6 +152,10 @@
 				{
 					"subject": "Quiz 1 Study Guide",
 					"link": "quiz1-study-guide"
+				},
+				{
+					"subject": "Demo",
+					"link": "https://bitbucket.org/skaterdav85/googlemaps-2015/src"
 				}
 			],
 			"active": 1
