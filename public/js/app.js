@@ -10,7 +10,14 @@ app.config(function($routeProvider) {
 		})
 		.when('/:courseNum', {
 			controller: 'HomeController',
-			templateUrl: 'js/partials/index.html'
+			templateUrl: 'js/partials/index.html',
+			resolve: {
+				isITP404: function($route) {
+					if ($route.current.params.courseNum === '404') {
+						window.location.href = 'http://itpweb.herokuapp.com/';
+					}
+				}
+			}
 		})
 		.when('/:courseNum/:type/:file', {
 			controller: 'ContentController',
