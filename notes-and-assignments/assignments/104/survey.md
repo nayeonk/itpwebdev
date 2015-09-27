@@ -1,21 +1,31 @@
 Survey
 ======
 
-For this assignment you are going to build a survey page for a political Web site using Form Objects. __This form does NOT NEED TO BE FUNCTIONAL (does not need to actually submit anywhere).__
+For this assignment you are going to build a survey on a topic of your choice. It does **NOT** need to be functional (does not beed to actually submit anywhere). 
 
-First, pick a political web site of any kind: a candidate site, one forwarding a proposition, one backing a general political movement or cause, etc.
+**REQUIREMENTS: **
+* The survey must be about a particular topic. 
+* Must pick a color scheme that works well.
+* Have a clean look -- with all of the labels (name, age, email, etc) in one column and the form fields (text input, checkbox, etc) in another column
+* Must use all of the major form objects (at least one of each):
+	* Text inputs 
+	* Radio Buttons 
+	* Checkboxes 
+	* Textareas 
+	* Select Menu 
+	* Submit button
+* Must have a Reset button that resets the form
+* Optional: Can use the USC form script to send the survey contents to your email address
 
-Take the main logo from that political site and make note of the general color scheme.
+### Some past examples:
 
-Then build a Web page that is a survey about a related topic or issue. The page should feature the logo of the political site and should use colors that reflect the logo or parent site. Your page SHOULD have a relatively clean look -- with all of your labels (name, email, age) in a different column. Your overall form should be one background color (or gradient) with ROUNDED corners.
+<img src="demos/104/W7/survey1.png" width="60%" />
+<img src="demos/104/W7/survey2.png" width="60%" />
 
-The main survey should use all of the major form objects (at least one of each):
 
-* Text inputs 
-* Radio Buttons 
-* Checkboxes 
-* Textareas 
-* Select Menu 
-* Submit and Reset buttons 
+### Delivery:
+1. Upload this assignment HTML file and any images to your USC webspace itp104 folder via FileZilla.
+2. Go back to your classpage.html and add a link that links to the assignment file. 
+3. Upload your classpage.html via Filezilla, overwriting your old classpage.html 
 
-Your page does NOT need to be functional, insofar as the form will not submit to anywhere. It should just be a user interface for visitors to enter their responses into the various form objects. You could however incorporate one of the USC form scripts if you'd like an email to be sent to you whenever someone fills out your survey.
+To check if your assignment has been succesfully 'submitted,' go to the class website, click on your name, and click on the link that you created to this assignment. If it opens your assignment correctly, that means your assignment has been uploaded succesfully.

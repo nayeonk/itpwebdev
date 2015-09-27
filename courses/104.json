@@ -40,11 +40,11 @@
 			"active": 1
 		},
 		{
-			"name": "Survey",
+			"name": "A4: Survey",
 			"type": "A",
-			"due": "3/2 @5PM",
+			"due": "10/5 @6PM",
 			"link": "survey",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "Practice practical exam",
@@ -227,7 +227,7 @@
 			"units": [
 				{ "subject": "HTML Forms & USC Form Scripts", "link": "html-forms" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "9/21",

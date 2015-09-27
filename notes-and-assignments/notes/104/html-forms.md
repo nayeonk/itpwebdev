@@ -1,10 +1,17 @@
 HTML Forms and USC Form Scripts
 ===============================
+Save the following for this lecture:
+* [Stripe Image](/demos/104/W7/stripe.png)
 
+Download Sublime Text 2 
+* <a href="http://www.sublimetext.com/" target="_blank">http://www.sublimetext.com/</a>
+
+###Lecture Overview
+
+* HTML Forms
+* Laying out forms with div tags/floats
 * span tags
 * rounded corners
-* HTML forms
-* Laying out forms with div tags/floats
 * USC form scripts
 
 ### Forms
@@ -13,11 +20,11 @@ HTML Forms and USC Form Scripts
 *	Forms are set to "submit" to a page (or more commonly a web script) that then saves and/or emails the form data. For the purposes of Web publishing we are only going to study the HTML to create forms and form objects, and not how to "process" the form.
 *	Form objects are places inside forms to collect different types of data from users. For instance, checkboxes collect yes/no (on or off) binary data, whereas radio buttons set up a series of options from which a user can only pick one.
 * Form objects include:
-  * (standard) text boxes
+	* standard text boxes	
 	* checkboxes
-  * radio buttons
+	* radio buttons
 	* (large) textarea (multiline) boxes
-  * submit and reset buttons
+	* submit and reset buttons
 
 
 ### HTML Form Tags
@@ -30,8 +37,8 @@ The form tag defines the beginning and end of a form. So a sample "start" form t
 <form action="process.php" method="post">
 ```
 
-* action attribute: the "action" defines WHERE the form is submitted
-* method attribute: the "method" defines which of two methods (get or post) is used to submit the data to the action page/script.
+* **action attribute:** the "action" defines WHERE the form is submitted
+* **method attribute:** the "method" defines which of two methods (get or post) is used to submit the data to the action page/script.
 
 Inside a form, there are four HTML tags that define the different form objects: input, textarea, and select (with option):
 
@@ -131,7 +138,5 @@ The textarea tag creates a large (multiline) text area for a user to type senten
 * FH_RequireUSCEmail: Basically checks for xxx@usc.edu
 
 ###Lecture files from today
-* [Barebones Form](/demos/104/W7/form.html)
-* [Styled Form](/demos/104/W7/contactform.html)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xaJ7uDXIE2E" frameborder="0" allowfullscreen></iframe>
+<!-- * [Barebones Form](/demos/104/W7/form.html)
+* [Styled Form](/demos/104/W7/contactform.html) -->
