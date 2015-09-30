@@ -1,74 +1,85 @@
-<!doctype html>
+<html>
+	<head>
+		<title>Contact Me</title>
 
-<html lang="en">
-<head>
-    <title>Contact Form</title>
-    
-    <style>
-        body {
-            background-color: #222;
-            background-image: url('stripe.png');
-            font-family: Arial, sans-serif;
-        }
-        
-        #outercontainer {
-            width: 760px;
-            height: 800px;
-            background-color: white;
-            margin: 0 auto;
-            border-radius: 10px;
-            padding: 20px;
-        }
-        
-        h1 {
-            padding: 0px 0px 0px 20px;
-        }
-        .label {
-            width: 200px;
-            float: left;
-            text-align: right;
-            margin-right: 10px;
-        }
-        input {
-            float: left;
-            width: 300px;
-            height: 20px;
-            margin-bottom: 10px;
-            border: 2px solid purple;
-        }
-        textarea {
-            width: 300px;
-            height: 50px;
-            border: 2px solid purple;
-        }
-        #submitbutton {
-            width: 100px;
-            border: none;
-            margin-left: 300px;
-        }
-        input:hover {
-            border: 2px solid yellow;
-        }
-        textarea:hover {
-            border: 2px solid yellow;
-        }
-    </style>
-</head>
-<body>
-    <div id="outercontainer">
-        <h1>Contact Me</h1>
-        
-        <form action="http://www.usc.edu/cgi-bin/mail_form/nayeonki@usc.edu" method="POST">
-            <div class="label">Name:</div> <input type="text" name="name" value="">
-            <br style="clear:both;" / >
-            <div class="label">Email:</div> <input type="text" name="email" value="">
-            <br style="clear:both;"/>
-            <div class="label">Message:</div> <textarea></textarea>
-            <br style="clear:both;"/>
-            
-            <input id="submitbutton" type="submit" name="submit" value="Send">
-                
-        </form>
-    </div>
-</body>
+		<style>
+
+		body {
+			background-color: #444444;
+			background-image: url('stripe.png');
+		}
+
+		#outercontainer {
+			background-color: white;
+			width: 750px;
+			margin: 0 auto;
+			border-radius: 10px;
+			padding: 20px;
+		}
+		.label {
+			float: left;
+			margin-right: 10px;
+			width: 200px;
+			text-align: right;
+		}
+
+		input {
+			width: 300px;
+			height: 20px;
+			margin-bottom: 10px;
+			border: 2px solid purple;
+		}
+		textarea {
+			width: 300px;
+			height: 50px;
+			border: 2px solid purple;
+		}
+		input:hover {
+			border: 2px solid yellow;
+		}
+		textarea:hover {
+			border: 2px solid yellow;
+		}
+		#submitbutton {
+			border: none;
+			width: 100px;
+			margin-left: 300px;
+			margin-top: 10px;
+		}
+
+		</style>
+
+	</head>
+
+	<body>
+
+		<div id="outercontainer">
+			<h1>Contact Me</h1>
+
+			<form method="POST" action="">
+				<div class="label"> Name:</div> <input type="text" name="name" />
+
+				<div style="clear:both;"></div>
+
+				<div class="label"> Email:</div> <input type="text" name="name"/>
+
+				<div style="clear:both"></div>
+
+				<div class="label"> Comments:</div> <textarea></textarea>
+
+				<div style="clear:both"></div>
+
+				<input id="submitbutton" type="submit" name="submit" value="Send" />
+
+			</form>
+		</div>
+
+
+
+
+
+
+
+	</body>
+
 </html>

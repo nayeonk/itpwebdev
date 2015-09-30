@@ -138,5 +138,5 @@ The textarea tag creates a large (multiline) text area for a user to type senten
 * FH_RequireUSCEmail: Basically checks for xxx@usc.edu
 
 ###Lecture files from today
-<!-- * [Barebones Form](/demos/104/W7/form.html)
-* [Styled Form](/demos/104/W7/contactform.html) -->
+* [Barebones Form](/demos/104/W7/form.html)
+* [Styled Form](/demos/104/W7/contactform.html)
