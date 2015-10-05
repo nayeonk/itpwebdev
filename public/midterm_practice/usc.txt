@@ -1,0 +1,35 @@
+Color notes: 
+Header background is 990000, "USC" in header is in yellow, "News" is in white.
+Background color for photo caption is aaaaaa for the caption "The USC name will go atop the AT&T Center in downtown LA later this year.".
+Background color for the box with "Related Articles" is gray
+The "A" that starts the main article text should be in the color 990000
+
+Links:
+Both links in Related Articles should point to http://news.usc.edu AND should open up in NEW BROWSER tabs or windows.
+ 
+
+ 
+Article Text:
+
+USC name to rise over downtown Los Angeles
+
+University leases additional space at AT&T Center, which will get new signage later this year
+
+An expanded lease at the landmark AT&T Center means the USC name will soon rise over downtown.
+
+USC has leased an additional 30,000 square feet at the three-building complex, where the university already occupies 215,000 square feet. As part of the lease arrangement, the USC name and shield will replace the AT&T sign atop the 32-story tower.
+
+The additional space will be used by the USC Marshall School of Business and the USC School of Social Work, said Laurie Stone, USC associate senior vice president for real estate and asset management. The complex already houses KUSC-FM as well as some operations of the Marshall School, the School of Social Work, the USC Price School of Public Policy, the USC Stevens Center for Innovation and the USC Viterbi School of Engineering.
+
+"The downtown location is strategically important for the university," Stone said Friday. "It allows us to preserve space on our University Park Campus for teaching and research, and allows the schools and departments in the AT&T building to easily connect and interact with businesses and communities in the heart of downtown."
+
+The USC signage is expected to be installed during the third quarter of 2015.
+
+The 32-story building, at 1150 S. Olive St., was designed by noted architect William Pereira and completed in 1965. Pereira - perhaps best known for designing the Transamerica Pyramid in San Francisco - taught at the USC School of Architecture and designed more than a dozen buildings on the University Park Campus including the Bing Theatre and Olin, Powell, Ramo and Vivian halls.
+
+Copyright 2015
+
+
+Related Articles
+Campaign for USC crosses $4 billion milestone
+USC Anneberg unveils Wallis Annenberg Hall

@@ -3,14 +3,14 @@ Exam Information & Study Guide
 
 ### Exam Information
 
-WRITTEN: Monday, March 9 from 5 - 5:50 p.m. in KAP160 on paper
+WRITTEN: Monday, October 12 from 6 - 6:50 p.m. in KAP160 on paper
 
-PRACTICAL: Monday, March 9 from 6 - 7:30 p.m. in KAP160
+PRACTICAL: Monday, October 12 from 7 - 8:30 p.m. in KAP160 on a computer
 
-* Both exams are NO NOTES, no books, no web resources, no using past assignments/labs, etc.
+* Both exams are **NO NOTES**, no books, no web resources, no using past assignments/labs, etc.
 * You WILL need to have memorized HTML tags and their attributes
 * You will need to know how to USE styles but will not have to memorize particular style properties (font-size, background-color, etc.). Both exams will have partial lists of style property names where needed.
-* For the practical exam you can ONLY use an approved text editor: Notepad, Notepad+, TextEdit, Brackets, TextWrangler, Sublime Edit or Komodo Edit -- NO DREAMWEAVER or other visual editor. You WILL of course be allowed to have a web browser open to test your pages. Note: Komodo has html and css tips, so if you have not tried if before you might want to play with it before the exam if you want to use it -- Komoto is already installed on ITP computers and is a free download at http://www.activestate.com/komodo-edit/downloads ).
+* For the practical exam you can ONLY use an approved text editor: Notepad, Notepad+, TextEdit, Brackets, TextWrangler, Sublime Text or Komodo Edit -- NO DREAMWEAVER or other visual editor. You WILL of course be allowed to have a web browser open to test your pages. Note: Sublime Text has html and css tips, so if you have not tried if before you might want to play with it before the exam if you want to use it.
 
 ### HTML basics
 

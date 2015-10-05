@@ -47,11 +47,11 @@
 			"active": 1
 		},
 		{
-			"name": "Practice practical exam",
+			"name": "L2: Practice practical exam",
 			"type": "L",
-			"due": "3/9 @5PM",
+			"due": "10/12 @6PM",
 			"link": "practice-practical",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "Graphic redesign",
@@ -61,11 +61,11 @@
 			"active": 0
 		},
 		{
-			"name": "Major Project Proposal",
+			"name": "A5: Major Project Proposal",
 			"type": "A",
-			"due": "3/23 @5PM",
+			"due": "10/19 @6PM",
 			"link": "project-proposal",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "Behaviors",
@@ -216,11 +216,11 @@
 			"active": 0
 		},
 		{
-			"date": "3/2",
+			"date": "10/5",
 			"units": [
 				{ "subject": "Exam Study Guide", "link": "study-guide" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "9/28",

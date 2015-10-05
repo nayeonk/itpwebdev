@@ -3,13 +3,14 @@ Practice Practical Exam
 
 Below is a sample practical exam. 
 
-<img src="/images/practical_exam01.gif"/>
+<img src="/images/practical_exam02.png"/>
 
 Your practical exam is to re-create the given image using HTML and CSS as close as you can. You will be given the text and images that go along. For this practice exam, take each element from the list below and save them on a folder on your computer. 
 
-* [desire.txt](/midterm_practice/desire.txt)
-* [desire_logo.gif](/midterm_practice/desire_logo.gif)
-* [desire_picture.jpg](/midterm_practice/desire_picture.jpg)
+* [usc.txt](/midterm_practice/usc.txt)
+* [usc1.jpg](/midterm_practice/usc1.jpg)
+* [usc2.jpg](/midterm_practice/usc2.jpg)
+* [usc3.jpg](/midterm_practice/usc3.jpg)
 
 I would suggest you start by putting all of those elements into one folder, such as "practice_midterm", on your computer. Then create a new file called "index.html" in that same folder. Now you can begin working on the page.
 
