@@ -75,11 +75,11 @@
 			"active": 0
 		},
 		{
-			"name": "Final Project Frontpage & Graphics",
+			"name": "A6: Final Project Home Page",
 			"type": "A",
-			"due": "4/8 @5PM",
+			"due": "11/2 @6PM",
 			"link": "project-homepage",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "CSS Navigation",
@@ -202,11 +202,25 @@
 			"active": 0
 		},
 		{
-			"date": "3/16",
+			"date": "3/19",
 			"units": [
 				{ "subject": "Spring Break", "link": "" }
 			],
 			"active": 0
+		},
+		{
+			"date": "10/19",
+			"units": [
+				{ 
+					"subject": "Guest Lecture on Introduction to Photoshop",
+					"link" : ""
+				},
+				{
+					"subject" : "Resource: Notes on Graphic Production and Photoshop",
+					"link" : "web-design-color-issues-photoshop"
+				}
+			],
+			"active": 1
 		},
 		{
 			"date": "10/12",

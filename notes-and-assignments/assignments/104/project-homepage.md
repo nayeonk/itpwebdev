@@ -1,30 +1,27 @@
-Project Homepage
+Final Project Homepage
 ================
 
-This assignment is to create an initial homepage for your semester web site. 
+This assignment is to create an initial homepage for your final project website. Although this will not be your FINAL home page (i.e. you can still change the wording, graphics, styling etc after the submission date), it should still convey the thematic and aesthetic approach you intend for your final project website. 
 
-This should include a main graphic you create to represent the topic/idea of your project, some text describing the project (in other words an introduction), and an initial navigation for the site.
-  
-Navigations should reflect the site structure and organization of the individual pages; although the individual sections of your site are of course not completed. It would be best if you created 'dummy' fronts so that the navs go somewhere, but your nav buttons __do__ need to have links (anchor tags) on them.
-
-Although your initial navigations may change (exact wording, graphics, styling, etc.), the navigation should convey the thematic and aesthetic approach you intend for your final navigation (and site). 
-  
+I would recommend to first create a new folder called "project" in your desktop and keep all your project files in this folder. As you build out the rest of the project, continue to add your files in this folder. You should have a similar setup in the USC web server. More details on how you can set it up in the USC webserver is in the __DELIVERY__ section of this page.  
 
 
 **REQUIREMENTS:**
 
-* __Real content:__ Not just placeholder text. Of course you will change, edit, add to, etc., the frontpage text. But a frontpage is more than just a title graphic and a nav. Well in most cases.
+* __Major title graphic:__ Should include a main graphic (like a logo) you create to represent the topic/idea of your project. This graphic should be fairly large in size (not just a small button) and prominantly placed. 
 
-* __Major title graphic:__ Should integrate at least one image or illustration as well as the title of your site. Fairly large in size (not just a small button) and prominantly placed.
+* __Real content:__ Not just placeholder text. Of course you may change, edit, add to, etc. as time goes on. 
 
-* __Navigation:__ Navigation items with the real text referring to sections/pages of your site. They should be hyperlinked to pages. Although it is best if you create dummy pages (about.html, sports.html, etc.) it is nevertheless not required. But the navs do need to have links (even if they go to "Page not found").
+* __Navigation:__ Navigation should reflect the site structure and organization of your project. Clicking on the navigation items does not have to go to a real page (although you can make some placeholder pages for now), but each navigation item __DOES__ have to be a link. 
 
-* __General design:__ The page should have a fairly unified style, look, color scheme, etc. Your site might have a consistent 2 column layout where the sidebar contains tweets or navigation items etc and all pages would have this 2 column layout. Sometimes inner pages of a web site have different layouts than the front (think of how different the frontpage "headline" of a news site is to article pages). In either approach, the general look, feel, color scheme, etc., should be laid out and consistent.
+* __General design:__ The page should have a fairly unified style, look, color scheme, etc. Your site might have a consistent 2 column layout and all pages would have this 2 column layout. In some websites, the home page may have a different layout than the rest of the site. This is a good time to think about which approach you'd want to take. In either approach, the general look, feel, color scheme, etc., should be laid out and consistent.
+
+* __Theme:__ Make sure your graphic, navigation, and content all revolve around the central theme/topic of your final project.
 
 
 **DELIVERY:**
 
-My recommendation is to create a new folder inside your itp104 folder on the web server to keep all your final project files. So for example, if I call my folder "project," I can reach it by going to www-scf.usc.edu/~USERNAME/itp104/project. Upload your homepage HTML and all graphics to that folder and link your HTML file on your classpage, as usual.
+My recommendation is to create a new folder inside your itp104 folder on the web server to keep all your final project files in one place. For example, if I call my folder "project," I can reach it by going to www-scf.usc.edu/~USERNAME/itp104/project. Upload your home page HTML and all graphics to that folder. Link that HTML file on your classpage, as usual.
 
 **SAMPLES**
 
