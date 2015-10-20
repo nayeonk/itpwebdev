@@ -77,9 +77,9 @@
 		{
 			"name": "A6: Final Project Home Page",
 			"type": "A",
-			"due": "11/2 @6PM",
+			"due": "11/9 @6PM",
 			"link": "project-homepage",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "CSS Navigation",
@@ -219,6 +219,13 @@
 					"subject" : "Resource: Notes on Graphic Production and Photoshop",
 					"link" : "web-design-color-issues-photoshop"
 				}
+			],
+			"active": 0
+		},
+		{
+			"date": "10/19",
+			"units" : [ 
+				{ "subject" : "Class canceled", "link": "" } 
 			],
 			"active": 1
 		},
