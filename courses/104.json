@@ -79,14 +79,14 @@
 			"type": "A",
 			"due": "11/9 @6PM",
 			"link": "project-homepage",
-			"active": 0
+			"active": 1
 		},
 		{
-			"name": "CSS Navigation",
+			"name": "L3: CSS Navigation",
 			"type": "L",
-			"due": "4/20 @5PM",
+			"due": "11/2 @6PM",
 			"link": "css-dropdown-navigation",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "Dreamweaver News Article",
@@ -160,13 +160,21 @@
 			"active": 0
 		},
 		{
-			"date": "4/13",
+			"date": "10/26",
 			"units": [
 				{ "subject": "External Stylesheets and CSS Selectors", 
 					"link": "CSS-revisited" 
+				},
+				{
+					"subject": "Dreamweaver Visual Editor",
+					"link": "dreamweaver-intro"
+				},
+				{
+					"subject": "Resource: Remote Access to Adobe Software",
+					"link": "http://webdev.usc.edu/mydesktop.pdf"
 				}
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "4/6",
@@ -186,10 +194,6 @@
 		{
 			"date": "3/23",
 			"units": [
-				{
-					"subject": "Dreamweaver Visual Editor",
-					"link": "dreamweaver-intro"
-				},
 				{
 					"subject": "Dreamweaver Behaviors and Effects",
 					"link": "dreamweaver-behaviors"

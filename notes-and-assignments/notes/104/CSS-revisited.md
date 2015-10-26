@@ -1,7 +1,13 @@
-**DOWNLOAD the following file(s) for today's lecture:**
-* [position_start.html](/starters/104/position_start.html)
+External Stylesheets and CSS Selectors 
+===================================
 
-<p><em><strong>External Stylesheets review and importance</strong></em></p>
+**DOWNLOAD the following file(s) for today's lecture:**
+<!-- * [position_start.html](/starters/104/position_start.html) -->
+* [css_selectors_start.html](/demos/104/W10/css_selectors_start.html)
+* [dogs_end_captions.html](/demos/104/W10/dogs_end_captions.html)
+* [cssnav_start.html](/demos/104/W10/cssnav_start.html)
+
+###External Stylesheets
 
 <p>One of the main reasons to use external stylsheets is to set up styles for use across ALL pages of a web site. You want a consistent look and feel in all your pages. The main "container", navigation, headers, etc., should all look the asme. So why set up those styles for every page when you can enter them in a central external stylesheet that all pages "load".
 </p>
@@ -47,7 +53,7 @@ a:hover {
 </pre></code>
 
 
-<h4>CSS Selectors: Tag, ID, Class, and "Compound"</h4>
+###CSS Selectors: Tag, ID, Class, and "Compound"
 
 <ul style="margin-top:0px">
 <li> <strong>Tag</strong>: Stylesheet instructions that start with a tag name redefine the style properties of that html tag. So a{text-decoration:none} remove all underlines from anchors (hyperlinks), just as img { border: 1px solid red} would apply red borders to all images placed with the img tag. <em>Note: there is a special master tag called "*" that represents all tags... so for instance * { color:black } would specify the color for ALL objects. </em></li>
@@ -132,7 +138,7 @@ In particular notice the in the stylesheet instructions the difference between t
 </p>
 
 
-<h4>CSS-driven drop-down menus</h4>
+###CSS-driven drop-down menus
 
 <p> So with our previous examples we saw that we can create a degree of "interactivity" in a page purely through css, with no Javascript, by setting up styles on a "hover" version of an object. But CSS can drive much more interactivity than just that.</p>
 
@@ -271,7 +277,5 @@ So to start out, create a set of nested ULs that contain links. For instance, we
 </p>
 
 ###Lecture Files from today
-* [Completed CSS Position](/demos/104/W13/CSS_Position_Demo.html)
-* [Completed CSS Navigation](/demos/104/W13/nav.html) - external stylesheet is linked inside this HTML page
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KGPNisEKhfA" frameborder="0" allowfullscreen></iframe>
+<!-- * [Completed CSS Position](/demos/104/W13/CSS_Position_Demo.html) -->
+<!-- * [Completed CSS Navigation](/demos/104/W13/nav.html) - external stylesheet is linked inside this HTML page -->
