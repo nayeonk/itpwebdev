@@ -1,0 +1,55 @@
+body {
+    font-size: 12pt;
+    color: purple;
+    background-color: yellow;
+}
+a {
+    text-decoration: none;
+    color: red;
+}
+a:hover {
+    text-decoration: underline;
+}
+#outercontainer {
+    width: 1020px;
+    text-align: center;
+}
+.box {
+    width: 220px;
+    min-height: 120px;
+    background-color: pink;
+    float: left;
+    text-align: left;
+    padding: 15px;
+    margin: 2px;
+}
+.definition {
+    padding-left: 20px;
+}
+.box .highlight {
+    font-weight: bold;
+    color: blue;
+}
+.linkbox {
+    width: 600px;
+    margin: auto;
+    text-align: left;
+    background-color: teal;
+    color: white; 
+}
+.clear {
+    clear: both;
+}
+
+.linkbox a {
+    color: orange;
+}
+.linkbox ul a {
+    color: yellow;
+}
+.linkbox ul a:hover {
+    color: red;
+}
+.linkbox strong {
+    color: black;
+}

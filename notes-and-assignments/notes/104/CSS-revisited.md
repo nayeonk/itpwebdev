@@ -277,5 +277,10 @@ So to start out, create a set of nested ULs that contain links. For instance, we
 </p>
 
 ###Lecture Files from today
+* [Completed CSS Selector](/demos/104/W10/css_selectors_end.html)
+* [Completed CSS Visibility](/demos/104/W10/dogs_end_captions_end.html)
+* [Completed CSS Position](/demos/104/W10/position.html)
+* [Completed Dropdown Menu](/demos/104/W10/cssnav_end.html)
+
 <!-- * [Completed CSS Position](/demos/104/W13/CSS_Position_Demo.html) -->
 <!-- * [Completed CSS Navigation](/demos/104/W13/nav.html) - external stylesheet is linked inside this HTML page -->

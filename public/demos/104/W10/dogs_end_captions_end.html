@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Dog image gallery with captions</title>
+
+<style>
+
+.dogimage	{
+	width:200px; height:200px; margin:50px
+	}
+
+.imgbox {
+	height:300px; width:300px; 
+	background-color:pink; 
+	float:left;
+	margin: 10px;
+	position:relative;
+}
+
+.caption {
+	position:absolute;
+	bottom: 15px;
+	text-align: center;
+	width: 300px;
+	visibility: hidden;	
+}
+.imgbox:hover .caption {
+	visibility: visible;
+}
+
+#outercontainer {
+	background-color:yellow;
+	width:960px;
+	padding:10px;
+}
+
+a	{
+	color:teal;
+	text-decoration:none;
+	}
+
+</style>
+
+</head>
+<body>
+
+<img src="http://webdev.usc.edu/itp104/dogs/showcaptions.png" /><img src="http://webdev.usc.edu/itp104/dogs/hidecaptions.png"/>
+
+<div id="outercontainer">
+
+	<div class="imgbox"><img class="dogimage" src="http://webdev.usc.edu/itp104/dogs/dogs01_l.jpg"/>
+    <div class="caption" id="caption1">Dogs at play caption1</div>
+    </div><!-- close caption1 -->
+	<div class="imgbox"><img class="dogimage" src="http://webdev.usc.edu/itp104/dogs/dogs02_l.jpg"/>
+    <div class="caption" id="caption2">Dogs at play caption2</div>
+    </div><!-- close caption2 -->
+	<div class="imgbox"><img class="dogimage" src="http://webdev.usc.edu/itp104/dogs/dogs03_l.jpg"/>
+    <div class="caption" id="caption3">Dogs at play caption3</div>
+    </div><!-- close caption3 -->
+
+<br style="clear:both" />
+
+	<div class="imgbox"><img class="dogimage" src="http://webdev.usc.edu/itp104/dogs/dogs04_l.jpg"/>
+    <div class="caption" id="caption4">Dogs at play caption4</div>
+    </div><!-- close caption4 -->
+	<div class="imgbox"><img class="dogimage" src="http://webdev.usc.edu/itp104/dogs/dogs05_l.jpg"/>
+    <div class="caption" id="caption5">Dogs at play caption5</div>
+    </div><!-- close caption5 -->
+	<div class="imgbox"><img class="dogimage" src="http://webdev.usc.edu/itp104/dogs/dogs06_l.jpg"/>
+    <div class="caption" id="caption6">Dogs at play caption6</div>
+    </div><!-- close caption6 -->
+
+<br style="clear:both" />
+
+
+	<div class="imgbox"><img class="dogimage" src="http://webdev.usc.edu/itp104/dogs/dogs07_l.jpg"/>
+    <div class="caption" id="caption7">Dogs at play caption7</div>
+    </div><!-- close caption7 -->
+	<div class="imgbox"><img class="dogimage" src="http://webdev.usc.edu/itp104/dogs/dogs08_l.jpg"/>
+    <div class="caption" id="caption8">Dogs at play caption8</div>
+    </div><!-- close caption8 -->
+	<div class="imgbox"><img class="dogimage" src="http://webdev.usc.edu/itp104/dogs/dogs09_l.jpg"/>
+    <div class="caption" id="caption9">Dogs at play caption9</div>
+    </div><!-- close caption9 -->
+
+<br style="clear:both" />
+
+
+</div><!-- close outercontainer -->
+
+
+</body>
+</html>

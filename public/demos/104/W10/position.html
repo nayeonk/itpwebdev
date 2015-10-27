@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title>Positions</title>
+		<style>
+			#box {
+				width: 200px;
+				height: 200px;
+				border: 2px solid red;
+				position: relative;
+				top: 0px;
+				right: 0px;
+			}
+			#child {
+				position: absolute;
+				width: 100px;
+				height: 100px;
+				top:10px;
+				left: 50px;
+				border: 2px solid green;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="box">
+			Hello!
+			<div id="child">
+				I am a child.
+			</div>
+		</div>
+	</body>
+</html>

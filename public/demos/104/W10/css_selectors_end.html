@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+
+<link href="styles.css" rel="stylesheet" type="text/css" />
+
+<style>
+
+
+</style>
+</head>
+
+<body>
+<div id="outercontainer">
+CSS Selectors Revisited!
+<hr/>
+<div class="box">
+	<strong>Tag:</strong><hr />
+    <em><strong>a</strong></em>{text-decoration:none} 
+    <div class="definition">
+    removes all underlines for anchors.
+    </div>
+    <br />
+    <em><strong>*</strong></em>{color:white} 
+    <div class="definition">
+    sets the font color to white in ALL elements
+    </div>
+</div>
+<div class="box">
+	<strong>ID:</strong><hr />
+    <em><strong>#outercontainer </strong></em>{ width:1020px}
+    <div class="definition">
+    sets the html object with id="outercontainer" to a width of 1020 pixels.
+	</div>
+</div>
+<div class="box">
+	<strong>Class:</strong><hr />
+    <em><strong>.box</strong></em> {width:120px;min-height:220px} 
+    <div class="definition">
+    sets html obhjects with class="box to a width of 120 pixels and a MINIMUM height of 220 pixels (no max height so they can go as tall as the content needs).
+	</div>
+</div>
+<div class="box">
+	<span class="highlight"><strong>Compound:</strong></span>
+    <hr/>
+    <em><strong>.linkbox a</strong></em> 
+    <div class="definition">
+    would target all anchors inside an html object of class "linkbox."
+	</div>
+	<br />
+    <em><strong>a:hover</strong></em>
+    <div class="definition">
+    would target anchor tags when a user is hovering over that anchor.
+	</div>
+	<br />
+    <em><strong>#menu *</strong></em>
+    <div class="definition">
+    would target all elements/objects inside the element IDed as "menu"
+	</div>
+</div>
+
+<br class="clear"/>
+
+<div class="linkbox">
+Compound example expanded... Links!
+<br /> <br />
+ This box is a class named linkbox. The school links are inside a normal paragraph, Newspaper links are inside li which are inside a url.
+ <br /> <br/>
+ Corresponding css instructions in the stylesheet target: 
+<em><strong>.linkbox </strong></em> 
+&nbsp; and &nbsp; 
+<em><strong>.linkbox a</strong></em>
+&nbsp; and &nbsp; 
+<em><strong>.linkbox ul a</strong></em>
+&nbsp; and &nbsp; 
+<em><strong>.linkbox ul a:hover</strong></em>
+<p>
+Schools: <br />
+<a href="http://www.ucla.edu">UCLA</a>
+&nbsp; &nbsp;
+<a href="http://www.usc.edu" class="highlight">USC</a>
+&nbsp; &nbsp;
+<a href="http://www.csulb.edu">CSULB</a>
+</p>
+
+<ul>
+Newspapers:
+<li> <a href="http://www.latimes.com">L.A. Times</a></li>
+<li> <a href="http://www.nytimes.com">N.Y. Times</a></li>
+<li> <a href="http://www.washingtonpost.com">Washington Post</a></li>
+</ul>
+
+</div>
+
+<br class="bc"/>
+
+</div>
+</body>
+</html>
