@@ -1,6 +1,8 @@
-Notes on Graphic Production / Photoshop
+Intro to Graphic Production / Photoshop
 =======================================
 
+**<span style="color:red">Download the following files for this lecture</span>**
+* [photoshop_demo_files.zip](downloads/photoshop_demo_files.zip) (Note: this is a zip file so after you download the file to your computer, you will have to uncompress it)
 
 Always keep __TWO VERSIONS__ of each graphic file
 

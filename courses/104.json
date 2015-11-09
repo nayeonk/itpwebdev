@@ -68,13 +68,6 @@
 			"active": 1
 		},
 		{
-			"name": "Behaviors",
-			"type": "L",
-			"due": "3/30 @5PM",
-			"link": "behaviors",
-			"active": 0
-		},
-		{
 			"name": "A6: Final Project Home Page",
 			"type": "A",
 			"due": "11/9 @6PM",
@@ -86,6 +79,13 @@
 			"type": "L",
 			"due": "11/2 @6PM",
 			"link": "css-dropdown-navigation",
+			"active": 1
+		},
+		{
+			"name": "L4: Behaviors",
+			"type": "L",
+			"due": "11/16 @6PM",
+			"link": "behaviors",
 			"active": 1
 		},
 		{
@@ -160,6 +160,35 @@
 			"active": 0
 		},
 		{
+			"date": "11/9",
+			"units": [
+				{
+					"subject" : "Intro to Graphic Production and Photoshop",
+					"link" : "photoshop-intro"
+				},
+				{
+					"subject": "Dreamweaver Behaviors and Effects",
+					"link": "dreamweaver-behaviors"
+				},
+				 
+				{
+					"subject": "Final Project Requirements announcement",
+					"link" : ""
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "11/2",
+			"units": [
+				{ 
+					"subject": "Industry Panel",
+					"link" : ""
+				}
+			],
+			"active": 1
+		},
+		{
 			"date": "10/26",
 			"units": [
 				{ "subject": "External Stylesheets and CSS Selectors", 
@@ -175,35 +204,6 @@
 				}
 			],
 			"active": 1
-		},
-		{
-			"date": "4/6",
-			"units" : [ { "subject" : "Class canceled today", "link": "class-cancelled-today" } ],
-			"active": 0
-		},
-		{
-			"date": "3/30",
-			"units": [
-				{ 
-					"subject": "Guest Lecture on Industry Topics",
-					"link" : "guest-lecture-industry-topic"
-				}
-			],
-			"active": 0
-		},
-		{
-			"date": "3/23",
-			"units": [
-				{
-					"subject": "Dreamweaver Behaviors and Effects",
-					"link": "dreamweaver-behaviors"
-				}, 
-				{
-					"subject": "Final Project Requirements announcement",
-					"link" : ""
-				}
-			],
-			"active": 0
 		},
 		{
 			"date": "3/19",
