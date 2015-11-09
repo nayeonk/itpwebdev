@@ -2,20 +2,20 @@ Final Project Requirements
 ====================
 
 ### Important Dates
-* Due Date: 5/1 by 11:59pm posted to your class page (syallbus says 6pm but there will be a 6 hour grace period)
-* Late Dadline: 5/8 for 92% credit. If you would like the extension, you MUST email the grader and I before the first due date (5/1) letting us know you will take the extension. 
-* Project Presentations: 5/11 5pm at KAP160. Everyone is required to attend, but presentation is required only for those that want extra credit.
+* Due Date: 12/4 by 11:59pm posted to your class page (syallbus says 6pm but there will be a 6 hour grace period)
+* Late Deadline: 12/11 for 92% credit. If you would like the extension, you MUST email the grader and I before the first due date (12/4) letting us know you will take the extension. 
+* Project Presentations: 12/14 6pm at KAP160. Everyone is required to attend, but presentation is required only for those that want extra credit.
 	* Presentations generally take about 5 - 8 minutes. You explain to the class your project, generally highlighting some of the elements/aspects from your project proposal. Then you tour or demo your Web site for the class.
 	* Make sure to sign up for presentation by 4/27
 
 ### Requirements
 
 * Create a folder called <em>project</em> to hold all of your html files. This folder will be under <em>public_html/itp104/project</em>.
-* Create a subfolder named <em>images</em> to hold all of your images
+<!-- * Create a subfolder named <em>images</em> to hold all of your images -->
 
 ** HTML Requirements **
 * Your main page (home page) should be called <em>index.html</em> under the <em>project</em> folder
-* Your site must have at least 3 more HTML pages other than your<em> index.html</em> page
+* Your site must have at least 4 HTML pages, including your<em> index.html</em> page
 * Set the titles (the title tag) on each of your pages. The title for your index page should be the name of your website such as Creative Custom Cakes. For the subpages, the title should include the name of the website as well as the specific navigation item. For example, on the Creative Custom Cake website the title for the Products page could be Creative Custom Cakes - Products.
 
 ** CSS Requirements ** 
@@ -45,7 +45,6 @@ Final Project Requirements
 	* Implement <em>at least 2</em> of the following: 
 		* load a custom font
 		* jQuery plugin
-		* add video
 		* social media widget
 		* any other embedded object (i.e. Google Maps, Sound Cloud, etc)
 		* video (either iframed or using html5 video tag)
