@@ -4,7 +4,7 @@
 	"instructor": "Nayeon Kim",
 	"syllabus": "http://web-app.usc.edu/soc/syllabus/20153/31806.pdf",
 	"time": "Mondays 6-8:50pm in KAP 160",
-	"office_hours": "Mondays 5-5:50pm in OHE530A",
+	"office_hours": "Mondays 5-5:50pm in KAP160",
 	"ta": [
 		{ "name": "Anushila Dey", "email": "anushild@usc.edu" },
 		{ "name": "Caleb You", "email": "sideokyo@usc.edu" },
@@ -127,18 +127,15 @@
 	],
 
 	"weeks": [
-		{
-			"date": "4/27",
-			"units": [
-				{
-					"subject": "Social media widgets",
-					"link": "widgets"
-				},
-				{
-					"subject": "HTML5 Video Tag",
-					"link": "html5-video"
-				},
 
+		{
+			"date": "11/23",
+			"units": [
+				
+				{
+					"subject": "jQuery plugins",
+					"link": "jquery-plugins"
+				},
 				{
 					"subject": "Taking your site beyond USC, web hosting, and domains",
 					"link": "hosting"
@@ -147,17 +144,22 @@
 			"active": 0
 		},
 		{
-			"date": "4/20",
+			"date": "11/16",
 			"units": [
 				{ "subject": "Loading Fonts", 
-					"link": "loading-fonts" 
+						"link": "loading-fonts" 
 				},
 				{
-					"subject": "jQuery plugins",
-					"link": "jquery-plugins"
+					"subject": "Social media widgets",
+					"link": "widgets"
+				},
+				{
+					"subject": "HTML5 Video Tag",
+					"link": "html5-video"
 				}
+				
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "11/9",

@@ -1,7 +1,7 @@
 HTML5 Video
 ==============
 
-Download demo video here: https://pdlvimeocdn-a.akamaihd.net/18557/499/350882759.mp4?token2=1430183251_1217fcbeb27043490fc936ff6c17628f&aksessionid=0eb1f131ed1897743bd033d3e0fb558382ade6951430168851
+Download demo video here: <a href="https://videos.pexels.com/videos/dog-in-car-562" target="_blank">https://videos.pexels.com/videos/dog-in-car-562</a>
 
 HTML5 has brought the web world abilities to do many things that were otherwise very difficult to do. One of them is video. Videos have been notoriously hard to add into a website. Thanks to iFrames, we were at least able to add videos into the website. However, they were still very difficult to manipulate to look to our liking. Thanks to HTML5's new tag, video, now it is very easy to add video and style it. The catch is that this feature is limited to modern browsers, but over the years it is becoming more and more supported by more browsers.
 
