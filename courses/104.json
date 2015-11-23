@@ -144,6 +144,17 @@
 			"active": 0
 		},
 		{
+			"date": "11/23",
+			"units": [
+				
+				{
+					"subject": "Intro to WordPress",
+					"link": "intro-wordpress"
+				}
+			],
+			"active": 1
+		},
+		{
 			"date": "11/16",
 			"units": [
 				{ "subject": "Loading Fonts", 
