@@ -118,6 +118,13 @@
 			"active": 0
 		},
 		{
+			"name": "L5: WordPress site",
+			"type": "L",
+			"due": "11/30 @6pm",
+			"link": "wordpress",
+			"active": 1
+		},
+		{
 			"name": "FINAL PROJECT REQUIREMENTS",
 			"type": "P",
 			"due": "12/4 @11:59pm",

@@ -4,9 +4,9 @@ Final Project Requirements
 ### Important Dates
 * Due Date: 12/4 by 11:59pm posted to your class page (syallbus says 6pm but there will be a 6 hour grace period)
 * Late Deadline: 12/11 for 92% credit. If you would like the extension, you MUST email the grader and I before the first due date (12/4) letting us know you will take the extension. 
-* Project Presentations: 12/14 6pm at KAP160. Everyone is required to attend, but presentation is required only for those that want extra credit.
+* Project Presentations: 12/14 7pm at KAP160. Everyone is required to attend, but presentation is required only for those that want extra credit.
 	* Presentations generally take about 5 - 8 minutes. You explain to the class your project, generally highlighting some of the elements/aspects from your project proposal. Then you tour or demo your Web site for the class.
-	* Make sure to sign up for presentation by 4/27
+	* Make sure to sign up for presentation by 11/30
 
 ### Requirements
 
