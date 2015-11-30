@@ -136,19 +136,14 @@
 	"weeks": [
 
 		{
-			"date": "11/23",
+			"date": "11/30",
 			"units": [
-				
-				{
-					"subject": "jQuery plugins",
-					"link": "jquery-plugins"
-				},
 				{
 					"subject": "Taking your site beyond USC, web hosting, and domains",
 					"link": "hosting"
 				}
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "11/23",

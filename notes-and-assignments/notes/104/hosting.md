@@ -3,7 +3,6 @@ Web Hosting
 
 ### Different Hosting Plans
 
-* Free: Dropbox
 * Inexpensive: $5-$10/month hosts. Tend to come with more pre-installed scripts/programs you can use.
 * Dedicated Web hosts: Range from $30-$300/month. Tend to have the best up-time and technical support (for their servers, not your site).
 	* Dedicated Servers with GoDaddy: http://www.godaddy.com/Hosting/dedicated-servers.aspx
