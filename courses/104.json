@@ -4,7 +4,7 @@
 	"instructor": "Nayeon Kim",
 	"syllabus": "http://web-app.usc.edu/soc/syllabus/20153/31806.pdf",
 	"time": "Mondays 6-8:50pm in KAP 160",
-	"office_hours": "Mondays 5-5:50pm in KAP160",
+	"office_hours": "TBD",
 	"ta": [
 		{ "name": "Anushila Dey", "email": "anushild@usc.edu" },
 		{ "name": "Caleb You", "email": "sideokyo@usc.edu" },
@@ -14,14 +14,14 @@
 		{
 			"name": "L1: First web page",
 			"type": "L",
-			"due": "8/31 @9PM",
+			"due": "2/11 @9PM",
 			"link": "first-webpage",
 			"active": 1
 		},
 		{
 			"name": "A1: Resume",
 			"type": "A",
-			"due": "9/14 @6PM",
+			"due": "2/1 @6PM",
 			"link": "resume",
 			"active": 1
 		},
@@ -30,28 +30,28 @@
 			"type": "A",
 			"due": "9/21 @6PM",
 			"link": "film-article",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "A3: Calendar",
 			"type": "A",
 			"due": "9/28 @6PM ",
 			"link": "calendar",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "A4: Survey",
 			"type": "A",
 			"due": "10/5 @6PM",
 			"link": "survey",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "L2: Practice practical exam",
 			"type": "L",
 			"due": "10/12 @6PM",
 			"link": "practice-practical",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Graphic redesign",
@@ -65,28 +65,28 @@
 			"type": "A",
 			"due": "10/19 @6PM",
 			"link": "project-proposal",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "A6: Final Project Home Page",
 			"type": "A",
 			"due": "11/9 @6PM",
 			"link": "project-homepage",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "L3: CSS Navigation",
 			"type": "L",
 			"due": "11/2 @6PM",
 			"link": "css-dropdown-navigation",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "L4: Behaviors",
 			"type": "L",
 			"due": "11/16 @6PM",
 			"link": "behaviors",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Dreamweaver News Article",
@@ -122,14 +122,14 @@
 			"type": "L",
 			"due": "11/30 @6pm",
 			"link": "wordpress",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "FINAL PROJECT REQUIREMENTS",
 			"type": "P",
 			"due": "12/4 @11:59pm",
 			"link": "project-requirements",
-			"active": 1
+			"active": 0
 		}
 	],
 
@@ -143,7 +143,7 @@
 					"link": "hosting"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "11/23",
@@ -154,7 +154,7 @@
 					"link": "intro-wordpress"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "11/16",
@@ -172,7 +172,7 @@
 				}
 				
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "11/9",
@@ -191,7 +191,7 @@
 					"link" : ""
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "11/2",
@@ -201,7 +201,7 @@
 					"link" : ""
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "10/26",
@@ -218,7 +218,7 @@
 					"link": "http://webdev.usc.edu/mydesktop.pdf"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "3/19",
@@ -246,28 +246,28 @@
 			"units" : [ 
 				{ "subject" : "Class canceled", "link": "" } 
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "10/12",
 			"units": [
 				{ "subject": "Midterm", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "10/5",
 			"units": [
 				{ "subject": "Exam Study Guide", "link": "study-guide" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "9/28",
 			"units": [
 				{ "subject": "HTML Forms & USC Form Scripts", "link": "html-forms" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "9/21",
@@ -281,7 +281,7 @@
 					"link" : "remove-usc-notice"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 
 		{
@@ -289,7 +289,7 @@
 			"units": [
 				{ "subject": "Divs & layouts, floats, and the box model", "link": "divs-layouts-boxmodel" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "9/7",
@@ -299,10 +299,10 @@
 					"link": ""
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
-			"date": "8/31",
+			"date": "1/25",
 			"units": [
 				{ "subject": "Basic HTML", "link": "basic-html" },
 				{ "subject": "Intro to styles", "link": "styles-intro" },
@@ -313,7 +313,17 @@
 			"active": 1
 		},
 		{
-			"date": "8/24",
+			"date": "1/18",
+			"units": [
+				{
+					"subject": "University holiday",
+					"link": ""
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "1/11",
 			"units": [
 				{
 					"subject": "Course intro, Web overview, HTML intro",
