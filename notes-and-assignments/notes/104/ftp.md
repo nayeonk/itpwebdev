@@ -33,16 +33,3 @@ Now that you have the USC server set up. You are ready to 'upload' your files to
 
 2. On the LEFT side of the FileZilla screen, navigate to where you saved YOUR files. If you followed instructions step-by-step in class, this is probably in your desktop in the itp104 folder. **Drag and drop the HTML page you wish to upload to the RIGHT screen.** This "uploads" your files into the USC server. 
 <img src="/images/filezilla_step05.png"/>
-
-FileZilla is a FTP (File Transfer Protocol) program that allow you to transfer your web pages from your computer to another server.
-
-All USC students have space on the USC server. Launch the FTP program
-and type in the following information:
-
--   Username: USC email prefix
--   Password: USC email password
--   Host: aludra.usc.edu
--   For Fetch, choose SFTP (Secure FTP) from the dropdown menu.
--   On FileZilla, type in 22 for the port number.
-
-Filezilla is available for free download from [here](https://filezilla-project.org/) or the [USC software site](http://www.usc.edu/its/software/)

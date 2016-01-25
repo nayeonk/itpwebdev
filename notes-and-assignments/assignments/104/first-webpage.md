@@ -1,14 +1,9 @@
 First Web Page
 ==============
+You will be creating your first HTML file and uploading it to the USC web server. Include everything listed in the requirements on this HTML page. 
+Name this HTML file *classpage.html*
 
-This lab consists of two parts:
-
-1. You will be creating your first web page that contains some personal information and uses most of the basic HTML tags you learned. This page will be saved on your local computer. You must save the page as *classpage.html*.
-2. You will then use an FTP (file transfer protocol) program to check if your web space on the USC Student server is set up properly (and fix it if it is not), and then copy the web page you created up to a SPECIFIC folder in your USC web space.
-
-And finally, you will want to view that web page in its new public location where all the world can see it (rather than viewing it on the hard drive of your local computer). A link from the course site with your name will be set up by the instructor.
-
-**The Web page you create should contain:**
+**REQUIREMENTS:**
 
  * Your name, email address and possibly a contact phone number.
  * Your favorite color, <em>which should ALSO be the background color of the web page</em> (using the style="background-color: YOUR-COLOR-HERE" attribute on the body tag).
@@ -19,16 +14,19 @@ And finally, you will want to view that web page in its new public location wher
  * Make sure the page contains the basic HTML skeleton using the html, head, title and body tags.
  * at least ONE em tag and ONE of the heading tags (h1,h2,etc)
 
+**SAMPLE:**
 
-**To complete this lab you need to :**
-
-* complete the above page AND name the file "classpage.html" (or renamed the file if you originally saved it under a different name)
-* post it to your USC web space (inside the public_html folder) inside a directory named itp104 (all lower case)
-* VERIFY that you can see/reach it through a web browser at the USC server location (i.e. not just viewing it from your hard drive)
-
-By the beginning of the next class (see this lab's due date) you should be able to click on your name on the course site and reach the page you created and uploaded. 
-
-You will be posting links to all your assignments on this page. 
-
-<h2>Example</h2>
 <img src="./images/myfirstpage.png" />
+
+
+**DELIVERY - submitting this lab:**
+
+1. Make sure you named this file **classpage.html** 
+2. Make sure you have already set up your folders in FileZilla. Instructions are [here](/#/104/notes/ftp) if you haven't yet.
+3. Log in to FileZilla, and move this file from your computer to inside the folder called **itp104** that you made.
+<img src="/images/filezilla_step05.png" width="600"/>
+
+4. To check that this lab has been submitted, go to the homepage of the website, and click on your name. You should see your classpage.html.
+<img src="/images/filezilla_step06.png" width="600"/>
+
+You will be posting links to all your future assignments on this page.

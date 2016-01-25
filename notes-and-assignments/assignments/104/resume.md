@@ -34,4 +34,4 @@ Below are some sample resumes. Theses are meant to be SAMPLES only. You do not h
 
 You must upload your completed resume to your USC webspace via FTP. Then on your classpage.html, name this assignment "Resume" and add a link to the completed resume. Refer to the [Uploading to the USC Server Using FTP](/#/104/notes/ftp) page for instructions on how to upload a page to your USC webspace. 
 
-This assignment is **due on 9/14 at 6pm**, which is BEFORE you come to the next class. Graders will be checking the last modified timestamp of this page so DO NOT modify the assignment after the deadline.
+This assignment is **due on 2/2 at 6pm**, which is BEFORE you come to the next class. Graders will be checking the last modified timestamp of this page so DO NOT modify the assignment after the deadline.

@@ -2,7 +2,7 @@
 	"course_name": "Web Publishing",
 	"color": "green",
 	"instructor": "Nayeon Kim",
-	"syllabus": "http://web-app.usc.edu/soc/syllabus/20153/31806.pdf",
+	"syllabus": "http://itpwebdev.herokuapp.com/resources/20161_itp104M_student_syllabus.pdf",
 	"time": "Mondays 6-8:50pm in KAP 160",
 	"office_hours": "TBD",
 	"ta": [
@@ -14,7 +14,7 @@
 		{
 			"name": "L1: First web page",
 			"type": "L",
-			"due": "2/11 @9PM",
+			"due": "1/25 @9PM",
 			"link": "first-webpage",
 			"active": 1
 		},
