@@ -54,6 +54,11 @@ There are a LOT of style properties you can play with. Some effect text, some wi
 Here is a pretty exhaustive list of CSS properties: [Mozilla CSS Reference](https://developer.mozilla.org/en-US/docs/CSS/CSS_Reference).
 
 
-###Files from 8/24 Lecture
+###Files from lecture
 
-Demo HTML files will go here after class.
+Click [here](/demos/104/W3/firstpage.html) to open the HTML file we created together in class.
+You can see the code by either:
+
+1. Right-click on the page and click "View Source" OR
+2. Right-click on the page and click "Save As.." to save the file onto your computer.
+
