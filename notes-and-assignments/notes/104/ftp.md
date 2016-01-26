@@ -14,7 +14,7 @@ Click [here](https://filezilla-project.org/download.php) to download FileZilla.
 4. Fill out the right side of this popup with the same information as the screenshot below. Put YOUR USC credentials in username and password. This is the same USC login information that you use to access Blackboard, myUSC, your email, and etc. 
 <img src="/images/filezilla_step01.png"/>
 
-5. Click "Connect" when you are ready. It may take several seconds for it to connect. When succesful, you will see something like the screenshot below. The RIGHT side of the screen is YOUR desktop, which shows the files living in YOUR computer. The LEFT side of the screen is your USC server space that all USC students get. Don't worry too much if the left side of the screen doesn't look exactly like my screenshot below.
+5. Click "Connect" when you are ready. It may take several seconds for it to connect. When succesful, you will see something like the screenshot below. The LEFT side of the screen is YOUR desktop, which shows the files living in YOUR computer. The RIGHT side of the screen is your USC server space that all USC students get. Don't worry too much if the left side of the screen doesn't look exactly like my screenshot below.
 <img src="/images/filezilla_step02.png"/>
 
 6. On the RIGHT side of the screen (your USC server space), look for a folder called "public_html." If you do not see one, do not panic. You can easily create a new folder in here just like how you can create a new folder in you computer. Right-click anywhere inside the right screen and select "Create directoryy" and name it public_html. All lowercase, no spaces.
