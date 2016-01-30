@@ -62,3 +62,7 @@ You can see the code by either:
 1. Right-click on the page and click "View Source" OR
 2. Right-click on the page and click "Save As.." to save the file onto your computer.
 
+###Lecture Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bOS_ASLyMXg?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
