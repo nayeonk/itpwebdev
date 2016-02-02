@@ -26,4 +26,4 @@ Below are some layout examples. __Note: examples may NOT adhere 100% to assignme
 
 You must upload your completed resume to your USC websapce via FTP. Then on your classpage.html, add a link to the completed assignment. Refer to the [Uploading to the USC Server Using FTP](/#/104/notes/ftp) page for instructions on how to upload a page to your USC webspace. 
 
-This assignment is due on 9/21 at 6pm. Graders will be checking the last modified timestamp of this page so DO NOT modify the assignment after the deadline.
+This assignment is due on 2/8 at 6pm. Graders will be checking the last modified timestamp of this page so DO NOT modify the assignment after the deadline.

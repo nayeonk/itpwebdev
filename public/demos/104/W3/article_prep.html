@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>Article</title>
+    </head>
+
+    <body style="background-color:yellow;">
+
+        <!--1. Always start with a div called the outercontainer. This is the wrapper of all our divs. -->
+        <div id="outercontainer" style="background-color:black; width:800px;">
+            
+            <!--2. The first 'box.' Show vertical align trick -->
+            <div id="header" style="background-color:red;font-size:32pt;text-align:center;font-weight:bold; height:100px; line-height:100px;">
+                USC News
+            </div> <!-- end header -->
+
+            <!--3. The second 'box.' -->
+            <div id="headline" style="background-color:green; font-size: 28pt;">
+                USC Village tops off with placing of landmark spire
+            </div> <!-- end header -->
+
+            <!--4. The summary box. -->
+            <div id="summary" style="color:gray; font-size:15pt;background-color:blue; ">
+                It marks the halfway point in construction of the $700 million residential-retail project, on track to open in fall 2017
+            </div>
+
+            <!--5. The article box. Where all the content of the article will go. Fill up to two images. -->
+            <div id="article" style="background-color:white; float:left; width:600px;">
+                By David Medzerian 
+
+                <!--6. Need to edit the image width. We can use percentages. More on this later -->
+                <img src="uscnews1.jpg" style="width:100%" />
+
+                <!--7.Make the letter 'I' bigger -->
+                <p><span style="font-size:50pt;color:red;">I</span>t’s not every day that construction workers get serenaded by a live band while a crowd of VIPs admires their work.</p>
+
+                <p>But that was the scene at the topping out ceremony for USC Village, the $700 million retail-residential complex being built on the former University Village site.</p>
+
+                <p>About 200 guests – including university officials and friends, local dignitaries and construction partners – joined the USC Village crews today to watch the raising of the ceremonial final beam as well as the eye-catching spire that is one of the project’s signature elements. But the day belonged to the construction workers who have worked tirelessly to keep the project on time and under budget.</p>
+
+                <p>“Today we pause to honor your tireless labor and pause to salute your selfless commitment,” USC President C. L. Max Nikias said. “We pause to say ‘thank you.’ ”</p>
+
+                <!--11. Add a pullquote - Padding and Margin -->
+                <div id="pullquote" style="background-color:purple; color:white; font-size: 15pt; float: left; width: 300px; padding:10px; margin-right: 10px; border: 3px solid black;">
+                    “That’s what you are going to see first.”
+                </div> <!-- end pullquote div -->
+
+                <p>Nikias said that when passengers are flying into LAX at night, the spire – which will be lit in the evening – will be a landmark. “That’s what you are going to see first,” he said.</p>
+
+                <p>The spire, which reaches 145 feet above ground, was raised to its home atop the Leavey Honors Hall as USC Trustee Kathleen Leavey McCarthy looked on. McCarthy, whose gift named the hall and the McCarthy Honors College it will house, was among those who signed the beam and spire before they were put in place.</p>
+
+                <p>Nikias noted that the university’s 136-year-old original building – Widney Hall, now the Widney Alumni House – was built in a month. But it didn’t have water or electricity.</p>
+
+                <p>USC Village has that and more, including 1.2 million square feet of space, more than a million feet of data cables and enough concrete to build a walkway from Los Angeles to San Francisco. What’s more, Nikias noted, with 2,700 students beds it will allow USC to become a fully residential university.</p>
+
+                <img src="uscnews2.jpg" style="width:100%;" />
+
+            </div>
+
+            <!--8. Add side bar. Have to use float!-->
+            <div id="sidebar" style="background-color:gray; width:200px; float:left;">
+                Related Stories
+            </div>
+
+            <!--10. Clear float-->
+            <div style="clear:both;"></div>
+
+            <!--9. Add a footer and see that a weird thing is happening-->
+            <div id="footer" style="background-color:orange;">
+                Copyright 2016.
+            </div>
+
+            
+        </div>
+    </body>
+</html>
