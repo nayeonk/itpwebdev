@@ -119,7 +119,7 @@ Now it's time to plan out the main interiror of the layout space. Do you want an
 
 ### Files from lecture:
 Below is the HTML file I created with you during lecture. Feel free to reference them for your labs/assignments. To view the code, click the file to open, right click on the page, click View Source. You can also right click, Save As... to save the page on your computer.
-<!-- * [article.html](/demos/104/W4/article.html) -->
+* [article.html](/demos/104/W3/article.html)
 
-<!-- Here is the layout I drew on the whiteboard of the New York Times article we created together: -->
-<!-- ![Article Layout](/demos/104/W4/article_layout.jpg) -->
+Here is the layout I drew on the whiteboard of the New York Times article we created together:
+<img src="/demos/104/W3/whiteboard.jpg" width="600"/>
