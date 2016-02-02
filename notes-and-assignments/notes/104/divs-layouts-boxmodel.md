@@ -123,3 +123,6 @@ Below is the HTML file I created with you during lecture. Feel free to reference
 
 Here is the layout I drew on the whiteboard of the New York Times article we created together:
 <img src="/demos/104/W3/whiteboard.jpg" width="600"/>
+
+### Lecture Video
+<iframe width="420" height="315" src="https://www.youtube.com/embed/RFUNnkqMAnA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
