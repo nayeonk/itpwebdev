@@ -112,8 +112,9 @@ To learn more about the grid layouts we are going to re-create an instagram page
 
 <img width="45%" src="/demos/104/W5/instagram_screenshot_v2.png"/> 
 
-The finished demo file will be uploaded to this [link](demos/104/W5/Photo_Gallery_end.html) when the lecture is finished. 
+The finished demo file will be uploaded to this [link](demos/104/W5/PhotoGallery.html) when the lecture is finished. 
 
-The calendar starter file will be uploaded to this [link](demos/104/W5/calendar_v2.html) when the lecture is finished.
+The calendar starter file will be uploaded to this [link](demos/104/W5/calendar.html) when the lecture is finished.
 
-<!-- To get the calendar starter click [here](demos/104/W5/calendar.html) -->
+### Lecture Video
+<iframe width="420" height="315" src="https://www.youtube.com/embed/5qIrRklXuXg?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>

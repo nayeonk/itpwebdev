@@ -27,4 +27,4 @@ After you are done with the assignment on YOUR computer, upload the HTML file to
 
  To check if your assignment has been succesfully 'submitted,' go to the class website, click on your name, and click on the link that you created to this assignment. If it opens your assignment correctly, that means your assignment has been uploaded succesfully.
 
- If you have trouble uploading this, go to the [class piazza](https://piazza.com/class/idzc1mfmbk8493) to post questions.
+ If you have trouble uploading this, go to the [class piazza](https://piazza.com/class/ijpf1aiq8r26vo) to post questions.

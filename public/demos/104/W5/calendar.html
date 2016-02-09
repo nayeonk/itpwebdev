@@ -1,97 +1,69 @@
 <html>
-<head>
-	<title>Calendar</title>
+	<head>
+		<title>Calendar</title>
 
-	<style>
-		#outercontainer {
-			width: 714px;
-		}
-		.weekday {
-			width: 100px;
-			border: 1px solid black;
-			float: left; 
-		}
-		.day {
-			width: 100px;
-			height: 100px;
-			border: 1px solid black;
-			float:left;
-		}
-	</style>
+		<style>
+			.weekday {
+				border: 1px solid black;
+				width: 100px;	
+				height: 30px;
+				float: left;
+			}
+			.day { 
+				width: 100px;	
+				height: 100px;
+				float:left;
+				border: 1px solid black;
+			}
 
-</head>
-<body>
-	<div id="outercontainer">
-		<div id="header">
-			March
-		</div>
+			#outercontainer {
+				margin: auto;
+				width: 714px;
+			}
 
-		<div class="weekday">
-			Monday
-		</div>
-		<div class="weekday">
-			Tuesday
-		</div>
-		<div class="weekday">
-			Wednesday
-		</div>
-		<div class="weekday">
-			Thursday
-		</div>
-		<div class="weekday">
-			Friday
-		</div>
-		<div class="weekday">
-			Saturday
-		</div>
-		<div class="weekday">
-			Sunday
-		</div>
+			#month {
+				background-image: url("http://itpwebdev.herokuapp.com/images/dogimg01.jpg");
+				height: 200px;
+			}
+		</style>
+	</head>
 
-
-		<div class="day">
-			  
+	<body>
+		<div id="outercontainer">
+			<div id="month">
+				<h2>February</h2>
+			</div>
+	
+			<div class="weekday">
+				Sunday
+			</div>
+			<div class="weekday">
+				Monday
+			</div>
+			<div class="weekday">
+				Tuesday
+			</div>
+			<div class="weekday">
+				Wednesday
+			</div>
+			<div class="weekday">
+				Thursday
+			</div>
+			<div class="weekday">
+				Friday
+			</div>
+			<div class="weekday">
+				Saturday
+			</div>
+			<div class="day">
+				1
+			</div>
+			<div class="day">
+				2
+			</div>
+			<div class="day">
+				3
+			</div>
 		</div>
-		<div class="day">
-			 
-		</div>
-		<div class="day">
-			3
-		</div>
-		<div class="day">
-			4
-		</div>
-		<div class="day">
-			5
-		</div>
-		<div class="day">
-			6
-		</div>
-		<div class="day">
-			7
-		</div>
-		<br style="clear:both">
-		<div class="day">
-			1
-		</div>
-		<div class="day">
-			2
-		</div>
-		<div class="day">
-			3
-		</div>
-		<div class="day">
-			4
-		</div>
-		<div class="day">
-			5
-		</div>
-		<div class="day">
-			6
-		</div>
-		<div class="day">
-			7
-		</div>
-	</div>
-</body>
+	</body>
 </html>
