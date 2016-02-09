@@ -35,9 +35,9 @@
 		{
 			"name": "A3: Calendar",
 			"type": "A",
-			"due": "9/28 @6PM ",
+			"due": "2/15 @6PM ",
 			"link": "calendar",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "A4: Survey",
@@ -61,11 +61,11 @@
 			"active": 0
 		},
 		{
-			"name": "A5: Major Project Proposal",
+			"name": "A4: Major Project Proposal",
 			"type": "A",
-			"due": "10/19 @6PM",
+			"due": "2/22 @6PM",
 			"link": "project-proposal",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "A6: Final Project Home Page",
@@ -270,7 +270,7 @@
 			"active": 0
 		},
 		{
-			"date": "9/21",
+			"date": "2/8",
 			"units": [
 				{
 					"subject": "Intro to Stylesheets, div layouts continued",
@@ -281,7 +281,7 @@
 					"link" : "remove-usc-notice"
 				}
 			],
-			"active": 0
+			"active": 1
 		},
 
 		{
