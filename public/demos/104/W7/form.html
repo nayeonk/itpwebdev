@@ -1,73 +1,109 @@
 <html>
 <head>
-	<title>Form</title>
+    <title>Form</title>
+
+    <style>
+        body {
+           background-color: #444444;
+           background-image: url('stripe.png');
+        }
+        #outercontainer {
+            background-color: white;
+            width: 750px;
+            margin: auto;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        form {
+            font-family: Arial;
+            font-size: 14px;
+        }
+        .row {
+            margin-bottom: 10px;
+        }
+        .password {
+            margin-bottom: 60px;
+        }
+        label {
+            font-weight:bold;
+            font-size: 16px;
+            width: 200px;
+            display: block;
+            float: left;
+            text-align: right;
+            margin-right: 10px;
+        }
+        .textfield {
+            width: 300px;
+        }
+        textarea {
+            width: 300px;
+            height: 100px;
+        }
+        .textfield:hover {
+            border: 1px solid purple;
+        }
+        textarea:hover {
+            border: 1px solid red;
+        }
+    </style>
 </head>
-
 <body>
+    <div id="outercontainer">
+        <h1>Form</h1>
 
-	<div id="outercontainer">
+        <form method="POST" action="http://www.usc.edu/cgi-bin/mail_form/nayeonki@usc.edu">
+            <div class="row">
+                <label>Name: </label><input class="textfield" type="text" name="name" value=""/> 
+            </div>
 
-		<form action="http://www.usc.edu/cgi-bin/mail_form/nayeonki@usc.edu" method="POST" >
-			Username: <input type="text" name="username" />
+            <div class="password">
+                <label>Password: </label><input class="textfield" type="password" name="password" value="" /> 
+            </div>
 
-			<br />
+            <div class="row">
+                <label>Gender:</label> <input type="radio" name="gender" value="male" /> Male
+                <input type="radio" name="gender" value="female" />Female
+            </div>
 
-			Password: <input type="password" name="password" />
+            <div class="row">
+                <label> Hobbies:</label>
+                <input type="checkbox" name="hobby" value="rowing" /> Rowing
+                <input type="checkbox" name="hobby" value="netflix" />Netflix
+                <input type="checkbox" name="hobby" value="running" />
+                Running
+            </div>
 
-			<br/>
+            <div class="row">
+                <label>Year:</label> 
+                <select name="year">
+                    <option></option>
+                    <option value="freshman" >Freshman</option>
+                    <option value="sophomore" >Sophomore</option>
+                    <option value="junior" >Junior</option>
+                    <option value="senior" >Senior</option>
+                </select>
+            </div>
 
-			<input type="submit" value="Login" />
+            <div class="row">
+                <label>Comments:</label>
+                <textarea name="comments"></textarea>
+            </div>
 
-			<br/>
-
-			<input type="checkbox" name="newsletter" /> Yes! I would love to receive this newsletter.
-
-			<br/>
-
-			What are your hobbies? 
-			<input type="checkbox" name="hobbies" value="eating" />Eating
-			<input type="checkbox" name="hobbies" value="netflix" /> Netflix
-			<input type="checkbox" name="hobbies" value="traveling" /> Traveling
-
-			<br/>
-
-			<input type="radio" name="gender" value="Male" />Male
-			<input type="radio" name="gender" value="Female" />Female 
-
-			<br/>
-
-			<select name="year">
-				<option></option>
-				<option value="freshman">Freshman</option>
-				<option value="sophomore">Sophomore</option>
-				<option value="junior">Junior</option>
-				<option value="senior">Senior</option>
-				<option value="graduate">Graduate</option>
-			</select>
-
-			<br/>
-
-			Comments: 
-			<textarea name="comments" style="width: 100px; height:100px;"></textarea>
-
-			<br/>
-
-			<input type="submit" name="submit" value="Submit" />
-
-			<input type="reset" name="reset" value="Reset"/>
-
-		</form>
-
-	</div><!-- end outercontainer div -->
-
+            <div class="row">
+                <input type="reset" name="" value="Reset" />
+                <button>Submit</button>
+            </div>
+        </form>
+    </div>
 </body>
-
-
-
-
-
-
-
-
-
 </html>
+
+
+
+
+
+
+
+
+
