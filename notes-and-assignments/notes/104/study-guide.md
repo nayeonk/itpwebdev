@@ -3,9 +3,9 @@ Exam Information & Study Guide
 
 ### Exam Information
 
-WRITTEN: Monday, October 12 from 6 - 6:50 p.m. in KAP160 on paper
+WRITTEN: Monday, February 29 from 6 - 6:50 p.m. in KAP160 on paper
 
-PRACTICAL: Monday, October 12 from 7 - 8:30 p.m. in KAP160 on a computer
+PRACTICAL: Monday, February 29 from 7 - 8:30 p.m. in KAP160 on a computer
 
 * Both exams are **NO NOTES**, no books, no web resources, no using past assignments/labs, etc.
 * You WILL need to have memorized HTML tags and their attributes

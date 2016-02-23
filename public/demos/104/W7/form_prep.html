@@ -1,0 +1,117 @@
+<html>
+<head>
+    <title>Form</title>
+
+    <style>
+    /* 2. Set up a background color and outercontainer colors and width */
+    body {
+        background-color:#444444;
+        /* 19. Add background image */
+        background-image: url('stripe.png');
+    }
+    #outercontainer {
+        width: 750px;
+        margin: auto;
+        background-color: white;
+
+        /* 17. Rounded corners */
+        padding: 30px;
+        border-radius: 10px;
+    }
+    /* 9. Add this class to add spacing to the bottom */
+    .row {
+        margin-bottom: 10px;
+    }
+
+    /* 10. Let's add some font changes to the form */
+    form {
+        font-family: Arial;
+        font-size: 14px;
+    }
+
+    /* 11. What if we only want the left hand 'labels' to have a different style?  */
+    label {
+        font-size: 16px;
+        font-weight: bold;
+        /* 12. Want to add spacing between the labels and inputs. Try margin first */
+        /*margin-right: 30px;*/
+
+        /* 13. Not quite what we want. In this case a width would be better. BUT wont work?? */
+        width: 200px;
+        display: block; /* TODO: describe block better */
+
+        /* 14. Use float left to float this element to the left and elemetns after it */
+        float: left;
+
+        /* 15. Just some fun styling */
+        text-align: right;
+        margin-right: 10px;
+    }
+
+    /* 16. You can also style the input tags. Via class name */
+    .textfield, textarea {
+        width: 200px;
+        height: 30px;
+    }
+
+    /* 18. Add a hover effect */
+    .textfield:hover {
+        border:2px purple solid;
+    }
+    </style>
+</head>
+<body>
+
+    <!-- 1. Set up the outercontainer and start the FORM with one input-->
+    <div id="outercontainer">
+
+        <h1>Form</h1>
+        <!-- 20. Show briefly on how to 'submit' the form via email -->
+        <form  method="POST" action="http://www.usc.edu/cgi-bin/mail_form/nayeonki@usc.edu">
+            <!-- 8. Set up the outercontainer and start the FORM with one input-->
+
+            <div class="row">
+                <label>Name: </label><input class="textfield" type="text" name="name" value=""/>
+            </div>
+
+            <div class="row">
+                <label>Password: </label><input class="textfield" type="password" name="password" value="" />
+            </div>
+
+            <!-- 3. Radio buttons. First give different names and show what happens -->
+            <div class="row">
+            <label>Gender: </label> <input type="radio" name="gender" value="male">Male <input type="radio" name="gender" value="female">Female
+            </div>
+
+            <!-- 4. Check box: different from radio buttons that you can choose multiple -->
+            <div class="row">
+            <label>Hobbies: </label><input type="checkbox" name="hobbies" value="running"/> Running <input type="checkbox" name="hobbies"  value="hiking"/> Hiking <input type="checkbox" name="hobbies" value="dancing" /> Dancing
+            </div>
+
+            <!-- 5. Dropdown menu -->
+            <div class="row">
+                <label>Year: </label>
+                <select name="year">
+                    <option >Freshman</option>
+                    <option >Sophomore</option>
+                    <option >Junior</option>
+                    <option >Senior</option>
+                </select>
+            </div>
+
+            <!-- 6. Textarea - For longer text like comments -->
+            <div class="row">
+                <label>Comments:</label>
+                <textarea name="comments"></textarea>
+            </div>
+
+            <!-- 7. The button to submit the form. Two ways to do this. Doesnt matter which. -->
+            <div class="row">
+                <input type="submit" value="Submit" />
+                <button>Submit</button>
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>

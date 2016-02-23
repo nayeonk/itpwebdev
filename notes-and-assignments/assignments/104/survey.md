@@ -1,10 +1,10 @@
 Survey
 ======
 
-For this assignment you are going to build a survey on a topic of your choice. It does **NOT** need to be functional (does not beed to actually submit anywhere). 
+For this assignment you are going to build a survey on a topic of your choice. It does **NOT** need to be functional (does not need to actually submit anywhere). 
 
 **REQUIREMENTS: **
-* The survey must be about a particular topic. 
+* The survey must be about a particular topic. The questions asked must fit the survey's topic. 
 * Must pick a color scheme that works well.
 * Have a clean look -- with all of the labels (name, age, email, etc) in one column and the form fields (text input, checkbox, etc) in another column
 * Must use all of the major form objects (at least one of each):

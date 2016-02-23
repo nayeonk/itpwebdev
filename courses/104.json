@@ -40,18 +40,25 @@
 			"active": 1
 		},
 		{
-			"name": "A4: Survey",
+			"name": "A4: Major Project Proposal",
 			"type": "A",
-			"due": "10/5 @6PM",
+			"due": "2/22 @6PM",
+			"link": "project-proposal",
+			"active": 1
+		},
+		{
+			"name": "A5: Survey",
+			"type": "A",
+			"due": "2/29 @6PM",
 			"link": "survey",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "L2: Practice practical exam",
 			"type": "L",
-			"due": "10/12 @6PM",
+			"due": "2/29 @6PM",
 			"link": "practice-practical",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "Graphic redesign",
@@ -60,13 +67,7 @@
 			"link": "graphic-redesign",
 			"active": 0
 		},
-		{
-			"name": "A4: Major Project Proposal",
-			"type": "A",
-			"due": "2/22 @6PM",
-			"link": "project-proposal",
-			"active": 1
-		},
+		
 		{
 			"name": "A6: Final Project Home Page",
 			"type": "A",
@@ -263,11 +264,22 @@
 			"active": 0
 		},
 		{
-			"date": "9/28",
+			"date": "2/22",
 			"units": [
-				{ "subject": "HTML Forms & USC Form Scripts", "link": "html-forms" }
+				{ "subject": "HTML Forms & USC Form Scripts", "link": "html-forms" },
+				{ "subject": "Exam Study Guide", "link": "study-guide" }
 			],
-			"active": 0
+			"active": 1
+		},
+		{
+			"date": "2/15",
+			"units": [
+				{
+					"subject": "University holiday",
+					"link": ""
+				}
+			],
+			"active": 1
 		},
 		{
 			"date": "2/8",
@@ -290,16 +302,6 @@
 				{ "subject": "Divs & layouts, floats, and the box model", "link": "divs-layouts-boxmodel" }
 			],
 			"active": 1
-		},
-		{
-			"date": "9/7",
-			"units": [
-				{
-					"subject": "University holiday",
-					"link": ""
-				}
-			],
-			"active": 0
 		},
 		{
 			"date": "1/25",
