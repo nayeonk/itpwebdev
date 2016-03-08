@@ -67,11 +67,18 @@
 			"link": "graphic-redesign",
 			"active": 0
 		},
+		{
+			"name": "L3: Create your own logo",
+			"type": "L",
+			"due": "3/21 @6PM",
+			"link": "logo",
+			"active": 1
+		},
 		
 		{
 			"name": "A6: Final Project Home Page",
 			"type": "A",
-			"due": "11/9 @6PM",
+			"due": "4/4 @6PM",
 			"link": "project-homepage",
 			"active": 0
 		},
@@ -230,6 +237,13 @@
 		},
 		{
 			"date": "10/19",
+			"units" : [ 
+				{ "subject" : "Class canceled", "link": "" } 
+			],
+			"active": 0
+		},
+		{
+			"date": "3/7",
 			"units": [
 				{ 
 					"subject": "Guest Lecture on Introduction to Photoshop",
@@ -237,24 +251,17 @@
 				},
 				{
 					"subject" : "Resource: Notes on Graphic Production and Photoshop",
-					"link" : "web-design-color-issues-photoshop"
+					"link" : "photoshop-intro"
 				}
 			],
-			"active": 0
+			"active": 1
 		},
 		{
-			"date": "10/19",
-			"units" : [ 
-				{ "subject" : "Class canceled", "link": "" } 
-			],
-			"active": 0
-		},
-		{
-			"date": "10/12",
+			"date": "2/29",
 			"units": [
 				{ "subject": "Midterm", "link": "" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "10/5",
