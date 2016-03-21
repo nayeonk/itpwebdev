@@ -1,11 +1,13 @@
 External Stylesheets and CSS Selectors 
 ===================================
 
-**DOWNLOAD the following file(s) for today's lecture:**
+**Use the following starter file(s) for today's lecture:**
+* <a href="http://scratchpad.io/tough-jam-6625" target="_blank">navigation_start</a>
+* <a href="http://scratchpad.io/harmonious-idea-6086" target="_blank">position_start</a>
 <!-- * [position_start.html](/starters/104/position_start.html) -->
-* [css_selectors_start.html](/demos/104/W10/css_selectors_start.html)
-* [dogs_end_captions.html](/demos/104/W10/dogs_end_captions.html)
-* [cssnav_start.html](/demos/104/W10/cssnav_start.html)
+<!-- * [css_selectors_start.html](/demos/104/W10/css_selectors_start.html) -->
+<!-- * [dogs_end_captions.html](/demos/104/W10/dogs_end_captions.html) -->
+<!-- * [cssnav_start.html](/demos/104/W10/cssnav_start.html) -->
 
 ###External Stylesheets
 
@@ -277,10 +279,10 @@ So to start out, create a set of nested ULs that contain links. For instance, we
 </p>
 
 ###Lecture Files from today
-* [Completed CSS Selector](/demos/104/W10/css_selectors_end.html)
+<!-- * [Completed CSS Selector](/demos/104/W10/css_selectors_end.html)
 * [Completed CSS Visibility](/demos/104/W10/dogs_end_captions_end.html)
 * [Completed CSS Position](/demos/104/W10/position.html)
-* [Completed Dropdown Menu](/demos/104/W10/cssnav_end.html)
+* [Completed Dropdown Menu](/demos/104/W10/cssnav_end.html) -->
 
 <!-- * [Completed CSS Position](/demos/104/W13/CSS_Position_Demo.html) -->
 <!-- * [Completed CSS Navigation](/demos/104/W13/nav.html) - external stylesheet is linked inside this HTML page -->

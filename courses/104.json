@@ -74,21 +74,21 @@
 			"link": "logo",
 			"active": 1
 		},
-		
+		{
+			"name": "L3: CSS Navigation",
+			"type": "L",
+			"due": "3/28 @6PM",
+			"link": "css-dropdown-navigation",
+			"active": 1
+		},
 		{
 			"name": "A6: Final Project Home Page",
 			"type": "A",
 			"due": "4/4 @6PM",
 			"link": "project-homepage",
-			"active": 0
+			"active": 1
 		},
-		{
-			"name": "L3: CSS Navigation",
-			"type": "L",
-			"due": "11/2 @6PM",
-			"link": "css-dropdown-navigation",
-			"active": 0
-		},
+		
 		{
 			"name": "L4: Behaviors",
 			"type": "L",
@@ -177,6 +177,10 @@
 				{
 					"subject": "HTML5 Video Tag",
 					"link": "html5-video"
+				},
+				{
+					"subject": "Dreamweaver Visual Editor",
+					"link": "dreamweaver-intro"
 				}
 				
 			],
@@ -212,21 +216,17 @@
 			"active": 0
 		},
 		{
-			"date": "10/26",
+			"date": "3/24",
 			"units": [
 				{ "subject": "External Stylesheets and CSS Selectors", 
 					"link": "CSS-revisited" 
-				},
-				{
-					"subject": "Dreamweaver Visual Editor",
-					"link": "dreamweaver-intro"
 				},
 				{
 					"subject": "Resource: Remote Access to Adobe Software",
 					"link": "http://webdev.usc.edu/mydesktop.pdf"
 				}
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "3/19",
