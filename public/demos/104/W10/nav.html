@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style>
+    #menu * {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    #menu li {
+        float: left;
+        position: relative;
+    }
+    #menu li a {
+        text-decoration: none;
+        width: 100px;
+        background-color: black;
+        color: white;
+        display: block;
+        text-align: center;
+        height: 30px;
+        line-height: 30px;
+    }
+    #menu li a:hover {
+        background-color: #b20000;
+    }
+    /* ul ul represents the dropdown menu */
+    #menu ul ul {
+        visibility: hidden;
+        position: absolute;
+        top: 30px;
+    }
+    #menu ul li:hover ul {
+        visibility: visible;
+    }
+    .button {
+        display: block;
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+    }
+</style>
+
+</head>
+
+<body>a
+CSS and HTM Resources:
+<br />
+
+  <div id="menu">
+    <ul>
+        <li><a href="http://webdev.usc.edu">Webdev</a>
+            <ul>
+                <li><a href="http://webdev.usc.edu/itp104m">ITP104M</a></li>
+                <li><a href="http://webdev.usc.edu/itp104t">ITP104T</a></li>
+                <li><a href="http://webdev.usc.edu/itp104w">ITP104W</a></li>
+            </ul>
+        </li>
+        <li><a href="http://w3schools.com">W3Schools</a>
+            <ul>
+                <li><a href="http://w3schools.com/html/default.asp">HTML</a></li>
+                <li><a href="http://w3schools.com/css/default.asp">CSS</a></li>
+            </ul>
+        </li>    
+        <li><a href="http://www.csszengarden.com/">Zen Garden</a></li>
+    </ul>
+    </div>
+
+</body>
+</html>
