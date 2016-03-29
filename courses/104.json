@@ -92,9 +92,9 @@
 		{
 			"name": "L4: Behaviors",
 			"type": "L",
-			"due": "11/16 @6PM",
+			"due": "4/4 @6PM",
 			"link": "behaviors",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "Dreamweaver News Article",
@@ -135,9 +135,9 @@
 		{
 			"name": "FINAL PROJECT REQUIREMENTS",
 			"type": "P",
-			"due": "12/4 @11:59pm",
+			"due": "4/29 @11:59pm",
 			"link": "project-requirements",
-			"active": 0
+			"active": 1
 		}
 	],
 
@@ -187,12 +187,8 @@
 			"active": 0
 		},
 		{
-			"date": "11/9",
+			"date": "3/28",
 			"units": [
-				{
-					"subject" : "Intro to Graphic Production and Photoshop",
-					"link" : "photoshop-intro"
-				},
 				{
 					"subject": "Dreamweaver Behaviors and Effects",
 					"link": "dreamweaver-behaviors"
@@ -203,7 +199,7 @@
 					"link" : ""
 				}
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "11/2",
@@ -216,7 +212,7 @@
 			"active": 0
 		},
 		{
-			"date": "3/24",
+			"date": "3/21",
 			"units": [
 				{ "subject": "External Stylesheets and CSS Selectors", 
 					"link": "CSS-revisited" 
