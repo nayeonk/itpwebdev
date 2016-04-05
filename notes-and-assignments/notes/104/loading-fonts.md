@@ -63,3 +63,11 @@ Then you can add this font-family wherever you need. Such as:
 ###Resources
 * [Google Fonts](http://www.google.com/fonts)
 * [100 Best Free Fonts](http://www.creativebloq.com/graphic-design-tips/best-free-fonts-for-designers-1233380)
+
+###Lecture Video
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O32LK0KLx00?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+###Lecture Files
+* [font.html](/demos/104/W12/font.html)
+* [video.html](/demos/104/W12/video.html)
+* [social.html](http://scf.usc.edu/~nayeonki/itp104/social.html)
