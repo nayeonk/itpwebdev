@@ -167,6 +167,27 @@
 		{
 			"date": "4/4",
 			"units": [
+				{
+					"subject": "jQuery plugins",
+					"link": "jquery-plugins"
+				}
+				
+			],
+			"active": 1
+		},
+		{
+			"date": "4/11",
+			"units": [
+				{ 
+					"subject": "Industry Panel",
+					"link" : ""
+				}
+			],
+			"active": 1
+		},
+		{
+			"date": "4/4",
+			"units": [
 				{ "subject": "Loading Fonts", 
 						"link": "loading-fonts" 
 				},
@@ -177,10 +198,6 @@
 				{
 					"subject": "HTML5 Video Tag",
 					"link": "html5-video"
-				},
-				{
-					"subject": "jQuery plugins",
-					"link": "jquery-plugins"
 				}
 				
 			],
@@ -200,16 +217,6 @@
 				}
 			],
 			"active": 1
-		},
-		{
-			"date": "11/2",
-			"units": [
-				{ 
-					"subject": "Industry Panel",
-					"link" : ""
-				}
-			],
-			"active": 0
 		},
 		{
 			"date": "3/21",

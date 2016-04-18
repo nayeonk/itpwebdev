@@ -1,5 +1,12 @@
 jQuery and jQuery Plugins
 =========================
+### Images to download for this demo:
+* [Image01_thumb](/demos/104/W13/image01_sm.jpg)
+* [Image01_large](/demos/104/W13/image01_lg.jpg)
+* [Image02_thumb](/demos/104/W13/image02_sm.jpg)
+* [Image02_large](/demos/104/W13/image02_lg.jpg)
+* [Image03_thumb](/demos/104/W13/image03_sm.jpg)
+* [Image03_large](/demos/104/W13/image03_lg.jpg)
 
 ### What is jQuery?
 
