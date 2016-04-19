@@ -4,9 +4,9 @@ Final Project Requirements
 ### Important Dates
 * Due Date: 4/28 by 11:59pm posted to your class page (syallbus says 6pm but there will be a 6 hour grace period)
 * Late Deadline: 5/2 for 92% credit. If you would like the extension, you MUST email the grader and I before the first due date (4/28) letting us know you will take the extension. 
-<!-- * Project Presentations: 12/14 7pm at KAP160. Everyone is required to attend, but presentation is required only for those that want extra credit.
+Project Presentations: 5/9 7pm at KAP160. Everyone is required to attend, but presentation is required only for those that want extra credit.
 	* Presentations generally take about 5 - 8 minutes. You explain to the class your project, generally highlighting some of the elements/aspects from your project proposal. Then you tour or demo your Web site for the class.
-	* Make sure to sign up for presentation by 11/30 -->
+	* Make sure to sign up for presentation by 4/25
 
 ### Requirements
 
@@ -27,8 +27,9 @@ Final Project Requirements
 
 ** Components Requirements ** 
 * Navigation Menu
-	* Your site must have a least 3 items in the navigation bar. Each navigation item must have a different style/state when the user rolls over/selects that item.
-	* Each page must have a navigation bar in order to be able to access all of the pages of your website. The navigation bar should look the same on all pages. For each page that corresponds to a navigation element, the different style/state should be used. For example, if you had an About page, then in your navigation the About navigation element should be highlighted in some way to let the user know which page within the navigation they are on.
+	* Your site must have a least 3 items in the navigation bar. Eac navigation item MUST have some sort of different styling when a user hovers over it. 
+	* Each page in your site must have a navigation bar in order to be able to access all of the pages of your website. The navigation bar should look the same on all pages. 
+	* For each page that corresponds to a navigation element, a different style/state should be used. For example, if you had an About page, then in your navigation the About navigation element should be highlighted in some way to let the user know that they are on the About page.
 * Background Image
 	* Your site must contain at least one background image somwhere on the site. The background image could be a repeated gradient for the entire site, a repeated gradient for a div to highlight something on the page, or whatever else you can think of.
 * List
@@ -36,11 +37,12 @@ Final Project Requirements
 * Form
 	* Your site must contain at least one form. It does NOT need to use all of the form elements. It does NOT need to send anywhere
 * Behaviors
-	* You must use behaviors in at least **two pages** on your site in meaningful way. Any behaviors on the navigation bar do not count. Example behaviors include:
+	* You must use behaviors in at least **two pages** on your site in meaningful way. Any behaviors on the navigation bar do not count. <strong>Example</strong> behaviors include:
 		* In a form, use radio buttons to alter the contents in a textfield, textarea, or div. Each of the radio button could make a custom message appear inside the textfield, textarea, or div.
 		* Use behaviors to display a striped-down browser window. A common use for this is for printing the current page. You will need to create a second page. When you trigger the behavior, display the new browser window specifing the size, and it should not have any of the normal browser attributes such as toolbars.
 		* Photo gallery - you have several thumbnails surrounding a center image. Whenever each thumbnail is clicked, a larger version of that image is shown in the center.
-		* Create a photo album where you have several images shown in a 3 by 3 square and they are all greyed out. When the user hovers over each photo, it turns the hovered image to a colored version of it.    
+		* Create a photo album where you have several images shown in a 3 by 3 square and they are all greyed out. When the user hovers over each photo, it turns the hovered image to a colored version of it.
+		* Mini quiz: Depending on which radio button a user selected, an answer is displayed in another container or text field.    
 * Special Features 
 	* Implement <em>at least 2</em> of the following: 
 		* load a custom font
