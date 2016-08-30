@@ -4,11 +4,11 @@ Course Overview & Intro to the web
 Slides can be downloaded [here](/slides/104/itp104_lecture_w01_sp2016.pdf). **Note:** This is probably the only lecture slides are ever used. 
 
 **Syllabus:**
-* can be found [here](http://web-app.usc.edu/soc/syllabus/20161/31806.pdf) and also on Blackboard
+* can be found [here](http://web-app.usc.edu/soc/syllabus/20163/31809.pdf) and also on Blackboard
 
 ###Class Administrative Details
 * All lecture notes and assignments will be posted weekly on this class website. Blackboard is only used for posting grades.
-* Lecture is from 6-7:30pm and lab is from 7:30-8:50pm. 
+* Lecture is generally from 6-7:30pm and lab is from 7:30-8:50pm. 
 * During the first two-thirds of the courses, there will generally be assignments due every week. During some weeks, there may be lab exercises to complete during lab as well as assignments. You can use this lab time for both assignments and labs.
 * TAs will be present at lab time to help with any labs or assignments. 
 * No labs on the first week of class.

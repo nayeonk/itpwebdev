@@ -2,19 +2,19 @@
 	"course_name": "Web Publishing",
 	"color": "green",
 	"instructor": "Nayeon Kim",
-	"syllabus": "http://itpwebdev.herokuapp.com/resources/20161_itp104M_student_syllabus.pdf",
-	"time": "Mondays 6-8:50pm in KAP 160",
-	"office_hours": "Mondays 5-6pm in KAP160",
+	"syllabus": "http://web-app.usc.edu/soc/syllabus/20163/31809.pdf",
+	"time": "Tuesdays 6-8:50pm in KAP 160",
+	"office_hours": "Tuesdays 5-6pm in KAP160",
 	"ta": [
-		{ "name": "Anushila Dey", "email": "anushild@usc.edu" },
 		{ "name": "Caleb You", "email": "sideokyo@usc.edu" },
-		{ "name": "Kieran Reynolds", "email": "kieranre@usc.edu"}
+		{ "name": "Jay Jung", "email": "jaewoonj@usc.edu"},
+		{ "name": "Andrew Maney", "email": "amaney@usc.edu"}
 	],
 	"homework": [
 		{
 			"name": "L1: First web page",
 			"type": "L",
-			"due": "1/25 @9PM",
+			"due": "8/30 @9PM",
 			"link": "first-webpage",
 			"active": 1
 		},
@@ -23,42 +23,42 @@
 			"type": "A",
 			"due": "2/1 @9PM",
 			"link": "resume",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "A2: Film Article",
 			"type": "A",
 			"due": "2/8 @6PM",
 			"link": "film-article",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "A3: Calendar",
 			"type": "A",
 			"due": "2/22 @6PM ",
 			"link": "calendar",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "A4: Major Project Proposal",
 			"type": "A",
 			"due": "2/22 @6PM",
 			"link": "project-proposal",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "A5: Survey",
 			"type": "A",
 			"due": "2/29 @6PM",
 			"link": "survey",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "L2: Practice practical exam",
 			"type": "L",
 			"due": "2/29 @6PM",
 			"link": "practice-practical",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Graphic redesign",
@@ -72,21 +72,21 @@
 			"type": "L",
 			"due": "3/21 @6PM",
 			"link": "logo",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "L3: CSS Navigation",
 			"type": "L",
 			"due": "3/28 @6PM",
 			"link": "css-dropdown-navigation",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "A6: Final Project Home Page",
 			"type": "A",
 			"due": "4/4 @6PM",
 			"link": "project-homepage",
-			"active": 1
+			"active": 0
 		},
 		
 		{
@@ -94,7 +94,7 @@
 			"type": "L",
 			"due": "4/4 @6PM",
 			"link": "behaviors",
-			"active": 1
+			"active": 0
 		},
 		{
 			"name": "Dreamweaver News Article",
@@ -137,7 +137,7 @@
 			"type": "P",
 			"due": "4/29 @11:59pm",
 			"link": "project-requirements",
-			"active": 1
+			"active": 0
 		}
 	],
 
@@ -151,7 +151,21 @@
 					"link": "hosting"
 				}
 			],
-			"active": 1
+			"active": 0
+		},
+		{
+			"date": "4/20",
+			"units": [
+				{
+					"subject": "jQuery plugins",
+					"link": "jquery-plugins"
+				},
+				{
+					"subject": "CSS Positioning, Dropdown Navigations",
+					"link": "https://github.com/ITP-Webdev/css-dropdown-navigation"
+				}
+			],
+			"active": 0
 		},
 		{
 			"date": "11/23",
@@ -173,7 +187,7 @@
 				}
 				
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "4/11",
@@ -183,7 +197,7 @@
 					"link" : ""
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "4/4",
@@ -201,7 +215,7 @@
 				}
 				
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "3/28",
@@ -216,7 +230,7 @@
 					"link" : ""
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "3/21",
@@ -229,7 +243,7 @@
 					"link": "http://webdev.usc.edu/mydesktop.pdf"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "3/19",
@@ -257,14 +271,14 @@
 					"link" : "photoshop-intro"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "2/29",
 			"units": [
 				{ "subject": "Midterm", "link": "" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "10/5",
@@ -279,7 +293,7 @@
 				{ "subject": "HTML Forms & USC Form Scripts", "link": "html-forms" },
 				{ "subject": "Exam Study Guide", "link": "study-guide" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "2/15",
@@ -289,7 +303,7 @@
 					"link": ""
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "2/8",
@@ -303,7 +317,7 @@
 					"link" : "remove-usc-notice"
 				}
 			],
-			"active": 1
+			"active": 0
 		},
 
 		{
@@ -311,7 +325,7 @@
 			"units": [
 				{ "subject": "Divs & layouts, floats, and the box model", "link": "divs-layouts-boxmodel" }
 			],
-			"active": 1
+			"active": 0
 		},
 		{
 			"date": "1/25",
@@ -322,20 +336,18 @@
 				{ "subject": "Resource: Basic HTML tags & CSS properties", "link": "basic-html-tags-and-css-properties" }
 
 			],
-			"active": 1
+			"active": 0
 		},
 		{
-			"date": "1/18",
+			"date": "8/30",
 			"units": [
-				{
-					"subject": "University holiday",
-					"link": ""
-				}
+				{ "subject": "Intro to HTML and CSS", "link": "intro-to-html-and-css" },
+				{ "subject": "FTP and uploading files to a server", "link": "ftp" }
 			],
 			"active": 1
 		},
 		{
-			"date": "1/11",
+			"date": "8/23",
 			"units": [
 				{
 					"subject": "Course intro, Web overview, HTML intro",
@@ -343,40 +355,6 @@
 				}
 			],
 			"active": 1
-		},
-		
-		{
-			"date": "4/6",
-			"units": [
-				{ "subject": "Web Technology Overview", "link": "web-technologies" },
-				{ "subject": "ITP web programs", "link": "http://itp.usc.edu/minors/Web-Technologies-and-Applications/" },
-				{
-					"subject": "Dreamweaver Behaviors and Effects",
-					"link": "dreamweaver-behaviors"
-				}
-			],
-			"active": 0
-		},
-		{
-			"date": "4/13",
-			"units": [
-				{ "subject": "Guest Lecture on Wordpress (Michael Shen)", "link": "" }
-			],
-			"active": 0
-		},
-		{
-			"date": "4/20",
-			"units": [
-				{
-					"subject": "jQuery plugins",
-					"link": "jquery-plugins"
-				},
-				{
-					"subject": "CSS Positioning, Dropdown Navigations",
-					"link": "https://github.com/ITP-Webdev/css-dropdown-navigation"
-				}
-			],
-			"active": 0
 		}
 	]
 }

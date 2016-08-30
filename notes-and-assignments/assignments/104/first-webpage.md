@@ -5,14 +5,17 @@ Name this HTML file *classpage.html*
 
 **REQUIREMENTS:**
 
- * Your name, email address and possibly a contact phone number.
- * Your favorite color, <em>which should ALSO be the background color of the web page</em> (using the style="background-color: YOUR-COLOR-HERE" attribute on the body tag).
- * A list of your three favorite web sites including WORKING hyperlinks (i.e. by clicking on the names of the sites the viewer should be taken to those web site).
+ * Name this file **classpage.html**
+ * Your name and email address.
+ * Your favorite color.
+ * A background color.
+ * A list of your three favorite web sites including WORKING hyperlinks (i.e. by clicking on the names of the sites the viewer should be taken to that web site).
  * A list of the classes you are taking this semester, as well as a note as to what semester it is.
  * A line below all of the above personal information
- * A list of all assignments and labs assigned from the class 
+ * A list of all assignments and labs assigned from the class (you will update this list as the class progresses).  
  * Make sure the page contains the basic HTML skeleton using the html, head, title and body tags.
- * at least ONE em tag and ONE of the heading tags (h1,h2,etc)
+ * Italicize at least one word
+ * Use at least one heading tag (e.g. h1, h2, etc)
 
 **SAMPLE:**
 

@@ -27,9 +27,8 @@ footer {
 	left:0;
 	position: fixed;
 	z-index: 100;
-	padding: 10px 0;
+    color: white;
 }
-
 .container {
 	position: relative;
 	top: 40px;
@@ -39,8 +38,35 @@ footer {
     float: left;
     list-style-type: none;
     margin: 0 10px;
+    position: relative;
+    padding: 10px 0;
 }
-
+.itp-external-links ul {
+    position: absolute;
+    top: 40px;
+    left: -5px;
+    background-color: #555;
+    padding: 0;
+    color: white;
+    visibility: hidden;
+}
+.itp-external-links ul li {
+    line-height: 28px;
+    width: 75px;
+    padding: 5px 0;
+}
+.itp-external-links ul li:hover {
+    text-decoration: underline;
+}
+.itp-external-links .lectures-link {
+    cursor: pointer;
+}
+.itp-external-links .lectures-link:hover ul {
+    visibility: visible;
+}
+.lectures-link ul:hover {
+    visibility: visible;
+}
 .itp-external-links a {
     color: white;
 }
