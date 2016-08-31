@@ -215,6 +215,7 @@ Results in this:
 <p> This is a paragraph. But I want this text to be <span style="color:green;">green.</span> <p>
 
 ### Files from Lecture
-Click <a href="#" target="_blank">here </a> for the finished code from today's lecture.
+Click <a href="http://codepen.io/nayeon/pen/NRKYjG" target="_blank">here </a> to see the finished code from today's lecture.
 
 ### Lecture Video
+
