@@ -218,4 +218,4 @@ Results in this:
 Click <a href="http://codepen.io/nayeon/pen/NRKYjG" target="_blank">here </a> to see the finished code from today's lecture.
 
 ### Lecture Video
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2WgSzgZju90" frameborder="0" allowfullscreen></iframe>
