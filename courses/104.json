@@ -21,9 +21,9 @@
 		{
 			"name": "A1: Resume",
 			"type": "A",
-			"due": "2/1 @9PM",
+			"due": "9/13 @6PM",
 			"link": "resume",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "A2: Film Article",
@@ -337,6 +337,13 @@
 
 			],
 			"active": 0
+		},
+		{
+			"date": "9/6",
+			"units": [
+				{ "subject": "Stylesheets and divs", "link": "stylesheets-and-divs" }
+			],
+			"active": 1
 		},
 		{
 			"date": "8/30",
