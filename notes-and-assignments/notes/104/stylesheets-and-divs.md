@@ -160,8 +160,8 @@ We will continue to learn more about `<div>` and its uses for more complicated l
 Floats are a neccesary evil in web development. -->
 
 ### Files from Lecture
-Coming soon.
-<!-- Click <a href="http://codepen.io/nayeon/pen/NRKYjG" target="_blank">here </a> to see the finished code from today's lecture. -->
+<!-- Coming soon. -->
+Click <a href="http://codepen.io/nayeon/pen/kkWYZx" target="_blank">here </a> to see the finished code from today's lecture.
 
 ### Lecture Video
 Coming soon.
