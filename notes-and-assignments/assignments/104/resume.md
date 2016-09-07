@@ -36,6 +36,8 @@ Below are some sample resumes. Theses are meant to be SAMPLES only. You do not h
 <img src="/images/resume1.gif" width="48%"/>
 <img src="/images/resume3.png" width="50%"/>
 
+<img src="/images/resume4.png" width="50%"/>
+
 **DELIVERY - submitting your assignment**
 
 You must upload your completed resume to your USC webspace via FTP. Then on your classpage.html, name this assignment "Resume" and add a link to the completed resume. Refer to the [Uploading to the USC Server Using FTP](/#/104/notes/ftp) page for instructions on how to upload a page to your USC webspace. 
