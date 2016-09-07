@@ -36,7 +36,8 @@ Below are some sample resumes. Theses are meant to be SAMPLES only. You do not h
 <img src="/images/resume1.gif" width="48%"/>
 <img src="/images/resume3.png" width="50%"/>
 
-<img src="/images/resume4.png" width="50%"/>
+<img src="/images/resume4.png" width="48%"/>
+<img src="/images/resume5.png" width="50%"/>
 
 **DELIVERY - submitting your assignment**
 
