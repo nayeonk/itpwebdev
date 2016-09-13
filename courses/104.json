@@ -28,9 +28,9 @@
 		{
 			"name": "A2: Film Article",
 			"type": "A",
-			"due": "2/8 @6PM",
+			"due": "9/21 @6PM",
 			"link": "film-article",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "A3: Calendar",
@@ -321,11 +321,11 @@
 		},
 
 		{
-			"date": "2/1",
+			"date": "9/13",
 			"units": [
-				{ "subject": "Divs & layouts, floats, and the box model", "link": "divs-layouts-boxmodel" }
+				{ "subject": "Two-column layouts with divs", "link": "two-column-layouts-with-divs" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "1/25",
