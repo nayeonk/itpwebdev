@@ -19,8 +19,10 @@ You will be putting together a movie preview or review that covers 4 films. This
 
 Below are some layout examples. __Note: examples may NOT adhere 100% to assignment requirements. Make sure to carefully read through assignment requirements.__
 
-![Example 1](http://itpwebdev.herokuapp.com/images/film_example.gif)
-![Example 3](http://itpwebdev.herokuapp.com/images/film_example3.gif)
+<img src="/images/film_example.gif" width="48%"/>
+<img src="/images/film_article_sample1.png" width="50%"/>
+<img src="/images/film_example3.gif" width="48%"/>
+<img src="/images/film_article_sample2.png" width="50%"/>
 
 **DELIVERY - submitting your assignment**
 
