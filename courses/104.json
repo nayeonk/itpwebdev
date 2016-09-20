@@ -37,14 +37,14 @@
 			"type": "A",
 			"due": "9/28 @6PM ",
 			"link": "calendar",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "A4: Major Project Proposal",
 			"type": "A",
-			"due": "2/22 @6PM",
+			"due": "10/4 @6PM",
 			"link": "project-proposal",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "A5: Survey",
@@ -319,7 +319,20 @@
 			],
 			"active": 0
 		},
-
+		{
+			"date": "9/20",
+			"units": [
+				{ 
+					"subject": "Multi-column layouts", 
+					"link": "multi-column-layouts" 
+				},
+				{
+					"subject" : "Resource: Remove USC notice from your site",
+					"link" : "remove-usc-notice"
+				}
+			],
+			"active": 1
+		},
 		{
 			"date": "9/13",
 			"units": [
