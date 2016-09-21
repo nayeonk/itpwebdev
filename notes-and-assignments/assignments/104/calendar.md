@@ -23,6 +23,7 @@ Using divs, create a web page that is a graphic calendar of a month of your choo
 
 <img src="images/calendar_sample_3.png" width="70%">
 <img src="images/calendar_sample_1.gif">
+<img src="images/calendar_sample_4.png" width="70%">
 <!-- <img src="images/calendar_sample_2.gif"> -->
 
 
