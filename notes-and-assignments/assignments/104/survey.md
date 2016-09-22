@@ -14,8 +14,9 @@ For this assignment you are going to build a survey on a topic of your choice. I
 	* Textareas 
 	* Select Menu 
 	* Submit button
-5. Must have a Reset button that resets the form
-6. Optional: Can use the USC form script to send the survey contents to your email address
+5. Must use rounded corners somewhere
+6. Must have a Reset button that resets the form
+7. Optional: Can use the USC form script to send the survey contents to your email address
 
 **SAMPLES:**
 
