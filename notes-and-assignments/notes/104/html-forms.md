@@ -1,18 +1,8 @@
 HTML Forms and USC Form Scripts
 ===============================
-Save the following for this lecture:
-* [Stripe Image](/demos/104/W7/stripe.png)
 
-Download Sublime Text 2 
-* <a href="http://www.sublimetext.com/" target="_blank">http://www.sublimetext.com/</a>
-
-###Lecture Overview
-
-* HTML Forms
-* Laying out forms with div tags/floats
-* span tags
-* rounded corners
-* USC form scripts
+### To-do for today's lecture
+* Save this <a href="https://static.pexels.com/photos/127828/pexels-photo-127828-large.jpeg" target="_blank">image</a>
 
 ### Forms
 
@@ -29,7 +19,7 @@ Download Sublime Text 2
 
 ### HTML Form Tags
 
-#### form tag:
+#### `<form>` tag:
 
 The form tag defines the beginning and end of a form. So a sample "start" form tag could be:
 
@@ -42,7 +32,7 @@ The form tag defines the beginning and end of a form. So a sample "start" form t
 
 Inside a form, there are four HTML tags that define the different form objects: input, textarea, and select (with option):
 
-#### input
+#### `<input>` tag:
 
 * The HTML input tag creates the majority of our form objects: text boxes, radio buttons, checkboxes and three types of buttons (submit, reset and image).
 * type attribute: The type attribute of the input tag defines which "type" of input object is being built such as text boxes, checkboxes, submit buttons, etc. 
@@ -137,8 +127,9 @@ The textarea tag creates a large (multiline) text area for a user to type senten
 * FH_RequireValidEmail: Checks for xxx@xxx syntax in email field
 * FH_RequireUSCEmail: Basically checks for xxx@usc.edu
 
-###Lecture files from today
-* [Form](/demos/104/W7/form.html)
+### Files from Lecture
+Coming soon
 
-###Lecture Video
-<iframe width="560" height="315" src="https://www.youtube.com/embed/b2gCQBhK0Ks?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+### Lecture Video
+Coming soon
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/2WgSzgZju90" frameborder="0" allowfullscreen></iframe> -->

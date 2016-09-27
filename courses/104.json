@@ -40,18 +40,18 @@
 			"active": 1
 		},
 		{
-			"name": "A4: Major Project Proposal",
+			"name": "A4: Final Project Proposal",
 			"type": "A",
-			"due": "10/4 @6PM",
+			"due": "10/7 @6PM",
 			"link": "project-proposal",
 			"active": 1
 		},
 		{
 			"name": "A5: Survey",
 			"type": "A",
-			"due": "2/29 @6PM",
+			"due": "10/4 @6PM",
 			"link": "survey",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "L2: Practice practical exam",
@@ -288,12 +288,11 @@
 			"active": 0
 		},
 		{
-			"date": "2/22",
+			"date": "9/27",
 			"units": [
-				{ "subject": "HTML Forms & USC Form Scripts", "link": "html-forms" },
-				{ "subject": "Exam Study Guide", "link": "study-guide" }
+				{ "subject": "HTML Forms & USC Form Scripts", "link": "html-forms" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "2/15",

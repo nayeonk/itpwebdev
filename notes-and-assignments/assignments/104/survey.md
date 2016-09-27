@@ -20,8 +20,10 @@ For this assignment you are going to build a survey on a topic of your choice. I
 
 **SAMPLES:**
 
+<img src="images/survey3.png" width="60%" />
 <img src="demos/104/W7/survey1.png" width="60%" />
 <img src="demos/104/W7/survey2.png" width="60%" />
+
 
 
 **DELIVERY:**
