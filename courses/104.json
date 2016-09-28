@@ -42,7 +42,7 @@
 		{
 			"name": "A4: Final Project Proposal",
 			"type": "A",
-			"due": "10/7 @6PM",
+			"due": "10/11 @6PM",
 			"link": "project-proposal",
 			"active": 1
 		},
@@ -215,7 +215,7 @@
 				}
 				
 			],
-			"active": 0
+			"active": 0 
 		},
 		{
 			"date": "3/28",

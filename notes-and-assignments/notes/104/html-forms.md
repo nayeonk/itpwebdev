@@ -131,5 +131,4 @@ The textarea tag creates a large (multiline) text area for a user to type senten
 Click <a href="http://codepen.io/nayeon/pen/ZpyByr" target="_blank">here </a> to see the finished code from today's lecture.
 
 ### Lecture Video
-Coming soon
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/2WgSzgZju90" frameborder="0" allowfullscreen></iframe> -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xtTKYHsr210" frameborder="0" allowfullscreen></iframe>
