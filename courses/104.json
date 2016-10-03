@@ -56,9 +56,9 @@
 		{
 			"name": "L2: Practice practical exam",
 			"type": "L",
-			"due": "2/29 @6PM",
+			"due": "10/11 @6PM",
 			"link": "practice-practical",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "Graphic redesign",
@@ -283,9 +283,9 @@
 		{
 			"date": "10/5",
 			"units": [
-				{ "subject": "Exam Study Guide", "link": "study-guide" }
+				{ "subject": "Midterm Exam Study Guide", "link": "study-guide" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "9/27",

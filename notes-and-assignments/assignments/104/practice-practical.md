@@ -1,38 +1,49 @@
 Practice Practical Exam
 =======================
 
-Below is a sample practical exam. 
+Below are two previous practical Exams. The goal of the practical exam is to re-create the given image using HTML and CSS as close as you can. You will be given the images and text that goes along. To practice, pick ** at least one** version and try to implement it. Submit it before the time of the exam to get lab credit.
 
-<img src="/images/practical_exam02.png"/>
+**Suggested approach:**
+1. Start by saving all of the assets (images and text needed for the web page) into a new folder on your computer, such as "practical_midterm."
+2. Create a new file called "index.html" in that same folder. Now you can begin working on the page.
+3. Make a quick sketch of the general structure of the page before starting to code. Note what divs you would want to create for each section of the page.
+4. Code the general sections first then go back to fill in the details.
 
-Your practical exam is to re-create the given image using HTML and CSS as close as you can. You will be given the text and images that go along. For this practice exam, take each element from the list below and save them on a folder on your computer. 
+**Important Notes:**
+* Try to pay attention to details such as spacing and alignment. Do NOT worry about specific line breaks (at what word a paragraph starts a new line in the middle of paragraph), but you whould duplicate other formatting (text appearance, breaks between paragarphs, background color regions, etc)
+* Assume the outercontainer is 800 pixels wide. 
+* Use CSS styles through inline styles (inside a tag), through a stylesheet, or a combination of both.
+* Try to finish as much of the exam as possible. There are some parts of the practical that are more difficult than others, so if you get stuck try to complete the easier or more general parts -- do the basic layout, style formatting, etc. -- and then come back to the harder parts. 
+* Remember that no Internet or notes are allowed for this exam, so I would recommend working on this practice exam without notes and see how far you can get.
 
+### Version 1
+
+<img src="/images/midterm/practical_exam01.png"/>
+
+Assets:
 * [usc.txt](/midterm_practice/usc.txt)
 * [usc1.jpg](/midterm_practice/usc1.jpg)
 * [usc2.jpg](/midterm_practice/usc2.jpg)
 * [usc3.jpg](/midterm_practice/usc3.jpg)
 
-I would suggest you start by putting all of those elements into one folder, such as "practice_midterm", on your computer. Then create a new file called "index.html" in that same folder. Now you can begin working on the page.
+### Version 2
 
-I would suggest beginning by trying to sketch out the general structure of the page first. Then perhaps build basic containers with temporary text for content (such as HEADLINE or ARTICLE BODY), and then doubling back and inserting content into the proper areas.
+<img src="/images/midterm/practical_exam02.png" style="width:620px;"/>
 
-Try to pay attention to details such as spacing and alignments. Do NOT worry about specific line breaks (at what word a paragraph starts a new line in the middle of a paragraph), but otherwise you should duplicate other formatting (text appearance, breaks between paragraphs, background color regions, etc.). For the purposes of the layout assume the outer box is about 800 pixels wide but you do NOT need to worry about where the outer box is on the page (left or center aligned). And anywhere on the mock-up where there are colors you can use any general color.
+Assets:
+* [nevada.txt](/images/midterm/nevada.txt)
+* [rubio.jpg](/images/midterm/rubio.jpg)
+* [trump.jpg](/images/midterm/trump.jpg)
+* [cruz.jpg](/images/midterm/cruz.jpg)
 
-In grading this part of the test, I will be looking at your printed-out source code and viewing the pages through a Web browser.
-
-In this exam you can implement CSS styles through inline styles (inside a tag), through a stylesheet, or a combination of both.
-
-Take care to finish as much of the exam as you can. There are some parts of the practical that are more difficult than others, so if you get stuck try to complete the easier or more general parts -- do the basic layout, style formatting, etc. -- and then come back to the harder parts. I would suggest sketching out the layout and basic “boxes” first, then flowing in the content, then doing all of the fine tuning and detail work.
-
-For both parts of the midterm, you may NOT use your book, notes, Web resources, editor programs, etc.
-
-The actual practical midterm examination will be similar in function and structure to this exercise. 
 
 ### Practice Practical Solutions
-Remember, there are many many ways to code, so this is NOT the complete solution. This is just ONE way of many to code the article. Use this only as reference.
+Coming soon...
+
+<!-- Remember, there are many many ways to code, so this is NOT the complete solution. This is just ONE way of many to code the article. Use this only as reference.
 
 * [Finished Practice Practical](/midterm_practice/practice_practical_key.html)
 
 Below is another version of last year's exam. This is an example of a near perfect score. 
-* [Finished Practice Practical V2](/midterm_practice/practice_practical_v2_key.html)
+* [Finished Practice Practical V2](/midterm_practice/practice_practical_v2_key.html) -->
 
