@@ -283,6 +283,7 @@
 		{
 			"date": "10/5",
 			"units": [
+				{ "subject": "CSS Positions", "link": "css-positions" },
 				{ "subject": "Midterm Exam Study Guide", "link": "study-guide" }
 			],
 			"active": 1
