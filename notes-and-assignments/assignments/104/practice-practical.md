@@ -35,6 +35,7 @@ Assets:
 * [rubio.jpg](/images/midterm/rubio.jpg)
 * [trump.jpg](/images/midterm/trump.jpg)
 * [cruz.jpg](/images/midterm/cruz.jpg)
+* [nbcnews.png](/images/midterm/nbcnews.png)
 
 
 ### Practice Practical Solutions
