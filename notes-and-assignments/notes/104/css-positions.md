@@ -21,11 +21,11 @@ div {
 }
 ```
 
+### Resource
+* http://www.barelyfitz.com/screencast/html-training/css/positioning/
+
 ### Files from Lecture
-Coming soon
-<!-- Click <a href="http://codepen.io/nayeon/pen/NRKYjG" target="_blank">here </a> to see the finished code from today's lecture.-->
+ Click <a href="http://codepen.io/nayeon/pen/dpJkzE" target="_blank">here </a> to see the finished code from today's lecture.
 
 ### Lecture Video
-Coming soon 
-
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/2WgSzgZju90" frameborder="0" allowfullscreen></iframe> -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uutdP-4Dqig" frameborder="0" allowfullscreen></iframe>
