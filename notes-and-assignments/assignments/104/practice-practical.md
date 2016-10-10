@@ -39,12 +39,8 @@ Assets:
 
 
 ### Practice Practical Solutions
-Coming soon...
+Remember, there are many many ways to code, so this is NOT the complete solution. Solutions below are just ONE way of many to code the article. Use this only as reference.
 
-<!-- Remember, there are many many ways to code, so this is NOT the complete solution. This is just ONE way of many to code the article. Use this only as reference.
-
-* [Finished Practice Practical](/midterm_practice/practice_practical_key.html)
-
-Below is another version of last year's exam. This is an example of a near perfect score. 
-* [Finished Practice Practical V2](/midterm_practice/practice_practical_v2_key.html) -->
+* <a href="http://codepen.io/nayeon/pen/rrddYW" target="_blank">Version 1 solution</a>
+* <a href="http://codepen.io/nayeon/pen/WGzzOb" target="_blank">Version 2 solution</a>
 
