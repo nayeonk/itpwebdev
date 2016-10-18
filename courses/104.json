@@ -77,9 +77,9 @@
 		{
 			"name": "L3: CSS Navigation",
 			"type": "L",
-			"due": "3/28 @6PM",
+			"due": "10/25 @6PM",
 			"link": "css-dropdown-navigation",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "A6: Final Project Home Page",
@@ -233,17 +233,25 @@
 			"active": 0
 		},
 		{
-			"date": "3/21",
+			"date": "10/25",
 			"units": [
-				{ "subject": "External Stylesheets and CSS Selectors", 
-					"link": "CSS-revisited" 
-				},
+				{ "subject": "Intro to Photoshop - Guest Lecture"},
 				{
 					"subject": "Resource: Remote Access to Adobe Software",
 					"link": "http://webdev.usc.edu/mydesktop.pdf"
 				}
 			],
 			"active": 0
+		},
+		{
+			"date": "10/18",
+			"units": [
+				{ "subject": "External Stylesheets and CSS Selectors", 
+					"link": "css-indepth" 
+				}
+				
+			],
+			"active": 1
 		},
 		{
 			"date": "3/19",
@@ -274,14 +282,14 @@
 			"active": 0
 		},
 		{
-			"date": "2/29",
+			"date": "10/11",
 			"units": [
-				{ "subject": "Midterm", "link": "" }
+				{ "subject": "Midterm Exam", "link": "" }
 			],
-			"active": 0
+			"active": 1
 		},
 		{
-			"date": "10/5",
+			"date": "10/4",
 			"units": [
 				{ "subject": "CSS Positions", "link": "css-positions" },
 				{ "subject": "Midterm Exam Study Guide", "link": "study-guide" }
