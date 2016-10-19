@@ -274,9 +274,9 @@ a:hover {
 </pre></code>
 
 ### Files from Lecture
-Coming Soon
-<!-- Click <a href="http://codepen.io/nayeon/pen/ZpBgdN" target="_blank">here </a> to see the finished code from today's lecture. -->
+Click <a href="http://codepen.io/nayeon/pen/mAzogw" target="_blank">here </a> to see the finished CSS Selectors Review code from today's lecture.
+
+Click <a href="http://codepen.io/nayeon/pen/kkAqmm" target="_blank">here </a> to see the finished CSS Navigation code from today's lecture.
 
 ### Lecture Video
-Coming Soon
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/hNIyhuQgndk" frameborder="0" allowfullscreen></iframe> -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JFcSu_Gq_-s" frameborder="0" allowfullscreen></iframe>
