@@ -1,16 +1,14 @@
 Final Project Homepage
 ================
 
-This assignment is to create an initial homepage for your final project website. Although this will not be your FINAL home page (i.e. you can still change the wording, graphics, styling etc after the submission date), it should still convey the thematic and aesthetic approach you intend for your final project website. 
-
-I would recommend to first create a new folder called "project" in your desktop and keep all your project files in this folder. As you build out the rest of the project, continue to add your files in this folder. You should have a similar setup in the USC web server. More details on how you can set it up in the USC webserver is in the __DELIVERY__ section of this page.  
+Create a first draft of your final project homepage. I would highly recommend creating a new folder called "project" or similar and add all your final project files in this folder.  
 
 
 **REQUIREMENTS:**
 
 * __Major title graphic:__ Should include a main graphic (like a logo) you create to represent the topic/idea of your project. This graphic should be fairly large in size (not just a small button) and prominantly placed. 
 
-* __Real content:__ Not just placeholder text. Of course you may change, edit, add to, etc. as time goes on. 
+* __Real content:__ Not just placeholder text. Of course you may change this text after the submission if needed. This is not a final draft yet.
 
 * __Navigation:__ Navigation should reflect the site structure and organization of your project. Clicking on the navigation items does not have to go to a real page (although you can make some placeholder pages for now), but each navigation item __DOES__ have to be a link. 
 
