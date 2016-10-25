@@ -244,16 +244,6 @@
 			"active": 0
 		},
 		{
-			"date": "10/18",
-			"units": [
-				{ "subject": "External Stylesheets and CSS Selectors", 
-					"link": "css-indepth" 
-				}
-				
-			],
-			"active": 1
-		},
-		{
 			"date": "3/19",
 			"units": [
 				{ "subject": "Spring Break", "link": "" }
@@ -268,18 +258,33 @@
 			"active": 0
 		},
 		{
-			"date": "3/7",
+			"date": "10/25",
 			"units": [
 				{ 
-					"subject": "Guest Lecture on Introduction to Photoshop",
-					"link" : ""
+					"subject": "Website Workflow",
+					"link" : "website-process"
 				},
-				{
-					"subject" : "Resource: Notes on Graphic Production and Photoshop",
+				{ 
+					"subject": "Introduction to Photoshop",
 					"link" : "photoshop-intro"
+				},
+				
+				{
+					"subject": "Resource: Remote Access to Adobe Software",
+					"link": "http://viterbi.usc.edu/assets/213/98616.pdf"
 				}
 			],
-			"active": 0
+			"active": 1
+		},
+		{
+			"date": "10/18",
+			"units": [
+				{ "subject": "External Stylesheets and CSS Selectors", 
+					"link": "css-indepth" 
+				}
+				
+			],
+			"active": 1
 		},
 		{
 			"date": "10/11",
