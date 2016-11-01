@@ -200,22 +200,23 @@
 			"active": 0
 		},
 		{
-			"date": "4/4",
+			"date": "11/1",
 			"units": [
 				{ "subject": "Loading Fonts", 
 						"link": "loading-fonts" 
 				},
 				{
-					"subject": "Social media widgets",
-					"link": "widgets"
-				},
-				{
 					"subject": "HTML5 Video Tag",
 					"link": "html5-video"
+				},
+
+				{
+					"subject": "Social media widgets",
+					"link": "widgets"
 				}
 				
 			],
-			"active": 0 
+			"active": 1 
 		},
 		{
 			"date": "3/28",
