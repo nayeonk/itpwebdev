@@ -66,7 +66,7 @@ Then you can add this font-family wherever you need. Such as:
 * [dafont](http://www.dafont.com/)
 
 ### Files from Lecture
-Coming soon..
+Click <a href="http://codepen.io/nayeon/pen/yVBBBV" target="_blank">here </a> to see the finished code from today's lecture.
 
 ###Lecture Video
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/O32LK0KLx00?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe> -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JinThA7Ak-4" frameborder="0" allowfullscreen></iframe>
