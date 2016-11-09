@@ -15,6 +15,8 @@ HTML5 Semantic Tags & Responsive Web Design
 
 
 ### Files from Lecture
-<!-- Click <a href="http://codepen.io/nayeon/pen/NRKYjG" target="_blank">here </a> to see the finished code from today's lecture. -->
+* <a href="http://codepen.io/nayeon/pen/ObyaVd" target="_blank">HTML5 semantic tags </a>
+* <a href="http://codepen.io/nayeon/pen/JbYeYr" target="_blank">Responsive web design </a>
 
 ### Lecture Video
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mLdlk1eCrkE" frameborder="0" allowfullscreen></iframe>
