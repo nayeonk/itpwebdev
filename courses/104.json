@@ -200,6 +200,15 @@
 			"active": 0
 		},
 		{
+			"date": "11/8",
+			"units": [
+				{ "subject": "HTML5 Semantic Tags & Responsive Web Design", 
+						"link": "html5-tags-and-responsive-web-design" 
+				}
+			],
+			"active": 1 
+		},
+		{
 			"date": "11/1",
 			"units": [
 				{ "subject": "Loading Fonts", 
