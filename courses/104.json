@@ -119,11 +119,11 @@
 			"active": 0
 		},
 		{
-			"name": "jQuery plugin",
+			"name": "L4: jQuery plugin",
 			"type": "L",
-			"due": "4/27 @5pm",
+			"due": "11/22 @6pm",
 			"link": "jquery-plugin",
-			"active": 0
+			"active": 1
 		},
 		{
 			"name": "L5: WordPress site",
@@ -154,18 +154,14 @@
 			"active": 0
 		},
 		{
-			"date": "4/20",
+			"date": "11/15",
 			"units": [
 				{
-					"subject": "jQuery plugins",
-					"link": "jquery-plugins"
-				},
-				{
-					"subject": "CSS Positioning, Dropdown Navigations",
-					"link": "https://github.com/ITP-Webdev/css-dropdown-navigation"
+					"subject": "Intro to Javascript, jQuery and Plugins",
+					"link": "javascript-and-jquery"
 				}
 			],
-			"active": 0
+			"active": 1
 		},
 		{
 			"date": "11/23",
