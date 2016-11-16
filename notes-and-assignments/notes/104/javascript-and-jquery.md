@@ -146,10 +146,8 @@ As you saw above, each plugin has their own unique set of instructions on how to
 You can search for [more jQuery plugins in the registry](http://plugins.jquery.com/).
 
 ### Files from Lecture
-Coming Soon...
-<!-- * <a href="http://codepen.io/nayeon/pen/ObyaVd" target="_blank">HTML5 semantic tags </a> -->
-<!-- * <a href="http://codepen.io/nayeon/pen/JbYeYr" target="_blank">Responsive web design </a> -->
+* <a href="http://codepen.io/nayeon/pen/gLwLwp" target="_blank">Brief into to Javascript & jQuery</a>
+* <a href="/demos/104/W13/lightbox.html" target="_blank">LightBox Demo </a> - To see the code, right click on this page and choose 'View Page Source'
 
 ### Lecture Video
-Coming Soon...
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/mLdlk1eCrkE" frameborder="0" allowfullscreen></iframe> -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CB0U2qEXFvM" frameborder="0" allowfullscreen></iframe>
