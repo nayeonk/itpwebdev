@@ -154,6 +154,16 @@
 			"active": 0
 		},
 		{
+			"date": "11/22",
+			"units": [
+				{
+					"subject": "Intro to WYSIWYG & CMS (Dreamweaver & WordPress)",
+					"link": "dreamweaver-and-wordpress"
+				}
+			],
+			"active": 1
+		},
+		{
 			"date": "11/15",
 			"units": [
 				{
