@@ -54,6 +54,7 @@ Below are the minimum requirements for your final project. Requirements are gene
 		* social media widget
 		* any other embedded object (i.e. Google Maps, Sound Cloud, etc)
 		* video (either iframed or using html5 video tag)
+		* responsive web design - using media queries
 
 ** Miscellaneous Requirements **
 * Remove the USC notice on your pages.

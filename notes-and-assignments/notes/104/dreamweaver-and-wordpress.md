@@ -25,4 +25,4 @@ In this class we have learned how to build a website using the basic building bl
 None.
 
 ### Lecture Video
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/CB0U2qEXFvM" frameborder="0" allowfullscreen></iframe> -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-p85XJKdPZI" frameborder="0" allowfullscreen></iframe>
