@@ -49,3 +49,6 @@ Here is a list of some features you will typically see and use:
 
 After you’ve purchased a domain name and web hosting, you will be sent an email with FTP information so that you can upload your website files using an FTP client like Fetch, Cyberduck, or FileZilla. This process will be just like how you uploaded to the aludra.usc.edu server.
  
+
+ ### Lecture Video
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/t3pA9m_Ttsk" frameborder="0" allowfullscreen></iframe>
